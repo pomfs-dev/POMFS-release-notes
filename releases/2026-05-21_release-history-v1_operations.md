@@ -13,4 +13,4 @@ POMFS 변경 이력을 구조적으로 기록하고 검증하는 release history
 - public-safe release note를 로컬에서 preview할 수 있도록 했습니다.
 
 ## Known Issues
-- Public GitHub publishing은 아직 활성화하지 않았습니다.
+- Public GitHub repo는 생성되었지만 자동 publish workflow는 아직 활성화하지 않았습니다.
