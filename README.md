@@ -7,10 +7,10 @@ Generated sanitized public release notes.
 | Date | Version | Component | Summary |
 |---|---|---|---|
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_event-detail-flow.md) | Web | 공연 상세, 좋아요, 티켓/게스트리스트, 공유 흐름의 안정성을 개선했습니다. |
+| 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_apple-login-routing-fallback-fix.md) | Web | 운영 커뮤니티 웹에서 Apple 로그인 버튼이 잘못된 로그인 경로로 이동하던 문제를 수정했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_backend_event-owner-api-guard.md) | Backend | 공연을 만든 계정이 자신의 공연에 티켓 구매나 게스트리스트 신청을 하지 않도록 서버 검증을 추가했습니다. |
 | 2026-05-21 | [release-history-v1](releases/2026-05-21_release-history-v1_operations_release-history-scaffold.md) | Operations | POMFS 변경 이력을 구조적으로 기록하고 검증하는 release history 체계를 추가했습니다. |
 | 2026-05-21 | [r1.49.9](releases/2026-05-21_r1.49.9_ios_ios-apns-notification-delivery-and-localized-notification-text.md) | iOS | iPhone 앱 푸시 알림 수신 안정성을 개선하고, 알림 문구가 사용자 언어/국가에 맞게 표시되도록 개선했습니다. |
-| 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_apple-login-routing-fallback-fix.md) | Web | Apple 로그인 버튼이 잘못된 로그인 경로로 이동하던 문제를 수정했습니다. |
 | 2026-05-20 | [r1.49.2](releases/2026-05-20_r1.49.2_ios_ios-dependency-cleanup.md) | iOS | 사용하지 않는 iOS 의존성을 정리해 앱 빌드 안정성을 높였습니다. |
 | 2026-05-19 | [R1.49.2](releases/2026-05-19_R1.49.2_ios_devlog-002-b25a861e.md) | iOS | iOS 앱 변경 이력: R1.49.2 simpler approach fail PROVEN + session handoff base — R1.49.2 ASWebAuthenticationSession 측 다음 세션 base sustained 진행 base |
 | 2026-05-19 | [r1.49](releases/2026-05-19_r1.49_ios_native-ios-push-notifications.md) | iOS | iPhone 앱에서 native push notification을 받을 수 있도록 지원을 추가했습니다. |
@@ -396,7 +396,7 @@ Generated sanitized public release notes.
 | Date | Version | Summary |
 |---|---|---|
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_event-detail-flow.md) | 공연 상세, 좋아요, 티켓/게스트리스트, 공유 흐름의 안정성을 개선했습니다. |
-| 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_apple-login-routing-fallback-fix.md) | Apple 로그인 버튼이 잘못된 로그인 경로로 이동하던 문제를 수정했습니다. |
+| 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_apple-login-routing-fallback-fix.md) | 운영 커뮤니티 웹에서 Apple 로그인 버튼이 잘못된 로그인 경로로 이동하던 문제를 수정했습니다. |
 | 2026-05-17 | [R1.41](releases/2026-05-17_R1.41_web_devlog-008-bafb15e5.md) | 웹/프론트엔드 변경 이력: R1.41 cluster Phase B 완료 base + Phase C-E close LIVE — community.prideofmisfits.com cutover Path X (nginx reverse proxy) + 풀스택 8 워커 병렬 + Wave 1 6/6 + Wave 2 2/2 + cascade 4건 + Codex audit 2건 ALL [FINAL] LIVE + 사용자 visible 사고 0건 sustained LIVE 첫 record + R1.42+ scope cumulative 8건 보존 |
 | 2026-05-17 | [R1.40](releases/2026-05-17_R1.40_web_devlog-009-40a817c3.md) | 웹/프론트엔드 변경 이력: R1.40 cluster final close GRAND TOTAL 37/37 = 100% COMPLETED LIVE 첫 record + 영구 룰 #140 정식 승격 + production endpoint design.prideofmisfits.com HTTP 200 LIVE |
 | 2026-05-16 | [R1.33](releases/2026-05-16_R1.33_web_devlog-020-9b07dcf7.md) | 웹/프론트엔드 변경 이력: R1.33 + R1.34 cluster LIVE + AWS Key 영구 마스킹 (외부 모니터 자동 감지 + voice-close /exit 강화 + Codex P1 + 자율 발견 1건 cascade) |
