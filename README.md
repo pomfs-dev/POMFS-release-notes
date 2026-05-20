@@ -31,7 +31,7 @@ Generated sanitized public release notes.
 | 2026-05-16 | [R1.38.3.2](releases/2026-05-16_R1.38.3.2_backend_devlog-015-684917f8.md) | Backend | 백엔드/API 변경 이력: R1.38.3.2 hotfix #135 L100 Option A + L123 SUMMARY 정정 (Codex P2 finding 2건 + #134 Rule F dogfooding 5회차 첫 도달 LIVE) |
 | 2026-05-16 | [R1.38.3.1](releases/2026-05-16_R1.38.3.1_backend_devlog-016-95090466.md) | Backend | 백엔드/API 변경 이력: R1.38.3.1 hotfix #135 effective scope 11 한정 정정 (Codex P2 finding) |
 | 2026-05-16 | [R1.38.3](releases/2026-05-16_R1.38.3_web_devlog-017-14362873.md) | Web | 웹/프론트엔드 변경 이력: R1.38.3 cluster Phase 4 LIVE 종료 + #134/#135 영구 룰 2건 정식 승격 + LRN-NEW-118/119/120 cluster cascade |
-| 2026-05-15 | [history-20260515-021](releases/2026-05-15_history-20260515-021_web_devlog-021-82a73fb3.md) | Web | 웹/프론트엔드 변경 이력: AWS Postiz 인프라 셋업 (처남집 NAS 호스팅용 S3 + Route53) |
+| 2026-05-15 | [history-20260515-021](releases/2026-05-15_history-20260515-021_web_devlog-021-bda49d36.md) | Web | 웹/프론트엔드 변경 이력: AWS Postiz 인프라 셋업 (운영 환경 NAS 호스팅용 S3 + Route53) |
 | 2026-05-15 | [R1.32.x.VOICE-1.9](releases/2026-05-15_R1.32.x.VOICE-1.9_web_devlog-022-426d7c30.md) | Web | 웹/프론트엔드 변경 이력: R1.32.x.VOICE-1.9 LIVE 영구 종료 (AF-VS-3 fix + voice-feedback.sh helper 2 함수 +4 LOC + Phase C mock TS-1 +43% over matrix) |
 | 2026-05-15 | [R1.32.x.VOICE-1](releases/2026-05-15_R1.32.x.VOICE-1_web_devlog-023-b522c95e.md) | Web | 웹/프론트엔드 변경 이력: R1.32.x.VOICE-1 LIVE 영구 종료 (voice-shutdown.sh hierarchical event-driven cascade SOP refactor + Phase B' 3 fix + LRN-NEW-101~104) |
 | 2026-05-14 | [R1.28.x.HOTFIx](releases/2026-05-14_R1.28.x.HOTFIx_web_devlog-024-8d5935c7.md) | Web | 웹/프론트엔드 변경 이력: R1.28.x.HOTFIX LIVE 영구 종료 final + ECS deploy 진정 완료 + Bug #2 fix LIVE 적용 확정 |
@@ -403,7 +403,7 @@ Generated sanitized public release notes.
 | 2026-05-17 | [R1.40](releases/2026-05-17_R1.40_web_devlog-009-40a817c3.md) | 웹/프론트엔드 변경 이력: R1.40 cluster final close GRAND TOTAL 37/37 = 100% COMPLETED LIVE 첫 record + 영구 룰 #140 정식 승격 + production endpoint design.prideofmisfits.com HTTP 200 LIVE |
 | 2026-05-16 | [R1.33](releases/2026-05-16_R1.33_web_devlog-020-9b07dcf7.md) | 웹/프론트엔드 변경 이력: R1.33 + R1.34 cluster LIVE + AWS Key 영구 마스킹 (외부 모니터 자동 감지 + voice-close /exit 강화 + Codex P1 + 자율 발견 1건 cascade) |
 | 2026-05-16 | [R1.38.3](releases/2026-05-16_R1.38.3_web_devlog-017-14362873.md) | 웹/프론트엔드 변경 이력: R1.38.3 cluster Phase 4 LIVE 종료 + #134/#135 영구 룰 2건 정식 승격 + LRN-NEW-118/119/120 cluster cascade |
-| 2026-05-15 | [history-20260515-021](releases/2026-05-15_history-20260515-021_web_devlog-021-82a73fb3.md) | 웹/프론트엔드 변경 이력: AWS Postiz 인프라 셋업 (처남집 NAS 호스팅용 S3 + Route53) |
+| 2026-05-15 | [history-20260515-021](releases/2026-05-15_history-20260515-021_web_devlog-021-bda49d36.md) | 웹/프론트엔드 변경 이력: AWS Postiz 인프라 셋업 (운영 환경 NAS 호스팅용 S3 + Route53) |
 | 2026-05-15 | [R1.32.x.VOICE-1.9](releases/2026-05-15_R1.32.x.VOICE-1.9_web_devlog-022-426d7c30.md) | 웹/프론트엔드 변경 이력: R1.32.x.VOICE-1.9 LIVE 영구 종료 (AF-VS-3 fix + voice-feedback.sh helper 2 함수 +4 LOC + Phase C mock TS-1 +43% over matrix) |
 | 2026-05-15 | [R1.32.x.VOICE-1](releases/2026-05-15_R1.32.x.VOICE-1_web_devlog-023-b522c95e.md) | 웹/프론트엔드 변경 이력: R1.32.x.VOICE-1 LIVE 영구 종료 (voice-shutdown.sh hierarchical event-driven cascade SOP refactor + Phase B' 3 fix + LRN-NEW-101~104) |
 | 2026-05-14 | [R1.28.x.HOTFIx](releases/2026-05-14_R1.28.x.HOTFIx_web_devlog-024-8d5935c7.md) | 웹/프론트엔드 변경 이력: R1.28.x.HOTFIX LIVE 영구 종료 final + ECS deploy 진정 완료 + Bug #2 fix LIVE 적용 확정 |
