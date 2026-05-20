@@ -200,7 +200,7 @@ Generated sanitized public release notes.
 | 2026-04-22 | [history-20260422-187](releases/2026-04-22_history-20260422-187_ios_devlog-187-4c291521.md) | iOS | iOS 앱 변경 이력: 디자인사이트 PWA 지원 추가 (iOS Web Push 수신 경로 개통) |
 | 2026-04-22 | [history-20260422-188](releases/2026-04-22_history-20260422-188_ios_devlog-188-7c020b89.md) | iOS | iOS 앱 변경 이력: Admin Push 탭 가시성 fix + Push E2E 진단 + Members 검색/Rank API 버그 패치 |
 | 2026-04-22 | [history-20260422-189](releases/2026-04-22_history-20260422-189_ios_devlog-189-eaeb438a.md) | iOS | iOS 앱 변경 이력: NotificationsPage 좌스와이프 삭제 제스처 (iOS Mail 스타일) — 디자인 사이트 배포 |
-| 2026-04-22 | [history-20260422-190](releases/2026-04-22_history-20260422-190_web_devlog-190-1b29276d.md) | Web | 웹/프론트엔드 변경 이력: 슈퍼관리자 allowlist 확장 (kkwonjubu@gmail.com 추가) — Members 탭 destructive action 게이트 |
+| 2026-04-22 | [history-20260422-190](releases/2026-04-22_history-20260422-190_web_devlog-190-956462d0.md) | Web | 웹/프론트엔드 변경 이력: 슈퍼관리자 allowlist 확장 (kk*******@*****.com 추가) — Members 탭 destructive action 게이트 |
 | 2026-04-22 | [v0.3](releases/2026-04-22_v0.3_ios_devlog-191-128e6d66.md) | iOS | iOS 앱 변경 이력: 비밀번호 찾기 v0.3/v0.4 이터레이션 (UI 개선 + 3분 TTL + 스팸함 대응) |
 | 2026-04-22 | [v0.2](releases/2026-04-22_v0.2_ios_devlog-192-8b098e93.md) | iOS | iOS 앱 변경 이력: 비밀번호 찾기 풀스택 v0.2 구현 및 배포 완료 |
 | 2026-04-22 | [v0.1](releases/2026-04-22_v0.1_ios_devlog-193-f0dd7b75.md) | iOS | iOS 앱 변경 이력: 비밀번호 찾기 풀스택 v0.1→v0.2 로컬 Multi-Agent Ultraplan 재설계 (구현 미시작) |
@@ -491,7 +491,7 @@ Generated sanitized public release notes.
 | 2026-04-23 | [history-20260423-178](releases/2026-04-23_history-20260423-178_web_devlog-178-6f90d3d5.md) | 웹/프론트엔드 변경 이력: POMFS 공식 홈페이지 v2 Phase 2-b 완료 (문의 폼 Lambda + SSM SecureString) |
 | 2026-04-22 | [history-20260422-181](releases/2026-04-22_history-20260422-181_web_devlog-181-9777c9b6.md) | 웹/프론트엔드 변경 이력: FeedPage TDZ 에러 핫픽스 (useEffect 순서 재배치) |
 | 2026-04-22 | [history-20260422-180](releases/2026-04-22_history-20260422-180_web_devlog-180-2d47ada3.md) | 웹/프론트엔드 변경 이력: POMFS 공식 홈페이지 v2 Phase 1 + 2-a 완료 (AWS CloudFront+S3 staging 가동) |
-| 2026-04-22 | [history-20260422-190](releases/2026-04-22_history-20260422-190_web_devlog-190-1b29276d.md) | 웹/프론트엔드 변경 이력: 슈퍼관리자 allowlist 확장 (kkwonjubu@gmail.com 추가) — Members 탭 destructive action 게이트 |
+| 2026-04-22 | [history-20260422-190](releases/2026-04-22_history-20260422-190_web_devlog-190-956462d0.md) | 웹/프론트엔드 변경 이력: 슈퍼관리자 allowlist 확장 (kk*******@*****.com 추가) — Members 탭 destructive action 게이트 |
 | 2026-04-22 | [history-20260422-194](releases/2026-04-22_history-20260422-194_web_devlog-194-7d47f699.md) | 웹/프론트엔드 변경 이력: 관리자 Members 탭 "일괄 삭제" 풀스택 배포 (헤더 휴지통 → 선택 모드 → Bulk Delete) |
 | 2026-04-21 | [history-20260421-195](releases/2026-04-21_history-20260421-195_web_devlog-195-6a9dc739.md) | 웹/프론트엔드 변경 이력: 디자인 사이트 관리자 Rank Apps 신청서 Instagram/외부 링크 버튼 작동 수정 + NAS 배포 |
 | 2026-04-21 | [history-20260421-196](releases/2026-04-21_history-20260421-196_web_devlog-196-98d3cecf.md) | 웹/프론트엔드 변경 이력: 디자인 사이트 관리자 Blocklist 탭 풀스택 복구 (POST 완화 + DELETE 신규) |
