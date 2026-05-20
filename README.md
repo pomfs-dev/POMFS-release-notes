@@ -6,6 +6,8 @@ Generated sanitized public release notes.
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-21 | [r1.49.11](releases/2026-05-21_r1.49.11_web_likes-auth-persistence-web.md) | Web | 앱 재실행 후에도 좋아요한 공연이 Likes 화면과 공연 상세에서 유지되도록 개선했습니다. |
+| 2026-05-21 | [r1.49.11](releases/2026-05-21_r1.49.11_backend_likes-auth-persistence-api.md) | Backend | 공연 좋아요 상태를 더 정확히 조회하도록 서버 응답을 보강했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_event-detail-flow.md) | Web | 공연 상세, 좋아요, 티켓/게스트리스트, 공유 흐름의 안정성을 개선했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_apple-login-routing-fallback-fix.md) | Web | 운영 커뮤니티 웹에서 Apple 로그인 버튼이 잘못된 로그인 경로로 이동하던 문제를 수정했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_backend_event-owner-api-guard.md) | Backend | 공연을 만든 계정이 자신의 공연에 티켓 구매나 게스트리스트 신청을 하지 않도록 서버 검증을 추가했습니다. |
@@ -395,6 +397,7 @@ Generated sanitized public release notes.
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-21 | [r1.49.11](releases/2026-05-21_r1.49.11_web_likes-auth-persistence-web.md) | 앱 재실행 후에도 좋아요한 공연이 Likes 화면과 공연 상세에서 유지되도록 개선했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_event-detail-flow.md) | 공연 상세, 좋아요, 티켓/게스트리스트, 공유 흐름의 안정성을 개선했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_apple-login-routing-fallback-fix.md) | 운영 커뮤니티 웹에서 Apple 로그인 버튼이 잘못된 로그인 경로로 이동하던 문제를 수정했습니다. |
 | 2026-05-17 | [R1.41](releases/2026-05-17_R1.41_web_devlog-008-bafb15e5.md) | 웹/프론트엔드 변경 이력: R1.41 cluster Phase B 완료 base + Phase C-E close LIVE — community.prideofmisfits.com cutover Path X (nginx reverse proxy) + 풀스택 8 워커 병렬 + Wave 1 6/6 + Wave 2 2/2 + cascade 4건 + Codex audit 2건 ALL [FINAL] LIVE + 사용자 visible 사고 0건 sustained LIVE 첫 record + R1.42+ scope cumulative 8건 보존 |
@@ -534,6 +537,7 @@ Generated sanitized public release notes.
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-21 | [r1.49.11](releases/2026-05-21_r1.49.11_backend_likes-auth-persistence-api.md) | 공연 좋아요 상태를 더 정확히 조회하도록 서버 응답을 보강했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_backend_event-owner-api-guard.md) | 공연을 만든 계정이 자신의 공연에 티켓 구매나 게스트리스트 신청을 하지 않도록 서버 검증을 추가했습니다. |
 | 2026-05-16 | [R1.38.x](releases/2026-05-16_R1.38.x_backend_devlog-018-e96d4b4c.md) | 백엔드/API 변경 이력: R1.38.x cluster cascade LIVE 영구 종료 final (R1.37.0.1.X 5개월 cascade 진짜 root cause 100% 해소 ) |
 | 2026-05-16 | [R1.38.0](releases/2026-05-16_R1.38.0_backend_devlog-019-883ea31e.md) | 백엔드/API 변경 이력: R1.38.0 cluster LIVE (spec-kit 정상 도입 + dispatch_observer daemon + voice cascade screencapture + LRN-NEW-114 진짜 root cause + LRN-NEW-115 chicken-and-egg #133 후보) |
