@@ -6,21 +6,16 @@ Generated sanitized public release notes.
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
-| 2026-05-21 | [r1.49.9](releases/2026-05-21_r1.49.9_ios_apns-localized-notifications.md) | iOS | iPhone 푸시 알림 수신 경로를 안정화하고, 알림 문구가 사용자 언어/국가 기준으로 표시되도록 개선했습니다. |
-| 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_apple-login-routing-fallback-fix.md) | Web | Apple 로그인 버튼이 잘못된 로그인 경로로 이동하던 문제를 수정했습니다. |
+| 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_event-detail-flow.md) | Web | 공연 상세, 좋아요, 티켓/게스트리스트, 공유 흐름의 안정성을 개선했습니다. |
+| 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_backend_event-owner-api-guard.md) | Backend | 공연을 만든 계정이 자신의 공연에 티켓 구매나 게스트리스트 신청을 하지 않도록 서버 검증을 추가했습니다. |
 | 2026-05-21 | [release-history-v1](releases/2026-05-21_release-history-v1_operations_release-history-scaffold.md) | Operations | POMFS 변경 이력을 구조적으로 기록하고 검증하는 release history 체계를 추가했습니다. |
+| 2026-05-21 | [r1.49.9](releases/2026-05-21_r1.49.9_ios_ios-apns-notification-delivery-and-localized-notification-text.md) | iOS | iPhone 앱 푸시 알림 수신 안정성을 개선하고, 알림 문구가 사용자 언어/국가에 맞게 표시되도록 개선했습니다. |
+| 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_apple-login-routing-fallback-fix.md) | Web | Apple 로그인 버튼이 잘못된 로그인 경로로 이동하던 문제를 수정했습니다. |
 | 2026-05-20 | [r1.49.2](releases/2026-05-20_r1.49.2_ios_ios-dependency-cleanup.md) | iOS | 사용하지 않는 iOS 의존성을 정리해 앱 빌드 안정성을 높였습니다. |
 | 2026-05-19 | [R1.49.2](releases/2026-05-19_R1.49.2_ios_devlog-002-b25a861e.md) | iOS | iOS 앱 변경 이력: R1.49.2 simpler approach fail PROVEN + session handoff base — R1.49.2 ASWebAuthenticationSession 측 다음 세션 base sustained 진행 base |
-| 2026-05-19 | [r1.49.1](releases/2026-05-19_r1.49.1_backend_push-notification-safety-fix.md) | Backend | 계정 또는 기기 변경 시 푸시 알림이 더 안전하게 연결되도록 개선했습니다. |
-| 2026-05-19 | [r1.49](releases/2026-05-19_r1.49_backend_backend-push-notification-support.md) | Backend | iPhone 푸시 알림을 처리하기 위한 백엔드 지원을 추가했습니다. |
 | 2026-05-19 | [r1.49](releases/2026-05-19_r1.49_ios_native-ios-push-notifications.md) | iOS | iPhone 앱에서 native push notification을 받을 수 있도록 지원을 추가했습니다. |
-| 2026-05-19 | [r1.48.x.1](releases/2026-05-19_r1.48.x.1_web_community-web-auth-recovery.md) | Web | 커뮤니티 웹 계정 흐름의 안정성을 복구했습니다. |
-| 2026-05-19 | [r1.48.x.1](releases/2026-05-19_r1.48.x.1_backend_authentication-routing-recovery.md) | Backend | 커뮤니티 웹의 로그인과 로그아웃 안정성을 복구했습니다. |
 | 2026-05-17 | [R1.41](releases/2026-05-17_R1.41_web_devlog-008-bafb15e5.md) | Web | 웹/프론트엔드 변경 이력: R1.41 cluster Phase B 완료 base + Phase C-E close LIVE — community.prideofmisfits.com cutover Path X (nginx reverse proxy) + 풀스택 8 워커 병렬 + Wave 1 6/6 + Wave 2 2/2 + cascade 4건 + Codex audit 2건 ALL [FINAL] LIVE + 사용자 visible 사고 0건 sustained LIVE 첫 record + R1.42+ scope cumulative 8건 보존 |
 | 2026-05-17 | [r1.43](releases/2026-05-17_r1.43_operations_session-handoff-automation.md) | Operations | 내부 릴리스 및 세션 handoff 자동화를 개선했습니다. |
-| 2026-05-17 | [r1.43](releases/2026-05-17_r1.43_web_payment-result-display-safety.md) | Web | 결제 결과 화면의 표시 안정성을 개선했습니다. |
-| 2026-05-17 | [r1.43](releases/2026-05-17_r1.43_backend_payment-currency-safety.md) | Backend | 결제와 환불의 통화 처리 방식을 개선했습니다. |
-| 2026-05-17 | [r1.42](releases/2026-05-17_r1.42_infra_community-production-cutover.md) | Infra | 커뮤니티 웹 production hosting 업데이트를 완료했습니다. |
 | 2026-05-17 | [R1.40](releases/2026-05-17_R1.40_web_devlog-009-40a817c3.md) | Web | 웹/프론트엔드 변경 이력: R1.40 cluster final close GRAND TOTAL 37/37 = 100% COMPLETED LIVE 첫 record + 영구 룰 #140 정식 승격 + production endpoint design.prideofmisfits.com HTTP 200 LIVE |
 | 2026-05-16 | [R1.38.x](releases/2026-05-16_R1.38.x_backend_devlog-018-e96d4b4c.md) | Backend | 백엔드/API 변경 이력: R1.38.x cluster cascade LIVE 영구 종료 final (R1.37.0.1.X 5개월 cascade 진짜 root cause 100% 해소 ) |
 | 2026-05-16 | [R1.38.0](releases/2026-05-16_R1.38.0_backend_devlog-019-883ea31e.md) | Backend | 백엔드/API 변경 이력: R1.38.0 cluster LIVE (spec-kit 정상 도입 + dispatch_observer daemon + voice cascade screencapture + LRN-NEW-114 진짜 root cause + LRN-NEW-115 chicken-and-egg #133 후보) |
@@ -303,7 +298,7 @@ Generated sanitized public release notes.
 
 | Date | Version | Summary |
 |---|---|---|
-| 2026-05-21 | [r1.49.9](releases/2026-05-21_r1.49.9_ios_apns-localized-notifications.md) | iPhone 푸시 알림 수신 경로를 안정화하고, 알림 문구가 사용자 언어/국가 기준으로 표시되도록 개선했습니다. |
+| 2026-05-21 | [r1.49.9](releases/2026-05-21_r1.49.9_ios_ios-apns-notification-delivery-and-localized-notification-text.md) | iPhone 앱 푸시 알림 수신 안정성을 개선하고, 알림 문구가 사용자 언어/국가에 맞게 표시되도록 개선했습니다. |
 | 2026-05-20 | [r1.49.2](releases/2026-05-20_r1.49.2_ios_ios-dependency-cleanup.md) | 사용하지 않는 iOS 의존성을 정리해 앱 빌드 안정성을 높였습니다. |
 | 2026-05-19 | [R1.49.2](releases/2026-05-19_R1.49.2_ios_devlog-002-b25a861e.md) | iOS 앱 변경 이력: R1.49.2 simpler approach fail PROVEN + session handoff base — R1.49.2 ASWebAuthenticationSession 측 다음 세션 base sustained 진행 base |
 | 2026-05-19 | [r1.49](releases/2026-05-19_r1.49_ios_native-ios-push-notifications.md) | iPhone 앱에서 native push notification을 받을 수 있도록 지원을 추가했습니다. |
@@ -400,10 +395,9 @@ Generated sanitized public release notes.
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_event-detail-flow.md) | 공연 상세, 좋아요, 티켓/게스트리스트, 공유 흐름의 안정성을 개선했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_apple-login-routing-fallback-fix.md) | Apple 로그인 버튼이 잘못된 로그인 경로로 이동하던 문제를 수정했습니다. |
-| 2026-05-19 | [r1.48.x.1](releases/2026-05-19_r1.48.x.1_web_community-web-auth-recovery.md) | 커뮤니티 웹 계정 흐름의 안정성을 복구했습니다. |
 | 2026-05-17 | [R1.41](releases/2026-05-17_R1.41_web_devlog-008-bafb15e5.md) | 웹/프론트엔드 변경 이력: R1.41 cluster Phase B 완료 base + Phase C-E close LIVE — community.prideofmisfits.com cutover Path X (nginx reverse proxy) + 풀스택 8 워커 병렬 + Wave 1 6/6 + Wave 2 2/2 + cascade 4건 + Codex audit 2건 ALL [FINAL] LIVE + 사용자 visible 사고 0건 sustained LIVE 첫 record + R1.42+ scope cumulative 8건 보존 |
-| 2026-05-17 | [r1.43](releases/2026-05-17_r1.43_web_payment-result-display-safety.md) | 결제 결과 화면의 표시 안정성을 개선했습니다. |
 | 2026-05-17 | [R1.40](releases/2026-05-17_R1.40_web_devlog-009-40a817c3.md) | 웹/프론트엔드 변경 이력: R1.40 cluster final close GRAND TOTAL 37/37 = 100% COMPLETED LIVE 첫 record + 영구 룰 #140 정식 승격 + production endpoint design.prideofmisfits.com HTTP 200 LIVE |
 | 2026-05-16 | [R1.33](releases/2026-05-16_R1.33_web_devlog-020-9b07dcf7.md) | 웹/프론트엔드 변경 이력: R1.33 + R1.34 cluster LIVE + AWS Key 영구 마스킹 (외부 모니터 자동 감지 + voice-close /exit 강화 + Codex P1 + 자율 발견 1건 cascade) |
 | 2026-05-16 | [R1.38.3](releases/2026-05-16_R1.38.3_web_devlog-017-14362873.md) | 웹/프론트엔드 변경 이력: R1.38.3 cluster Phase 4 LIVE 종료 + #134/#135 영구 룰 2건 정식 승격 + LRN-NEW-118/119/120 cluster cascade |
@@ -540,10 +534,7 @@ Generated sanitized public release notes.
 
 | Date | Version | Summary |
 |---|---|---|
-| 2026-05-19 | [r1.49.1](releases/2026-05-19_r1.49.1_backend_push-notification-safety-fix.md) | 계정 또는 기기 변경 시 푸시 알림이 더 안전하게 연결되도록 개선했습니다. |
-| 2026-05-19 | [r1.49](releases/2026-05-19_r1.49_backend_backend-push-notification-support.md) | iPhone 푸시 알림을 처리하기 위한 백엔드 지원을 추가했습니다. |
-| 2026-05-19 | [r1.48.x.1](releases/2026-05-19_r1.48.x.1_backend_authentication-routing-recovery.md) | 커뮤니티 웹의 로그인과 로그아웃 안정성을 복구했습니다. |
-| 2026-05-17 | [r1.43](releases/2026-05-17_r1.43_backend_payment-currency-safety.md) | 결제와 환불의 통화 처리 방식을 개선했습니다. |
+| 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_backend_event-owner-api-guard.md) | 공연을 만든 계정이 자신의 공연에 티켓 구매나 게스트리스트 신청을 하지 않도록 서버 검증을 추가했습니다. |
 | 2026-05-16 | [R1.38.x](releases/2026-05-16_R1.38.x_backend_devlog-018-e96d4b4c.md) | 백엔드/API 변경 이력: R1.38.x cluster cascade LIVE 영구 종료 final (R1.37.0.1.X 5개월 cascade 진짜 root cause 100% 해소 ) |
 | 2026-05-16 | [R1.38.0](releases/2026-05-16_R1.38.0_backend_devlog-019-883ea31e.md) | 백엔드/API 변경 이력: R1.38.0 cluster LIVE (spec-kit 정상 도입 + dispatch_observer daemon + voice cascade screencapture + LRN-NEW-114 진짜 root cause + LRN-NEW-115 chicken-and-egg #133 후보) |
 | 2026-05-16 | [R1.38.x](releases/2026-05-16_R1.38.x_backend_devlog-010-d8e232c2.md) | 백엔드/API 변경 이력: R1.38.x Phase 9 cascade chain hard termination 첫 적용 LIVE 첫 record (iter 7 MAJOR META-META IRONY + #134 Rule F 15회차 +200% surplus triple sustained record + 세션 종료 base) |
@@ -589,7 +580,6 @@ Generated sanitized public release notes.
 
 | Date | Version | Summary |
 |---|---|---|
-| 2026-05-17 | [r1.42](releases/2026-05-17_r1.42_infra_community-production-cutover.md) | 커뮤니티 웹 production hosting 업데이트를 완료했습니다. |
 | 2026-04-28 | [history-20260428-117](releases/2026-04-28_history-20260428-117_infra_devlog-117-7adc47e0.md) | 인프라/배포 변경 이력: PostCreate toolbar 키보드 위 fixed + mention sheet 빈 결과 (commit 29) |
 | 2026-04-27 | [history-20260427-129](releases/2026-04-27_history-20260427-129_infra_devlog-129-828e3b01.md) | 인프라/배포 변경 이력: PostCreate TDZ 'ze' fix (useDropdownScroll active 인자) |
 | 2026-04-27 | [history-20260427-130](releases/2026-04-27_history-20260427-130_infra_devlog-130-45ff19d7.md) | 인프라/배포 변경 이력: PostCreate scroll rAF + useEffect 분리 + max-h + cursor gap (round 10) |
