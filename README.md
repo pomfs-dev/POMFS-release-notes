@@ -6,6 +6,7 @@ Generated sanitized public release notes.
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-21 | [r1.49.12](releases/2026-05-21_r1.49.12_web_managed-event-edit-navigation.md) | Web | 공연 수정 후 관리 목록의 가격 표시와 뒤로가기 흐름을 개선했습니다. |
 | 2026-05-21 | [r1.49.11](releases/2026-05-21_r1.49.11_web_likes-auth-persistence-web.md) | Web | 앱 재실행 후에도 좋아요한 공연이 Likes 화면과 공연 상세에서 유지되도록 개선했습니다. |
 | 2026-05-21 | [r1.49.11](releases/2026-05-21_r1.49.11_backend_likes-auth-persistence-api.md) | Backend | 공연 좋아요 상태를 더 정확히 조회하도록 서버 응답을 보강했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_event-detail-flow.md) | Web | 공연 상세, 좋아요, 티켓/게스트리스트, 공유 흐름의 안정성을 개선했습니다. |
@@ -397,6 +398,7 @@ Generated sanitized public release notes.
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-21 | [r1.49.12](releases/2026-05-21_r1.49.12_web_managed-event-edit-navigation.md) | 공연 수정 후 관리 목록의 가격 표시와 뒤로가기 흐름을 개선했습니다. |
 | 2026-05-21 | [r1.49.11](releases/2026-05-21_r1.49.11_web_likes-auth-persistence-web.md) | 앱 재실행 후에도 좋아요한 공연이 Likes 화면과 공연 상세에서 유지되도록 개선했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_event-detail-flow.md) | 공연 상세, 좋아요, 티켓/게스트리스트, 공유 흐름의 안정성을 개선했습니다. |
 | 2026-05-21 | [r1.49.10](releases/2026-05-21_r1.49.10_web_apple-login-routing-fallback-fix.md) | 운영 커뮤니티 웹에서 Apple 로그인 버튼이 잘못된 로그인 경로로 이동하던 문제를 수정했습니다. |
