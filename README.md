@@ -1,11 +1,18 @@
 # POMFS Release History
 
-Generated sanitized public release notes.
+이 저장소는 POMFS의 공개 릴리즈 히스토리입니다.
+
+각 항목은 private source repo의 release metadata에서 생성되며, 공개 가능한 요약만 포함합니다. iOS, Web, Backend, Data Pipeline, Infra, Operations 변경을 시간순으로 모아 보여줍니다.
+
+공개 노트에는 source code, 내부 경로, 개인 이메일, private infrastructure detail, token/key, raw commit hash, sensitive security detail을 포함하지 않습니다.
+
+상세 항목에는 Summary, Changes, Known Issues가 있으며, 시간이 확인된 항목은 `Released at`을 함께 표시합니다.
 
 ## Latest
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_ios_ios-codex-token-usage-snapshot.md) | iOS | iOS 앱 README에서 Codex 누적 토큰 사용량을 확인할 수 있도록 공개 스냅샷을 추가했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Web | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
 | 2026-05-22 | [r1.50.2](releases/2026-05-22_r1.50.2_backend_ticket-visibility-recovery.md) | Backend | 실제 승인된 티켓 결제가 나의 티켓에 표시되도록 결제 확정과 티켓 조회 흐름을 보강했습니다. |
@@ -304,6 +311,7 @@ Generated sanitized public release notes.
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_ios_ios-codex-token-usage-snapshot.md) | iOS 앱 README에서 Codex 누적 토큰 사용량을 확인할 수 있도록 공개 스냅샷을 추가했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
 | 2026-05-22 | [r1.50.1](releases/2026-05-22_r1.50.1_ios_ios-payment-webview.md) | iOS 앱에서 결제 앱으로 이동하고 다시 돌아오는 흐름을 개선했습니다. |
 | 2026-05-19 | [R1.49.2](releases/2026-05-19_R1.49.2_ios_devlog-002-b25a861e.md) | iOS 앱 변경 이력: R1.49.2 simpler approach fail PROVEN + session handoff base — R1.49.2 ASWebAuthenticationSession 측 다음 세션 base sustained 진행 base |
