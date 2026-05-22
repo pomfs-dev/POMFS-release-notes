@@ -15,7 +15,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-22 15:20 KST</td>
+    <td>2026-05-22 20:13 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -23,27 +23,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>122 sessions</td>
+    <td>124 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>681,781,500 tokens</strong></td>
+    <td><strong>713,342,026 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>679,576,920 tokens</td>
+    <td>711,039,443 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>640,219,776 tokens</td>
+    <td>669,903,360 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>2,204,580 tokens</td>
+    <td>2,302,583 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>757,759 tokens</td>
+    <td>795,028 tokens</td>
   </tr>
 </table>
 
@@ -54,9 +54,77 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>700,000,000 tokens</td>
+    <td>750,000,000 tokens</td>
     <td><code>███████████████████░</code></td>
-    <td align="right">97.4%</td>
+    <td align="right">95.1%</td>
+  </tr>
+</table>
+
+## Claude Code Lifetime Token Usage
+
+Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기가 Claude Code session logs를 다시 계산해 기록한 정적 스냅샷입니다.
+
+<table>
+  <tr>
+    <th align="left">Snapshot</th>
+    <td>2026-05-22 20:13 KST</td>
+  </tr>
+  <tr>
+    <th align="left">Scope</th>
+    <td>Claude Code session logs</td>
+  </tr>
+  <tr>
+    <th align="left">Session files</th>
+    <td>1,178 files</td>
+  </tr>
+  <tr>
+    <th align="left">Assistant entries</th>
+    <td>98,373 entries</td>
+  </tr>
+  <tr>
+    <th align="left">Cumulative total</th>
+    <td><strong>23,208,255,784 tokens</strong></td>
+  </tr>
+  <tr>
+    <th align="left">Input</th>
+    <td>1,243,852 tokens</td>
+  </tr>
+  <tr>
+    <th align="left">Cache creation</th>
+    <td>994,658,543 tokens</td>
+  </tr>
+  <tr>
+    <th align="left">Cache read</th>
+    <td>22,062,575,740 tokens</td>
+  </tr>
+  <tr>
+    <th align="left">Output</th>
+    <td>149,777,649 tokens</td>
+  </tr>
+  <tr>
+    <th align="left">Weekly 7d</th>
+    <td>9,055,803,378 tokens</td>
+  </tr>
+  <tr>
+    <th align="left">Monthly 30d</th>
+    <td>22,854,545,662 tokens</td>
+  </tr>
+  <tr>
+    <th align="left">Daily avg</th>
+    <td>703,280,478 tokens/day</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th align="left">Scale</th>
+    <th align="left">Usage Graph</th>
+    <th align="right">Percent</th>
+  </tr>
+  <tr>
+    <td>23,250,000,000 tokens</td>
+    <td><code>████████████████████</code></td>
+    <td align="right">99.8%</td>
   </tr>
 </table>
 
@@ -64,6 +132,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-22 | [release-history-v3](releases/2026-05-22_release-history-v3_operations_release-history-claude-code-token-snapshots.md) | Operations | Public release notes에서 Claude Code 누적 토큰 사용량도 함께 확인할 수 있도록 자동화를 보강했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_backend_ticket-email-detail-scanner-recovery.md) | Backend | 결제 완료와 티켓 발급 메일, 나의 티켓 상세 보기, QR 확인, 티켓 스캐너 흐름을 실제 발급 티켓 기준으로 보강했습니다. |
 | 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Operations | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Web | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
@@ -672,6 +741,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-22 | [release-history-v3](releases/2026-05-22_release-history-v3_operations_release-history-claude-code-token-snapshots.md) | Public release notes에서 Claude Code 누적 토큰 사용량도 함께 확인할 수 있도록 자동화를 보강했습니다. |
 | 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
 | 2026-05-21 | [release-history-v1](releases/2026-05-21_release-history-v1_operations_release-history-scaffold.md) | POMFS 변경 이력을 구조적으로 기록하고 검증하는 release history 체계를 추가했습니다. |
 | 2026-05-17 | [r1.43](releases/2026-05-17_r1.43_operations_session-handoff-automation.md) | 내부 릴리스 및 세션 handoff 자동화를 개선했습니다. |
