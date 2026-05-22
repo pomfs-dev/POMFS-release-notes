@@ -8,7 +8,11 @@
 
 상세 항목에는 Summary, Changes, Known Issues가 있으며, 시간이 확인된 항목은 `Released at`을 함께 표시합니다.
 
-## Codex Lifetime Token Usage
+## AI Lifetime Token Usage
+
+Codex와 Claude Code의 전체 누적 토큰량을 함께 보여줍니다. 각 값은 public release notes가 갱신될 때 기록되는 정적 스냅샷입니다.
+
+### Codex
 
 Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아니라 public release notes가 갱신될 때 함께 기록되는 정적 스냅샷입니다.
 
@@ -60,7 +64,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
 </table>
 
-## Claude Code Lifetime Token Usage
+### Claude Code
 
 Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기가 Claude Code session logs를 다시 계산해 기록한 정적 스냅샷입니다.
 
