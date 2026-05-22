@@ -15,7 +15,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-22 20:13 KST</td>
+    <td>2026-05-22 22:46 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -23,27 +23,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>124 sessions</td>
+    <td>126 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>713,342,026 tokens</strong></td>
+    <td><strong>761,550,719 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>711,039,443 tokens</td>
+    <td>759,113,464 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>669,903,360 tokens</td>
+    <td>715,492,096 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>2,302,583 tokens</td>
+    <td>2,437,255 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>795,028 tokens</td>
+    <td>850,983 tokens</td>
   </tr>
 </table>
 
@@ -54,9 +54,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>750,000,000 tokens</td>
+    <td>800,000,000 tokens</td>
     <td><code>███████████████████░</code></td>
-    <td align="right">95.1%</td>
+    <td align="right">95.2%</td>
   </tr>
 </table>
 
@@ -67,7 +67,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-22 20:13 KST</td>
+    <td>2026-05-22 22:47 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -75,43 +75,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>1,178 files</td>
+    <td>1,176 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>98,373 entries</td>
+    <td>97,690 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>23,208,255,784 tokens</strong></td>
+    <td><strong>23,090,072,854 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>1,243,852 tokens</td>
+    <td>1,242,641 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>994,658,543 tokens</td>
+    <td>991,464,598 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>22,062,575,740 tokens</td>
+    <td>21,948,123,775 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>149,777,649 tokens</td>
+    <td>149,241,840 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>9,055,803,378 tokens</td>
+    <td>8,738,709,680 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>22,854,545,662 tokens</td>
+    <td>22,645,587,534 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>703,280,478 tokens/day</td>
+    <td>699,699,177 tokens/day</td>
   </tr>
 </table>
 
@@ -122,9 +122,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>23,250,000,000 tokens</td>
+    <td>23,100,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.8%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -132,6 +132,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_backend_ticket-refund-notifications-management.md) | Backend | 티켓 환불 완료 후 안내 메일과 공연 관리 화면의 환불 상태 표시가 더 정확해지도록 보강했습니다. |
+| 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_backend_ticket-refund-host-notifications.md) | Backend | 티켓 환불이 완료되면 공연 생성자가 알림에서 관련 티켓 관리 화면으로 이동할 수 있도록 알림 흐름을 보강했습니다. |
+| 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_ios_ios-ticket-deeplink-scheme.md) | iOS | iOS 앱에서 티켓 메일의 앱 열기 버튼이 티켓 화면으로 이어질 수 있도록 딥링크 처리를 보강했습니다. |
 | 2026-05-22 | [release-history-v3](releases/2026-05-22_release-history-v3_operations_release-history-claude-code-token-snapshots.md) | Operations | Public release notes에서 Claude Code 누적 토큰 사용량도 함께 확인할 수 있도록 자동화를 보강했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_backend_ticket-email-detail-scanner-recovery.md) | Backend | 결제 완료와 티켓 발급 메일, 나의 티켓 상세 보기, QR 확인, 티켓 스캐너 흐름을 실제 발급 티켓 기준으로 보강했습니다. |
 | 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Operations | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
@@ -434,6 +437,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_ios_ios-ticket-deeplink-scheme.md) | iOS 앱에서 티켓 메일의 앱 열기 버튼이 티켓 화면으로 이어질 수 있도록 딥링크 처리를 보강했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_ios_ios-codex-token-usage-snapshot.md) | iOS 앱 README에서 Codex 누적 토큰 사용량을 확인할 수 있도록 공개 스냅샷을 추가했습니다. |
 | 2026-05-22 | [r1.50.1](releases/2026-05-22_r1.50.1_ios_ios-payment-webview.md) | iOS 앱에서 결제 앱으로 이동하고 다시 돌아오는 흐름을 개선했습니다. |
@@ -674,6 +678,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_backend_ticket-refund-notifications-management.md) | 티켓 환불 완료 후 안내 메일과 공연 관리 화면의 환불 상태 표시가 더 정확해지도록 보강했습니다. |
+| 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_backend_ticket-refund-host-notifications.md) | 티켓 환불이 완료되면 공연 생성자가 알림에서 관련 티켓 관리 화면으로 이동할 수 있도록 알림 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_backend_ticket-email-detail-scanner-recovery.md) | 결제 완료와 티켓 발급 메일, 나의 티켓 상세 보기, QR 확인, 티켓 스캐너 흐름을 실제 발급 티켓 기준으로 보강했습니다. |
 | 2026-05-22 | [r1.50.2](releases/2026-05-22_r1.50.2_backend_ticket-visibility-recovery.md) | 실제 승인된 티켓 결제가 나의 티켓에 표시되도록 결제 확정과 티켓 조회 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.1](releases/2026-05-22_r1.50.1_backend_payment-completion.md) | 티켓 결제가 실제 승인 후 구매 완료와 티켓 발급으로 이어지도록 결제 완료 흐름을 개선했습니다. |
