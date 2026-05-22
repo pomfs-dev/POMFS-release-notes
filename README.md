@@ -15,7 +15,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-22 12:07 KST</td>
+    <td>2026-05-22 15:20 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -23,27 +23,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>121 sessions</td>
+    <td>122 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>631,708,699 tokens</strong></td>
+    <td><strong>681,781,500 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>629,654,750 tokens</td>
+    <td>679,576,920 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>592,635,648 tokens</td>
+    <td>640,219,776 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>2,053,949 tokens</td>
+    <td>2,204,580 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>695,239 tokens</td>
+    <td>757,759 tokens</td>
   </tr>
 </table>
 
@@ -54,9 +54,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>650,000,000 tokens</td>
+    <td>700,000,000 tokens</td>
     <td><code>███████████████████░</code></td>
-    <td align="right">97.2%</td>
+    <td align="right">97.4%</td>
   </tr>
 </table>
 
@@ -64,6 +64,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_backend_ticket-email-detail-scanner-recovery.md) | Backend | 결제 완료와 티켓 발급 메일, 나의 티켓 상세 보기, QR 확인, 티켓 스캐너 흐름을 실제 발급 티켓 기준으로 보강했습니다. |
 | 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Operations | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Web | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
@@ -604,6 +605,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_backend_ticket-email-detail-scanner-recovery.md) | 결제 완료와 티켓 발급 메일, 나의 티켓 상세 보기, QR 확인, 티켓 스캐너 흐름을 실제 발급 티켓 기준으로 보강했습니다. |
 | 2026-05-22 | [r1.50.2](releases/2026-05-22_r1.50.2_backend_ticket-visibility-recovery.md) | 실제 승인된 티켓 결제가 나의 티켓에 표시되도록 결제 확정과 티켓 조회 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.1](releases/2026-05-22_r1.50.1_backend_payment-completion.md) | 티켓 결제가 실제 승인 후 구매 완료와 티켓 발급으로 이어지도록 결제 완료 흐름을 개선했습니다. |
 | 2026-05-21 | [r1.49.11](releases/2026-05-21_r1.49.11_backend_likes-auth-persistence-api.md) | 공연 좋아요 상태를 더 정확히 조회하도록 서버 응답을 보강했습니다. |
