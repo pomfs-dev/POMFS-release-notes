@@ -8,10 +8,63 @@
 
 상세 항목에는 Summary, Changes, Known Issues가 있으며, 시간이 확인된 항목은 `Released at`을 함께 표시합니다.
 
+## Codex Lifetime Token Usage
+
+Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아니라 public release notes가 갱신될 때 함께 기록되는 정적 스냅샷입니다.
+
+<table>
+  <tr>
+    <th align="left">Snapshot</th>
+    <td>2026-05-22 12:07 KST</td>
+  </tr>
+  <tr>
+    <th align="left">Scope</th>
+    <td>Codex session logs</td>
+  </tr>
+  <tr>
+    <th align="left">Sessions</th>
+    <td>121 sessions</td>
+  </tr>
+  <tr>
+    <th align="left">Cumulative total</th>
+    <td><strong>631,708,699 tokens</strong></td>
+  </tr>
+  <tr>
+    <th align="left">Input</th>
+    <td>629,654,750 tokens</td>
+  </tr>
+  <tr>
+    <th align="left">Cached input</th>
+    <td>592,635,648 tokens</td>
+  </tr>
+  <tr>
+    <th align="left">Output</th>
+    <td>2,053,949 tokens</td>
+  </tr>
+  <tr>
+    <th align="left">Reasoning output</th>
+    <td>695,239 tokens</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <th align="left">Scale</th>
+    <th align="left">Usage Graph</th>
+    <th align="right">Percent</th>
+  </tr>
+  <tr>
+    <td>650,000,000 tokens</td>
+    <td><code>███████████████████░</code></td>
+    <td align="right">97.2%</td>
+  </tr>
+</table>
+
 ## Latest
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Operations | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Web | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
 | 2026-05-22 | [r1.50.2](releases/2026-05-22_r1.50.2_backend_ticket-visibility-recovery.md) | Backend | 실제 승인된 티켓 결제가 나의 티켓에 표시되도록 결제 확정과 티켓 조회 흐름을 보강했습니다. |
@@ -617,6 +670,7 @@
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
 | 2026-05-21 | [release-history-v1](releases/2026-05-21_release-history-v1_operations_release-history-scaffold.md) | POMFS 변경 이력을 구조적으로 기록하고 검증하는 release history 체계를 추가했습니다. |
 | 2026-05-17 | [r1.43](releases/2026-05-17_r1.43_operations_session-handoff-automation.md) | 내부 릴리스 및 세션 handoff 자동화를 개선했습니다. |
 | 2026-05-12 | [R1.19.5](releases/2026-05-12_R1.19.5_operations_devlog-032-f0b121f9.md) | 운영 자동화 변경 이력: R1.19.5 fast-follow: handoff-respawn-commander.sh set -u P2 fix + 신규 추적 + audit 100% PASS + #91 LIVE 8번째 누적 |
