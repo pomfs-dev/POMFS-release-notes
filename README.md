@@ -15,7 +15,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-22 22:46 KST</td>
+    <td>2026-05-22 23:27 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -23,27 +23,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>126 sessions</td>
+    <td>127 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>761,550,719 tokens</strong></td>
+    <td><strong>785,094,374 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>759,113,464 tokens</td>
+    <td>782,597,799 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>715,492,096 tokens</td>
+    <td>738,012,416 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>2,437,255 tokens</td>
+    <td>2,496,575 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>850,983 tokens</td>
+    <td>874,077 tokens</td>
   </tr>
 </table>
 
@@ -55,8 +55,8 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <td>800,000,000 tokens</td>
-    <td><code>███████████████████░</code></td>
-    <td align="right">95.2%</td>
+    <td><code>████████████████████</code></td>
+    <td align="right">98.1%</td>
   </tr>
 </table>
 
@@ -67,7 +67,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-22 22:47 KST</td>
+    <td>2026-05-22 23:28 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -103,11 +103,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>8,738,709,680 tokens</td>
+    <td>8,651,949,839 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>22,645,587,534 tokens</td>
+    <td>22,618,877,876 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
@@ -132,6 +132,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-22 | [r1.50.6](releases/2026-05-22_r1.50.6_backend_paypal-refund-cascade.md) | Backend | PayPal로 결제한 티켓도 환불 완료 후 안내 메일, 공연 생성자 알림, 환불 상태 표시가 Toss 결제와 같은 흐름으로 처리되도록 보강했습니다. |
 | 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_backend_ticket-refund-notifications-management.md) | Backend | 티켓 환불 완료 후 안내 메일과 공연 관리 화면의 환불 상태 표시가 더 정확해지도록 보강했습니다. |
 | 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_backend_ticket-refund-host-notifications.md) | Backend | 티켓 환불이 완료되면 공연 생성자가 알림에서 관련 티켓 관리 화면으로 이동할 수 있도록 알림 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_ios_ios-ticket-deeplink-scheme.md) | iOS | iOS 앱에서 티켓 메일의 앱 열기 버튼이 티켓 화면으로 이어질 수 있도록 딥링크 처리를 보강했습니다. |
@@ -678,6 +679,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-22 | [r1.50.6](releases/2026-05-22_r1.50.6_backend_paypal-refund-cascade.md) | PayPal로 결제한 티켓도 환불 완료 후 안내 메일, 공연 생성자 알림, 환불 상태 표시가 Toss 결제와 같은 흐름으로 처리되도록 보강했습니다. |
 | 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_backend_ticket-refund-notifications-management.md) | 티켓 환불 완료 후 안내 메일과 공연 관리 화면의 환불 상태 표시가 더 정확해지도록 보강했습니다. |
 | 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_backend_ticket-refund-host-notifications.md) | 티켓 환불이 완료되면 공연 생성자가 알림에서 관련 티켓 관리 화면으로 이동할 수 있도록 알림 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_backend_ticket-email-detail-scanner-recovery.md) | 결제 완료와 티켓 발급 메일, 나의 티켓 상세 보기, QR 확인, 티켓 스캐너 흐름을 실제 발급 티켓 기준으로 보강했습니다. |
