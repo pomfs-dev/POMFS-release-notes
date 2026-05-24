@@ -19,7 +19,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-24 02:27 KST</td>
+    <td>2026-05-25 05:39 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -27,27 +27,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>131 sessions</td>
+    <td>136 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>818,008,322 tokens</strong></td>
+    <td><strong>900,437,284 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>815,375,748 tokens</td>
+    <td>897,586,306 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>768,710,656 tokens</td>
+    <td>847,134,464 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>2,632,574 tokens</td>
+    <td>2,850,978 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>935,847 tokens</td>
+    <td>1,018,573 tokens</td>
   </tr>
 </table>
 
@@ -58,9 +58,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>850,000,000 tokens</td>
+    <td>950,000,000 tokens</td>
     <td><code>███████████████████░</code></td>
-    <td align="right">96.2%</td>
+    <td align="right">94.8%</td>
   </tr>
 </table>
 
@@ -71,7 +71,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-24 02:27 KST</td>
+    <td>2026-05-25 05:39 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -79,43 +79,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>1,171 files</td>
+    <td>1,155 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>96,351 entries</td>
+    <td>93,922 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>22,797,855,060 tokens</strong></td>
+    <td><strong>22,360,225,625 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>1,213,842 tokens</td>
+    <td>1,196,257 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>985,713,413 tokens</td>
+    <td>979,758,521 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>21,663,922,383 tokens</td>
+    <td>21,235,029,009 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>147,005,422 tokens</td>
+    <td>144,241,838 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>5,402,912,356 tokens</td>
+    <td>2,057,915,371 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>22,322,391,973 tokens</td>
+    <td>22,007,912,236 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>670,525,148 tokens/day</td>
+    <td>677,582,594 tokens/day</td>
   </tr>
 </table>
 
@@ -126,9 +126,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>22,800,000,000 tokens</td>
+    <td>22,400,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.8%</td>
   </tr>
 </table>
 
@@ -136,6 +136,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_backend_ticket-payment-email-delivery.md) | Backend | 티켓 결제 후 완료 화면으로 이어지는 흐름과 결제/환불 메일 발송 흐름을 안정화했습니다. |
+| 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_ios_ios-payment-return-flow.md) | iOS | iOS 앱에서 Npay와 Toss 결제 후 POMFS 화면으로 돌아오는 흐름을 보강했습니다. |
 | 2026-05-23 | [r1.50.7](releases/2026-05-23_r1.50.7_backend_settlement-payout-reconciliation.md) | Backend | 정산 화면과 관리자 정산 흐름에서 PayPal 지급과 결제 대사 흐름을 더 정확하게 확인할 수 있도록 보강했습니다. |
 | 2026-05-23 | [r1.50.7](releases/2026-05-23_r1.50.7_backend_my-settlement-aggregation.md) | Backend | 정산 화면이 최신 공연 티켓 주문 구조까지 반영해서 판매 금액을 집계하도록 보강했습니다. |
 | 2026-05-22 | [r1.50.6](releases/2026-05-22_r1.50.6_backend_paypal-refund-cascade.md) | Backend | PayPal로 결제한 티켓도 환불 완료 후 안내 메일, 공연 생성자 알림, 환불 상태 표시가 Toss 결제와 같은 흐름으로 처리되도록 보강했습니다. |
@@ -444,6 +446,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_ios_ios-payment-return-flow.md) | iOS 앱에서 Npay와 Toss 결제 후 POMFS 화면으로 돌아오는 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_ios_ios-ticket-deeplink-scheme.md) | iOS 앱에서 티켓 메일의 앱 열기 버튼이 티켓 화면으로 이어질 수 있도록 딥링크 처리를 보강했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_ios_ios-codex-token-usage-snapshot.md) | iOS 앱 README에서 Codex 누적 토큰 사용량을 확인할 수 있도록 공개 스냅샷을 추가했습니다. |
@@ -685,6 +688,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_backend_ticket-payment-email-delivery.md) | 티켓 결제 후 완료 화면으로 이어지는 흐름과 결제/환불 메일 발송 흐름을 안정화했습니다. |
 | 2026-05-23 | [r1.50.7](releases/2026-05-23_r1.50.7_backend_settlement-payout-reconciliation.md) | 정산 화면과 관리자 정산 흐름에서 PayPal 지급과 결제 대사 흐름을 더 정확하게 확인할 수 있도록 보강했습니다. |
 | 2026-05-23 | [r1.50.7](releases/2026-05-23_r1.50.7_backend_my-settlement-aggregation.md) | 정산 화면이 최신 공연 티켓 주문 구조까지 반영해서 판매 금액을 집계하도록 보강했습니다. |
 | 2026-05-22 | [r1.50.6](releases/2026-05-22_r1.50.6_backend_paypal-refund-cascade.md) | PayPal로 결제한 티켓도 환불 완료 후 안내 메일, 공연 생성자 알림, 환불 상태 표시가 Toss 결제와 같은 흐름으로 처리되도록 보강했습니다. |
