@@ -19,7 +19,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-28 04:51 KST</td>
+    <td>2026-05-28 04:52 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -31,23 +31,23 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>1,142,727,904 tokens</strong></td>
+    <td><strong>1,145,431,356 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>1,139,288,437 tokens</td>
+    <td>1,141,982,453 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>1,075,189,760 tokens</td>
+    <td>1,077,509,376 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>3,439,467 tokens</td>
+    <td>3,448,903 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>1,230,422 tokens</td>
+    <td>1,234,103 tokens</td>
   </tr>
 </table>
 
@@ -60,7 +60,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   <tr>
     <td>1,150,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.4%</td>
+    <td align="right">99.6%</td>
   </tr>
 </table>
 
@@ -71,7 +71,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-28 04:51 KST</td>
+    <td>2026-05-28 04:52 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -137,6 +137,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | Date | Version | Component | Summary |
 |---|---|---|---|
 | 2026-05-28 | [r1.50.9](releases/2026-05-28_r1.50.9_web_paypal-live-settlement-fee-config.md) | Web | PayPal 결제 선택 흐름을 다시 활성화하고, 관리자 Payments 화면에서 정산 수수료를 직접 조정할 수 있게 했습니다. |
+| 2026-05-28 | [r1.50.10](releases/2026-05-28_r1.50.10_web_legacy-password-login-recovery.md) | Web | 기존 이메일 계정의 로그인 입력 검증과 비밀번호 재설정 진입 흐름을 보강했습니다. |
 | 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_backend_ticket-payment-email-delivery.md) | Backend | 티켓 결제 후 완료 화면으로 이어지는 흐름과 결제/환불 메일 발송 흐름을 안정화했습니다. |
 | 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_ios_ios-payment-return-flow.md) | iOS | iOS 앱에서 Npay와 Toss 결제 후 POMFS 화면으로 돌아오는 흐름을 보강했습니다. |
 | 2026-05-23 | [r1.50.7](releases/2026-05-23_r1.50.7_backend_settlement-payout-reconciliation.md) | Backend | 정산 화면과 관리자 정산 흐름에서 PayPal 지급과 결제 대사 흐름을 더 정확하게 확인할 수 있도록 보강했습니다. |
@@ -547,6 +548,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | Date | Version | Summary |
 |---|---|---|
 | 2026-05-28 | [r1.50.9](releases/2026-05-28_r1.50.9_web_paypal-live-settlement-fee-config.md) | PayPal 결제 선택 흐름을 다시 활성화하고, 관리자 Payments 화면에서 정산 수수료를 직접 조정할 수 있게 했습니다. |
+| 2026-05-28 | [r1.50.10](releases/2026-05-28_r1.50.10_web_legacy-password-login-recovery.md) | 기존 이메일 계정의 로그인 입력 검증과 비밀번호 재설정 진입 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
 | 2026-05-21 | [r1.49.13](releases/2026-05-21_r1.49.13_web_event-social-links-managed-cards.md) | 공연 수정 후 상세 정보, 티켓 금액, 유튜브·인스타그램 링크 표시가 더 일관되게 반영되도록 개선했습니다. |
 | 2026-05-21 | [r1.49.12](releases/2026-05-21_r1.49.12_web_managed-event-edit-navigation.md) | 공연 수정 후 관리 목록의 가격 표시와 뒤로가기 흐름을 개선했습니다. |
