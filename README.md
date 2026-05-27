@@ -19,7 +19,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-28 05:02 KST</td>
+    <td>2026-05-28 07:32 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -27,27 +27,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>145 sessions</td>
+    <td>146 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>1,156,029,266 tokens</strong></td>
+    <td><strong>1,175,629,738 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>1,152,543,862 tokens</td>
+    <td>1,172,083,685 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>1,087,657,216 tokens</td>
+    <td>1,106,256,768 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>3,485,404 tokens</td>
+    <td>3,546,053 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>1,250,172 tokens</td>
+    <td>1,272,800 tokens</td>
   </tr>
 </table>
 
@@ -59,8 +59,8 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <td>1,200,000,000 tokens</td>
-    <td><code>███████████████████░</code></td>
-    <td align="right">96.3%</td>
+    <td><code>████████████████████</code></td>
+    <td align="right">98.0%</td>
   </tr>
 </table>
 
@@ -71,7 +71,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-28 05:02 KST</td>
+    <td>2026-05-28 07:32 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -79,43 +79,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>1,101 files</td>
+    <td>1,062 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>88,570 entries</td>
+    <td>87,253 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>20,949,355,595 tokens</strong></td>
+    <td><strong>20,711,887,856 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>1,100,738 tokens</td>
+    <td>1,098,200 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>949,657,630 tokens</td>
+    <td>936,469,457 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>19,861,280,606 tokens</td>
+    <td>19,638,376,402 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>137,316,621 tokens</td>
+    <td>135,943,797 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>41,955,294 tokens</td>
+    <td>53,455,454 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>20,111,310,851 tokens</td>
+    <td>20,122,811,011 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>616,157,517 tokens/day</td>
+    <td>609,173,172 tokens/day</td>
   </tr>
 </table>
 
@@ -126,9 +126,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>20,950,000,000 tokens</td>
+    <td>20,750,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.8%</td>
   </tr>
 </table>
 
@@ -136,6 +136,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-28 | [r1.50.15](releases/2026-05-28_r1.50.15_web_profile-payout-account-delete-fix.md) | Web | 프로필 설정의 정산 계좌 등록 이동과 계정 삭제 확인 흐름을 복구했습니다. |
 | 2026-05-28 | [r1.50.14](releases/2026-05-28_r1.50.14_web_paypal-oauth-onboarding-payouts.md) | Web | 아티스트와 베뉴 회원가입 온보딩에서 국가에 따라 국내 계좌와 PayPal 정산 계정 연동을 안내하도록 확장했습니다. |
 | 2026-05-28 | [r1.50.9](releases/2026-05-28_r1.50.9_web_paypal-live-settlement-fee-config.md) | Web | PayPal 결제 선택 흐름을 다시 활성화하고, 관리자 Payments 화면에서 정산 수수료를 직접 조정할 수 있게 했습니다. |
 | 2026-05-28 | [r1.50.13](releases/2026-05-28_r1.50.13_backend_email-auth-session-member-delete-recovery.md) | Backend | 이메일 인증 완료 후 로그인 상태 유지와 관리자 회원 삭제 흐름을 서버에서 보강했습니다. |
@@ -551,6 +552,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-28 | [r1.50.15](releases/2026-05-28_r1.50.15_web_profile-payout-account-delete-fix.md) | 프로필 설정의 정산 계좌 등록 이동과 계정 삭제 확인 흐름을 복구했습니다. |
 | 2026-05-28 | [r1.50.14](releases/2026-05-28_r1.50.14_web_paypal-oauth-onboarding-payouts.md) | 아티스트와 베뉴 회원가입 온보딩에서 국가에 따라 국내 계좌와 PayPal 정산 계정 연동을 안내하도록 확장했습니다. |
 | 2026-05-28 | [r1.50.9](releases/2026-05-28_r1.50.9_web_paypal-live-settlement-fee-config.md) | PayPal 결제 선택 흐름을 다시 활성화하고, 관리자 Payments 화면에서 정산 수수료를 직접 조정할 수 있게 했습니다. |
 | 2026-05-28 | [r1.50.12](releases/2026-05-28_r1.50.12_web_email-code-session-recovery.md) | 이메일 인증번호 입력 후 인증 완료 상태가 바로 유지되도록 웹 인증 흐름을 보강했습니다. |
