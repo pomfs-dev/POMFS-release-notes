@@ -19,7 +19,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-28 04:53 KST</td>
+    <td>2026-05-28 05:02 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -31,23 +31,23 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>1,146,270,581 tokens</strong></td>
+    <td><strong>1,156,029,266 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>1,142,818,672 tokens</td>
+    <td>1,152,543,862 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>1,078,322,560 tokens</td>
+    <td>1,087,657,216 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>3,451,909 tokens</td>
+    <td>3,485,404 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>1,234,846 tokens</td>
+    <td>1,250,172 tokens</td>
   </tr>
 </table>
 
@@ -58,9 +58,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>1,150,000,000 tokens</td>
-    <td><code>████████████████████</code></td>
-    <td align="right">99.7%</td>
+    <td>1,200,000,000 tokens</td>
+    <td><code>███████████████████░</code></td>
+    <td align="right">96.3%</td>
   </tr>
 </table>
 
@@ -71,7 +71,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-28 04:53 KST</td>
+    <td>2026-05-28 05:02 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -136,7 +136,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-28 | [r1.50.14](releases/2026-05-28_r1.50.14_web_paypal-oauth-onboarding-payouts.md) | Web | 아티스트와 베뉴 회원가입 온보딩에서 국가에 따라 국내 계좌와 PayPal 정산 계정 연동을 안내하도록 확장했습니다. |
 | 2026-05-28 | [r1.50.9](releases/2026-05-28_r1.50.9_web_paypal-live-settlement-fee-config.md) | Web | PayPal 결제 선택 흐름을 다시 활성화하고, 관리자 Payments 화면에서 정산 수수료를 직접 조정할 수 있게 했습니다. |
+| 2026-05-28 | [r1.50.13](releases/2026-05-28_r1.50.13_backend_email-auth-session-member-delete-recovery.md) | Backend | 이메일 인증 완료 후 로그인 상태 유지와 관리자 회원 삭제 흐름을 서버에서 보강했습니다. |
+| 2026-05-28 | [r1.50.12](releases/2026-05-28_r1.50.12_web_email-code-session-recovery.md) | Web | 이메일 인증번호 입력 후 인증 완료 상태가 바로 유지되도록 웹 인증 흐름을 보강했습니다. |
 | 2026-05-28 | [r1.50.11](releases/2026-05-28_r1.50.11_web_share-actions-deeplink-recovery.md) | Web | 공유하기 버튼과 공연 상세 링크가 더 안정적으로 동작하도록 개선했습니다. |
 | 2026-05-28 | [r1.50.10](releases/2026-05-28_r1.50.10_web_legacy-password-login-recovery.md) | Web | 기존 이메일 계정의 로그인 입력 검증과 비밀번호 재설정 진입 흐름을 보강했습니다. |
 | 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_backend_ticket-payment-email-delivery.md) | Backend | 티켓 결제 후 완료 화면으로 이어지는 흐름과 결제/환불 메일 발송 흐름을 안정화했습니다. |
@@ -548,7 +551,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-28 | [r1.50.14](releases/2026-05-28_r1.50.14_web_paypal-oauth-onboarding-payouts.md) | 아티스트와 베뉴 회원가입 온보딩에서 국가에 따라 국내 계좌와 PayPal 정산 계정 연동을 안내하도록 확장했습니다. |
 | 2026-05-28 | [r1.50.9](releases/2026-05-28_r1.50.9_web_paypal-live-settlement-fee-config.md) | PayPal 결제 선택 흐름을 다시 활성화하고, 관리자 Payments 화면에서 정산 수수료를 직접 조정할 수 있게 했습니다. |
+| 2026-05-28 | [r1.50.12](releases/2026-05-28_r1.50.12_web_email-code-session-recovery.md) | 이메일 인증번호 입력 후 인증 완료 상태가 바로 유지되도록 웹 인증 흐름을 보강했습니다. |
 | 2026-05-28 | [r1.50.11](releases/2026-05-28_r1.50.11_web_share-actions-deeplink-recovery.md) | 공유하기 버튼과 공연 상세 링크가 더 안정적으로 동작하도록 개선했습니다. |
 | 2026-05-28 | [r1.50.10](releases/2026-05-28_r1.50.10_web_legacy-password-login-recovery.md) | 기존 이메일 계정의 로그인 입력 검증과 비밀번호 재설정 진입 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
@@ -694,6 +699,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-28 | [r1.50.13](releases/2026-05-28_r1.50.13_backend_email-auth-session-member-delete-recovery.md) | 이메일 인증 완료 후 로그인 상태 유지와 관리자 회원 삭제 흐름을 서버에서 보강했습니다. |
 | 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_backend_ticket-payment-email-delivery.md) | 티켓 결제 후 완료 화면으로 이어지는 흐름과 결제/환불 메일 발송 흐름을 안정화했습니다. |
 | 2026-05-23 | [r1.50.7](releases/2026-05-23_r1.50.7_backend_settlement-payout-reconciliation.md) | 정산 화면과 관리자 정산 흐름에서 PayPal 지급과 결제 대사 흐름을 더 정확하게 확인할 수 있도록 보강했습니다. |
 | 2026-05-23 | [r1.50.7](releases/2026-05-23_r1.50.7_backend_my-settlement-aggregation.md) | 정산 화면이 최신 공연 티켓 주문 구조까지 반영해서 판매 금액을 집계하도록 보강했습니다. |
