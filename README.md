@@ -19,7 +19,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-28 17:14 KST</td>
+    <td>2026-05-31 20:02 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -27,27 +27,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>147 sessions</td>
+    <td>176 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>1,211,153,664 tokens</strong></td>
+    <td><strong>1,957,042,774 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>1,207,526,561 tokens</td>
+    <td>1,950,256,350 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>1,138,920,192 tokens</td>
+    <td>1,851,901,824 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>3,627,103 tokens</td>
+    <td>6,786,424 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>1,304,088 tokens</td>
+    <td>2,087,349 tokens</td>
   </tr>
 </table>
 
@@ -58,9 +58,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>1,250,000,000 tokens</td>
-    <td><code>███████████████████░</code></td>
-    <td align="right">96.9%</td>
+    <td>2,000,000,000 tokens</td>
+    <td><code>████████████████████</code></td>
+    <td align="right">97.9%</td>
   </tr>
 </table>
 
@@ -71,7 +71,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-28 17:14 KST</td>
+    <td>2026-05-31 20:02 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -79,43 +79,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>1,063 files</td>
+    <td>1,080 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>86,836 entries</td>
+    <td>87,134 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>20,528,585,332 tokens</strong></td>
+    <td><strong>22,486,135,073 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>1,091,420 tokens</td>
+    <td>68,965,287 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>936,636,502 tokens</td>
+    <td>1,405,121,792 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>19,455,793,750 tokens</td>
+    <td>20,821,872,147 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>135,063,660 tokens</td>
+    <td>190,175,847 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>91,213,840 tokens</td>
+    <td>3,076,596,864 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>19,935,320,212 tokens</td>
+    <td>22,481,432,671 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>586,531,009 tokens/day</td>
+    <td>803,076,252 tokens/day</td>
   </tr>
 </table>
 
@@ -126,7 +126,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>20,550,000,000 tokens</td>
+    <td>22,500,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">99.9%</td>
   </tr>
@@ -136,6 +136,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-31 | [r1.50.17](releases/2026-05-31_r1.50.17_web_web-i18n-admin-checkpoint.md) | Web | 커뮤니티 웹 active route의 ko/en/ja/es/th 선택 UI 언어 전환 범위를 정리하고, 각 route family의 smoke 검증과 운영 배포를 완료했습니다. |
 | 2026-05-28 | [r1.50.16](releases/2026-05-28_r1.50.16_web_paypal-checkout-redirect-recovery.md) | Web | 티켓 구매에서 PayPal 결제 승인 화면으로 이동하는 방식을 조정해 결제 테스트 중 PayPal 오류 페이지가 열리던 문제를 완화했습니다. |
 | 2026-05-28 | [r1.50.15](releases/2026-05-28_r1.50.15_web_profile-payout-account-delete-fix.md) | Web | 프로필 설정의 정산 계좌 등록 이동과 계정 삭제 확인 흐름을 복구했습니다. |
 | 2026-05-28 | [r1.50.14](releases/2026-05-28_r1.50.14_web_paypal-oauth-onboarding-payouts.md) | Web | 아티스트와 베뉴 회원가입 온보딩에서 국가에 따라 국내 계좌와 PayPal 정산 계정 연동을 안내하도록 확장했습니다. |
@@ -553,6 +554,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-31 | [r1.50.17](releases/2026-05-31_r1.50.17_web_web-i18n-admin-checkpoint.md) | 커뮤니티 웹 active route의 ko/en/ja/es/th 선택 UI 언어 전환 범위를 정리하고, 각 route family의 smoke 검증과 운영 배포를 완료했습니다. |
 | 2026-05-28 | [r1.50.16](releases/2026-05-28_r1.50.16_web_paypal-checkout-redirect-recovery.md) | 티켓 구매에서 PayPal 결제 승인 화면으로 이동하는 방식을 조정해 결제 테스트 중 PayPal 오류 페이지가 열리던 문제를 완화했습니다. |
 | 2026-05-28 | [r1.50.15](releases/2026-05-28_r1.50.15_web_profile-payout-account-delete-fix.md) | 프로필 설정의 정산 계좌 등록 이동과 계정 삭제 확인 흐름을 복구했습니다. |
 | 2026-05-28 | [r1.50.14](releases/2026-05-28_r1.50.14_web_paypal-oauth-onboarding-payouts.md) | 아티스트와 베뉴 회원가입 온보딩에서 국가에 따라 국내 계좌와 PayPal 정산 계정 연동을 안내하도록 확장했습니다. |
