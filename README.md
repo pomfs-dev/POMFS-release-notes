@@ -19,7 +19,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-31 20:02 KST</td>
+    <td>2026-05-31 21:29 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -31,23 +31,23 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>1,957,042,774 tokens</strong></td>
+    <td><strong>2,007,154,120 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>1,950,256,350 tokens</td>
+    <td>2,000,229,886 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>1,851,901,824 tokens</td>
+    <td>1,899,229,056 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>6,786,424 tokens</td>
+    <td>6,924,234 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>2,087,349 tokens</td>
+    <td>2,135,778 tokens</td>
   </tr>
 </table>
 
@@ -58,7 +58,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>2,000,000,000 tokens</td>
+    <td>2,050,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">97.9%</td>
   </tr>
@@ -71,7 +71,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-31 20:02 KST</td>
+    <td>2026-05-31 21:29 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -83,39 +83,39 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>87,134 entries</td>
+    <td>87,423 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>22,486,135,073 tokens</strong></td>
+    <td><strong>22,633,209,603 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>68,965,287 tokens</td>
+    <td>69,375,689 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,405,121,792 tokens</td>
+    <td>1,480,975,632 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>20,821,872,147 tokens</td>
+    <td>20,883,158,931 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>190,175,847 tokens</td>
+    <td>199,699,351 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>3,076,596,864 tokens</td>
+    <td>3,223,671,394 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>22,481,432,671 tokens</td>
+    <td>22,628,507,201 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>803,076,252 tokens/day</td>
+    <td>808,328,914 tokens/day</td>
   </tr>
 </table>
 
@@ -126,7 +126,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>22,500,000,000 tokens</td>
+    <td>22,650,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">99.9%</td>
   </tr>
@@ -136,6 +136,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-31 | [r1.50.19](releases/2026-05-31_r1.50.19_backend_notification-language-i18n.md) | Backend | 알림 목록과 푸시 알림이 사용자의 선택 언어 또는 기기 언어를 더 잘 따르도록 다국어 처리를 보강했습니다. |
 | 2026-05-31 | [r1.50.17](releases/2026-05-31_r1.50.17_web_web-i18n-admin-checkpoint.md) | Web | 커뮤니티 웹 active route의 ko/en/ja/es/th 선택 UI 언어 전환 범위를 정리하고, 각 route family의 smoke 검증과 운영 배포를 완료했습니다. |
 | 2026-05-28 | [r1.50.16](releases/2026-05-28_r1.50.16_web_paypal-checkout-redirect-recovery.md) | Web | 티켓 구매에서 PayPal 결제 승인 화면으로 이동하는 방식을 조정해 결제 테스트 중 PayPal 오류 페이지가 열리던 문제를 완화했습니다. |
 | 2026-05-28 | [r1.50.15](releases/2026-05-28_r1.50.15_web_profile-payout-account-delete-fix.md) | Web | 프로필 설정의 정산 계좌 등록 이동과 계정 삭제 확인 흐름을 복구했습니다. |
@@ -705,6 +706,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-31 | [r1.50.19](releases/2026-05-31_r1.50.19_backend_notification-language-i18n.md) | 알림 목록과 푸시 알림이 사용자의 선택 언어 또는 기기 언어를 더 잘 따르도록 다국어 처리를 보강했습니다. |
 | 2026-05-28 | [r1.50.13](releases/2026-05-28_r1.50.13_backend_email-auth-session-member-delete-recovery.md) | 이메일 인증 완료 후 로그인 상태 유지와 관리자 회원 삭제 흐름을 서버에서 보강했습니다. |
 | 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_backend_ticket-payment-email-delivery.md) | 티켓 결제 후 완료 화면으로 이어지는 흐름과 결제/환불 메일 발송 흐름을 안정화했습니다. |
 | 2026-05-23 | [r1.50.7](releases/2026-05-23_r1.50.7_backend_settlement-payout-reconciliation.md) | 정산 화면과 관리자 정산 흐름에서 PayPal 지급과 결제 대사 흐름을 더 정확하게 확인할 수 있도록 보강했습니다. |
