@@ -19,7 +19,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-31 21:29 KST</td>
+    <td>2026-05-31 21:59 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -27,27 +27,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>176 sessions</td>
+    <td>177 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>2,007,154,120 tokens</strong></td>
+    <td><strong>2,019,293,887 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>2,000,229,886 tokens</td>
+    <td>2,012,316,564 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>1,899,229,056 tokens</td>
+    <td>1,910,437,120 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>6,924,234 tokens</td>
+    <td>6,977,323 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>2,135,778 tokens</td>
+    <td>2,153,455 tokens</td>
   </tr>
 </table>
 
@@ -60,7 +60,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   <tr>
     <td>2,050,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">97.9%</td>
+    <td align="right">98.5%</td>
   </tr>
 </table>
 
@@ -71,7 +71,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-31 21:29 KST</td>
+    <td>2026-05-31 21:59 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -83,39 +83,39 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>87,423 entries</td>
+    <td>87,444 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>22,633,209,603 tokens</strong></td>
+    <td><strong>22,639,541,800 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>69,375,689 tokens</td>
+    <td>69,376,427 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,480,975,632 tokens</td>
+    <td>1,481,812,726 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>20,883,158,931 tokens</td>
+    <td>20,888,403,749 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>199,699,351 tokens</td>
+    <td>199,948,898 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>3,223,671,394 tokens</td>
+    <td>3,230,003,591 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>22,628,507,201 tokens</td>
+    <td>22,634,839,398 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>808,328,914 tokens/day</td>
+    <td>808,555,064 tokens/day</td>
   </tr>
 </table>
 
@@ -128,7 +128,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   <tr>
     <td>22,650,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.9%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -136,6 +136,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-05-31 | [r1.50.20](releases/2026-05-31_r1.50.20_operations_multilingual-rollup.md) | Operations | POMFS의 다국어 작업 범위를 한 번에 정리했습니다. 커뮤니티 웹 active route, 알림/푸시, 기기 언어 자동 선택, iOS 언어 전달, 메일 템플릿까지 ko/en/ja/es/th 기준으로 일관된 언어 경험을 제공하도록 정리했습니다. |
 | 2026-05-31 | [r1.50.19](releases/2026-05-31_r1.50.19_backend_notification-language-i18n.md) | Backend | 알림 목록과 푸시 알림이 사용자의 선택 언어 또는 기기 언어를 더 잘 따르도록 다국어 처리를 보강했습니다. |
 | 2026-05-31 | [r1.50.17](releases/2026-05-31_r1.50.17_web_web-i18n-admin-checkpoint.md) | Web | 커뮤니티 웹 active route의 ko/en/ja/es/th 선택 UI 언어 전환 범위를 정리하고, 각 route family의 smoke 검증과 운영 배포를 완료했습니다. |
 | 2026-05-28 | [r1.50.16](releases/2026-05-28_r1.50.16_web_paypal-checkout-redirect-recovery.md) | Web | 티켓 구매에서 PayPal 결제 승인 화면으로 이동하는 방식을 조정해 결제 테스트 중 PayPal 오류 페이지가 열리던 문제를 완화했습니다. |
@@ -781,6 +782,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-05-31 | [r1.50.20](releases/2026-05-31_r1.50.20_operations_multilingual-rollup.md) | POMFS의 다국어 작업 범위를 한 번에 정리했습니다. 커뮤니티 웹 active route, 알림/푸시, 기기 언어 자동 선택, iOS 언어 전달, 메일 템플릿까지 ko/en/ja/es/th 기준으로 일관된 언어 경험을 제공하도록 정리했습니다. |
 | 2026-05-22 | [release-history-v3](releases/2026-05-22_release-history-v3_operations_release-history-claude-code-token-snapshots.md) | Public release notes에서 Claude Code 누적 토큰 사용량도 함께 확인할 수 있도록 자동화를 보강했습니다. |
 | 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
 | 2026-05-21 | [release-history-v1](releases/2026-05-21_release-history-v1_operations_release-history-scaffold.md) | POMFS 변경 이력을 구조적으로 기록하고 검증하는 release history 체계를 추가했습니다. |
