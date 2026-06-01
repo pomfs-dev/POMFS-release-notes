@@ -19,7 +19,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-31 21:59 KST</td>
+    <td>2026-06-01 22:25 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -27,27 +27,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>177 sessions</td>
+    <td>283 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>2,019,293,887 tokens</strong></td>
+    <td><strong>3,445,284,013 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>2,012,316,564 tokens</td>
+    <td>3,432,423,747 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>1,910,437,120 tokens</td>
+    <td>3,244,076,416 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>6,977,323 tokens</td>
+    <td>12,860,266 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>2,153,455 tokens</td>
+    <td>4,293,699 tokens</td>
   </tr>
 </table>
 
@@ -58,9 +58,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>2,050,000,000 tokens</td>
+    <td>3,450,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">98.5%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -71,7 +71,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-05-31 21:59 KST</td>
+    <td>2026-06-01 22:25 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -79,43 +79,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>1,080 files</td>
+    <td>1,088 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>87,444 entries</td>
+    <td>88,406 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>22,639,541,800 tokens</strong></td>
+    <td><strong>23,056,437,981 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>69,376,427 tokens</td>
+    <td>77,267,138 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,481,812,726 tokens</td>
+    <td>1,512,904,585 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>20,888,403,749 tokens</td>
+    <td>21,262,643,674 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>199,948,898 tokens</td>
+    <td>203,622,584 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>3,230,003,591 tokens</td>
+    <td>3,637,387,553 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>22,634,839,398 tokens</td>
+    <td>23,048,787,495 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>808,555,064 tokens/day</td>
+    <td>795,049,585 tokens/day</td>
   </tr>
 </table>
 
@@ -126,9 +126,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>22,650,000,000 tokens</td>
+    <td>23,100,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.8%</td>
   </tr>
 </table>
 
@@ -136,6 +136,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-06-01 | [r1.50.21](releases/2026-06-01_r1.50.21_backend_misfy-email-template-delivery.md) | Backend | 회원가입, 인증, 비밀번호, 티켓, 문의 관련 메일을 MiSFY 브랜드 디자인 템플릿으로 보낼 수 있도록 메일 발송 구조를 정리했습니다. |
+| 2026-06-01 | [r1.50.20](releases/2026-06-01_r1.50.20_backend_admin-member-delete-transactional-cleanup.md) | Backend | 관리자 패널에서 회원 삭제가 더 안정적으로 완료되도록 서버 삭제 흐름을 보강했습니다. |
 | 2026-05-31 | [r1.50.20](releases/2026-05-31_r1.50.20_operations_multilingual-rollup.md) | Operations | POMFS의 다국어 작업 범위를 한 번에 정리했습니다. 커뮤니티 웹 active route, 알림/푸시, 기기 언어 자동 선택, iOS 언어 전달, 메일 템플릿까지 ko/en/ja/es/th 기준으로 일관된 언어 경험을 제공하도록 정리했습니다. |
 | 2026-05-31 | [r1.50.19](releases/2026-05-31_r1.50.19_backend_notification-language-i18n.md) | Backend | 알림 목록과 푸시 알림이 사용자의 선택 언어 또는 기기 언어를 더 잘 따르도록 다국어 처리를 보강했습니다. |
 | 2026-05-31 | [r1.50.17](releases/2026-05-31_r1.50.17_web_web-i18n-admin-checkpoint.md) | Web | 커뮤니티 웹 active route의 ko/en/ja/es/th 선택 UI 언어 전환 범위를 정리하고, 각 route family의 smoke 검증과 운영 배포를 완료했습니다. |
@@ -707,6 +709,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-01 | [r1.50.21](releases/2026-06-01_r1.50.21_backend_misfy-email-template-delivery.md) | 회원가입, 인증, 비밀번호, 티켓, 문의 관련 메일을 MiSFY 브랜드 디자인 템플릿으로 보낼 수 있도록 메일 발송 구조를 정리했습니다. |
+| 2026-06-01 | [r1.50.20](releases/2026-06-01_r1.50.20_backend_admin-member-delete-transactional-cleanup.md) | 관리자 패널에서 회원 삭제가 더 안정적으로 완료되도록 서버 삭제 흐름을 보강했습니다. |
 | 2026-05-31 | [r1.50.19](releases/2026-05-31_r1.50.19_backend_notification-language-i18n.md) | 알림 목록과 푸시 알림이 사용자의 선택 언어 또는 기기 언어를 더 잘 따르도록 다국어 처리를 보강했습니다. |
 | 2026-05-28 | [r1.50.13](releases/2026-05-28_r1.50.13_backend_email-auth-session-member-delete-recovery.md) | 이메일 인증 완료 후 로그인 상태 유지와 관리자 회원 삭제 흐름을 서버에서 보강했습니다. |
 | 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_backend_ticket-payment-email-delivery.md) | 티켓 결제 후 완료 화면으로 이어지는 흐름과 결제/환불 메일 발송 흐름을 안정화했습니다. |
