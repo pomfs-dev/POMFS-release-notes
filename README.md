@@ -136,7 +136,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
-| 2026-06-02 | [r1.51.0](releases/2026-06-02_r1.51.0_web_global-chat-full-go.md) | Web | MiSFY 커뮤니티에서 메시지와 이벤트 채팅을 더 안정적으로 사용할 수 있도록 글로벌 채팅 기반을 정식 승인했습니다. |
+| 2026-06-02 | [r1.51.0](releases/2026-06-02_r1.51.0_web_global-chat-full-go.md) | Web | MiSFY 커뮤니티에서 메시지와 이벤트 채팅을 더 안정적으로 사용할 수 있도록 글로벌 채팅 기반을 정식 적용했습니다. |
 | 2026-06-01 | [r1.50.22](releases/2026-06-01_r1.50.22_backend_admin-member-delete-transactional-cleanup.md) | Backend | 관리자 패널에서 회원 삭제가 더 안정적으로 완료되도록 서버 삭제 흐름을 보강했습니다. |
 | 2026-06-01 | [r1.50.21](releases/2026-06-01_r1.50.21_backend_misfy-email-template-delivery.md) | Backend | 회원가입, 인증, 비밀번호, 티켓, 문의 관련 메일을 MiSFY 브랜드 디자인 템플릿으로 보낼 수 있도록 메일 발송 구조를 정리했습니다. |
 | 2026-06-01 | [r1.50.18](releases/2026-06-01_r1.50.18_web_today-sub-banners.md) | Web | Today 화면 상단 서브배너를 About Us, YouTube, Instagram 중심으로 정리하고, About Us 외부 링크와 YouTube 카드 테두리 가시성을 개선했습니다. |
@@ -560,7 +560,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
-| 2026-06-02 | [r1.51.0](releases/2026-06-02_r1.51.0_web_global-chat-full-go.md) | MiSFY 커뮤니티에서 메시지와 이벤트 채팅을 더 안정적으로 사용할 수 있도록 글로벌 채팅 기반을 정식 승인했습니다. |
+| 2026-06-02 | [r1.51.0](releases/2026-06-02_r1.51.0_web_global-chat-full-go.md) | MiSFY 커뮤니티에서 메시지와 이벤트 채팅을 더 안정적으로 사용할 수 있도록 글로벌 채팅 기반을 정식 적용했습니다. |
 | 2026-06-01 | [r1.50.18](releases/2026-06-01_r1.50.18_web_today-sub-banners.md) | Today 화면 상단 서브배너를 About Us, YouTube, Instagram 중심으로 정리하고, About Us 외부 링크와 YouTube 카드 테두리 가시성을 개선했습니다. |
 | 2026-05-31 | [r1.50.17](releases/2026-05-31_r1.50.17_web_web-i18n-admin-checkpoint.md) | 커뮤니티 웹 active route의 ko/en/ja/es/th 선택 UI 언어 전환 범위를 정리하고, 각 route family의 smoke 검증과 운영 배포를 완료했습니다. |
 | 2026-05-28 | [r1.50.16](releases/2026-05-28_r1.50.16_web_paypal-checkout-redirect-recovery.md) | 티켓 구매에서 PayPal 결제 승인 화면으로 이동하는 방식을 조정해 결제 테스트 중 PayPal 오류 페이지가 열리던 문제를 완화했습니다. |
