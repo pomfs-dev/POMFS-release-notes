@@ -19,7 +19,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-06-02 20:20 KST</td>
+    <td>2026-06-03 07:20 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -27,27 +27,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>303 sessions</td>
+    <td>305 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>4,142,270,659 tokens</strong></td>
+    <td><strong>4,155,450,020 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>4,127,393,848 tokens</td>
+    <td>4,140,527,057 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>3,915,037,824 tokens</td>
+    <td>3,927,331,712 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>14,876,811 tokens</td>
+    <td>14,922,963 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>4,875,762 tokens</td>
+    <td>4,893,138 tokens</td>
   </tr>
 </table>
 
@@ -58,9 +58,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>4,150,000,000 tokens</td>
+    <td>4,200,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.8%</td>
+    <td align="right">98.9%</td>
   </tr>
 </table>
 
@@ -71,7 +71,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-06-02 20:20 KST</td>
+    <td>2026-06-03 07:21 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -79,43 +79,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>1,122 files</td>
+    <td>1,125 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>90,053 entries</td>
+    <td>90,086 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>23,731,675,723 tokens</strong></td>
+    <td><strong>23,734,249,400 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>79,018,477 tokens</td>
+    <td>79,097,565 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,533,783,271 tokens</td>
+    <td>1,534,881,260 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>21,912,293,884 tokens</td>
+    <td>21,913,636,666 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>206,580,091 tokens</td>
+    <td>206,633,909 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>4,312,349,590 tokens</td>
+    <td>4,314,923,267 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>23,646,217,167 tokens</td>
+    <td>23,648,790,844 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>791,055,857 tokens/day</td>
+    <td>791,141,646 tokens/day</td>
   </tr>
 </table>
 
@@ -136,6 +136,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-06-03 | [r1.50.19](releases/2026-06-03_r1.50.19_web_search-event-result-navigation.md) | Web | 검색 결과에서 이벤트를 선택해도 상세 화면으로 이동하지 않던 문제를 수정했습니다. |
 | 2026-06-02 | [r1.51.0](releases/2026-06-02_r1.51.0_web_global-chat-full-go.md) | Web | MiSFY 커뮤니티에서 메시지와 이벤트 채팅을 더 안정적으로 사용할 수 있도록 글로벌 채팅 기반을 정식 적용했습니다. |
 | 2026-06-01 | [r1.50.22](releases/2026-06-01_r1.50.22_backend_admin-member-delete-transactional-cleanup.md) | Backend | 관리자 패널에서 회원 삭제가 더 안정적으로 완료되도록 서버 삭제 흐름을 보강했습니다. |
 | 2026-06-01 | [r1.50.21](releases/2026-06-01_r1.50.21_backend_misfy-email-template-delivery.md) | Backend | 회원가입, 인증, 비밀번호, 티켓, 문의 관련 메일을 MiSFY 브랜드 디자인 템플릿으로 보낼 수 있도록 메일 발송 구조를 정리했습니다. |
@@ -560,6 +561,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-03 | [r1.50.19](releases/2026-06-03_r1.50.19_web_search-event-result-navigation.md) | 검색 결과에서 이벤트를 선택해도 상세 화면으로 이동하지 않던 문제를 수정했습니다. |
 | 2026-06-02 | [r1.51.0](releases/2026-06-02_r1.51.0_web_global-chat-full-go.md) | MiSFY 커뮤니티에서 메시지와 이벤트 채팅을 더 안정적으로 사용할 수 있도록 글로벌 채팅 기반을 정식 적용했습니다. |
 | 2026-06-01 | [r1.50.18](releases/2026-06-01_r1.50.18_web_today-sub-banners.md) | Today 화면 상단 서브배너를 About Us, YouTube, Instagram 중심으로 정리하고, About Us 외부 링크와 YouTube 카드 테두리 가시성을 개선했습니다. |
 | 2026-05-31 | [r1.50.17](releases/2026-05-31_r1.50.17_web_web-i18n-admin-checkpoint.md) | 커뮤니티 웹 active route의 ko/en/ja/es/th 선택 UI 언어 전환 범위를 정리하고, 각 route family의 smoke 검증과 운영 배포를 완료했습니다. |
