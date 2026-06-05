@@ -136,6 +136,19 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-06-05 | [r1.52.2](releases/2026-06-05_r1.52.2_backend_signup-email-duplicate-prevention.md) | Backend | 같은 이메일 주소로 서로 다른 로그인 방식을 쓰면 별개의 계정이 따로 만들어지던 문제를 개선해, 한 사람이 하나의 계정으로 일관되게 이용할 수 있도록 회원가입·로그인 처리를 강화했습니다. |
+| 2026-06-05 | [r1.52.1](releases/2026-06-05_r1.52.1_backend_privacy-hardening.md) | Backend | 공개 화면에 제공되는 정보가 꼭 필요한 항목만 포함되도록 개인정보 보호를 강화했습니다. |
+| 2026-06-05 | [r1.52.0](releases/2026-06-05_r1.52.0_operations_discovery-collection-publish-pipeline.md) | Operations | 공연·공연장 정보가 매일 자동으로 수집·정리되어 더 많은 공연장과 한국 공연이 앱에 노출됩니다. |
+| 2026-06-05 | [r1.51.9](releases/2026-06-05_r1.51.9_backend_curation-feed-auto-publish.md) | Backend | 월간 큐레이션 일정의 공연 영상이 앱 피드에 자동으로 올라오는 과정을 정비해 더 자연스럽고 정확하게 발행됩니다. |
+| 2026-06-05 | [r1.51.4](releases/2026-06-05_r1.51.4_web_legal-docs-bizinfo-toggle.md) | Web | 개인정보처리방침과 이용약관을 관련 법 기준에 맞게 보강하고, 법률 페이지에서 한국어와 영어를 바로 전환해 볼 수 있게 했습니다. |
+| 2026-06-05 | [r1.51.1](releases/2026-06-05_r1.51.1_web_shows-venue-detail-crash-fix.md) | Web | 공연 지도에서 공연장 상세 화면에 들어갈 때 모든 공연장에서 오류 페이지가 뜨던 문제를 해결했습니다. |
+| 2026-06-04 | [r1.51.10](releases/2026-06-04_r1.51.10_ios_onboarding-complete-fix.md) | iOS | 신규 가입 마지막 "시작하기" 단계에서 일부 사용자가 튕기던 문제를 찾아 수정했습니다. |
+| 2026-06-04 | [r1.51.8](releases/2026-06-04_r1.51.8_web_paypal-unsupported-notice.md) | Web | PayPal 미지원 국가에서의 안내 문구를 명확히 다듬고, 결제 후 주최자 알림과 환불 흐름을 함께 개선했습니다. |
+| 2026-06-04 | [r1.51.7](releases/2026-06-04_r1.51.7_web_onboarding-nickname-duplicate-check.md) | Web | 가입 온보딩에서 이미 사용 중인 닉네임을 고르면 곧바로 알려주고 막아줍니다. |
+| 2026-06-04 | [r1.51.6](releases/2026-06-04_r1.51.6_web_share-deeplink.md) | Web | 공유한 아티스트·공연장·게시물 링크가 앱의 알맞은 화면으로 더 정확하게 열립니다. |
+| 2026-06-04 | [r1.51.5](releases/2026-06-04_r1.51.5_web_artist-share-drop-card.md) | Web | 아티스트 프로필 공유 링크가 예시 데이터 대신 실제 정보가 담긴 "드롭 명함" 화면으로 곧바로 연결됩니다. |
+| 2026-06-04 | [r1.51.3](releases/2026-06-04_r1.51.3_web_refund-policy-consistency.md) | Web | 공연별 환불 정책이 구매 화면, 환불 화면, 실제 환불 처리에 일관되게 표시·적용되도록 정리했습니다. |
+| 2026-06-04 | [r1.51.2](releases/2026-06-04_r1.51.2_web_shows-list-4category-order.md) | Web | 공연 지도의 리스트 보기에서 공연이 더 직관적인 순서로 정렬되도록 개선했습니다. |
 | 2026-06-03 | [r1.50.20](releases/2026-06-03_r1.50.20_web_sidebar-profile-sheet.md) | Web | 햄버거 메뉴 안의 프로필 사진을 눌러도 반응하지 않던 문제를 수정했습니다. |
 | 2026-06-03 | [r1.50.19](releases/2026-06-03_r1.50.19_web_search-event-result-navigation.md) | Web | 검색 결과에서 이벤트를 선택해도 상세 화면으로 이동하지 않던 문제를 수정했습니다. |
 | 2026-06-02 | [r1.51.0](releases/2026-06-02_r1.51.0_web_global-chat-full-go.md) | Web | MiSFY 커뮤니티에서 메시지와 이벤트 채팅을 더 안정적으로 사용할 수 있도록 글로벌 채팅 기반을 정식 적용했습니다. |
@@ -463,6 +476,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-04 | [r1.51.10](releases/2026-06-04_r1.51.10_ios_onboarding-complete-fix.md) | 신규 가입 마지막 "시작하기" 단계에서 일부 사용자가 튕기던 문제를 찾아 수정했습니다. |
 | 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_ios_ios-payment-return-flow.md) | iOS 앱에서 Npay와 Toss 결제 후 POMFS 화면으로 돌아오는 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_ios_ios-ticket-deeplink-scheme.md) | iOS 앱에서 티켓 메일의 앱 열기 버튼이 티켓 화면으로 이어질 수 있도록 딥링크 처리를 보강했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
@@ -562,6 +576,14 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-05 | [r1.51.4](releases/2026-06-05_r1.51.4_web_legal-docs-bizinfo-toggle.md) | 개인정보처리방침과 이용약관을 관련 법 기준에 맞게 보강하고, 법률 페이지에서 한국어와 영어를 바로 전환해 볼 수 있게 했습니다. |
+| 2026-06-05 | [r1.51.1](releases/2026-06-05_r1.51.1_web_shows-venue-detail-crash-fix.md) | 공연 지도에서 공연장 상세 화면에 들어갈 때 모든 공연장에서 오류 페이지가 뜨던 문제를 해결했습니다. |
+| 2026-06-04 | [r1.51.8](releases/2026-06-04_r1.51.8_web_paypal-unsupported-notice.md) | PayPal 미지원 국가에서의 안내 문구를 명확히 다듬고, 결제 후 주최자 알림과 환불 흐름을 함께 개선했습니다. |
+| 2026-06-04 | [r1.51.7](releases/2026-06-04_r1.51.7_web_onboarding-nickname-duplicate-check.md) | 가입 온보딩에서 이미 사용 중인 닉네임을 고르면 곧바로 알려주고 막아줍니다. |
+| 2026-06-04 | [r1.51.6](releases/2026-06-04_r1.51.6_web_share-deeplink.md) | 공유한 아티스트·공연장·게시물 링크가 앱의 알맞은 화면으로 더 정확하게 열립니다. |
+| 2026-06-04 | [r1.51.5](releases/2026-06-04_r1.51.5_web_artist-share-drop-card.md) | 아티스트 프로필 공유 링크가 예시 데이터 대신 실제 정보가 담긴 "드롭 명함" 화면으로 곧바로 연결됩니다. |
+| 2026-06-04 | [r1.51.3](releases/2026-06-04_r1.51.3_web_refund-policy-consistency.md) | 공연별 환불 정책이 구매 화면, 환불 화면, 실제 환불 처리에 일관되게 표시·적용되도록 정리했습니다. |
+| 2026-06-04 | [r1.51.2](releases/2026-06-04_r1.51.2_web_shows-list-4category-order.md) | 공연 지도의 리스트 보기에서 공연이 더 직관적인 순서로 정렬되도록 개선했습니다. |
 | 2026-06-03 | [r1.50.20](releases/2026-06-03_r1.50.20_web_sidebar-profile-sheet.md) | 햄버거 메뉴 안의 프로필 사진을 눌러도 반응하지 않던 문제를 수정했습니다. |
 | 2026-06-03 | [r1.50.19](releases/2026-06-03_r1.50.19_web_search-event-result-navigation.md) | 검색 결과에서 이벤트를 선택해도 상세 화면으로 이동하지 않던 문제를 수정했습니다. |
 | 2026-06-02 | [r1.51.0](releases/2026-06-02_r1.51.0_web_global-chat-full-go.md) | MiSFY 커뮤니티에서 메시지와 이벤트 채팅을 더 안정적으로 사용할 수 있도록 글로벌 채팅 기반을 정식 적용했습니다. |
@@ -717,6 +739,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-05 | [r1.52.2](releases/2026-06-05_r1.52.2_backend_signup-email-duplicate-prevention.md) | 같은 이메일 주소로 서로 다른 로그인 방식을 쓰면 별개의 계정이 따로 만들어지던 문제를 개선해, 한 사람이 하나의 계정으로 일관되게 이용할 수 있도록 회원가입·로그인 처리를 강화했습니다. |
+| 2026-06-05 | [r1.52.1](releases/2026-06-05_r1.52.1_backend_privacy-hardening.md) | 공개 화면에 제공되는 정보가 꼭 필요한 항목만 포함되도록 개인정보 보호를 강화했습니다. |
+| 2026-06-05 | [r1.51.9](releases/2026-06-05_r1.51.9_backend_curation-feed-auto-publish.md) | 월간 큐레이션 일정의 공연 영상이 앱 피드에 자동으로 올라오는 과정을 정비해 더 자연스럽고 정확하게 발행됩니다. |
 | 2026-06-01 | [r1.50.22](releases/2026-06-01_r1.50.22_backend_admin-member-delete-transactional-cleanup.md) | 관리자 패널에서 회원 삭제가 더 안정적으로 완료되도록 서버 삭제 흐름을 보강했습니다. |
 | 2026-06-01 | [r1.50.21](releases/2026-06-01_r1.50.21_backend_misfy-email-template-delivery.md) | 회원가입, 인증, 비밀번호, 티켓, 문의 관련 메일을 MiSFY 브랜드 디자인 템플릿으로 보낼 수 있도록 메일 발송 구조를 정리했습니다. |
 | 2026-05-31 | [r1.50.19](releases/2026-05-31_r1.50.19_backend_notification-language-i18n.md) | 알림 목록과 푸시 알림이 사용자의 선택 언어 또는 기기 언어를 더 잘 따르도록 다국어 처리를 보강했습니다. |
@@ -794,6 +819,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-05 | [r1.52.0](releases/2026-06-05_r1.52.0_operations_discovery-collection-publish-pipeline.md) | 공연·공연장 정보가 매일 자동으로 수집·정리되어 더 많은 공연장과 한국 공연이 앱에 노출됩니다. |
 | 2026-05-31 | [r1.50.20](releases/2026-05-31_r1.50.20_operations_multilingual-rollup.md) | POMFS의 다국어 작업 범위를 한 번에 정리했습니다. 커뮤니티 웹 active route, 알림/푸시, 기기 언어 자동 선택, iOS 언어 전달, 메일 템플릿까지 ko/en/ja/es/th 기준으로 일관된 언어 경험을 제공하도록 정리했습니다. |
 | 2026-05-22 | [release-history-v3](releases/2026-05-22_release-history-v3_operations_release-history-claude-code-token-snapshots.md) | Public release notes에서 Claude Code 누적 토큰 사용량도 함께 확인할 수 있도록 자동화를 보강했습니다. |
 | 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
