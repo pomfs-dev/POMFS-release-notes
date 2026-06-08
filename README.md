@@ -19,7 +19,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-06-03 07:50 KST</td>
+    <td>2026-06-09 00:39 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -27,27 +27,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>305 sessions</td>
+    <td>357 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>4,176,566,384 tokens</strong></td>
+    <td><strong>5,573,145,682 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>4,161,599,058 tokens</td>
+    <td>5,551,857,635 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>3,948,025,856 tokens</td>
+    <td>5,273,048,832 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>14,967,326 tokens</td>
+    <td>21,288,047 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>4,905,027 tokens</td>
+    <td>6,898,941 tokens</td>
   </tr>
 </table>
 
@@ -58,9 +58,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>4,200,000,000 tokens</td>
+    <td>5,600,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.4%</td>
+    <td align="right">99.5%</td>
   </tr>
 </table>
 
@@ -71,7 +71,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-06-03 07:50 KST</td>
+    <td>2026-06-09 00:39 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -79,43 +79,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>1,141 files</td>
+    <td>1,833 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>90,381 entries</td>
+    <td>108,292 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>23,766,723,663 tokens</strong></td>
+    <td><strong>27,849,790,611 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>82,110,268 tokens</td>
+    <td>142,680,010 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,539,289,095 tokens</td>
+    <td>1,699,123,548 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>21,938,479,848 tokens</td>
+    <td>25,786,389,993 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>206,844,452 tokens</td>
+    <td>221,597,060 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>4,347,397,530 tokens</td>
+    <td>9,644,310,764 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>23,681,265,107 tokens</td>
+    <td>27,795,181,379 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>792,224,122 tokens/day</td>
+    <td>994,635,378 tokens/day</td>
   </tr>
 </table>
 
@@ -126,9 +126,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>23,800,000,000 tokens</td>
+    <td>27,900,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.9%</td>
+    <td align="right">99.8%</td>
   </tr>
 </table>
 
