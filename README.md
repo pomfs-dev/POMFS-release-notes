@@ -136,6 +136,18 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-06-08 | [r1.53.0](releases/2026-06-08_r1.53.0_web_today-nearby-new-shows.md) | Web | Today 화면의 "새로운 공연"을 내 주변과 가까운 날짜를 기준으로 똑똑하게 추천하도록 개선했습니다. |
+| 2026-06-07 | [r1.52.13](releases/2026-06-07_r1.52.13_web_curation-post-comments.md) | Web | 피드의 큐레이션 글에도 댓글로 의견을 나눌 수 있도록 댓글 기능을 추가했습니다. |
+| 2026-06-07 | [r1.52.12](releases/2026-06-07_r1.52.12_data-pipeline_map-data-quality.md) | Data Pipeline | 공연 지도에 잘못 수집되거나 잘못된 위치에 표시되던 항목을 정리하고, 앞으로 더 정확한 공연 정보만 노출되도록 데이터 품질을 개선했습니다. |
+| 2026-06-07 | [r1.52.11](releases/2026-06-07_r1.52.11_operations_app-homepage-stats-alignment.md) | Operations | 앱과 공식 홈페이지에 표시되는 공연장·아티스트·국가 수치가 항상 동일한 기준의 최신 값으로 함께 정렬되도록 정비했습니다. |
+| 2026-06-06 | [r1.52.10](releases/2026-06-06_r1.52.10_data-pipeline_ai-event-geocode-enrichment.md) | Data Pipeline | AI로 수집된 공연이 지도에 올바른 위치로 표시되도록 위치 정보를 보강하고, 매일 진행되는 데이터 정리 과정을 더 빠르고 안정적으로 개선했습니다. |
+| 2026-06-06 | [r1.52.9](releases/2026-06-06_r1.52.9_operations_event-auto-publish.md) | Operations | 매일 자동으로 수집된 공연 중 발행 기준을 충족하는 공연이 자동으로 앱에 올라가도록 개선했습니다. |
+| 2026-06-06 | [r1.52.8](releases/2026-06-06_r1.52.8_web_shows-list-viewport-scope.md) | Web | 공연 지도의 리스트 보기가 항상 현재 보이는 지도 화면 범위의 공연만 보여주도록 개선했습니다. |
+| 2026-06-06 | [r1.52.7](releases/2026-06-06_r1.52.7_web_venue-detail-upcoming-cards-fix.md) | Web | 공연 지도에서 공연장 상세로 들어갔을 때 예정 공연 카드가 비어 보이던 문제를 수정해, 예정 공연 정보가 정상적으로 표시됩니다. |
+| 2026-06-06 | [r1.52.6](releases/2026-06-06_r1.52.6_backend_artist-follow-foundation.md) | Backend | 더 다양한 아티스트를 팔로우할 수 있는 기반을 마련하고, 일부 프로필에서 참석한 공연 목록이 보이지 않던 문제를 해결했습니다. |
+| 2026-06-05 | [r1.52.5](releases/2026-06-05_r1.52.5_operations_release-deploy-automation.md) | Operations | 앱 업데이트가 더 빠르고 안정적으로 반영되도록 배포 과정을 정비했으며, 사용자가 체감하는 기능 변화는 없습니다. |
+| 2026-06-05 | [r1.52.4](releases/2026-06-05_r1.52.4_backend_public-pii-hardening-rollout.md) | Backend | 공개 화면에 제공되는 정보가 꼭 필요한 항목만 포함되도록 개인정보 보호를 한층 더 확대했습니다. |
+| 2026-06-05 | [r1.52.3](releases/2026-06-05_r1.52.3_web_event-map-image-display.md) | Web | 공연 지도의 리스트 보기에서 일부 공연 항목의 이미지가 깨져 보이던 문제를 개선해, 깔끔한 이미지로 표시되도록 했습니다. |
 | 2026-06-05 | [r1.52.2](releases/2026-06-05_r1.52.2_backend_signup-email-duplicate-prevention.md) | Backend | 같은 이메일 주소로 서로 다른 로그인 방식을 쓰면 별개의 계정이 따로 만들어지던 문제를 개선해, 한 사람이 하나의 계정으로 일관되게 이용할 수 있도록 회원가입·로그인 처리를 강화했습니다. |
 | 2026-06-05 | [r1.52.1](releases/2026-06-05_r1.52.1_backend_privacy-hardening.md) | Backend | 공개 화면에 제공되는 정보가 꼭 필요한 항목만 포함되도록 개인정보 보호를 강화했습니다. |
 | 2026-06-05 | [r1.52.0](releases/2026-06-05_r1.52.0_operations_discovery-collection-publish-pipeline.md) | Operations | 공연·공연장 정보가 매일 자동으로 수집·정리되어 더 많은 공연장과 한국 공연이 앱에 노출됩니다. |
@@ -576,6 +588,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-08 | [r1.53.0](releases/2026-06-08_r1.53.0_web_today-nearby-new-shows.md) | Today 화면의 "새로운 공연"을 내 주변과 가까운 날짜를 기준으로 똑똑하게 추천하도록 개선했습니다. |
+| 2026-06-07 | [r1.52.13](releases/2026-06-07_r1.52.13_web_curation-post-comments.md) | 피드의 큐레이션 글에도 댓글로 의견을 나눌 수 있도록 댓글 기능을 추가했습니다. |
+| 2026-06-06 | [r1.52.8](releases/2026-06-06_r1.52.8_web_shows-list-viewport-scope.md) | 공연 지도의 리스트 보기가 항상 현재 보이는 지도 화면 범위의 공연만 보여주도록 개선했습니다. |
+| 2026-06-06 | [r1.52.7](releases/2026-06-06_r1.52.7_web_venue-detail-upcoming-cards-fix.md) | 공연 지도에서 공연장 상세로 들어갔을 때 예정 공연 카드가 비어 보이던 문제를 수정해, 예정 공연 정보가 정상적으로 표시됩니다. |
+| 2026-06-05 | [r1.52.3](releases/2026-06-05_r1.52.3_web_event-map-image-display.md) | 공연 지도의 리스트 보기에서 일부 공연 항목의 이미지가 깨져 보이던 문제를 개선해, 깔끔한 이미지로 표시되도록 했습니다. |
 | 2026-06-05 | [r1.51.4](releases/2026-06-05_r1.51.4_web_legal-docs-bizinfo-toggle.md) | 개인정보처리방침과 이용약관을 관련 법 기준에 맞게 보강하고, 법률 페이지에서 한국어와 영어를 바로 전환해 볼 수 있게 했습니다. |
 | 2026-06-05 | [r1.51.1](releases/2026-06-05_r1.51.1_web_shows-venue-detail-crash-fix.md) | 공연 지도에서 공연장 상세 화면에 들어갈 때 모든 공연장에서 오류 페이지가 뜨던 문제를 해결했습니다. |
 | 2026-06-04 | [r1.51.8](releases/2026-06-04_r1.51.8_web_paypal-unsupported-notice.md) | PayPal 미지원 국가에서의 안내 문구를 명확히 다듬고, 결제 후 주최자 알림과 환불 흐름을 함께 개선했습니다. |
@@ -739,6 +756,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-06 | [r1.52.6](releases/2026-06-06_r1.52.6_backend_artist-follow-foundation.md) | 더 다양한 아티스트를 팔로우할 수 있는 기반을 마련하고, 일부 프로필에서 참석한 공연 목록이 보이지 않던 문제를 해결했습니다. |
+| 2026-06-05 | [r1.52.4](releases/2026-06-05_r1.52.4_backend_public-pii-hardening-rollout.md) | 공개 화면에 제공되는 정보가 꼭 필요한 항목만 포함되도록 개인정보 보호를 한층 더 확대했습니다. |
 | 2026-06-05 | [r1.52.2](releases/2026-06-05_r1.52.2_backend_signup-email-duplicate-prevention.md) | 같은 이메일 주소로 서로 다른 로그인 방식을 쓰면 별개의 계정이 따로 만들어지던 문제를 개선해, 한 사람이 하나의 계정으로 일관되게 이용할 수 있도록 회원가입·로그인 처리를 강화했습니다. |
 | 2026-06-05 | [r1.52.1](releases/2026-06-05_r1.52.1_backend_privacy-hardening.md) | 공개 화면에 제공되는 정보가 꼭 필요한 항목만 포함되도록 개인정보 보호를 강화했습니다. |
 | 2026-06-05 | [r1.51.9](releases/2026-06-05_r1.51.9_backend_curation-feed-auto-publish.md) | 월간 큐레이션 일정의 공연 영상이 앱 피드에 자동으로 올라오는 과정을 정비해 더 자연스럽고 정확하게 발행됩니다. |
@@ -793,6 +812,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-07 | [r1.52.12](releases/2026-06-07_r1.52.12_data-pipeline_map-data-quality.md) | 공연 지도에 잘못 수집되거나 잘못된 위치에 표시되던 항목을 정리하고, 앞으로 더 정확한 공연 정보만 노출되도록 데이터 품질을 개선했습니다. |
+| 2026-06-06 | [r1.52.10](releases/2026-06-06_r1.52.10_data-pipeline_ai-event-geocode-enrichment.md) | AI로 수집된 공연이 지도에 올바른 위치로 표시되도록 위치 정보를 보강하고, 매일 진행되는 데이터 정리 과정을 더 빠르고 안정적으로 개선했습니다. |
 | 2026-05-16 | [R1.38.x](releases/2026-05-16_R1.38.x_data-pipeline_devlog-011-fb51290a.md) | 데이터 파이프라인 변경 이력: R1.38.x Phase 8 #136 Option A rollback (MAJOR IRONY = #136 SOP 자체 측 cascade chain 재개 LIVE 첫 입증, meta-level cascade recursion) |
 | 2026-04-28 | [history-20260428-116](releases/2026-04-28_history-20260428-116_data-pipeline_devlog-116-25885a4a.md) | 데이터 파이프라인 변경 이력: PostCreate toolbar 위치 / paddingBottom dynamic / KeyboardSheet bottomOffset (commit 30) |
 | 2026-04-13 | [history-20260413-264](releases/2026-04-13_history-20260413-264_data-pipeline_devlog-264-351991f6.md) | 데이터 파이프라인 변경 이력: Warroom 안정화 |
@@ -819,6 +840,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-07 | [r1.52.11](releases/2026-06-07_r1.52.11_operations_app-homepage-stats-alignment.md) | 앱과 공식 홈페이지에 표시되는 공연장·아티스트·국가 수치가 항상 동일한 기준의 최신 값으로 함께 정렬되도록 정비했습니다. |
+| 2026-06-06 | [r1.52.9](releases/2026-06-06_r1.52.9_operations_event-auto-publish.md) | 매일 자동으로 수집된 공연 중 발행 기준을 충족하는 공연이 자동으로 앱에 올라가도록 개선했습니다. |
+| 2026-06-05 | [r1.52.5](releases/2026-06-05_r1.52.5_operations_release-deploy-automation.md) | 앱 업데이트가 더 빠르고 안정적으로 반영되도록 배포 과정을 정비했으며, 사용자가 체감하는 기능 변화는 없습니다. |
 | 2026-06-05 | [r1.52.0](releases/2026-06-05_r1.52.0_operations_discovery-collection-publish-pipeline.md) | 공연·공연장 정보가 매일 자동으로 수집·정리되어 더 많은 공연장과 한국 공연이 앱에 노출됩니다. |
 | 2026-05-31 | [r1.50.20](releases/2026-05-31_r1.50.20_operations_multilingual-rollup.md) | POMFS의 다국어 작업 범위를 한 번에 정리했습니다. 커뮤니티 웹 active route, 알림/푸시, 기기 언어 자동 선택, iOS 언어 전달, 메일 템플릿까지 ko/en/ja/es/th 기준으로 일관된 언어 경험을 제공하도록 정리했습니다. |
 | 2026-05-22 | [release-history-v3](releases/2026-05-22_release-history-v3_operations_release-history-claude-code-token-snapshots.md) | Public release notes에서 Claude Code 누적 토큰 사용량도 함께 확인할 수 있도록 자동화를 보강했습니다. |
