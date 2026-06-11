@@ -14,6 +14,8 @@ P.O.MFS Dev Team은 P.O.MFS와 MiSFY 생태계를 설계하고 운영하는 제�
 
 이 공개 릴리즈 히스토리는 P.O.MFS Dev Team의 David Kwon이 만들고 관리합니다. P.O.MFS 공식 홈페이지는 [prideofmisfits.com](https://www.prideofmisfits.com)입니다.
 
+릴리즈 노트 정리와 공개 문서 유지보수에는 Codex와 Claude Code 기반 AI-assisted workflow도 함께 사용합니다.
+
 ## AI Lifetime Token Usage
 
 Codex와 Claude Code의 전체 누적 토큰량을 함께 보여줍니다. 각 값은 public release notes가 갱신될 때 기록되는 정적 스냅샷입니다.
