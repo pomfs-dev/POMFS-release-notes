@@ -18,7 +18,7 @@ P.O.MFS Dev Team은 P.O.MFS와 MiSFY 생태계를 설계하고 운영하는 제�
 
 ## AI Lifetime Token Usage
 
-Codex와 Claude Code의 전체 누적 토큰량을 함께 보여줍니다. 각 값은 public release notes가 갱신될 때 기록되는 정적 스냅샷입니다.
+Codex와 Claude Code의 전체 누적 토큰량을 함께 보여줍니다. 세션 로그는 일정 기간이 지나면 정리되므로, 각 세션의 토큰량을 정리 전에 영구 기록해 누적값이 로그 정리와 무관하게 단조 증가(감소하지 않음)하도록 보존합니다. 2026-06-12 시점까지의 누적값을 기준선으로 삼고 이후 세션을 영구 누적합니다(기준선 이전에 정리된 로그는 기준선에 포함). 각 값은 release notes 갱신 시 기록되는 정적 스냅샷이며, Weekly/Monthly는 최근 기간 윈도 값입니다.
 
 ### Codex
 
@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-06-15 18:37 KST</td>
+    <td>2026-06-15 20:16 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -35,7 +35,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>374 sessions</td>
+    <td>375 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
@@ -79,7 +79,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-06-15 18:37 KST</td>
+    <td>2026-06-15 20:16 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -87,43 +87,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>1,294 files</td>
+    <td>1,836 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>79,595 entries</td>
+    <td>104,666 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>22,619,367,937 tokens</strong></td>
+    <td><strong>27,117,007,487 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>152,464,556 tokens</td>
+    <td>152,468,048 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,346,153,706 tokens</td>
+    <td>1,673,283,089 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>20,946,836,379 tokens</td>
+    <td>25,079,040,394 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>173,913,296 tokens</td>
+    <td>212,215,956 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,668,699,540 tokens</td>
+    <td>1,700,725,221 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>22,420,683,594 tokens</td>
+    <td>22,099,031,009 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>869,975,689 tokens/day</td>
+    <td>871,228,890 tokens/day</td>
   </tr>
 </table>
 
@@ -134,9 +134,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>22,700,000,000 tokens</td>
+    <td>27,200,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.6%</td>
+    <td align="right">99.7%</td>
   </tr>
 </table>
 
