@@ -144,6 +144,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-06-16 | [r1.53.9](releases/2026-06-16_r1.53.9_backend_artist-rank-profile-fields.md) | Backend | 아티스트 등업이 승인된 뒤에도 프로필에 장르가 "기타"로 보이거나 자기소개가 비어 있던 문제를 해결해, 등업 시 입력한 정보가 프로필에 그대로 반영되도록 했습니다. |
 | 2026-06-16 | [r1.53.8](releases/2026-06-16_r1.53.8_web_profile-photo-edit-touch.md) | Web | 프로필 사진 편집 화면에서 사진을 끌어 옮기거나 확대·축소가 되지 않고, 완료를 눌러도 저장되지 않던 문제를 해결했습니다. |
 | 2026-06-16 | [r1.53.7](releases/2026-06-16_r1.53.7_web_profile-photo-quality.md) | Web | 프로필 사진을 더 높은 화질로 저장하도록 개선해, 아티스트·리스너 프로필 카드의 배경 이미지가 또렷하게 보입니다. |
 | 2026-06-15 | [r1.53.6](releases/2026-06-15_r1.53.6_backend_admin-member-delete-fix.md) | Backend | 관리자 회원 관리에서 일부 회원을 삭제할 때 오류가 나던 문제를 해결해, 회원 삭제가 정상적으로 완료되도록 했습니다. |
@@ -282,6 +283,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-16 | [r1.53.9](releases/2026-06-16_r1.53.9_backend_artist-rank-profile-fields.md) | 아티스트 등업이 승인된 뒤에도 프로필에 장르가 "기타"로 보이거나 자기소개가 비어 있던 문제를 해결해, 등업 시 입력한 정보가 프로필에 그대로 반영되도록 했습니다. |
 | 2026-06-15 | [r1.53.6](releases/2026-06-15_r1.53.6_backend_admin-member-delete-fix.md) | 관리자 회원 관리에서 일부 회원을 삭제할 때 오류가 나던 문제를 해결해, 회원 삭제가 정상적으로 완료되도록 했습니다. |
 | 2026-06-06 | [r1.52.6](releases/2026-06-06_r1.52.6_backend_artist-follow-foundation.md) | 더 다양한 아티스트를 팔로우할 수 있는 기반을 마련하고, 일부 프로필에서 참석한 공연 목록이 보이지 않던 문제를 해결했습니다. |
 | 2026-06-05 | [r1.52.4](releases/2026-06-05_r1.52.4_backend_public-pii-hardening-rollout.md) | 공개 화면에 제공되는 정보가 꼭 필요한 항목만 포함되도록 개인정보 보호를 한층 더 확대했습니다. |
