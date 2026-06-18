@@ -144,6 +144,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | Android | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다(서명 빌드, 권한 최소화, 스토어 등록정보 작성). |
+| 2026-06-18 | [r1.53.12](releases/2026-06-18_r1.53.12_web_beta-tester-signup-page.md) | Web | 안드로이드 비공개 베타 테스터를 모집하는 신청 페이지(/beta)를 추가했습니다. |
+| 2026-06-18 | [r1.53.11](releases/2026-06-18_r1.53.11_web_account-deletion-page.md) | Web | 계정과 데이터 삭제 방법을 안내하는 공개 페이지(/account-deletion)를 추가했습니다. |
+| 2026-06-18 | [r1.53.10](releases/2026-06-18_r1.53.10_web_ticket-organizer-name-snapshot.md) | Web | 공연 주최자 계정이 삭제되어도 구매한 티켓에 당시 주최자 이름이 그대로 표시되도록 했습니다. |
 | 2026-06-16 | [r1.53.9](releases/2026-06-16_r1.53.9_backend_artist-rank-profile-fields.md) | Backend | 아티스트 등업이 승인된 뒤에도 프로필에 장르가 "기타"로 보이거나 자기소개가 비어 있던 문제를 해결해, 등업 시 입력한 정보가 프로필에 그대로 반영되도록 했습니다. |
 | 2026-06-16 | [r1.53.8](releases/2026-06-16_r1.53.8_web_profile-photo-edit-touch.md) | Web | 프로필 사진 편집 화면에서 사진을 끌어 옮기거나 확대·축소가 되지 않고, 완료를 눌러도 저장되지 않던 문제를 해결했습니다. |
 | 2026-06-16 | [r1.53.7](releases/2026-06-16_r1.53.7_web_profile-photo-quality.md) | Web | 프로필 사진을 더 높은 화질로 저장하도록 개선해, 아티스트·리스너 프로필 카드의 배경 이미지가 또렷하게 보입니다. |
