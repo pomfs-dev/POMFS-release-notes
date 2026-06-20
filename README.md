@@ -144,6 +144,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-06-20 | [r1.54.0](releases/2026-06-20_r1.54.0_web_event-cohost.md) | Web | 공연에 공동 주최자를 초대해 함께 관리할 수 있는 기능을 추가했습니다. |
+| 2026-06-20 | [r1.53.17](releases/2026-06-20_r1.53.17_web_shared-link-app-deeplink.md) | Web | 공유한 공연 링크를 앱에서 열면 해당 공연이 바로 보이도록 수정했습니다. |
+| 2026-06-20 | [r1.53.16](releases/2026-06-20_r1.53.16_web_artist-lineup.md) | Web | 공연을 등록할 때 출연 아티스트(라인업)를 검색해 추가할 수 있게 했습니다. |
+| 2026-06-20 | [r1.53.15](releases/2026-06-20_r1.53.15_web_staff-event-highlight.md) | Web | 운영진이 직접 올린 공연이 Today 화면과 공연 지도에서 눈에 띄게 강조되도록 했습니다. |
 | 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | Android | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다(서명 빌드, 권한 최소화, 스토어 등록정보 작성). |
 | 2026-06-18 | [r1.53.12](releases/2026-06-18_r1.53.12_web_beta-tester-signup-page.md) | Web | 안드로이드 비공개 베타 테스터를 모집하는 신청 페이지(/beta)를 추가했습니다. |
 | 2026-06-18 | [r1.53.11](releases/2026-06-18_r1.53.11_web_account-deletion-page.md) | Web | 계정과 데이터 삭제 방법을 안내하는 공개 페이지(/account-deletion)를 추가했습니다. |
@@ -249,6 +253,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-20 | [r1.54.0](releases/2026-06-20_r1.54.0_web_event-cohost.md) | 공연에 공동 주최자를 초대해 함께 관리할 수 있는 기능을 추가했습니다. |
+| 2026-06-20 | [r1.53.17](releases/2026-06-20_r1.53.17_web_shared-link-app-deeplink.md) | 공유한 공연 링크를 앱에서 열면 해당 공연이 바로 보이도록 수정했습니다. |
+| 2026-06-20 | [r1.53.16](releases/2026-06-20_r1.53.16_web_artist-lineup.md) | 공연을 등록할 때 출연 아티스트(라인업)를 검색해 추가할 수 있게 했습니다. |
+| 2026-06-20 | [r1.53.15](releases/2026-06-20_r1.53.15_web_staff-event-highlight.md) | 운영진이 직접 올린 공연이 Today 화면과 공연 지도에서 눈에 띄게 강조되도록 했습니다. |
 | 2026-06-16 | [r1.53.8](releases/2026-06-16_r1.53.8_web_profile-photo-edit-touch.md) | 프로필 사진 편집 화면에서 사진을 끌어 옮기거나 확대·축소가 되지 않고, 완료를 눌러도 저장되지 않던 문제를 해결했습니다. |
 | 2026-06-16 | [r1.53.7](releases/2026-06-16_r1.53.7_web_profile-photo-quality.md) | 프로필 사진을 더 높은 화질로 저장하도록 개선해, 아티스트·리스너 프로필 카드의 배경 이미지가 또렷하게 보입니다. |
 | 2026-06-13 | [r1.53.5](releases/2026-06-13_r1.53.5_web_shared-event-link-blank-screen.md) | 외부로 공유한 공연 링크를 열면 화면이 비어 보이던 문제를 해결했습니다. |
