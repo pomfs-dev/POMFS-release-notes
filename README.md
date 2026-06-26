@@ -2,7 +2,7 @@
 
 이 저장소는 POMFS의 공개 릴리즈 히스토리입니다.
 
-각 항목은 private source repo의 release metadata에서 생성되며, 공개 가능한 요약만 포함합니다. iOS, Android, Web, Backend, Data Pipeline, Infra, Operations 변경을 시간순으로 모아 보여줍니다.
+각 항목은 private source repo의 release metadata에서 생성되며, 공개 가능한 요약만 포함합니다. iOS, Android, Web, Backend, Data Pipeline, Operations 변경을 시간순으로 모아 보여줍니다.
 
 공개 노트에는 source code, 내부 경로, 개인 이메일, private infrastructure detail, token/key, raw commit hash, sensitive security detail을 포함하지 않습니다.
 
@@ -14,11 +14,9 @@ P.O.MFS Dev Team은 P.O.MFS와 MiSFY 생태계를 설계하고 운영하는 제�
 
 이 공개 릴리즈 히스토리는 P.O.MFS Dev Team의 David Kwon이 만들고 관리합니다. P.O.MFS 공식 홈페이지는 [prideofmisfits.com](https://www.prideofmisfits.com)입니다.
 
-릴리즈 노트 정리와 공개 문서 유지보수에는 Codex와 Claude Code 기반 AI-assisted workflow도 함께 사용합니다.
-
 ## AI Lifetime Token Usage
 
-Codex와 Claude Code의 전체 누적 토큰량을 함께 보여줍니다. 세션 로그는 일정 기간이 지나면 정리되므로, 각 세션의 토큰량을 정리 전에 영구 기록해 누적값이 로그 정리와 무관하게 단조 증가(감소하지 않음)하도록 보존합니다. 2026-06-12 시점까지의 누적값을 기준선으로 삼고 이후 세션을 영구 누적합니다(기준선 이전에 정리된 로그는 기준선에 포함). 각 값은 release notes 갱신 시 기록되는 정적 스냅샷이며, Weekly/Monthly는 최근 기간 윈도 값입니다.
+Codex와 Claude Code의 전체 누적 토큰량입니다. 로컬 세션 로그는 시간이 지나면 정리되므로, 정리와 무관하게 누적값이 단조 증가(감소하지 않음)하도록 영구 ledger로 보존합니다. 각 값은 release notes 갱신 시 기록되는 정적 스냅샷이며, Weekly/Monthly는 최근 기간 윈도 값입니다.
 
 ### Codex
 
@@ -144,24 +142,37 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-06-25 | [r1.54.9](releases/2026-06-25_r1.54.9_web_map-source-toggle.md) | Web | 공연 지도에서 아티스트 소스와 AI 수집 소스를 토글로 구분해 볼 수 있게 했습니다. |
+| 2026-06-25 | [r1.54.8](releases/2026-06-25_r1.54.8_web_map-artist-profiles.md) | Web | 공연 지도와 목록에 표시되는 AI 수집 아티스트를 실제 아티스트 프로필 기반으로 개편했습니다. 핀이나 행을 누르면 해당 아티스트의 상세 정보와 공연 목록을 함께 볼 수 있습니다. |
+| 2026-06-25 | [r1.54.12](releases/2026-06-25_r1.54.12_web_venue-photo-ai-fallback.md) | Web | 공연장 사진이 없을 때 빈 화면 대신 AI 포스터나 아바타 이미지로 자연스럽게 대체 표시되도록 해, 어떤 공연장이든 보기 좋은 화면을 보여줍니다. |
+| 2026-06-25 | [r1.54.11](releases/2026-06-25_r1.54.11_web_pull-to-refresh.md) | Web | 메인 탭에서 화면을 아래로 당겨서 새로고침하는 기능을 지원해, 최신 콘텐츠를 더 쉽게 불러올 수 있도록 했습니다. |
+| 2026-06-25 | [r1.54.10](releases/2026-06-25_r1.54.10_web_guest-list-checkin-tabs.md) | Web | 게스트리스트 관리 화면을 입장 전과 입장 완료로 구분한 탭으로 개편해, 행사 현장에서 입장 현황을 더 빠르게 파악할 수 있도록 했습니다. |
+| 2026-06-24 | [r1.54.6](releases/2026-06-24_r1.54.6_operations_admin-member-profile-edit.md) | Operations | 관리 도구에 회원 통합 프로필 편집 기능을 추가하고, 아티스트 소개와 SNS 정보 저장이 제대로 반영되도록 관리 기능을 개선했습니다. 운영자 전용 기능입니다. |
+| 2026-06-24 | [r1.54.13](releases/2026-06-24_r1.54.13_web_android-app-links-verification.md) | Web | 외부에서 공유한 공연 링크를 Android 앱에서 열면 브라우저를 거치지 않고 앱이 바로 열리도록 앱 링크 검증을 추가했습니다. |
+| 2026-06-23 | [r1.54.7](releases/2026-06-23_r1.54.7_data-pipeline_ai-model-update.md) | Data Pipeline | 공연 정보 분석과 검색에 사용되는 AI 모델을 업데이트해 안정성을 높였습니다. |
+| 2026-06-22 | [r1.54.5](releases/2026-06-22_r1.54.5_backend_rank-promotion-authz-hardening.md) | Backend | 등급 승격 권한 검증을 강화해 잘못된 자가 승격을 방지했습니다. |
+| 2026-06-22 | [r1.54.4](releases/2026-06-22_r1.54.4_backend_curation-feed-publish-date-sort.md) | Backend | 큐레이션 피드를 발행일 기준으로 정렬해 최신 콘텐츠가 먼저 보이도록 개선했습니다. |
+| 2026-06-22 | [r1.54.3](releases/2026-06-22_r1.54.3_web_map-blank-cache-recovery.md) | Web | 일부 기기에서 공연 지도가 빈 화면으로 표시되던 문제를 지도 데이터 캐시 자동 복구로 해소했습니다. |
+| 2026-06-22 | [r1.54.2](releases/2026-06-22_r1.54.2_web_event-like-guest-artist.md) | Web | 이벤트 상세에서 좋아요 상태가 유지되도록 수정하고 게스트 아티스트 표시 동작을 개선했습니다. |
+| 2026-06-21 | [r1.54.1](releases/2026-06-21_r1.54.1_web_music-links-external-i18n.md) | Web | 아티스트 음악 링크에 외부 열기 버튼을 추가하고 입력 오류 메시지를 다국어로 제공하는 등 음악 링크의 표시와 저장 경험을 개선했습니다. |
 | 2026-06-20 | [r1.54.0](releases/2026-06-20_r1.54.0_web_event-cohost.md) | Web | 공연에 공동 주최자를 초대해 함께 관리할 수 있는 기능을 추가했습니다. |
 | 2026-06-20 | [r1.53.17](releases/2026-06-20_r1.53.17_web_shared-link-app-deeplink.md) | Web | 공유한 공연 링크를 앱에서 열면 해당 공연이 바로 보이도록 수정했습니다. |
 | 2026-06-20 | [r1.53.16](releases/2026-06-20_r1.53.16_web_artist-lineup.md) | Web | 공연을 등록할 때 출연 아티스트(라인업)를 검색해 추가할 수 있게 했습니다. |
-| 2026-06-20 | [r1.53.15](releases/2026-06-20_r1.53.15_web_staff-event-highlight.md) | Web | 운영진이 직접 올린 공연이 Today 화면과 공연 지도에서 눈에 띄게 강조되도록 했습니다. |
-| 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | Android | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다(서명 빌드, 권한 최소화, 스토어 등록정보 작성). |
-| 2026-06-18 | [r1.53.12](releases/2026-06-18_r1.53.12_web_beta-tester-signup-page.md) | Web | 안드로이드 비공개 베타 테스터를 모집하는 신청 페이지(/beta)를 추가했습니다. |
-| 2026-06-18 | [r1.53.11](releases/2026-06-18_r1.53.11_web_account-deletion-page.md) | Web | 계정과 데이터 삭제 방법을 안내하는 공개 페이지(/account-deletion)를 추가했습니다. |
-| 2026-06-18 | [r1.53.10](releases/2026-06-18_r1.53.10_web_ticket-organizer-name-snapshot.md) | Web | 공연 주최자 계정이 삭제되어도 구매한 티켓에 당시 주최자 이름이 그대로 표시되도록 했습니다. |
+| 2026-06-20 | [r1.53.15](releases/2026-06-20_r1.53.15_web_staff-event-highlight.md) | Web | 운영진이 직접 올린 공연이 앱에서 눈에 띄게 강조되도록 했습니다. |
+| 2026-06-18 | [r1.53.12](releases/2026-06-18_r1.53.12_web_beta-tester-signup-page.md) | Web | 안드로이드 비공개 베타 테스터를 모집하는 신청 페이지를 추가했습니다. |
+| 2026-06-18 | [r1.53.11](releases/2026-06-18_r1.53.11_web_account-deletion-page.md) | Web | 계정과 데이터 삭제 방법을 안내하는 공개 페이지를 추가했습니다. |
+| 2026-06-18 | [r1.53.10](releases/2026-06-18_r1.53.10_web_ticket-organizer-name-snapshot.md) | Web | 공연 주최자 계정이 삭제되어도, 구매한 티켓에 구매 당시의 주최자 이름이 그대로 표시되도록 했습니다. |
+| 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | Android | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다. |
 | 2026-06-17 | [r1.53.14](releases/2026-06-17_r1.53.14_operations_admin-member-pagination.md) | Operations | 관리 도구의 회원 목록에서 전체 회원을 페이지로 나눠 보고, 등급별로 빠르게 필터링할 수 있도록 개선했습니다. |
 | 2026-06-17 | [r1.53.13](releases/2026-06-17_r1.53.13_operations_admin-member-grade-change.md) | Operations | 관리 도구의 회원 관리에서 회원의 등급을 직접 변경할 수 있는 기능을 추가했습니다. |
-| 2026-06-16 | [r1.53.9](releases/2026-06-16_r1.53.9_backend_artist-rank-profile-fields.md) | Backend | 아티스트 등업이 승인된 뒤에도 프로필에 장르가 "기타"로 보이거나 자기소개가 비어 있던 문제를 해결해, 등업 시 입력한 정보가 프로필에 그대로 반영되도록 했습니다. |
-| 2026-06-16 | [r1.53.8](releases/2026-06-16_r1.53.8_web_profile-photo-edit-touch.md) | Web | 프로필 사진 편집 화면에서 사진을 끌어 옮기거나 확대·축소가 되지 않고, 완료를 눌러도 저장되지 않던 문제를 해결했습니다. |
-| 2026-06-16 | [r1.53.7](releases/2026-06-16_r1.53.7_web_profile-photo-quality.md) | Web | 프로필 사진을 더 높은 화질로 저장하도록 개선해, 아티스트·리스너 프로필 카드의 배경 이미지가 또렷하게 보입니다. |
+| 2026-06-16 | [r1.53.9](releases/2026-06-16_r1.53.9_backend_artist-rank-profile-fields.md) | Backend | 아티스트 등업이 승인된 뒤에도 프로필에 장르가 "기타"로 보이거나 자기소개가 비어 있던 문제를 해결해, 등업 신청 시 입력한 정보가 프로필에 그대로 반영되도록 했습니다. |
+| 2026-06-16 | [r1.53.8](releases/2026-06-16_r1.53.8_web_profile-photo-edit-touch.md) | Web | 프로필 사진 편집 화면에서 사진을 손가락으로 움직이거나 확대·축소할 수 없고, 완료를 눌러도 저장되지 않던 문제를 해결했습니다. |
+| 2026-06-16 | [r1.53.7](releases/2026-06-16_r1.53.7_web_profile-photo-quality.md) | Web | 프로필 사진을 더 높은 화질로 저장하도록 개선해, 아티스트·리스너 프로필 카드의 큰 배경 이미지가 또렷하게 보입니다. |
 | 2026-06-15 | [r1.53.6](releases/2026-06-15_r1.53.6_backend_admin-member-delete-fix.md) | Backend | 관리자 회원 관리에서 일부 회원을 삭제할 때 오류가 나던 문제를 해결해, 회원 삭제가 정상적으로 완료되도록 했습니다. |
 | 2026-06-13 | [r1.53.5](releases/2026-06-13_r1.53.5_web_shared-event-link-blank-screen.md) | Web | 외부로 공유한 공연 링크를 열면 화면이 비어 보이던 문제를 해결했습니다. |
+| 2026-06-12 | [release-assistant-v0.1](releases/2026-06-12_release-assistant-v0.1_operations_ios-release-assistant-open-source.md) | Operations | iOS 앱 출시 준비를 단계별로 도와주는 iOS Release Assistant를 오픈소스 도구로 정리하고, 초보자도 따라갈 수 있도록 문서를 보강했습니다. |
 | 2026-06-12 | [r1.53.4](releases/2026-06-12_r1.53.4_operations_artist-hide-public-surface.md) | Operations | 관리 도구에서 아티스트를 숨김 처리하면 공개 화면에 곧바로 반영되도록 개선했습니다. |
 | 2026-06-12 | [r1.53.3](releases/2026-06-12_r1.53.3_data-pipeline_today-card-images.md) | Data Pipeline | Today 화면의 추천 공연 카드에서 일부 이미지가 보이지 않던 문제를 해결해, 공연 이미지가 정상적으로 표시되도록 했습니다. |
-| 2026-06-12 | [release-assistant-v0.1](releases/2026-06-12_release-assistant-v0.1_operations_ios-release-assistant-open-source.md) | Operations | iOS 앱 출시 준비를 단계별로 도와주는 iOS Release Assistant를 오픈소스 도구로 정리하고, 초보자도 따라갈 수 있도록 문서를 보강했습니다. |
 | 2026-06-12 | [3.0.0](releases/2026-06-12_3.0.0_ios_app-store-review-submission.md) | iOS | MiSFY iOS 3.0.0 빌드를 App Store 심사에 제출하고, App Store Connect에서 심사 대기 상태까지 확인했습니다. |
 | 2026-06-09 | [release-history-v4](releases/2026-06-09_release-history-v4_operations_public-release-history-sanitized-refresh.md) | Operations | 공개 릴리즈 히스토리를 정제해 내부 개발 로그성 항목을 제거하고, 실제 사용자에게 설명할 수 있는 변경 이력 중심으로 다시 정리했습니다. |
 | 2026-06-09 | [r1.53.2](releases/2026-06-09_r1.53.2_operations_report-notification-routing.md) | Operations | POMFS 운영 보고와 자동 알림 메일의 기본 수신 경로를 정리해, 중요한 운영 알림이 한 곳으로 모이도록 개선했습니다. |
@@ -208,19 +219,19 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-05-28 | [r1.50.12](releases/2026-05-28_r1.50.12_web_email-code-session-recovery.md) | Web | 이메일 인증번호 입력 후 인증 완료 상태가 바로 유지되도록 웹 인증 흐름을 보강했습니다. |
 | 2026-05-28 | [r1.50.11](releases/2026-05-28_r1.50.11_web_share-actions-deeplink-recovery.md) | Web | 공유하기 버튼과 공연 상세 링크가 더 안정적으로 동작하도록 개선했습니다. |
 | 2026-05-28 | [r1.50.10](releases/2026-05-28_r1.50.10_web_legacy-password-login-recovery.md) | Web | 기존 이메일 계정의 로그인 입력 검증과 비밀번호 재설정 진입 흐름을 보강했습니다. |
-| 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_backend_ticket-payment-email-delivery.md) | Backend | 티켓 결제 후 완료 화면으로 이어지는 흐름과 결제/환불 메일 발송 흐름을 안정화했습니다. |
 | 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_ios_ios-payment-return-flow.md) | iOS | iOS 앱에서 Npay와 Toss 결제 후 POMFS 화면으로 돌아오는 흐름을 보강했습니다. |
+| 2026-05-25 | [r1.50.8](releases/2026-05-25_r1.50.8_backend_ticket-payment-email-delivery.md) | Backend | 티켓 결제 후 완료 화면으로 이어지는 흐름과 결제/환불 메일 발송 흐름을 안정화했습니다. |
 | 2026-05-23 | [r1.50.7](releases/2026-05-23_r1.50.7_backend_settlement-payout-reconciliation.md) | Backend | 정산 화면과 관리자 정산 흐름에서 PayPal 지급과 결제 대사 흐름을 더 정확하게 확인할 수 있도록 보강했습니다. |
 | 2026-05-23 | [r1.50.7](releases/2026-05-23_r1.50.7_backend_my-settlement-aggregation.md) | Backend | 정산 화면이 최신 공연 티켓 주문 구조까지 반영해서 판매 금액을 집계하도록 보강했습니다. |
 | 2026-05-22 | [r1.50.6](releases/2026-05-22_r1.50.6_backend_paypal-refund-cascade.md) | Backend | PayPal로 결제한 티켓도 환불 완료 후 안내 메일, 공연 생성자 알림, 환불 상태 표시가 Toss 결제와 같은 흐름으로 처리되도록 보강했습니다. |
+| 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_ios_ios-ticket-deeplink-scheme.md) | iOS | iOS 앱에서 티켓 메일의 앱 열기 버튼이 티켓 화면으로 이어질 수 있도록 딥링크 처리를 보강했습니다. |
 | 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_backend_ticket-refund-notifications-management.md) | Backend | 티켓 환불 완료 후 안내 메일과 공연 관리 화면의 환불 상태 표시가 더 정확해지도록 보강했습니다. |
 | 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_backend_ticket-refund-host-notifications.md) | Backend | 티켓 환불이 완료되면 공연 생성자가 알림에서 관련 티켓 관리 화면으로 이동할 수 있도록 알림 흐름을 보강했습니다. |
-| 2026-05-22 | [r1.50.5](releases/2026-05-22_r1.50.5_ios_ios-ticket-deeplink-scheme.md) | iOS | iOS 앱에서 티켓 메일의 앱 열기 버튼이 티켓 화면으로 이어질 수 있도록 딥링크 처리를 보강했습니다. |
 | 2026-05-22 | [release-history-v3](releases/2026-05-22_release-history-v3_operations_release-history-claude-code-token-snapshots.md) | Operations | Public release notes에서 Claude Code 누적 토큰 사용량도 함께 확인할 수 있도록 자동화를 보강했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_backend_ticket-email-detail-scanner-recovery.md) | Backend | 결제 완료와 티켓 발급 메일, 나의 티켓 상세 보기, QR 확인, 티켓 스캐너 흐름을 실제 발급 티켓 기준으로 보강했습니다. |
 | 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Operations | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
-| 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Web | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
+| 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Web | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
 | 2026-05-22 | [r1.50.2](releases/2026-05-22_r1.50.2_backend_ticket-visibility-recovery.md) | Backend | 실제 승인된 티켓 결제가 나의 티켓에 표시되도록 결제 확정과 티켓 조회 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_ios_ios-codex-token-usage-snapshot.md) | iOS | iOS 앱 README에서 Codex 누적 토큰 사용량을 확인할 수 있도록 공개 스냅샷을 추가했습니다. |
 | 2026-05-22 | [r1.50.1](releases/2026-05-22_r1.50.1_backend_payment-completion.md) | Backend | 티켓 결제가 실제 승인 후 구매 완료와 티켓 발급으로 이어지도록 결제 완료 흐름을 개선했습니다. |
@@ -253,21 +264,30 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
-| 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다(서명 빌드, 권한 최소화, 스토어 등록정보 작성). |
+| 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다. |
 
 ### Web
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-25 | [r1.54.9](releases/2026-06-25_r1.54.9_web_map-source-toggle.md) | 공연 지도에서 아티스트 소스와 AI 수집 소스를 토글로 구분해 볼 수 있게 했습니다. |
+| 2026-06-25 | [r1.54.8](releases/2026-06-25_r1.54.8_web_map-artist-profiles.md) | 공연 지도와 목록에 표시되는 AI 수집 아티스트를 실제 아티스트 프로필 기반으로 개편했습니다. 핀이나 행을 누르면 해당 아티스트의 상세 정보와 공연 목록을 함께 볼 수 있습니다. |
+| 2026-06-25 | [r1.54.12](releases/2026-06-25_r1.54.12_web_venue-photo-ai-fallback.md) | 공연장 사진이 없을 때 빈 화면 대신 AI 포스터나 아바타 이미지로 자연스럽게 대체 표시되도록 해, 어떤 공연장이든 보기 좋은 화면을 보여줍니다. |
+| 2026-06-25 | [r1.54.11](releases/2026-06-25_r1.54.11_web_pull-to-refresh.md) | 메인 탭에서 화면을 아래로 당겨서 새로고침하는 기능을 지원해, 최신 콘텐츠를 더 쉽게 불러올 수 있도록 했습니다. |
+| 2026-06-25 | [r1.54.10](releases/2026-06-25_r1.54.10_web_guest-list-checkin-tabs.md) | 게스트리스트 관리 화면을 입장 전과 입장 완료로 구분한 탭으로 개편해, 행사 현장에서 입장 현황을 더 빠르게 파악할 수 있도록 했습니다. |
+| 2026-06-24 | [r1.54.13](releases/2026-06-24_r1.54.13_web_android-app-links-verification.md) | 외부에서 공유한 공연 링크를 Android 앱에서 열면 브라우저를 거치지 않고 앱이 바로 열리도록 앱 링크 검증을 추가했습니다. |
+| 2026-06-22 | [r1.54.3](releases/2026-06-22_r1.54.3_web_map-blank-cache-recovery.md) | 일부 기기에서 공연 지도가 빈 화면으로 표시되던 문제를 지도 데이터 캐시 자동 복구로 해소했습니다. |
+| 2026-06-22 | [r1.54.2](releases/2026-06-22_r1.54.2_web_event-like-guest-artist.md) | 이벤트 상세에서 좋아요 상태가 유지되도록 수정하고 게스트 아티스트 표시 동작을 개선했습니다. |
+| 2026-06-21 | [r1.54.1](releases/2026-06-21_r1.54.1_web_music-links-external-i18n.md) | 아티스트 음악 링크에 외부 열기 버튼을 추가하고 입력 오류 메시지를 다국어로 제공하는 등 음악 링크의 표시와 저장 경험을 개선했습니다. |
 | 2026-06-20 | [r1.54.0](releases/2026-06-20_r1.54.0_web_event-cohost.md) | 공연에 공동 주최자를 초대해 함께 관리할 수 있는 기능을 추가했습니다. |
 | 2026-06-20 | [r1.53.17](releases/2026-06-20_r1.53.17_web_shared-link-app-deeplink.md) | 공유한 공연 링크를 앱에서 열면 해당 공연이 바로 보이도록 수정했습니다. |
 | 2026-06-20 | [r1.53.16](releases/2026-06-20_r1.53.16_web_artist-lineup.md) | 공연을 등록할 때 출연 아티스트(라인업)를 검색해 추가할 수 있게 했습니다. |
-| 2026-06-20 | [r1.53.15](releases/2026-06-20_r1.53.15_web_staff-event-highlight.md) | 운영진이 직접 올린 공연이 Today 화면과 공연 지도에서 눈에 띄게 강조되도록 했습니다. |
-| 2026-06-18 | [r1.53.12](releases/2026-06-18_r1.53.12_web_beta-tester-signup-page.md) | 안드로이드 비공개 베타 테스터를 모집하는 신청 페이지(/beta)를 추가했습니다. |
-| 2026-06-18 | [r1.53.11](releases/2026-06-18_r1.53.11_web_account-deletion-page.md) | 계정과 데이터 삭제 방법을 안내하는 공개 페이지(/account-deletion)를 추가했습니다. |
-| 2026-06-18 | [r1.53.10](releases/2026-06-18_r1.53.10_web_ticket-organizer-name-snapshot.md) | 공연 주최자 계정이 삭제되어도 구매한 티켓에 당시 주최자 이름이 그대로 표시되도록 했습니다. |
-| 2026-06-16 | [r1.53.8](releases/2026-06-16_r1.53.8_web_profile-photo-edit-touch.md) | 프로필 사진 편집 화면에서 사진을 끌어 옮기거나 확대·축소가 되지 않고, 완료를 눌러도 저장되지 않던 문제를 해결했습니다. |
-| 2026-06-16 | [r1.53.7](releases/2026-06-16_r1.53.7_web_profile-photo-quality.md) | 프로필 사진을 더 높은 화질로 저장하도록 개선해, 아티스트·리스너 프로필 카드의 배경 이미지가 또렷하게 보입니다. |
+| 2026-06-20 | [r1.53.15](releases/2026-06-20_r1.53.15_web_staff-event-highlight.md) | 운영진이 직접 올린 공연이 앱에서 눈에 띄게 강조되도록 했습니다. |
+| 2026-06-18 | [r1.53.12](releases/2026-06-18_r1.53.12_web_beta-tester-signup-page.md) | 안드로이드 비공개 베타 테스터를 모집하는 신청 페이지를 추가했습니다. |
+| 2026-06-18 | [r1.53.11](releases/2026-06-18_r1.53.11_web_account-deletion-page.md) | 계정과 데이터 삭제 방법을 안내하는 공개 페이지를 추가했습니다. |
+| 2026-06-18 | [r1.53.10](releases/2026-06-18_r1.53.10_web_ticket-organizer-name-snapshot.md) | 공연 주최자 계정이 삭제되어도, 구매한 티켓에 구매 당시의 주최자 이름이 그대로 표시되도록 했습니다. |
+| 2026-06-16 | [r1.53.8](releases/2026-06-16_r1.53.8_web_profile-photo-edit-touch.md) | 프로필 사진 편집 화면에서 사진을 손가락으로 움직이거나 확대·축소할 수 없고, 완료를 눌러도 저장되지 않던 문제를 해결했습니다. |
+| 2026-06-16 | [r1.53.7](releases/2026-06-16_r1.53.7_web_profile-photo-quality.md) | 프로필 사진을 더 높은 화질로 저장하도록 개선해, 아티스트·리스너 프로필 카드의 큰 배경 이미지가 또렷하게 보입니다. |
 | 2026-06-13 | [r1.53.5](releases/2026-06-13_r1.53.5_web_shared-event-link-blank-screen.md) | 외부로 공유한 공연 링크를 열면 화면이 비어 보이던 문제를 해결했습니다. |
 | 2026-06-09 | [r1.53.1](releases/2026-06-09_r1.53.1_web_feed-genre-badges.md) | Feed 카드에서 일반 AI 표시 대신 공연과 콘텐츠의 장르를 더 분명하게 볼 수 있도록 장르 뱃지를 표시했습니다. |
 | 2026-06-08 | [r1.53.0](releases/2026-06-08_r1.53.0_web_today-nearby-new-shows.md) | Today 화면의 "새로운 공연"을 내 주변과 가까운 날짜를 기준으로 똑똑하게 추천하도록 개선했습니다. |
@@ -306,7 +326,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
-| 2026-06-16 | [r1.53.9](releases/2026-06-16_r1.53.9_backend_artist-rank-profile-fields.md) | 아티스트 등업이 승인된 뒤에도 프로필에 장르가 "기타"로 보이거나 자기소개가 비어 있던 문제를 해결해, 등업 시 입력한 정보가 프로필에 그대로 반영되도록 했습니다. |
+| 2026-06-22 | [r1.54.5](releases/2026-06-22_r1.54.5_backend_rank-promotion-authz-hardening.md) | 등급 승격 권한 검증을 강화해 잘못된 자가 승격을 방지했습니다. |
+| 2026-06-22 | [r1.54.4](releases/2026-06-22_r1.54.4_backend_curation-feed-publish-date-sort.md) | 큐레이션 피드를 발행일 기준으로 정렬해 최신 콘텐츠가 먼저 보이도록 개선했습니다. |
+| 2026-06-16 | [r1.53.9](releases/2026-06-16_r1.53.9_backend_artist-rank-profile-fields.md) | 아티스트 등업이 승인된 뒤에도 프로필에 장르가 "기타"로 보이거나 자기소개가 비어 있던 문제를 해결해, 등업 신청 시 입력한 정보가 프로필에 그대로 반영되도록 했습니다. |
 | 2026-06-15 | [r1.53.6](releases/2026-06-15_r1.53.6_backend_admin-member-delete-fix.md) | 관리자 회원 관리에서 일부 회원을 삭제할 때 오류가 나던 문제를 해결해, 회원 삭제가 정상적으로 완료되도록 했습니다. |
 | 2026-06-06 | [r1.52.6](releases/2026-06-06_r1.52.6_backend_artist-follow-foundation.md) | 더 다양한 아티스트를 팔로우할 수 있는 기반을 마련하고, 일부 프로필에서 참석한 공연 목록이 보이지 않던 문제를 해결했습니다. |
 | 2026-06-05 | [r1.52.4](releases/2026-06-05_r1.52.4_backend_public-pii-hardening-rollout.md) | 공개 화면에 제공되는 정보가 꼭 필요한 항목만 포함되도록 개인정보 보호를 한층 더 확대했습니다. |
@@ -333,24 +355,20 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-23 | [r1.54.7](releases/2026-06-23_r1.54.7_data-pipeline_ai-model-update.md) | 공연 정보 분석과 검색에 사용되는 AI 모델을 업데이트해 안정성을 높였습니다. |
 | 2026-06-12 | [r1.53.3](releases/2026-06-12_r1.53.3_data-pipeline_today-card-images.md) | Today 화면의 추천 공연 카드에서 일부 이미지가 보이지 않던 문제를 해결해, 공연 이미지가 정상적으로 표시되도록 했습니다. |
 | 2026-06-07 | [r1.52.12](releases/2026-06-07_r1.52.12_data-pipeline_map-data-quality.md) | 공연 지도에 잘못 수집되거나 잘못된 위치에 표시되던 항목을 정리하고, 앞으로 더 정확한 공연 정보만 노출되도록 데이터 품질을 개선했습니다. |
 | 2026-06-06 | [r1.52.10](releases/2026-06-06_r1.52.10_data-pipeline_ai-event-geocode-enrichment.md) | AI로 수집된 공연이 지도에 올바른 위치로 표시되도록 위치 정보를 보강하고, 매일 진행되는 데이터 정리 과정을 더 빠르고 안정적으로 개선했습니다. |
-
-### Infra
-
-| Date | Version | Summary |
-|---|---|---|
-| - | - | - |
 
 ### Operations
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-06-24 | [r1.54.6](releases/2026-06-24_r1.54.6_operations_admin-member-profile-edit.md) | 관리 도구에 회원 통합 프로필 편집 기능을 추가하고, 아티스트 소개와 SNS 정보 저장이 제대로 반영되도록 관리 기능을 개선했습니다. 운영자 전용 기능입니다. |
 | 2026-06-17 | [r1.53.14](releases/2026-06-17_r1.53.14_operations_admin-member-pagination.md) | 관리 도구의 회원 목록에서 전체 회원을 페이지로 나눠 보고, 등급별로 빠르게 필터링할 수 있도록 개선했습니다. |
 | 2026-06-17 | [r1.53.13](releases/2026-06-17_r1.53.13_operations_admin-member-grade-change.md) | 관리 도구의 회원 관리에서 회원의 등급을 직접 변경할 수 있는 기능을 추가했습니다. |
-| 2026-06-12 | [r1.53.4](releases/2026-06-12_r1.53.4_operations_artist-hide-public-surface.md) | 관리 도구에서 아티스트를 숨김 처리하면 공개 화면에 곧바로 반영되도록 개선했습니다. |
 | 2026-06-12 | [release-assistant-v0.1](releases/2026-06-12_release-assistant-v0.1_operations_ios-release-assistant-open-source.md) | iOS 앱 출시 준비를 단계별로 도와주는 iOS Release Assistant를 오픈소스 도구로 정리하고, 초보자도 따라갈 수 있도록 문서를 보강했습니다. |
+| 2026-06-12 | [r1.53.4](releases/2026-06-12_r1.53.4_operations_artist-hide-public-surface.md) | 관리 도구에서 아티스트를 숨김 처리하면 공개 화면에 곧바로 반영되도록 개선했습니다. |
 | 2026-06-09 | [release-history-v4](releases/2026-06-09_release-history-v4_operations_public-release-history-sanitized-refresh.md) | 공개 릴리즈 히스토리를 정제해 내부 개발 로그성 항목을 제거하고, 실제 사용자에게 설명할 수 있는 변경 이력 중심으로 다시 정리했습니다. |
 | 2026-06-09 | [r1.53.2](releases/2026-06-09_r1.53.2_operations_report-notification-routing.md) | POMFS 운영 보고와 자동 알림 메일의 기본 수신 경로를 정리해, 중요한 운영 알림이 한 곳으로 모이도록 개선했습니다. |
 | 2026-06-07 | [r1.52.11](releases/2026-06-07_r1.52.11_operations_app-homepage-stats-alignment.md) | 앱과 공식 홈페이지에 표시되는 공연장·아티스트·국가 수치가 항상 동일한 기준의 최신 값으로 함께 정렬되도록 정비했습니다. |
@@ -371,6 +389,5 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 - Web
 - Backend
 - Data Pipeline
-- Infra
 - Operations
 - Monthly archive
