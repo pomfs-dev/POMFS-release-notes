@@ -2,7 +2,7 @@
 
 이 저장소는 POMFS의 공개 릴리즈 히스토리입니다.
 
-각 항목은 private source repo의 release metadata에서 생성되며, 공개 가능한 요약만 포함합니다. iOS, Web, Backend, Data Pipeline, Infra, Operations 변경을 시간순으로 모아 보여줍니다.
+각 항목은 private source repo의 release metadata에서 생성되며, 공개 가능한 요약만 포함합니다. iOS, Android, Web, Backend, Data Pipeline, Infra, Operations 변경을 시간순으로 모아 보여줍니다.
 
 공개 노트에는 source code, 내부 경로, 개인 이메일, private infrastructure detail, token/key, raw commit hash, sensitive security detail을 포함하지 않습니다.
 
@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-06-15 20:16 KST</td>
+    <td>2026-06-20 15:00 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -35,27 +35,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>375 sessions</td>
+    <td>394 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>5,730,319,138 tokens</strong></td>
+    <td><strong>5,749,205,958 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>5,708,330,652 tokens</td>
+    <td>5,727,075,258 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>5,418,128,000 tokens</td>
+    <td>5,435,420,800 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>21,988,486 tokens</td>
+    <td>22,130,700 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>7,140,330 tokens</td>
+    <td>7,241,600 tokens</td>
   </tr>
 </table>
 
@@ -66,9 +66,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>5,800,000,000 tokens</td>
+    <td>5,750,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">98.8%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -79,7 +79,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-06-15 20:16 KST</td>
+    <td>2026-06-26 19:49 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -87,43 +87,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>1,836 files</td>
+    <td>2,436 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>104,666 entries</td>
+    <td>137,777 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>27,117,007,487 tokens</strong></td>
+    <td><strong>34,316,757,527 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>152,468,048 tokens</td>
+    <td>192,248,022 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,673,283,089 tokens</td>
+    <td>1,997,230,908 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>25,079,040,394 tokens</td>
+    <td>31,878,427,924 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>212,215,956 tokens</td>
+    <td>248,850,673 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,700,725,221 tokens</td>
+    <td>4,413,312,519 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>22,099,031,009 tokens</td>
+    <td>22,158,634,247 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>871,228,890 tokens/day</td>
+    <td>798,064,128 tokens/day</td>
   </tr>
 </table>
 
@@ -134,9 +134,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>27,200,000,000 tokens</td>
+    <td>34,350,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.7%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -249,6 +249,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_ios_ios-codex-token-usage-snapshot.md) | iOS 앱 README에서 Codex 누적 토큰 사용량을 확인할 수 있도록 공개 스냅샷을 추가했습니다. |
 | 2026-05-22 | [r1.50.1](releases/2026-05-22_r1.50.1_ios_ios-payment-webview.md) | iOS 앱에서 결제 앱으로 이동하고 다시 돌아오는 흐름을 개선했습니다. |
 
+### Android
+
+| Date | Version | Summary |
+|---|---|---|
+| 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다(서명 빌드, 권한 최소화, 스토어 등록정보 작성). |
+
 ### Web
 
 | Date | Version | Summary |
@@ -257,6 +263,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-06-20 | [r1.53.17](releases/2026-06-20_r1.53.17_web_shared-link-app-deeplink.md) | 공유한 공연 링크를 앱에서 열면 해당 공연이 바로 보이도록 수정했습니다. |
 | 2026-06-20 | [r1.53.16](releases/2026-06-20_r1.53.16_web_artist-lineup.md) | 공연을 등록할 때 출연 아티스트(라인업)를 검색해 추가할 수 있게 했습니다. |
 | 2026-06-20 | [r1.53.15](releases/2026-06-20_r1.53.15_web_staff-event-highlight.md) | 운영진이 직접 올린 공연이 Today 화면과 공연 지도에서 눈에 띄게 강조되도록 했습니다. |
+| 2026-06-18 | [r1.53.12](releases/2026-06-18_r1.53.12_web_beta-tester-signup-page.md) | 안드로이드 비공개 베타 테스터를 모집하는 신청 페이지(/beta)를 추가했습니다. |
+| 2026-06-18 | [r1.53.11](releases/2026-06-18_r1.53.11_web_account-deletion-page.md) | 계정과 데이터 삭제 방법을 안내하는 공개 페이지(/account-deletion)를 추가했습니다. |
+| 2026-06-18 | [r1.53.10](releases/2026-06-18_r1.53.10_web_ticket-organizer-name-snapshot.md) | 공연 주최자 계정이 삭제되어도 구매한 티켓에 당시 주최자 이름이 그대로 표시되도록 했습니다. |
 | 2026-06-16 | [r1.53.8](releases/2026-06-16_r1.53.8_web_profile-photo-edit-touch.md) | 프로필 사진 편집 화면에서 사진을 끌어 옮기거나 확대·축소가 되지 않고, 완료를 눌러도 저장되지 않던 문제를 해결했습니다. |
 | 2026-06-16 | [r1.53.7](releases/2026-06-16_r1.53.7_web_profile-photo-quality.md) | 프로필 사진을 더 높은 화질로 저장하도록 개선해, 아티스트·리스너 프로필 카드의 배경 이미지가 또렷하게 보입니다. |
 | 2026-06-13 | [r1.53.5](releases/2026-06-13_r1.53.5_web_shared-event-link-blank-screen.md) | 외부로 공유한 공연 링크를 열면 화면이 비어 보이던 문제를 해결했습니다. |
@@ -358,6 +367,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 - All releases
 - iOS
+- Android
 - Web
 - Backend
 - Data Pipeline
