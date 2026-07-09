@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-07-08 20:22 KST</td>
+    <td>2026-07-09 14:56 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>462 sessions</td>
+    <td>470 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>5,836,082,326 tokens</strong></td>
+    <td><strong>5,843,969,201 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>5,813,161,279 tokens</td>
+    <td>5,820,972,070 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>5,513,575,680 tokens</td>
+    <td>5,520,675,328 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>22,921,047 tokens</td>
+    <td>22,997,131 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>7,667,596 tokens</td>
+    <td>7,708,312 tokens</td>
   </tr>
 </table>
 
@@ -66,7 +66,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   <tr>
     <td>5,850,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.8%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-07-09 11:55 KST</td>
+    <td>2026-07-09 15:05 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>2,827 files</td>
+    <td>2,836 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>165,531 entries</td>
+    <td>166,378 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>40,851,650,848 tokens</strong></td>
+    <td><strong>41,189,849,068 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>217,930,450 tokens</td>
+    <td>218,048,748 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,262,335,089 tokens</td>
+    <td>2,266,789,452 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>38,097,713,329 tokens</td>
+    <td>38,430,597,213 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>273,671,980 tokens</td>
+    <td>274,413,655 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>3,147,019,404 tokens</td>
+    <td>3,225,799,998 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>14,411,043,277 tokens</td>
+    <td>14,735,108,082 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>716,695,628 tokens/day</td>
+    <td>710,169,811 tokens/day</td>
   </tr>
 </table>
 
@@ -132,9 +132,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>40,900,000,000 tokens</td>
+    <td>41,200,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.9%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -142,8 +142,13 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-07-09 | [r1.55.9](releases/2026-07-09_r1.55.9_web_ticket-intl-phone.md) | Web | 티켓 구매 정보 입력 화면에서 국가 번호를 선택해 해외 전화번호도 입력할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.8](releases/2026-07-09_r1.55.8_web_collab-post-edit.md) | Web | 작성자와 운영 스태프가 등록한 협업·모집 글을 나중에 수정할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.7](releases/2026-07-09_r1.55.7_web_venue-profile-image-edit.md) | Web | 공연장 관리자가 공연장 프로필 사진을 직접 올리고 수정할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | Web | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | Web | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | Web | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-09 | [r1.55.10](releases/2026-07-09_r1.55.10_web_payment-selector-cleanup.md) | Web | 티켓 결제 화면을 정리하고, 국내(Toss) 결제 시 필수 약관 동의 절차를 추가했습니다. 해외 결제 옵션은 준비 중입니다. |
 | 2026-07-08 | [r1.55.3](releases/2026-07-08_r1.55.3_web_feed-ai-author-profile.md) | Web | 피드에서 AI가 작성한 글의 작성자 프로필을 열 때 프로필을 불러오지 못하던 문제를 해결하고, 해당 프로필에서 AI 글이 함께 보이도록 했습니다. |
 | 2026-07-08 | [r1.55.2](releases/2026-07-08_r1.55.2_web_feed-following-stories.md) | Web | 피드 상단에 팔로우한 프로필과 추천 아티스트를 가로로 보여주는 스토리 레일을 추가하고, 새 글이 올라온 프로필은 링으로 눈에 띄게 표시합니다. |
 | 2026-07-08 | [r1.55.1](releases/2026-07-08_r1.55.1_web_chat-link-preview.md) | Web | 채팅 메시지 속 링크를 자동으로 눌러서 열 수 있게 하고, 링크의 제목·설명·이미지를 담은 미리보기 카드를 함께 보여줍니다. |
@@ -236,8 +241,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-05-22 | [release-history-v3](releases/2026-05-22_release-history-v3_operations_release-history-claude-code-token-snapshots.md) | Operations | Public release notes에서 Claude Code 누적 토큰 사용량도 함께 확인할 수 있도록 자동화를 보강했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_backend_ticket-email-detail-scanner-recovery.md) | Backend | 결제 완료와 티켓 발급 메일, 나의 티켓 상세 보기, QR 확인, 티켓 스캐너 흐름을 실제 발급 티켓 기준으로 보강했습니다. |
 | 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Operations | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
-| 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Web | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
+| 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Web | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
 | 2026-05-22 | [r1.50.2](releases/2026-05-22_r1.50.2_backend_ticket-visibility-recovery.md) | Backend | 실제 승인된 티켓 결제가 나의 티켓에 표시되도록 결제 확정과 티켓 조회 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_ios_ios-codex-token-usage-snapshot.md) | iOS | iOS 앱 README에서 Codex 누적 토큰 사용량을 확인할 수 있도록 공개 스냅샷을 추가했습니다. |
 | 2026-05-22 | [r1.50.1](releases/2026-05-22_r1.50.1_backend_payment-completion.md) | Backend | 티켓 결제가 실제 승인 후 구매 완료와 티켓 발급으로 이어지도록 결제 완료 흐름을 개선했습니다. |
@@ -276,8 +281,13 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-07-09 | [r1.55.9](releases/2026-07-09_r1.55.9_web_ticket-intl-phone.md) | 티켓 구매 정보 입력 화면에서 국가 번호를 선택해 해외 전화번호도 입력할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.8](releases/2026-07-09_r1.55.8_web_collab-post-edit.md) | 작성자와 운영 스태프가 등록한 협업·모집 글을 나중에 수정할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.7](releases/2026-07-09_r1.55.7_web_venue-profile-image-edit.md) | 공연장 관리자가 공연장 프로필 사진을 직접 올리고 수정할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-09 | [r1.55.10](releases/2026-07-09_r1.55.10_web_payment-selector-cleanup.md) | 티켓 결제 화면을 정리하고, 국내(Toss) 결제 시 필수 약관 동의 절차를 추가했습니다. 해외 결제 옵션은 준비 중입니다. |
 | 2026-07-08 | [r1.55.3](releases/2026-07-08_r1.55.3_web_feed-ai-author-profile.md) | 피드에서 AI가 작성한 글의 작성자 프로필을 열 때 프로필을 불러오지 못하던 문제를 해결하고, 해당 프로필에서 AI 글이 함께 보이도록 했습니다. |
 | 2026-07-08 | [r1.55.2](releases/2026-07-08_r1.55.2_web_feed-following-stories.md) | 피드 상단에 팔로우한 프로필과 추천 아티스트를 가로로 보여주는 스토리 레일을 추가하고, 새 글이 올라온 프로필은 링으로 눈에 띄게 표시합니다. |
 | 2026-07-08 | [r1.55.1](releases/2026-07-08_r1.55.1_web_chat-link-preview.md) | 채팅 메시지 속 링크를 자동으로 눌러서 열 수 있게 하고, 링크의 제목·설명·이미지를 담은 미리보기 카드를 함께 보여줍니다. |
