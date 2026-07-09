@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-06-20 15:00 KST</td>
+    <td>2026-07-08 20:22 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>394 sessions</td>
+    <td>462 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>5,749,205,958 tokens</strong></td>
+    <td><strong>5,836,082,326 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>5,727,075,258 tokens</td>
+    <td>5,813,161,279 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>5,435,420,800 tokens</td>
+    <td>5,513,575,680 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>22,130,700 tokens</td>
+    <td>22,921,047 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>7,241,600 tokens</td>
+    <td>7,667,596 tokens</td>
   </tr>
 </table>
 
@@ -64,9 +64,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>5,750,000,000 tokens</td>
+    <td>5,850,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.8%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-06-26 19:49 KST</td>
+    <td>2026-07-09 11:55 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>2,436 files</td>
+    <td>2,827 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>137,777 entries</td>
+    <td>165,531 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>34,316,757,527 tokens</strong></td>
+    <td><strong>40,851,650,848 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>192,248,022 tokens</td>
+    <td>217,930,450 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,997,230,908 tokens</td>
+    <td>2,262,335,089 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>31,878,427,924 tokens</td>
+    <td>38,097,713,329 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>248,850,673 tokens</td>
+    <td>273,671,980 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>4,413,312,519 tokens</td>
+    <td>3,147,019,404 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>22,158,634,247 tokens</td>
+    <td>14,411,043,277 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>798,064,128 tokens/day</td>
+    <td>716,695,628 tokens/day</td>
   </tr>
 </table>
 
@@ -132,7 +132,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>34,350,000,000 tokens</td>
+    <td>40,900,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">99.9%</td>
   </tr>
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | Web | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
+| 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | Web | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-08 | [r1.55.3](releases/2026-07-08_r1.55.3_web_feed-ai-author-profile.md) | Web | 피드에서 AI가 작성한 글의 작성자 프로필을 열 때 프로필을 불러오지 못하던 문제를 해결하고, 해당 프로필에서 AI 글이 함께 보이도록 했습니다. |
+| 2026-07-08 | [r1.55.2](releases/2026-07-08_r1.55.2_web_feed-following-stories.md) | Web | 피드 상단에 팔로우한 프로필과 추천 아티스트를 가로로 보여주는 스토리 레일을 추가하고, 새 글이 올라온 프로필은 링으로 눈에 띄게 표시합니다. |
+| 2026-07-08 | [r1.55.1](releases/2026-07-08_r1.55.1_web_chat-link-preview.md) | Web | 채팅 메시지 속 링크를 자동으로 눌러서 열 수 있게 하고, 링크의 제목·설명·이미지를 담은 미리보기 카드를 함께 보여줍니다. |
+| 2026-07-08 | [r1.55.0](releases/2026-07-08_r1.55.0_web_chat-photo-attach.md) | Web | 전체 채팅(채널)에서도 사진을 첨부해 보낼 수 있도록 했습니다. 그동안 개인 메시지에서만 가능하던 사진 전송을 커뮤니티 채팅으로 넓혔습니다. |
 | 2026-06-25 | [r1.54.9](releases/2026-06-25_r1.54.9_web_map-source-toggle.md) | Web | 공연 지도에서 아티스트 소스와 AI 수집 소스를 토글로 구분해 볼 수 있게 했습니다. |
 | 2026-06-25 | [r1.54.8](releases/2026-06-25_r1.54.8_web_map-artist-profiles.md) | Web | 공연 지도와 목록에 표시되는 AI 수집 아티스트를 실제 아티스트 프로필 기반으로 개편했습니다. 핀이나 행을 누르면 해당 아티스트의 상세 정보와 공연 목록을 함께 볼 수 있습니다. |
 | 2026-06-25 | [r1.54.12](releases/2026-06-25_r1.54.12_web_venue-photo-ai-fallback.md) | Web | 공연장 사진이 없을 때 빈 화면 대신 AI 포스터나 아바타 이미지로 자연스럽게 대체 표시되도록 해, 어떤 공연장이든 보기 좋은 화면을 보여줍니다. |
@@ -230,8 +236,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-05-22 | [release-history-v3](releases/2026-05-22_release-history-v3_operations_release-history-claude-code-token-snapshots.md) | Operations | Public release notes에서 Claude Code 누적 토큰 사용량도 함께 확인할 수 있도록 자동화를 보강했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_backend_ticket-email-detail-scanner-recovery.md) | Backend | 결제 완료와 티켓 발급 메일, 나의 티켓 상세 보기, QR 확인, 티켓 스캐너 흐름을 실제 발급 티켓 기준으로 보강했습니다. |
 | 2026-05-22 | [release-history-v2](releases/2026-05-22_release-history-v2_operations_release-history-codex-token-snapshots.md) | Operations | Public release notes와 iOS README가 같은 Codex 누적 토큰 스냅샷을 표시하도록 release history 자동화를 보강했습니다. |
-| 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
 | 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_web_scoped-location-routes.md) | Web | Today와 Shows에서 필요한 위치 기능을 다시 사용할 수 있도록 하면서 결제 화면에서는 위치 사용을 막았습니다. |
+| 2026-05-22 | [r1.50.3](releases/2026-05-22_r1.50.3_ios_ios-scoped-location-webview.md) | iOS | iOS 앱에서 위치 기능이 필요한 화면에서만 동작하도록 허용 범위를 조정했습니다. |
 | 2026-05-22 | [r1.50.2](releases/2026-05-22_r1.50.2_backend_ticket-visibility-recovery.md) | Backend | 실제 승인된 티켓 결제가 나의 티켓에 표시되도록 결제 확정과 티켓 조회 흐름을 보강했습니다. |
 | 2026-05-22 | [r1.50.4](releases/2026-05-22_r1.50.4_ios_ios-codex-token-usage-snapshot.md) | iOS | iOS 앱 README에서 Codex 누적 토큰 사용량을 확인할 수 있도록 공개 스냅샷을 추가했습니다. |
 | 2026-05-22 | [r1.50.1](releases/2026-05-22_r1.50.1_backend_payment-completion.md) | Backend | 티켓 결제가 실제 승인 후 구매 완료와 티켓 발급으로 이어지도록 결제 완료 흐름을 개선했습니다. |
@@ -270,6 +276,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
+| 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-08 | [r1.55.3](releases/2026-07-08_r1.55.3_web_feed-ai-author-profile.md) | 피드에서 AI가 작성한 글의 작성자 프로필을 열 때 프로필을 불러오지 못하던 문제를 해결하고, 해당 프로필에서 AI 글이 함께 보이도록 했습니다. |
+| 2026-07-08 | [r1.55.2](releases/2026-07-08_r1.55.2_web_feed-following-stories.md) | 피드 상단에 팔로우한 프로필과 추천 아티스트를 가로로 보여주는 스토리 레일을 추가하고, 새 글이 올라온 프로필은 링으로 눈에 띄게 표시합니다. |
+| 2026-07-08 | [r1.55.1](releases/2026-07-08_r1.55.1_web_chat-link-preview.md) | 채팅 메시지 속 링크를 자동으로 눌러서 열 수 있게 하고, 링크의 제목·설명·이미지를 담은 미리보기 카드를 함께 보여줍니다. |
+| 2026-07-08 | [r1.55.0](releases/2026-07-08_r1.55.0_web_chat-photo-attach.md) | 전체 채팅(채널)에서도 사진을 첨부해 보낼 수 있도록 했습니다. 그동안 개인 메시지에서만 가능하던 사진 전송을 커뮤니티 채팅으로 넓혔습니다. |
 | 2026-06-25 | [r1.54.9](releases/2026-06-25_r1.54.9_web_map-source-toggle.md) | 공연 지도에서 아티스트 소스와 AI 수집 소스를 토글로 구분해 볼 수 있게 했습니다. |
 | 2026-06-25 | [r1.54.8](releases/2026-06-25_r1.54.8_web_map-artist-profiles.md) | 공연 지도와 목록에 표시되는 AI 수집 아티스트를 실제 아티스트 프로필 기반으로 개편했습니다. 핀이나 행을 누르면 해당 아티스트의 상세 정보와 공연 목록을 함께 볼 수 있습니다. |
 | 2026-06-25 | [r1.54.12](releases/2026-06-25_r1.54.12_web_venue-photo-ai-fallback.md) | 공연장 사진이 없을 때 빈 화면 대신 AI 포스터나 아바타 이미지로 자연스럽게 대체 표시되도록 해, 어떤 공연장이든 보기 좋은 화면을 보여줍니다. |
