@@ -93,7 +93,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>42,747,480,676 tokens</strong></td>
+    <td><strong>42,837,296,489 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
@@ -148,6 +148,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | Web | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | Web | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | Web | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-11 | [r1.55.28](releases/2026-07-11_r1.55.28_web_legal-paypal-to-stripe.md) | Web | 이용약관·개인정보 처리방침에서 더 이상 사용하지 않는 PayPal 관련 문구를 정리하고, 결제·정산 안내를 현재 수단(토스·Stripe)에 맞게 갱신했습니다. |
 | 2026-07-11 | [r1.55.27](releases/2026-07-11_r1.55.27_web_paypal-retirement.md) | Web | 결제 수단을 국내 토스·해외 Stripe로 일원화하고, 더 이상 사용하지 않는 PayPal 결제를 앱에서 전면 정리했습니다. |
 | 2026-07-11 | [r1.55.26](releases/2026-07-11_r1.55.26_web_venue-edit-fields.md) | Web | 공연장 정보 수정 화면에서 전화번호·웹사이트·수용 인원·운영 시간을 저장해도 반영되지 않던 문제를 수정했습니다. |
 | 2026-07-11 | [r1.55.25](releases/2026-07-11_r1.55.25_web_payment-region-routing.md) | Web | 티켓 결제 화면에서 결제사 선택 버튼을 없애고, 지역에 따라 결제 방식을 자동으로 정하도록 바꿨습니다. |
@@ -304,6 +305,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-11 | [r1.55.28](releases/2026-07-11_r1.55.28_web_legal-paypal-to-stripe.md) | 이용약관·개인정보 처리방침에서 더 이상 사용하지 않는 PayPal 관련 문구를 정리하고, 결제·정산 안내를 현재 수단(토스·Stripe)에 맞게 갱신했습니다. |
 | 2026-07-11 | [r1.55.27](releases/2026-07-11_r1.55.27_web_paypal-retirement.md) | 결제 수단을 국내 토스·해외 Stripe로 일원화하고, 더 이상 사용하지 않는 PayPal 결제를 앱에서 전면 정리했습니다. |
 | 2026-07-11 | [r1.55.26](releases/2026-07-11_r1.55.26_web_venue-edit-fields.md) | 공연장 정보 수정 화면에서 전화번호·웹사이트·수용 인원·운영 시간을 저장해도 반영되지 않던 문제를 수정했습니다. |
 | 2026-07-11 | [r1.55.25](releases/2026-07-11_r1.55.25_web_payment-region-routing.md) | 티켓 결제 화면에서 결제사 선택 버튼을 없애고, 지역에 따라 결제 방식을 자동으로 정하도록 바꿨습니다. |
