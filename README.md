@@ -37,7 +37,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>5,866,289,499 tokens</strong></td>
+    <td><strong>5,868,150,123 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
@@ -93,7 +93,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>42,089,415,927 tokens</strong></td>
+    <td><strong>42,138,447,518 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
@@ -148,6 +148,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | Web | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | Web | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | Web | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-10 | [r1.55.21](releases/2026-07-10_r1.55.21_web_venue-event-edit.md) | Web | 공연장 관리에서 등록한 공연의 수정 버튼이 동작하지 않던 문제를 수정했습니다. |
 | 2026-07-10 | [r1.55.20](releases/2026-07-10_r1.55.20_web_intl-payment-stabilization.md) | Web | 해외 티켓 결제에서 주문이 거절되거나 카드 입력 화면이 나타나지 않던 문제를 수정하고, 첫 해외 실결제(태국 바트)를 검증했습니다. |
 | 2026-07-10 | [r1.55.19](releases/2026-07-10_r1.55.19_web_intl-stripe-ticket-payment.md) | Web | 해외 공연 티켓을 현지 통화로 Stripe 카드 결제할 수 있게 했습니다. |
 | 2026-07-09 | [r1.55.18](releases/2026-07-09_r1.55.18_web_admin-stripe-settlement.md) | Web | 운영 스태프가 해외 정산 대상을 미리 확인하고 일괄 정산을 실행할 수 있는 관리자 콘솔을 추가했습니다. |
@@ -297,6 +298,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-10 | [r1.55.21](releases/2026-07-10_r1.55.21_web_venue-event-edit.md) | 공연장 관리에서 등록한 공연의 수정 버튼이 동작하지 않던 문제를 수정했습니다. |
 | 2026-07-10 | [r1.55.20](releases/2026-07-10_r1.55.20_web_intl-payment-stabilization.md) | 해외 티켓 결제에서 주문이 거절되거나 카드 입력 화면이 나타나지 않던 문제를 수정하고, 첫 해외 실결제(태국 바트)를 검증했습니다. |
 | 2026-07-10 | [r1.55.19](releases/2026-07-10_r1.55.19_web_intl-stripe-ticket-payment.md) | 해외 공연 티켓을 현지 통화로 Stripe 카드 결제할 수 있게 했습니다. |
 | 2026-07-09 | [r1.55.18](releases/2026-07-09_r1.55.18_web_admin-stripe-settlement.md) | 운영 스태프가 해외 정산 대상을 미리 확인하고 일괄 정산을 실행할 수 있는 관리자 콘솔을 추가했습니다. |
