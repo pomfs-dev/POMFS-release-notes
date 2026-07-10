@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-07-10 06:16 KST</td>
+    <td>2026-07-10 10:41 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>500 sessions</td>
+    <td>502 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>5,866,148,888 tokens</strong></td>
+    <td><strong>5,866,289,499 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>5,842,905,439 tokens</td>
+    <td>5,843,042,544 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>5,540,190,080 tokens</td>
+    <td>5,540,283,136 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>23,243,449 tokens</td>
+    <td>23,246,955 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>7,843,925 tokens</td>
+    <td>7,846,012 tokens</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-07-10 08:04 KST</td>
+    <td>2026-07-10 10:44 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>2,856 files</td>
+    <td>2,860 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>168,652 entries</td>
+    <td>169,086 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>41,996,908,329 tokens</strong></td>
+    <td><strong>42,089,415,927 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>219,146,879 tokens</td>
+    <td>219,234,099 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,287,847,812 tokens</td>
+    <td>2,288,801,508 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>39,213,749,795 tokens</td>
+    <td>39,304,910,129 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>276,163,843 tokens</td>
+    <td>276,470,191 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>3,080,443,590 tokens</td>
+    <td>3,075,725,378 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>15,480,096,381 tokens</td>
+    <td>15,572,481,361 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>699,948,472 tokens/day</td>
+    <td>678,861,547 tokens/day</td>
   </tr>
 </table>
 
@@ -148,6 +148,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | Web | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | Web | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | Web | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-10 | [r1.55.20](releases/2026-07-10_r1.55.20_web_intl-payment-stabilization.md) | Web | 해외 티켓 결제에서 주문이 거절되거나 카드 입력 화면이 나타나지 않던 문제를 수정하고, 첫 해외 실결제(태국 바트)를 검증했습니다. |
 | 2026-07-10 | [r1.55.19](releases/2026-07-10_r1.55.19_web_intl-stripe-ticket-payment.md) | Web | 해외 공연 티켓을 현지 통화로 Stripe 카드 결제할 수 있게 했습니다. |
 | 2026-07-09 | [r1.55.18](releases/2026-07-09_r1.55.18_web_admin-stripe-settlement.md) | Web | 운영 스태프가 해외 정산 대상을 미리 확인하고 일괄 정산을 실행할 수 있는 관리자 콘솔을 추가했습니다. |
 | 2026-07-09 | [r1.55.17](releases/2026-07-09_r1.55.17_web_deploy-stability.md) | Web | 서비스 업데이트 직후 일부 브라우저에서 빈 화면이 나타날 수 있던 문제를 방지하도록 배포 방식을 개선했습니다. |
@@ -296,6 +297,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-10 | [r1.55.20](releases/2026-07-10_r1.55.20_web_intl-payment-stabilization.md) | 해외 티켓 결제에서 주문이 거절되거나 카드 입력 화면이 나타나지 않던 문제를 수정하고, 첫 해외 실결제(태국 바트)를 검증했습니다. |
 | 2026-07-10 | [r1.55.19](releases/2026-07-10_r1.55.19_web_intl-stripe-ticket-payment.md) | 해외 공연 티켓을 현지 통화로 Stripe 카드 결제할 수 있게 했습니다. |
 | 2026-07-09 | [r1.55.18](releases/2026-07-09_r1.55.18_web_admin-stripe-settlement.md) | 운영 스태프가 해외 정산 대상을 미리 확인하고 일괄 정산을 실행할 수 있는 관리자 콘솔을 추가했습니다. |
 | 2026-07-09 | [r1.55.17](releases/2026-07-09_r1.55.17_web_deploy-stability.md) | 서비스 업데이트 직후 일부 브라우저에서 빈 화면이 나타날 수 있던 문제를 방지하도록 배포 방식을 개선했습니다. |
