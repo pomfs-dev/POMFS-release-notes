@@ -37,7 +37,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>5,869,902,918 tokens</strong></td>
+    <td><strong>5,870,316,223 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
@@ -93,7 +93,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>42,311,997,445 tokens</strong></td>
+    <td><strong>42,363,248,603 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
@@ -148,6 +148,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | Web | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | Web | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | Web | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-11 | [r1.55.24](releases/2026-07-11_r1.55.24_web_admin-refund-approvals.md) | Web | 운영 관리자가 앱에서 직접 티켓 환불을 승인·거절할 수 있는 화면을 추가했습니다. |
 | 2026-07-10 | [r1.55.23](releases/2026-07-10_r1.55.23_web_partial-refund-fix.md) | Web | 해외 티켓 부분 환불이 결제사에서는 처리됐으나 앱 기록이 갱신되지 않던 문제를 수정했습니다. |
 | 2026-07-10 | [r1.55.22](releases/2026-07-10_r1.55.22_web_refund-request-feedback.md) | Web | 티켓 환불 신청이 접수돼도 화면에 아무 안내가 없어 여러 번 눌리던 문제를 수정했습니다. |
 | 2026-07-10 | [r1.55.21](releases/2026-07-10_r1.55.21_web_venue-event-edit.md) | Web | 공연장 관리에서 등록한 공연의 수정 버튼이 동작하지 않던 문제를 수정했습니다. |
@@ -300,6 +301,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-11 | [r1.55.24](releases/2026-07-11_r1.55.24_web_admin-refund-approvals.md) | 운영 관리자가 앱에서 직접 티켓 환불을 승인·거절할 수 있는 화면을 추가했습니다. |
 | 2026-07-10 | [r1.55.23](releases/2026-07-10_r1.55.23_web_partial-refund-fix.md) | 해외 티켓 부분 환불이 결제사에서는 처리됐으나 앱 기록이 갱신되지 않던 문제를 수정했습니다. |
 | 2026-07-10 | [r1.55.22](releases/2026-07-10_r1.55.22_web_refund-request-feedback.md) | 티켓 환불 신청이 접수돼도 화면에 아무 안내가 없어 여러 번 눌리던 문제를 수정했습니다. |
 | 2026-07-10 | [r1.55.21](releases/2026-07-10_r1.55.21_web_venue-event-edit.md) | 공연장 관리에서 등록한 공연의 수정 버튼이 동작하지 않던 문제를 수정했습니다. |
