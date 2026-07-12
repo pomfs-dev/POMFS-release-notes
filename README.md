@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-07-10 10:44 KST</td>
+    <td>2026-07-12 14:07 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>2,860 files</td>
+    <td>2,906 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>169,086 entries</td>
+    <td>172,232 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>42,837,296,489 tokens</strong></td>
+    <td><strong>42,978,959,822 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>219,234,099 tokens</td>
+    <td>220,593,629 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,288,801,508 tokens</td>
+    <td>2,317,902,400 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>39,304,910,129 tokens</td>
+    <td>40,161,679,598 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>276,470,191 tokens</td>
+    <td>278,784,195 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>3,075,725,378 tokens</td>
+    <td>3,652,785,549 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>15,572,481,361 tokens</td>
+    <td>16,290,090,606 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>678,861,547 tokens/day</td>
+    <td>588,752,874 tokens/day</td>
   </tr>
 </table>
 
@@ -148,6 +148,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | Web | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | Web | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | Web | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-12 | [r1.55.29](releases/2026-07-12_r1.55.29_web_admin-theme-color-editor.md) | Web | 운영 관리자가 앱 테마 색상을 직접 편집할 수 있는 관리 도구를 추가했습니다(기본 색상은 그대로이며, 저장 전까지 사용자 화면은 변화 없음). |
 | 2026-07-11 | [r1.55.28](releases/2026-07-11_r1.55.28_web_legal-paypal-to-stripe.md) | Web | 이용약관·개인정보 처리방침에서 더 이상 사용하지 않는 PayPal 관련 문구를 정리하고, 결제·정산 안내를 현재 수단(토스·Stripe)에 맞게 갱신했습니다. |
 | 2026-07-11 | [r1.55.27](releases/2026-07-11_r1.55.27_web_paypal-retirement.md) | Web | 결제 수단을 국내 토스·해외 Stripe로 일원화하고, 더 이상 사용하지 않는 PayPal 결제를 앱에서 전면 정리했습니다. |
 | 2026-07-11 | [r1.55.26](releases/2026-07-11_r1.55.26_web_venue-edit-fields.md) | Web | 공연장 정보 수정 화면에서 전화번호·웹사이트·수용 인원·운영 시간을 저장해도 반영되지 않던 문제를 수정했습니다. |
@@ -305,6 +306,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
 | 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
 | 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
+| 2026-07-12 | [r1.55.29](releases/2026-07-12_r1.55.29_web_admin-theme-color-editor.md) | 운영 관리자가 앱 테마 색상을 직접 편집할 수 있는 관리 도구를 추가했습니다(기본 색상은 그대로이며, 저장 전까지 사용자 화면은 변화 없음). |
 | 2026-07-11 | [r1.55.28](releases/2026-07-11_r1.55.28_web_legal-paypal-to-stripe.md) | 이용약관·개인정보 처리방침에서 더 이상 사용하지 않는 PayPal 관련 문구를 정리하고, 결제·정산 안내를 현재 수단(토스·Stripe)에 맞게 갱신했습니다. |
 | 2026-07-11 | [r1.55.27](releases/2026-07-11_r1.55.27_web_paypal-retirement.md) | 결제 수단을 국내 토스·해외 Stripe로 일원화하고, 더 이상 사용하지 않는 PayPal 결제를 앱에서 전면 정리했습니다. |
 | 2026-07-11 | [r1.55.26](releases/2026-07-11_r1.55.26_web_venue-edit-fields.md) | 공연장 정보 수정 화면에서 전화번호·웹사이트·수용 인원·운영 시간을 저장해도 반영되지 않던 문제를 수정했습니다. |
