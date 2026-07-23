@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-07-10 10:41 KST</td>
+    <td>2026-07-23 15:50 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>502 sessions</td>
+    <td>537 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>5,876,500,713 tokens</strong></td>
+    <td><strong>5,906,503,177 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>5,843,042,544 tokens</td>
+    <td>5,882,838,543 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>5,540,283,136 tokens</td>
+    <td>5,576,658,560 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>23,246,955 tokens</td>
+    <td>23,664,634 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>7,846,012 tokens</td>
+    <td>8,076,415 tokens</td>
   </tr>
 </table>
 
@@ -64,9 +64,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>5,900,000,000 tokens</td>
+    <td>5,950,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.4%</td>
+    <td align="right">99.3%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-07-12 14:07 KST</td>
+    <td>2026-07-23 17:20 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>2,906 files</td>
+    <td>3,009 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>172,232 entries</td>
+    <td>179,546 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>42,978,959,822 tokens</strong></td>
+    <td><strong>45,262,291,893 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>220,593,629 tokens</td>
+    <td>226,125,713 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,317,902,400 tokens</td>
+    <td>2,416,458,292 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>40,161,679,598 tokens</td>
+    <td>42,334,365,750 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>278,784,195 tokens</td>
+    <td>285,342,138 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>3,652,785,549 tokens</td>
+    <td>1,115,445,792 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>16,290,090,606 tokens</td>
+    <td>11,666,269,483 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>588,752,874 tokens/day</td>
+    <td>545,328,817 tokens/day</td>
   </tr>
 </table>
 
@@ -132,9 +132,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>42,000,000,000 tokens</td>
+    <td>45,300,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -142,13 +142,35 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
-| 2026-07-09 | [r1.55.9](releases/2026-07-09_r1.55.9_web_ticket-intl-phone.md) | Web | 티켓 구매 정보 입력 화면에서 국가 번호를 선택해 해외 전화번호도 입력할 수 있게 했습니다. |
-| 2026-07-09 | [r1.55.8](releases/2026-07-09_r1.55.8_web_collab-post-edit.md) | Web | 작성자와 운영 스태프가 등록한 협업·모집 글을 나중에 수정할 수 있게 했습니다. |
-| 2026-07-09 | [r1.55.7](releases/2026-07-09_r1.55.7_web_venue-profile-image-edit.md) | Web | 공연장 관리자가 공연장 프로필 사진을 직접 올리고 수정할 수 있게 했습니다. |
-| 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | Web | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
-| 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | Web | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
-| 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | Web | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
-| 2026-07-12 | [r1.55.29](releases/2026-07-12_r1.55.29_web_admin-theme-color-editor.md) | Web | 운영 관리자가 앱 테마 색상을 직접 편집할 수 있는 관리 도구를 추가했습니다(기본 색상은 그대로이며, 저장 전까지 사용자 화면은 변화 없음). |
+| 2026-07-23 | [r1.56.9](releases/2026-07-23_r1.56.9_web_artist-ranking-tiebreak.md) | Web | 아티스트 랭킹에서 점수가 같은 경우, 실제 프로필 사진과 장르 정보를 갖춘 아티스트가 먼저 표시되도록 정렬을 개선했습니다. |
+| 2026-07-23 | [r1.56.8](releases/2026-07-23_r1.56.8_web_announce-self-receive.md) | Web | 공지를 보낸 스태프 본인도 알림을 받아 발송이 잘 되었는지 바로 확인할 수 있도록 개선했습니다. |
+| 2026-07-23 | [r1.56.13](releases/2026-07-23_r1.56.13_web_artist-bio-sync-fix.md) | Web | 프로필 설정에서 아티스트 소개를 수정해도 공개 명함(DROP)과 프로필에 옛 소개가 남아 있던 문제를 긴급 수정했습니다. |
+| 2026-07-23 | [r1.56.12](releases/2026-07-23_r1.56.12_web_chat-message-edit.md) | Web | 채팅에서 내가 보낸 메시지를 밀어서 수정할 수 있는 기능을 추가했습니다. |
+| 2026-07-23 | [r1.56.11](releases/2026-07-23_r1.56.11_web_home-social-links.md) | Web | 홈 화면의 소셜 바로가기가 MiSFY 공식 유튜브·인스타그램 계정으로 올바르게 연결되도록 수정했습니다. |
+| 2026-07-23 | [r1.56.10](releases/2026-07-23_r1.56.10_web_staff-channel-monitoring.md) | Web | 전체 채팅과 아티스트·공연장 채널에 새 메시지가 올라오면 스태프에게 알림이 전달되어 운영 대응이 더 빨라졌습니다. |
+| 2026-07-22 | [r1.56.7](releases/2026-07-22_r1.56.7_web_app-update-detection.md) | Web | 업데이트 배포 후에도 일부 기기에서 이전 화면이 계속 실행되던 문제를 수정하고, 새 버전 안내가 정상적으로 표시되도록 복구했습니다. |
+| 2026-07-22 | [r1.56.6](releases/2026-07-22_r1.56.6_web_chat-composer-improvements.md) | Web | 채팅에서 줄바꿈 입력, 길게 눌러 반응하기, 이모지 선택창 표시가 더 자연스럽게 동작하도록 개선했습니다. |
+| 2026-07-22 | [r1.56.5](releases/2026-07-22_r1.56.5_web_staff-announce-broadcast.md) | Web | 스태프가 채팅에서 '공지로 보내기'를 켜고 메시지를 보내면 아티스트·공연장·스태프 전원에게 알림이 발송됩니다. |
+| 2026-07-22 | [r1.56.4](releases/2026-07-22_r1.56.4_web_chat-link-thumbnails.md) | Web | 채팅에서 유튜브·사운드클라우드·틱톡 링크를 보내면 주소 대신 큰 썸네일 카드로 표시됩니다. |
+| 2026-07-22 | [3.0.2](releases/2026-07-22_3.0.2_android_google-login-fix.md) | Android | 안드로이드 앱 첫 화면에서 구글 로그인이 실패하던 문제를 근본적으로 해결했습니다. |
+| 2026-07-21 | [r1.56.3](releases/2026-07-21_r1.56.3_web_search-event-title-fix.md) | Web | 검색 결과에서 공연 포스트 제목이 표시되지 않던 문제와 국가 필터가 올바르게 동작하지 않던 문제를 수정했습니다. |
+| 2026-07-20 | [r1.56.2](releases/2026-07-20_r1.56.2_web_hardening-privacy.md) | Web | 티켓 조회 시 개인정보 보호를 강화하고, 채팅 메시지 삭제가 모든 화면에 실시간으로 반영되도록 개선했습니다. |
+| 2026-07-20 | [r1.56.1](releases/2026-07-20_r1.56.1_web_chat-translate-reactions.md) | Web | 모든 채팅 화면에서 메시지를 번역해 보고, 이모지로 반응할 수 있는 기능을 추가했습니다. |
+| 2026-07-20 | [r1.56.0](releases/2026-07-20_r1.56.0_web_together-v3-map-hub.md) | Web | 함께 즐기기가 공연 지도와 하나로 통합되어, 지도에서 바로 모임을 찾고 공연 카드에서 곧장 모임을 만들거나 참여할 수 있게 되었습니다. |
+| 2026-07-19 | [r1.55.42](releases/2026-07-19_r1.55.42_web_image-thumbnails.md) | Web | 업로드된 이미지에 경량 썸네일을 자동 생성하고 목록·지도·홈 화면에 적용하여 앱 전반의 이미지 로딩 속도를 크게 개선했습니다. |
+| 2026-07-17 | [r1.55.41](releases/2026-07-17_r1.55.41_web_chat-participants-avatars.md) | Web | 전체 채팅 방 상단에서 지금 접속 중인 참여자들의 프로필 사진과 인원수를 한눈에 확인할 수 있게 되었습니다. |
+| 2026-07-16 | [r1.55.40](releases/2026-07-16_r1.55.40_web_delete-reliability.md) | Web | 구독자나 판매 이력이 있는 공연·공연장, 피드 글을 삭제할 때 오류로 실패하던 문제를 수정하고, 삭제할 수 없는 경우 이유를 명확히 안내하도록 개선했습니다. |
+| 2026-07-16 | [r1.55.39](releases/2026-07-16_r1.55.39_web_ux-error-polish.md) | Web | 공연장 이벤트 게스트리스트 오표시와 리뷰 제출 결과 안내를 바로잡고, 오류 상황에서의 안내를 전반적으로 개선했습니다. |
+| 2026-07-15 | [r1.55.38](releases/2026-07-15_r1.55.38_web_paypal-copy-cleanup.md) | Web | 결제·정산 화면에 남아 있던 사용하지 않는 결제 수단(PayPal) 표기를 정리하여 현재 지원하는 결제 수단 기준으로 안내를 통일했습니다. |
+| 2026-07-15 | [r1.55.37](releases/2026-07-15_r1.55.37_web_ai-venue-map-markers.md) | Web | 공연 지도에서 AI 수집 공연장도 마커로 표시되고, 상세 화면에서 배지로 구분할 수 있게 되었습니다. |
+| 2026-07-15 | [r1.55.36](releases/2026-07-15_r1.55.36_web_together-polish.md) | Web | 함께 즐기기 모임 목록에서 각 모임이 어떤 공연과 연결되어 있는지 한눈에 확인할 수 있도록 개선했습니다. |
+| 2026-07-14 | [r1.55.35](releases/2026-07-14_r1.55.35_web_initial-bundle-chat-realtime.md) | Web | 첫 접속 시 앱이 더 빠르게 열리고, 채팅이 새로고침 없이 실시간으로 반영되도록 개선했습니다. |
+| 2026-07-14 | [r1.55.34](releases/2026-07-14_r1.55.34_web_map-home-payload-slim.md) | Web | 공연 지도와 홈 화면이 불러오는 데이터 양을 대폭 줄여 화면이 훨씬 빠르게 열리도록 개선했습니다. |
+| 2026-07-13 | [r1.55.33](releases/2026-07-13_r1.55.33_web_loading-speed-phase1.md) | Web | 앱 첫 화면이 뜨는 속도를 크게 개선하고, 공연장 목록과 채팅의 데이터 처리를 가볍게 다듬었습니다. |
+| 2026-07-13 | [r1.55.32](releases/2026-07-13_r1.55.32_web_intl-settlement-notice.md) | Web | 해외(한국 외) 정산 등록을 일시적으로 중단하고, 2026년 9월 중 지원 예정임을 미리 안내하도록 했습니다. |
+| 2026-07-13 | [r1.55.31](releases/2026-07-13_r1.55.31_web_feed-link-embeds.md) | Web | 피드와 Today 게시글 본문에 적힌 링크가 자동으로 썸네일·영상 미리보기 카드로 표시됩니다. |
+| 2026-07-13 | [r1.55.30](releases/2026-07-13_r1.55.30_web_notification-prompt-tap-fix.md) | Web | 알림 허용 안내 창의 버튼이 눌리지 않던 문제를 수정했습니다. |
+| 2026-07-12 | [r1.55.29](releases/2026-07-12_r1.55.29_web_admin-theme-color-editor.md) | Web | 운영 관리자가 앱의 테마 색상을 직접 편집할 수 있는 관리 도구를 추가했습니다(현재 기본 색상은 그대로이며, 관리자가 값을 저장하기 전까지 사용자 화면은 변하지 않습니다). |
 | 2026-07-11 | [r1.55.28](releases/2026-07-11_r1.55.28_web_legal-paypal-to-stripe.md) | Web | 이용약관·개인정보 처리방침에서 더 이상 사용하지 않는 PayPal 관련 문구를 정리하고, 결제·정산 안내를 현재 수단(토스·Stripe)에 맞게 갱신했습니다. |
 | 2026-07-11 | [r1.55.27](releases/2026-07-11_r1.55.27_web_paypal-retirement.md) | Web | 결제 수단을 국내 토스·해외 Stripe로 일원화하고, 더 이상 사용하지 않는 PayPal 결제를 앱에서 전면 정리했습니다. |
 | 2026-07-11 | [r1.55.26](releases/2026-07-11_r1.55.26_web_venue-edit-fields.md) | Web | 공연장 정보 수정 화면에서 전화번호·웹사이트·수용 인원·운영 시간을 저장해도 반영되지 않던 문제를 수정했습니다. |
@@ -159,6 +181,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-10 | [r1.55.21](releases/2026-07-10_r1.55.21_web_venue-event-edit.md) | Web | 공연장 관리에서 등록한 공연의 수정 버튼이 동작하지 않던 문제를 수정했습니다. |
 | 2026-07-10 | [r1.55.20](releases/2026-07-10_r1.55.20_web_intl-payment-stabilization.md) | Web | 해외 티켓 결제에서 주문이 거절되거나 카드 입력 화면이 나타나지 않던 문제를 수정하고, 첫 해외 실결제(태국 바트)를 검증했습니다. |
 | 2026-07-10 | [r1.55.19](releases/2026-07-10_r1.55.19_web_intl-stripe-ticket-payment.md) | Web | 해외 공연 티켓을 현지 통화로 Stripe 카드 결제할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.9](releases/2026-07-09_r1.55.9_web_ticket-intl-phone.md) | Web | 티켓 구매 정보 입력 화면에서 국가 번호를 선택해 해외 전화번호도 입력할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.8](releases/2026-07-09_r1.55.8_web_collab-post-edit.md) | Web | 작성자와 운영 스태프가 등록한 협업·모집 글을 나중에 수정할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.7](releases/2026-07-09_r1.55.7_web_venue-profile-image-edit.md) | Web | 공연장 관리자가 공연장 프로필 사진을 직접 올리고 수정할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | Web | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
+| 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | Web | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
+| 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | Web | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
 | 2026-07-09 | [r1.55.18](releases/2026-07-09_r1.55.18_web_admin-stripe-settlement.md) | Web | 운영 스태프가 해외 정산 대상을 미리 확인하고 일괄 정산을 실행할 수 있는 관리자 콘솔을 추가했습니다. |
 | 2026-07-09 | [r1.55.17](releases/2026-07-09_r1.55.17_web_deploy-stability.md) | Web | 서비스 업데이트 직후 일부 브라우저에서 빈 화면이 나타날 수 있던 문제를 방지하도록 배포 방식을 개선했습니다. |
 | 2026-07-09 | [r1.55.16](releases/2026-07-09_r1.55.16_web_global-payouts-groundwork.md) | Web | 해외 아티스트·공연장 정산을 더 많은 국가로 확장하기 위한 기반을 준비했습니다(순차 활성화 예정). |
@@ -294,19 +322,41 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-07-22 | [3.0.2](releases/2026-07-22_3.0.2_android_google-login-fix.md) | 안드로이드 앱 첫 화면에서 구글 로그인이 실패하던 문제를 근본적으로 해결했습니다. |
 | 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다. |
 
 ### Web
 
 | Date | Version | Summary |
 |---|---|---|
-| 2026-07-09 | [r1.55.9](releases/2026-07-09_r1.55.9_web_ticket-intl-phone.md) | 티켓 구매 정보 입력 화면에서 국가 번호를 선택해 해외 전화번호도 입력할 수 있게 했습니다. |
-| 2026-07-09 | [r1.55.8](releases/2026-07-09_r1.55.8_web_collab-post-edit.md) | 작성자와 운영 스태프가 등록한 협업·모집 글을 나중에 수정할 수 있게 했습니다. |
-| 2026-07-09 | [r1.55.7](releases/2026-07-09_r1.55.7_web_venue-profile-image-edit.md) | 공연장 관리자가 공연장 프로필 사진을 직접 올리고 수정할 수 있게 했습니다. |
-| 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
-| 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
-| 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
-| 2026-07-12 | [r1.55.29](releases/2026-07-12_r1.55.29_web_admin-theme-color-editor.md) | 운영 관리자가 앱 테마 색상을 직접 편집할 수 있는 관리 도구를 추가했습니다(기본 색상은 그대로이며, 저장 전까지 사용자 화면은 변화 없음). |
+| 2026-07-23 | [r1.56.9](releases/2026-07-23_r1.56.9_web_artist-ranking-tiebreak.md) | 아티스트 랭킹에서 점수가 같은 경우, 실제 프로필 사진과 장르 정보를 갖춘 아티스트가 먼저 표시되도록 정렬을 개선했습니다. |
+| 2026-07-23 | [r1.56.8](releases/2026-07-23_r1.56.8_web_announce-self-receive.md) | 공지를 보낸 스태프 본인도 알림을 받아 발송이 잘 되었는지 바로 확인할 수 있도록 개선했습니다. |
+| 2026-07-23 | [r1.56.13](releases/2026-07-23_r1.56.13_web_artist-bio-sync-fix.md) | 프로필 설정에서 아티스트 소개를 수정해도 공개 명함(DROP)과 프로필에 옛 소개가 남아 있던 문제를 긴급 수정했습니다. |
+| 2026-07-23 | [r1.56.12](releases/2026-07-23_r1.56.12_web_chat-message-edit.md) | 채팅에서 내가 보낸 메시지를 밀어서 수정할 수 있는 기능을 추가했습니다. |
+| 2026-07-23 | [r1.56.11](releases/2026-07-23_r1.56.11_web_home-social-links.md) | 홈 화면의 소셜 바로가기가 MiSFY 공식 유튜브·인스타그램 계정으로 올바르게 연결되도록 수정했습니다. |
+| 2026-07-23 | [r1.56.10](releases/2026-07-23_r1.56.10_web_staff-channel-monitoring.md) | 전체 채팅과 아티스트·공연장 채널에 새 메시지가 올라오면 스태프에게 알림이 전달되어 운영 대응이 더 빨라졌습니다. |
+| 2026-07-22 | [r1.56.7](releases/2026-07-22_r1.56.7_web_app-update-detection.md) | 업데이트 배포 후에도 일부 기기에서 이전 화면이 계속 실행되던 문제를 수정하고, 새 버전 안내가 정상적으로 표시되도록 복구했습니다. |
+| 2026-07-22 | [r1.56.6](releases/2026-07-22_r1.56.6_web_chat-composer-improvements.md) | 채팅에서 줄바꿈 입력, 길게 눌러 반응하기, 이모지 선택창 표시가 더 자연스럽게 동작하도록 개선했습니다. |
+| 2026-07-22 | [r1.56.5](releases/2026-07-22_r1.56.5_web_staff-announce-broadcast.md) | 스태프가 채팅에서 '공지로 보내기'를 켜고 메시지를 보내면 아티스트·공연장·스태프 전원에게 알림이 발송됩니다. |
+| 2026-07-22 | [r1.56.4](releases/2026-07-22_r1.56.4_web_chat-link-thumbnails.md) | 채팅에서 유튜브·사운드클라우드·틱톡 링크를 보내면 주소 대신 큰 썸네일 카드로 표시됩니다. |
+| 2026-07-21 | [r1.56.3](releases/2026-07-21_r1.56.3_web_search-event-title-fix.md) | 검색 결과에서 공연 포스트 제목이 표시되지 않던 문제와 국가 필터가 올바르게 동작하지 않던 문제를 수정했습니다. |
+| 2026-07-20 | [r1.56.2](releases/2026-07-20_r1.56.2_web_hardening-privacy.md) | 티켓 조회 시 개인정보 보호를 강화하고, 채팅 메시지 삭제가 모든 화면에 실시간으로 반영되도록 개선했습니다. |
+| 2026-07-20 | [r1.56.1](releases/2026-07-20_r1.56.1_web_chat-translate-reactions.md) | 모든 채팅 화면에서 메시지를 번역해 보고, 이모지로 반응할 수 있는 기능을 추가했습니다. |
+| 2026-07-20 | [r1.56.0](releases/2026-07-20_r1.56.0_web_together-v3-map-hub.md) | 함께 즐기기가 공연 지도와 하나로 통합되어, 지도에서 바로 모임을 찾고 공연 카드에서 곧장 모임을 만들거나 참여할 수 있게 되었습니다. |
+| 2026-07-19 | [r1.55.42](releases/2026-07-19_r1.55.42_web_image-thumbnails.md) | 업로드된 이미지에 경량 썸네일을 자동 생성하고 목록·지도·홈 화면에 적용하여 앱 전반의 이미지 로딩 속도를 크게 개선했습니다. |
+| 2026-07-17 | [r1.55.41](releases/2026-07-17_r1.55.41_web_chat-participants-avatars.md) | 전체 채팅 방 상단에서 지금 접속 중인 참여자들의 프로필 사진과 인원수를 한눈에 확인할 수 있게 되었습니다. |
+| 2026-07-16 | [r1.55.40](releases/2026-07-16_r1.55.40_web_delete-reliability.md) | 구독자나 판매 이력이 있는 공연·공연장, 피드 글을 삭제할 때 오류로 실패하던 문제를 수정하고, 삭제할 수 없는 경우 이유를 명확히 안내하도록 개선했습니다. |
+| 2026-07-16 | [r1.55.39](releases/2026-07-16_r1.55.39_web_ux-error-polish.md) | 공연장 이벤트 게스트리스트 오표시와 리뷰 제출 결과 안내를 바로잡고, 오류 상황에서의 안내를 전반적으로 개선했습니다. |
+| 2026-07-15 | [r1.55.38](releases/2026-07-15_r1.55.38_web_paypal-copy-cleanup.md) | 결제·정산 화면에 남아 있던 사용하지 않는 결제 수단(PayPal) 표기를 정리하여 현재 지원하는 결제 수단 기준으로 안내를 통일했습니다. |
+| 2026-07-15 | [r1.55.37](releases/2026-07-15_r1.55.37_web_ai-venue-map-markers.md) | 공연 지도에서 AI 수집 공연장도 마커로 표시되고, 상세 화면에서 배지로 구분할 수 있게 되었습니다. |
+| 2026-07-15 | [r1.55.36](releases/2026-07-15_r1.55.36_web_together-polish.md) | 함께 즐기기 모임 목록에서 각 모임이 어떤 공연과 연결되어 있는지 한눈에 확인할 수 있도록 개선했습니다. |
+| 2026-07-14 | [r1.55.35](releases/2026-07-14_r1.55.35_web_initial-bundle-chat-realtime.md) | 첫 접속 시 앱이 더 빠르게 열리고, 채팅이 새로고침 없이 실시간으로 반영되도록 개선했습니다. |
+| 2026-07-14 | [r1.55.34](releases/2026-07-14_r1.55.34_web_map-home-payload-slim.md) | 공연 지도와 홈 화면이 불러오는 데이터 양을 대폭 줄여 화면이 훨씬 빠르게 열리도록 개선했습니다. |
+| 2026-07-13 | [r1.55.33](releases/2026-07-13_r1.55.33_web_loading-speed-phase1.md) | 앱 첫 화면이 뜨는 속도를 크게 개선하고, 공연장 목록과 채팅의 데이터 처리를 가볍게 다듬었습니다. |
+| 2026-07-13 | [r1.55.32](releases/2026-07-13_r1.55.32_web_intl-settlement-notice.md) | 해외(한국 외) 정산 등록을 일시적으로 중단하고, 2026년 9월 중 지원 예정임을 미리 안내하도록 했습니다. |
+| 2026-07-13 | [r1.55.31](releases/2026-07-13_r1.55.31_web_feed-link-embeds.md) | 피드와 Today 게시글 본문에 적힌 링크가 자동으로 썸네일·영상 미리보기 카드로 표시됩니다. |
+| 2026-07-13 | [r1.55.30](releases/2026-07-13_r1.55.30_web_notification-prompt-tap-fix.md) | 알림 허용 안내 창의 버튼이 눌리지 않던 문제를 수정했습니다. |
+| 2026-07-12 | [r1.55.29](releases/2026-07-12_r1.55.29_web_admin-theme-color-editor.md) | 운영 관리자가 앱의 테마 색상을 직접 편집할 수 있는 관리 도구를 추가했습니다(현재 기본 색상은 그대로이며, 관리자가 값을 저장하기 전까지 사용자 화면은 변하지 않습니다). |
 | 2026-07-11 | [r1.55.28](releases/2026-07-11_r1.55.28_web_legal-paypal-to-stripe.md) | 이용약관·개인정보 처리방침에서 더 이상 사용하지 않는 PayPal 관련 문구를 정리하고, 결제·정산 안내를 현재 수단(토스·Stripe)에 맞게 갱신했습니다. |
 | 2026-07-11 | [r1.55.27](releases/2026-07-11_r1.55.27_web_paypal-retirement.md) | 결제 수단을 국내 토스·해외 Stripe로 일원화하고, 더 이상 사용하지 않는 PayPal 결제를 앱에서 전면 정리했습니다. |
 | 2026-07-11 | [r1.55.26](releases/2026-07-11_r1.55.26_web_venue-edit-fields.md) | 공연장 정보 수정 화면에서 전화번호·웹사이트·수용 인원·운영 시간을 저장해도 반영되지 않던 문제를 수정했습니다. |
@@ -317,6 +367,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-07-10 | [r1.55.21](releases/2026-07-10_r1.55.21_web_venue-event-edit.md) | 공연장 관리에서 등록한 공연의 수정 버튼이 동작하지 않던 문제를 수정했습니다. |
 | 2026-07-10 | [r1.55.20](releases/2026-07-10_r1.55.20_web_intl-payment-stabilization.md) | 해외 티켓 결제에서 주문이 거절되거나 카드 입력 화면이 나타나지 않던 문제를 수정하고, 첫 해외 실결제(태국 바트)를 검증했습니다. |
 | 2026-07-10 | [r1.55.19](releases/2026-07-10_r1.55.19_web_intl-stripe-ticket-payment.md) | 해외 공연 티켓을 현지 통화로 Stripe 카드 결제할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.9](releases/2026-07-09_r1.55.9_web_ticket-intl-phone.md) | 티켓 구매 정보 입력 화면에서 국가 번호를 선택해 해외 전화번호도 입력할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.8](releases/2026-07-09_r1.55.8_web_collab-post-edit.md) | 작성자와 운영 스태프가 등록한 협업·모집 글을 나중에 수정할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.7](releases/2026-07-09_r1.55.7_web_venue-profile-image-edit.md) | 공연장 관리자가 공연장 프로필 사진을 직접 올리고 수정할 수 있게 했습니다. |
+| 2026-07-09 | [r1.55.6](releases/2026-07-09_r1.55.6_web_feed-story-rail-align.md) | 피드 상단 스토리 줄에서 새 게시물이 있는 항목과 없는 항목의 크기·정렬이 어긋나던 부분을 맞췄습니다. |
+| 2026-07-09 | [r1.55.5](releases/2026-07-09_r1.55.5_web_map-layer-source-split.md) | 공연 지도의 상단 탭에서 '공연장'은 실제 등록된 공연장만, 'AI'는 AI로 수집한 공연장을 보여주도록 데이터 구분을 명확히 했습니다. |
+| 2026-07-09 | [r1.55.4](releases/2026-07-09_r1.55.4_web_artist-youtube-preview.md) | 아티스트 프로필 음악 탭에 YouTube 채널 링크만 넣어도 최신 영상이 자동으로 재생 미리보기로 뜨도록 인식 범위를 넓혔습니다. |
 | 2026-07-09 | [r1.55.18](releases/2026-07-09_r1.55.18_web_admin-stripe-settlement.md) | 운영 스태프가 해외 정산 대상을 미리 확인하고 일괄 정산을 실행할 수 있는 관리자 콘솔을 추가했습니다. |
 | 2026-07-09 | [r1.55.17](releases/2026-07-09_r1.55.17_web_deploy-stability.md) | 서비스 업데이트 직후 일부 브라우저에서 빈 화면이 나타날 수 있던 문제를 방지하도록 배포 방식을 개선했습니다. |
 | 2026-07-09 | [r1.55.16](releases/2026-07-09_r1.55.16_web_global-payouts-groundwork.md) | 해외 아티스트·공연장 정산을 더 많은 국가로 확장하기 위한 기반을 준비했습니다(순차 활성화 예정). |
