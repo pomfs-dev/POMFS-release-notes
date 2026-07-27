@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-07-23 15:50 KST</td>
+    <td>2026-07-24 10:58 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>537 sessions</td>
+    <td>541 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>5,906,503,177 tokens</strong></td>
+    <td><strong>5,912,799,352 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>5,882,838,543 tokens</td>
+    <td>5,889,079,897 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>5,576,658,560 tokens</td>
+    <td>5,582,345,216 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>23,664,634 tokens</td>
+    <td>23,719,455 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>8,076,415 tokens</td>
+    <td>8,102,234 tokens</td>
   </tr>
 </table>
 
@@ -66,7 +66,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   <tr>
     <td>5,950,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.3%</td>
+    <td align="right">99.4%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-07-23 17:20 KST</td>
+    <td>2026-07-27 12:06 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>3,009 files</td>
+    <td>3,162 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>179,546 entries</td>
+    <td>186,345 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>45,262,291,893 tokens</strong></td>
+    <td><strong>46,695,956,643 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>226,125,713 tokens</td>
+    <td>230,187,394 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,416,458,292 tokens</td>
+    <td>2,477,900,040 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>42,334,365,750 tokens</td>
+    <td>43,699,636,832 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>285,342,138 tokens</td>
+    <td>288,232,377 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,115,445,792 tokens</td>
+    <td>2,294,563,000 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>11,666,269,483 tokens</td>
+    <td>12,127,058,389 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>545,328,817 tokens/day</td>
+    <td>530,635,870 tokens/day</td>
   </tr>
 </table>
 
@@ -132,9 +132,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>45,300,000,000 tokens</td>
+    <td>46,700,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.9%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -142,6 +142,14 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-07-25 | [r1.56.18](releases/2026-07-25_r1.56.18_web_mail-sender-identity.md) | Web | MiSFY에서 보내는 모든 메일의 발신 주소를 공식 주소로 통일했습니다. |
+| 2026-07-24 | [r1.56.21](releases/2026-07-24_r1.56.21_web_security-hardening.md) | Web | 결제와 티켓, 로그인 관련 요청이 항상 올바르게 처리되도록 앱의 보안을 강화했습니다. |
+| 2026-07-24 | [r1.56.20](releases/2026-07-24_r1.56.20_web_seo-crawler-info.md) | Web | 검색엔진이 MiSFY의 화면을 제대로 찾아갈 수 있도록 안내 정보 제공 방식을 바로잡았습니다. |
+| 2026-07-24 | [r1.56.19](releases/2026-07-24_r1.56.19_web_collab-service-order-fix.md) | Web | 협업 제안 화면과 서비스 주문 과정에서 발생하던 오류를 수정했습니다. |
+| 2026-07-24 | [r1.56.17](releases/2026-07-24_r1.56.17_web_ticket-email-event-name.md) | Web | 티켓 결제 완료 이메일과 알림에 다른 공연 이름이 표시되던 문제를 수정했습니다. |
+| 2026-07-24 | [r1.56.16](releases/2026-07-24_r1.56.16_web_refund-request-restore.md) | Web | 티켓 환불 예상 금액 조회와 환불 신청이 정상적으로 진행되지 않던 문제를 수정했습니다. |
+| 2026-07-24 | [r1.56.15](releases/2026-07-24_r1.56.15_web_chat-message-edit-followup.md) | Web | 채팅 메시지 수정 기능에서 발생하던 불편을 개선했습니다. |
+| 2026-07-24 | [r1.56.14](releases/2026-07-24_r1.56.14_web_ticket-order-failure-fix.md) | Web | 티켓 구매 시 주문이 생성되지 않아 결제를 진행할 수 없던 문제를 수정했습니다. |
 | 2026-07-23 | [r1.56.13](releases/2026-07-23_r1.56.13_web_artist-bio-sync-fix.md) | Web | 프로필 설정에서 아티스트 소개를 수정해도 공개 명함(DROP)과 프로필에 옛 소개가 남아 있던 문제를 긴급 수정했습니다. |
 | 2026-07-23 | [r1.56.12](releases/2026-07-23_r1.56.12_web_chat-message-edit.md) | Web | 채팅에서 내가 보낸 메시지를 밀어서 수정할 수 있는 기능을 추가했습니다. |
 | 2026-07-23 | [r1.56.11](releases/2026-07-23_r1.56.11_web_home-social-links.md) | Web | 홈 화면의 소셜 바로가기가 MiSFY 공식 유튜브·인스타그램 계정으로 올바르게 연결되도록 수정했습니다. |
@@ -329,6 +337,14 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-07-25 | [r1.56.18](releases/2026-07-25_r1.56.18_web_mail-sender-identity.md) | MiSFY에서 보내는 모든 메일의 발신 주소를 공식 주소로 통일했습니다. |
+| 2026-07-24 | [r1.56.21](releases/2026-07-24_r1.56.21_web_security-hardening.md) | 결제와 티켓, 로그인 관련 요청이 항상 올바르게 처리되도록 앱의 보안을 강화했습니다. |
+| 2026-07-24 | [r1.56.20](releases/2026-07-24_r1.56.20_web_seo-crawler-info.md) | 검색엔진이 MiSFY의 화면을 제대로 찾아갈 수 있도록 안내 정보 제공 방식을 바로잡았습니다. |
+| 2026-07-24 | [r1.56.19](releases/2026-07-24_r1.56.19_web_collab-service-order-fix.md) | 협업 제안 화면과 서비스 주문 과정에서 발생하던 오류를 수정했습니다. |
+| 2026-07-24 | [r1.56.17](releases/2026-07-24_r1.56.17_web_ticket-email-event-name.md) | 티켓 결제 완료 이메일과 알림에 다른 공연 이름이 표시되던 문제를 수정했습니다. |
+| 2026-07-24 | [r1.56.16](releases/2026-07-24_r1.56.16_web_refund-request-restore.md) | 티켓 환불 예상 금액 조회와 환불 신청이 정상적으로 진행되지 않던 문제를 수정했습니다. |
+| 2026-07-24 | [r1.56.15](releases/2026-07-24_r1.56.15_web_chat-message-edit-followup.md) | 채팅 메시지 수정 기능에서 발생하던 불편을 개선했습니다. |
+| 2026-07-24 | [r1.56.14](releases/2026-07-24_r1.56.14_web_ticket-order-failure-fix.md) | 티켓 구매 시 주문이 생성되지 않아 결제를 진행할 수 없던 문제를 수정했습니다. |
 | 2026-07-23 | [r1.56.13](releases/2026-07-23_r1.56.13_web_artist-bio-sync-fix.md) | 프로필 설정에서 아티스트 소개를 수정해도 공개 명함(DROP)과 프로필에 옛 소개가 남아 있던 문제를 긴급 수정했습니다. |
 | 2026-07-23 | [r1.56.12](releases/2026-07-23_r1.56.12_web_chat-message-edit.md) | 채팅에서 내가 보낸 메시지를 밀어서 수정할 수 있는 기능을 추가했습니다. |
 | 2026-07-23 | [r1.56.11](releases/2026-07-23_r1.56.11_web_home-social-links.md) | 홈 화면의 소셜 바로가기가 MiSFY 공식 유튜브·인스타그램 계정으로 올바르게 연결되도록 수정했습니다. |
