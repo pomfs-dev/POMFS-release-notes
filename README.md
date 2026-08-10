@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-07-31 08:48 KST</td>
+    <td>2026-08-10 21:34 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>546 sessions</td>
+    <td>638 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>5,922,048,792 tokens</strong></td>
+    <td><strong>9,873,310,403 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>5,898,274,611 tokens</td>
+    <td>9,833,609,319 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>5,590,761,344 tokens</td>
+    <td>9,386,057,472 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>23,774,181 tokens</td>
+    <td>39,701,084 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>8,130,231 tokens</td>
+    <td>12,874,186 tokens</td>
   </tr>
 </table>
 
@@ -64,9 +64,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>5,950,000,000 tokens</td>
+    <td>9,900,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.5%</td>
+    <td align="right">99.7%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-03 10:01 KST</td>
+    <td>2026-08-10 21:35 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>3,396 files</td>
+    <td>3,746 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>197,569 entries</td>
+    <td>220,568 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>48,881,450,428 tokens</strong></td>
+    <td><strong>52,957,982,132 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>237,707,394 tokens</td>
+    <td>246,492,199 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,605,097,012 tokens</td>
+    <td>2,806,018,396 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>45,744,199,296 tokens</td>
+    <td>49,597,722,708 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>294,446,726 tokens</td>
+    <td>307,748,829 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>2,205,038,210 tokens</td>
+    <td>3,478,436,136 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>9,684,098,667 tokens</td>
+    <td>10,062,490,273 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>509,181,775 tokens/day</td>
+    <td>499,603,605 tokens/day</td>
   </tr>
 </table>
 
@@ -132,9 +132,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>48,900,000,000 tokens</td>
+    <td>53,000,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-08-10 | [r1.56.33](releases/2026-08-10_r1.56.33_web_promo-code-management.md) | Web | 프로모션 코드를 직접 삭제하거나 사용 중지할 수 있도록 하고 보안을 강화했습니다. |
+| 2026-08-10 | [r1.56.32](releases/2026-08-10_r1.56.32_web_map-display-fixes.md) | Web | 지도에서 공연장 표시가 실제 공연 상황과 다르게 보이던 문제를 해결했습니다. |
+| 2026-08-10 | [r1.56.31](releases/2026-08-10_r1.56.31_web_venue-management-fixes.md) | Web | 공연장 공지와 공연 정보 저장이 정상적으로 처리되도록 수정했습니다. |
+| 2026-08-10 | [r1.56.30](releases/2026-08-10_r1.56.30_web_artist-profile-improvements.md) | Web | 아티스트 프로필과 공개 카드에 실제 활동 정보가 정확히 표시되도록 개선했습니다. |
+| 2026-08-10 | [r1.56.29](releases/2026-08-10_r1.56.29_web_artist-rank-application.md) | Web | '나의 등급' 화면을 신청 상태에 맞춰 개편하고 신청 자료 첨부 과정을 개선했습니다. |
+| 2026-08-10 | [r1.56.28](releases/2026-08-10_r1.56.28_web_notification-link-fix.md) | Web | 알림과 안내 메일에서 눌렀을 때 화면이 열리지 않던 문제를 해결했습니다. |
 | 2026-08-03 | [r1.56.27](releases/2026-08-03_r1.56.27_web_legal-and-settlement-notices.md) | Web | 법적 고지와 취소·환불 정책 안내를 정비하고 사업자 정보 표기를 정리했습니다. |
 | 2026-08-03 | [r1.56.26](releases/2026-08-03_r1.56.26_web_admin-active-user-stats.md) | Web | 관리자 통계 화면에 주간·월간 활성 사용자 수를 새로 제공합니다. |
 | 2026-08-03 | [r1.56.25](releases/2026-08-03_r1.56.25_web_admin-tools-stability.md) | Web | 등급 신청 관리와 프로모션 코드 발행 화면의 오류를 바로잡았습니다. |
@@ -343,6 +349,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-08-10 | [r1.56.33](releases/2026-08-10_r1.56.33_web_promo-code-management.md) | 프로모션 코드를 직접 삭제하거나 사용 중지할 수 있도록 하고 보안을 강화했습니다. |
+| 2026-08-10 | [r1.56.32](releases/2026-08-10_r1.56.32_web_map-display-fixes.md) | 지도에서 공연장 표시가 실제 공연 상황과 다르게 보이던 문제를 해결했습니다. |
+| 2026-08-10 | [r1.56.31](releases/2026-08-10_r1.56.31_web_venue-management-fixes.md) | 공연장 공지와 공연 정보 저장이 정상적으로 처리되도록 수정했습니다. |
+| 2026-08-10 | [r1.56.30](releases/2026-08-10_r1.56.30_web_artist-profile-improvements.md) | 아티스트 프로필과 공개 카드에 실제 활동 정보가 정확히 표시되도록 개선했습니다. |
+| 2026-08-10 | [r1.56.29](releases/2026-08-10_r1.56.29_web_artist-rank-application.md) | '나의 등급' 화면을 신청 상태에 맞춰 개편하고 신청 자료 첨부 과정을 개선했습니다. |
+| 2026-08-10 | [r1.56.28](releases/2026-08-10_r1.56.28_web_notification-link-fix.md) | 알림과 안내 메일에서 눌렀을 때 화면이 열리지 않던 문제를 해결했습니다. |
 | 2026-08-03 | [r1.56.27](releases/2026-08-03_r1.56.27_web_legal-and-settlement-notices.md) | 법적 고지와 취소·환불 정책 안내를 정비하고 사업자 정보 표기를 정리했습니다. |
 | 2026-08-03 | [r1.56.26](releases/2026-08-03_r1.56.26_web_admin-active-user-stats.md) | 관리자 통계 화면에 주간·월간 활성 사용자 수를 새로 제공합니다. |
 | 2026-08-03 | [r1.56.25](releases/2026-08-03_r1.56.25_web_admin-tools-stability.md) | 등급 신청 관리와 프로모션 코드 발행 화면의 오류를 바로잡았습니다. |
