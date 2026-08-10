@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-10 21:34 KST</td>
+    <td>2026-08-10 21:43 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>638 sessions</td>
+    <td>639 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>9,873,310,403 tokens</strong></td>
+    <td><strong>9,876,144,744 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>9,833,609,319 tokens</td>
+    <td>9,836,421,201 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>9,386,057,472 tokens</td>
+    <td>9,388,674,560 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>39,701,084 tokens</td>
+    <td>39,723,543 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>12,874,186 tokens</td>
+    <td>12,889,050 tokens</td>
   </tr>
 </table>
 
@@ -66,7 +66,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   <tr>
     <td>9,900,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.7%</td>
+    <td align="right">99.8%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-10 21:35 KST</td>
+    <td>2026-08-10 21:43 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,11 +85,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>3,746 files</td>
+    <td>3,749 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>220,568 entries</td>
+    <td>220,571 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
@@ -121,7 +121,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>499,603,605 tokens/day</td>
+    <td>494,934,412 tokens/day</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-08-10 | [r1.56.39](releases/2026-08-10_r1.56.39_web_overseas-payout-support.md) | Web | 해외 42개국에서 정산 계정을 등록하고 수익을 받을 수 있게 되었습니다. |
+| 2026-08-10 | [r1.56.38](releases/2026-08-10_r1.56.38_web_app-stability-and-security.md) | Web | 앱 실행과 저장 과정에서 발생하던 오류를 해결하고 보안을 강화했습니다. |
+| 2026-08-10 | [r1.56.37](releases/2026-08-10_r1.56.37_web_chat-notification-display.md) | Web | 채팅과 알림, 공유 문구가 제대로 보이도록 여러 표시 문제를 수정했습니다. |
+| 2026-08-10 | [r1.56.36](releases/2026-08-10_r1.56.36_web_map-search-date-accuracy.md) | Web | 지도와 검색에서 공연 수와 '오늘' 기준이 정확하게 표시되도록 수정했습니다. |
+| 2026-08-10 | [r1.56.35](releases/2026-08-10_r1.56.35_web_live-video-playback.md) | Web | 공연 상세 화면에서 영상을 바로 재생할 수 있게 되었습니다. |
+| 2026-08-10 | [r1.56.34](releases/2026-08-10_r1.56.34_web_artist-profile-ranking-improvements.md) | Web | 아티스트 프로필과 랭킹이 실제 활동 내용을 정확하게 보여주도록 개선했습니다. |
 | 2026-08-10 | [r1.56.33](releases/2026-08-10_r1.56.33_web_promo-code-management.md) | Web | 프로모션 코드를 직접 삭제하거나 사용 중지할 수 있도록 하고 보안을 강화했습니다. |
 | 2026-08-10 | [r1.56.32](releases/2026-08-10_r1.56.32_web_map-display-fixes.md) | Web | 지도에서 공연장 표시가 실제 공연 상황과 다르게 보이던 문제를 해결했습니다. |
 | 2026-08-10 | [r1.56.31](releases/2026-08-10_r1.56.31_web_venue-management-fixes.md) | Web | 공연장 공지와 공연 정보 저장이 정상적으로 처리되도록 수정했습니다. |
@@ -349,6 +355,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-08-10 | [r1.56.39](releases/2026-08-10_r1.56.39_web_overseas-payout-support.md) | 해외 42개국에서 정산 계정을 등록하고 수익을 받을 수 있게 되었습니다. |
+| 2026-08-10 | [r1.56.38](releases/2026-08-10_r1.56.38_web_app-stability-and-security.md) | 앱 실행과 저장 과정에서 발생하던 오류를 해결하고 보안을 강화했습니다. |
+| 2026-08-10 | [r1.56.37](releases/2026-08-10_r1.56.37_web_chat-notification-display.md) | 채팅과 알림, 공유 문구가 제대로 보이도록 여러 표시 문제를 수정했습니다. |
+| 2026-08-10 | [r1.56.36](releases/2026-08-10_r1.56.36_web_map-search-date-accuracy.md) | 지도와 검색에서 공연 수와 '오늘' 기준이 정확하게 표시되도록 수정했습니다. |
+| 2026-08-10 | [r1.56.35](releases/2026-08-10_r1.56.35_web_live-video-playback.md) | 공연 상세 화면에서 영상을 바로 재생할 수 있게 되었습니다. |
+| 2026-08-10 | [r1.56.34](releases/2026-08-10_r1.56.34_web_artist-profile-ranking-improvements.md) | 아티스트 프로필과 랭킹이 실제 활동 내용을 정확하게 보여주도록 개선했습니다. |
 | 2026-08-10 | [r1.56.33](releases/2026-08-10_r1.56.33_web_promo-code-management.md) | 프로모션 코드를 직접 삭제하거나 사용 중지할 수 있도록 하고 보안을 강화했습니다. |
 | 2026-08-10 | [r1.56.32](releases/2026-08-10_r1.56.32_web_map-display-fixes.md) | 지도에서 공연장 표시가 실제 공연 상황과 다르게 보이던 문제를 해결했습니다. |
 | 2026-08-10 | [r1.56.31](releases/2026-08-10_r1.56.31_web_venue-management-fixes.md) | 공연장 공지와 공연 정보 저장이 정상적으로 처리되도록 수정했습니다. |
