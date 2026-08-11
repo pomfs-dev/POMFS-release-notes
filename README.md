@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-10 21:43 KST</td>
+    <td>2026-08-11 19:27 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>639 sessions</td>
+    <td>658 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>9,876,144,744 tokens</strong></td>
+    <td><strong>9,917,970,296 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>9,836,421,201 tokens</td>
+    <td>9,877,768,350 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>9,388,674,560 tokens</td>
+    <td>9,427,380,992 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>39,723,543 tokens</td>
+    <td>40,201,946 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>12,889,050 tokens</td>
+    <td>13,230,582 tokens</td>
   </tr>
 </table>
 
@@ -64,9 +64,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>9,900,000,000 tokens</td>
+    <td>9,950,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.8%</td>
+    <td align="right">99.7%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-10 21:43 KST</td>
+    <td>2026-08-11 19:30 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,11 +85,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>3,749 files</td>
+    <td>3,811 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>220,571 entries</td>
+    <td>220,633 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
@@ -113,15 +113,15 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>3,478,436,136 tokens</td>
+    <td>2,834,369,646 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>10,062,490,273 tokens</td>
+    <td>9,939,775,603 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>494,934,412 tokens/day</td>
+    <td>481,436,201 tokens/day</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-08-11 | [r1.56.45](releases/2026-08-11_r1.56.45_web_display-and-link-stability.md) | Web | 공유 링크로 게시글이 열리지 않던 문제와 여러 화면 표시 오류를 수정했습니다. |
+| 2026-08-11 | [r1.56.44](releases/2026-08-11_r1.56.44_web_notification-tab-and-translations.md) | Web | 알림함에 운영 탭을 추가하고 알림 개수 표시와 번역 누락 문제를 수정했습니다. |
+| 2026-08-11 | [r1.56.43](releases/2026-08-11_r1.56.43_web_chat-welcome-and-notices.md) | Web | 채팅방 입장 안내와 신규 회원 환영 메시지를 추가하고 운영진 공지 범위를 넓혔습니다. |
+| 2026-08-11 | [r1.56.42](releases/2026-08-11_r1.56.42_web_artist-tier-directory-profile.md) | Web | 아티스트를 티어별로 둘러볼 수 있는 목록과 프로필 포스트 관리 기능을 추가했습니다. |
+| 2026-08-11 | [r1.56.41](releases/2026-08-11_r1.56.41_web_seller-settlement-accuracy.md) | Web | 판매자 정산 화면의 수수료 표시와 계산 기준을 바로잡고 정산 절차를 정비했습니다. |
+| 2026-08-11 | [r1.56.40](releases/2026-08-11_r1.56.40_web_payment-refund-improvements.md) | Web | 티켓 결제 완료 화면 오류를 수정하고 환불 안내와 영수증 처리를 정비했습니다. |
 | 2026-08-10 | [r1.56.39](releases/2026-08-10_r1.56.39_web_overseas-payout-support.md) | Web | 해외 42개국에서 정산 계정을 등록하고 수익을 받을 수 있게 되었습니다. |
 | 2026-08-10 | [r1.56.38](releases/2026-08-10_r1.56.38_web_app-stability-and-security.md) | Web | 앱 실행과 저장 과정에서 발생하던 오류를 해결하고 보안을 강화했습니다. |
 | 2026-08-10 | [r1.56.37](releases/2026-08-10_r1.56.37_web_chat-notification-display.md) | Web | 채팅과 알림, 공유 문구가 제대로 보이도록 여러 표시 문제를 수정했습니다. |
@@ -355,6 +361,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-08-11 | [r1.56.45](releases/2026-08-11_r1.56.45_web_display-and-link-stability.md) | 공유 링크로 게시글이 열리지 않던 문제와 여러 화면 표시 오류를 수정했습니다. |
+| 2026-08-11 | [r1.56.44](releases/2026-08-11_r1.56.44_web_notification-tab-and-translations.md) | 알림함에 운영 탭을 추가하고 알림 개수 표시와 번역 누락 문제를 수정했습니다. |
+| 2026-08-11 | [r1.56.43](releases/2026-08-11_r1.56.43_web_chat-welcome-and-notices.md) | 채팅방 입장 안내와 신규 회원 환영 메시지를 추가하고 운영진 공지 범위를 넓혔습니다. |
+| 2026-08-11 | [r1.56.42](releases/2026-08-11_r1.56.42_web_artist-tier-directory-profile.md) | 아티스트를 티어별로 둘러볼 수 있는 목록과 프로필 포스트 관리 기능을 추가했습니다. |
+| 2026-08-11 | [r1.56.41](releases/2026-08-11_r1.56.41_web_seller-settlement-accuracy.md) | 판매자 정산 화면의 수수료 표시와 계산 기준을 바로잡고 정산 절차를 정비했습니다. |
+| 2026-08-11 | [r1.56.40](releases/2026-08-11_r1.56.40_web_payment-refund-improvements.md) | 티켓 결제 완료 화면 오류를 수정하고 환불 안내와 영수증 처리를 정비했습니다. |
 | 2026-08-10 | [r1.56.39](releases/2026-08-10_r1.56.39_web_overseas-payout-support.md) | 해외 42개국에서 정산 계정을 등록하고 수익을 받을 수 있게 되었습니다. |
 | 2026-08-10 | [r1.56.38](releases/2026-08-10_r1.56.38_web_app-stability-and-security.md) | 앱 실행과 저장 과정에서 발생하던 오류를 해결하고 보안을 강화했습니다. |
 | 2026-08-10 | [r1.56.37](releases/2026-08-10_r1.56.37_web_chat-notification-display.md) | 채팅과 알림, 공유 문구가 제대로 보이도록 여러 표시 문제를 수정했습니다. |
