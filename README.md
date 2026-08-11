@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-11 19:27 KST</td>
+    <td>2026-08-11 19:31 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>658 sessions</td>
+    <td>659 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>9,917,970,296 tokens</strong></td>
+    <td><strong>9,918,106,957 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>9,877,768,350 tokens</td>
+    <td>9,877,903,084 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>9,427,380,992 tokens</td>
+    <td>9,427,481,600 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>40,201,946 tokens</td>
+    <td>40,203,873 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>13,230,582 tokens</td>
+    <td>13,231,412 tokens</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-11 19:30 KST</td>
+    <td>2026-08-11 19:31 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,11 +85,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>3,811 files</td>
+    <td>3,813 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>220,633 entries</td>
+    <td>220,635 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
@@ -113,7 +113,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>2,834,369,646 tokens</td>
+    <td>2,830,670,576 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
@@ -121,7 +121,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>481,436,201 tokens/day</td>
+    <td>477,098,938 tokens/day</td>
   </tr>
 </table>
 
@@ -142,6 +142,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-08-11 | [r1.56.49](releases/2026-08-11_r1.56.49_web_venue-apply-sns-check.md) | Web | 공연장 신청 시 입력한 SNS 계정이 실제로 존재하는지 확인합니다. |
+| 2026-08-11 | [r1.56.48](releases/2026-08-11_r1.56.48_web_display-glitch-fixes.md) | Web | 지도 화면과 운영자 회원 화면의 표시 오류를 수정했습니다. |
+| 2026-08-11 | [r1.56.47](releases/2026-08-11_r1.56.47_web_chat-channel-name-language.md) | Web | 1:1 대화와 랭킹 채널의 이름이 앱 언어 설정에 맞게 표시됩니다. |
+| 2026-08-11 | [r1.56.46](releases/2026-08-11_r1.56.46_web_subscribed-venue-photos.md) | Web | 프로필의 구독 공연장 카드에 공연장 대표 사진이 함께 표시됩니다. |
 | 2026-08-11 | [r1.56.45](releases/2026-08-11_r1.56.45_web_display-and-link-stability.md) | Web | 공유 링크로 게시글이 열리지 않던 문제와 여러 화면 표시 오류를 수정했습니다. |
 | 2026-08-11 | [r1.56.44](releases/2026-08-11_r1.56.44_web_notification-tab-and-translations.md) | Web | 알림함에 운영 탭을 추가하고 알림 개수 표시와 번역 누락 문제를 수정했습니다. |
 | 2026-08-11 | [r1.56.43](releases/2026-08-11_r1.56.43_web_chat-welcome-and-notices.md) | Web | 채팅방 입장 안내와 신규 회원 환영 메시지를 추가하고 운영진 공지 범위를 넓혔습니다. |
@@ -361,6 +365,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-08-11 | [r1.56.49](releases/2026-08-11_r1.56.49_web_venue-apply-sns-check.md) | 공연장 신청 시 입력한 SNS 계정이 실제로 존재하는지 확인합니다. |
+| 2026-08-11 | [r1.56.48](releases/2026-08-11_r1.56.48_web_display-glitch-fixes.md) | 지도 화면과 운영자 회원 화면의 표시 오류를 수정했습니다. |
+| 2026-08-11 | [r1.56.47](releases/2026-08-11_r1.56.47_web_chat-channel-name-language.md) | 1:1 대화와 랭킹 채널의 이름이 앱 언어 설정에 맞게 표시됩니다. |
+| 2026-08-11 | [r1.56.46](releases/2026-08-11_r1.56.46_web_subscribed-venue-photos.md) | 프로필의 구독 공연장 카드에 공연장 대표 사진이 함께 표시됩니다. |
 | 2026-08-11 | [r1.56.45](releases/2026-08-11_r1.56.45_web_display-and-link-stability.md) | 공유 링크로 게시글이 열리지 않던 문제와 여러 화면 표시 오류를 수정했습니다. |
 | 2026-08-11 | [r1.56.44](releases/2026-08-11_r1.56.44_web_notification-tab-and-translations.md) | 알림함에 운영 탭을 추가하고 알림 개수 표시와 번역 누락 문제를 수정했습니다. |
 | 2026-08-11 | [r1.56.43](releases/2026-08-11_r1.56.43_web_chat-welcome-and-notices.md) | 채팅방 입장 안내와 신규 회원 환영 메시지를 추가하고 운영진 공지 범위를 넓혔습니다. |
