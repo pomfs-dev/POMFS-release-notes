@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-12 20:24 KST</td>
+    <td>2026-08-14 12:09 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>702 sessions</td>
+    <td>704 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>10,006,596,766 tokens</strong></td>
+    <td><strong>10,006,954,774 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>9,965,458,973 tokens</td>
+    <td>9,965,812,904 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>9,509,357,312 tokens</td>
+    <td>9,509,630,720 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>41,137,793 tokens</td>
+    <td>41,141,870 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>13,907,595 tokens</td>
+    <td>13,908,847 tokens</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-14 12:06 KST</td>
+    <td>2026-08-14 12:09 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,31 +85,31 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>3,895 files</td>
+    <td>3,896 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>221,946 entries</td>
+    <td>221,947 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>53,066,610,482 tokens</strong></td>
+    <td><strong>53,066,702,263 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>246,494,553 tokens</td>
+    <td>246,494,555 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,810,434,115 tokens</td>
+    <td>2,810,435,355 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>49,701,150,421 tokens</td>
+    <td>49,701,239,746 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>308,531,393 tokens</td>
+    <td>308,532,607 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
@@ -121,7 +121,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>449,717,037 tokens/day</td>
+    <td>445,938,674 tokens/day</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-08-14 | [r1.56.61](releases/2026-08-14_r1.56.61_web_guidance-and-security-improvements.md) | Web | 잘못된 안내 문구와 표시 오류를 바로잡고 보안을 강화했습니다. |
+| 2026-08-14 | [r1.56.60](releases/2026-08-14_r1.56.60_web_likes-bookmarks-fixes.md) | Web | 좋아요와 즐겨찾기의 표시·동작 오류를 수정했습니다. |
+| 2026-08-14 | [r1.56.59](releases/2026-08-14_r1.56.59_web_project-collaboration-fixes.md) | Web | 프로젝트 관리와 협업 화면의 동작 오류를 수정했습니다. |
+| 2026-08-14 | [r1.56.58](releases/2026-08-14_r1.56.58_web_date-time-display-accuracy.md) | Web | 앱 곳곳의 날짜와 시간 표시를 한국 시간 기준으로 정확하게 바로잡았습니다. |
+| 2026-08-14 | [r1.56.57](releases/2026-08-14_r1.56.57_web_venue-map-photo-display.md) | Web | 콘서트맵에서 공연장 사진이 올바르게 표시되도록 개선했습니다. |
+| 2026-08-14 | [r1.56.56](releases/2026-08-14_r1.56.56_web_service-store-application-revamp.md) | Web | 서비스 스토어의 신청 과정을 개편하고 표시 오류를 정리했습니다. |
 | 2026-08-14 | [r1.56.55](releases/2026-08-14_r1.56.55_web_language-and-screen-fixes.md) | Web | 앱 언어 표시와 아티스트 전용 화면 등 여러 화면의 오류를 수정했습니다. |
 | 2026-08-14 | [r1.56.54](releases/2026-08-14_r1.56.54_web_security-and-privacy.md) | Web | 개인정보 보호와 계정 안전을 위한 보안을 강화했습니다. |
 | 2026-08-14 | [r1.56.53](releases/2026-08-14_r1.56.53_web_service-store-and-my-projects.md) | Web | 서비스 스토어의 신청 과정이 정상 동작하도록 완성되고, 내 프로젝트·공지 관련 편의 기능이 더해졌습니다. |
@@ -371,6 +377,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-08-14 | [r1.56.61](releases/2026-08-14_r1.56.61_web_guidance-and-security-improvements.md) | 잘못된 안내 문구와 표시 오류를 바로잡고 보안을 강화했습니다. |
+| 2026-08-14 | [r1.56.60](releases/2026-08-14_r1.56.60_web_likes-bookmarks-fixes.md) | 좋아요와 즐겨찾기의 표시·동작 오류를 수정했습니다. |
+| 2026-08-14 | [r1.56.59](releases/2026-08-14_r1.56.59_web_project-collaboration-fixes.md) | 프로젝트 관리와 협업 화면의 동작 오류를 수정했습니다. |
+| 2026-08-14 | [r1.56.58](releases/2026-08-14_r1.56.58_web_date-time-display-accuracy.md) | 앱 곳곳의 날짜와 시간 표시를 한국 시간 기준으로 정확하게 바로잡았습니다. |
+| 2026-08-14 | [r1.56.57](releases/2026-08-14_r1.56.57_web_venue-map-photo-display.md) | 콘서트맵에서 공연장 사진이 올바르게 표시되도록 개선했습니다. |
+| 2026-08-14 | [r1.56.56](releases/2026-08-14_r1.56.56_web_service-store-application-revamp.md) | 서비스 스토어의 신청 과정을 개편하고 표시 오류를 정리했습니다. |
 | 2026-08-14 | [r1.56.55](releases/2026-08-14_r1.56.55_web_language-and-screen-fixes.md) | 앱 언어 표시와 아티스트 전용 화면 등 여러 화면의 오류를 수정했습니다. |
 | 2026-08-14 | [r1.56.54](releases/2026-08-14_r1.56.54_web_security-and-privacy.md) | 개인정보 보호와 계정 안전을 위한 보안을 강화했습니다. |
 | 2026-08-14 | [r1.56.53](releases/2026-08-14_r1.56.53_web_service-store-and-my-projects.md) | 서비스 스토어의 신청 과정이 정상 동작하도록 완성되고, 내 프로젝트·공지 관련 편의 기능이 더해졌습니다. |
