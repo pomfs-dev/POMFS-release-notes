@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-14 12:09 KST</td>
+    <td>2026-08-16 15:16 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>704 sessions</td>
+    <td>714 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>10,006,954,774 tokens</strong></td>
+    <td><strong>10,046,098,709 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>9,965,812,904 tokens</td>
+    <td>10,004,661,936 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>9,509,630,720 tokens</td>
+    <td>9,546,758,144 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>41,141,870 tokens</td>
+    <td>41,436,773 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>13,908,847 tokens</td>
+    <td>14,094,024 tokens</td>
   </tr>
 </table>
 
@@ -66,7 +66,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   <tr>
     <td>10,050,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.6%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-14 12:09 KST</td>
+    <td>2026-08-17 10:02 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>3,896 files</td>
+    <td>3,933 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>221,947 entries</td>
+    <td>223,749 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>53,066,702,263 tokens</strong></td>
+    <td><strong>53,227,777,062 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>246,494,555 tokens</td>
+    <td>246,503,479 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,810,435,355 tokens</td>
+    <td>2,816,946,902 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>49,701,239,746 tokens</td>
+    <td>49,854,404,872 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>308,532,607 tokens</td>
+    <td>309,921,809 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,831,937,513 tokens</td>
+    <td>269,174,647 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>9,035,199,365 tokens</td>
+    <td>9,012,785,722 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>445,938,674 tokens/day</td>
+    <td>422,442,675 tokens/day</td>
   </tr>
 </table>
 
@@ -132,9 +132,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>53,100,000,000 tokens</td>
+    <td>53,250,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.9%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-08-17 | [r1.56.67](releases/2026-08-17_r1.56.67_web_security-stability-hardening.md) | Web | 서비스 전반의 보안을 강화하고, 일부 기능이 멈춘 채 진행되지 않던 문제를 수정했습니다. |
+| 2026-08-17 | [r1.56.66](releases/2026-08-17_r1.56.66_web_ui-usability-improvements.md) | Web | 글 작성 추천 속도를 높이고, 좋아요 목록·공유 링크·검색 화면 등의 표시 오류를 수정했습니다. |
+| 2026-08-17 | [r1.56.65](releases/2026-08-17_r1.56.65_web_collaboration-recruitment-fixes.md) | Web | 프로젝트 협업 모집에서 모집 상태 표시와 지원자 수락·거절 과정의 오류를 수정했습니다. |
+| 2026-08-17 | [r1.56.64](releases/2026-08-17_r1.56.64_web_chat-send-failure-feedback.md) | Web | 채팅 메시지 전송에 실패했을 때 아무 안내 없이 입력한 내용이 사라지던 문제를 수정했습니다. |
+| 2026-08-17 | [r1.56.63](releases/2026-08-17_r1.56.63_web_notification-fixes.md) | Web | 알림을 눌렀을 때 이동이 되지 않던 문제와 푸시 알림 설정이 앱 안 알림함까지 끄던 문제를 수정했습니다. |
+| 2026-08-17 | [r1.56.62](releases/2026-08-17_r1.56.62_web_upcoming-shows-date-accuracy.md) | Web | 어느 지역·시간대에서 접속해도 공연 날짜와 '다가오는 공연' 목록이 정확하게 표시되도록 개선했습니다. |
 | 2026-08-14 | [r1.56.61](releases/2026-08-14_r1.56.61_web_guidance-and-security-improvements.md) | Web | 잘못된 안내 문구와 표시 오류를 바로잡고 보안을 강화했습니다. |
 | 2026-08-14 | [r1.56.60](releases/2026-08-14_r1.56.60_web_likes-bookmarks-fixes.md) | Web | 좋아요와 즐겨찾기의 표시·동작 오류를 수정했습니다. |
 | 2026-08-14 | [r1.56.59](releases/2026-08-14_r1.56.59_web_project-collaboration-fixes.md) | Web | 프로젝트 관리와 협업 화면의 동작 오류를 수정했습니다. |
@@ -377,6 +383,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-08-17 | [r1.56.67](releases/2026-08-17_r1.56.67_web_security-stability-hardening.md) | 서비스 전반의 보안을 강화하고, 일부 기능이 멈춘 채 진행되지 않던 문제를 수정했습니다. |
+| 2026-08-17 | [r1.56.66](releases/2026-08-17_r1.56.66_web_ui-usability-improvements.md) | 글 작성 추천 속도를 높이고, 좋아요 목록·공유 링크·검색 화면 등의 표시 오류를 수정했습니다. |
+| 2026-08-17 | [r1.56.65](releases/2026-08-17_r1.56.65_web_collaboration-recruitment-fixes.md) | 프로젝트 협업 모집에서 모집 상태 표시와 지원자 수락·거절 과정의 오류를 수정했습니다. |
+| 2026-08-17 | [r1.56.64](releases/2026-08-17_r1.56.64_web_chat-send-failure-feedback.md) | 채팅 메시지 전송에 실패했을 때 아무 안내 없이 입력한 내용이 사라지던 문제를 수정했습니다. |
+| 2026-08-17 | [r1.56.63](releases/2026-08-17_r1.56.63_web_notification-fixes.md) | 알림을 눌렀을 때 이동이 되지 않던 문제와 푸시 알림 설정이 앱 안 알림함까지 끄던 문제를 수정했습니다. |
+| 2026-08-17 | [r1.56.62](releases/2026-08-17_r1.56.62_web_upcoming-shows-date-accuracy.md) | 어느 지역·시간대에서 접속해도 공연 날짜와 '다가오는 공연' 목록이 정확하게 표시되도록 개선했습니다. |
 | 2026-08-14 | [r1.56.61](releases/2026-08-14_r1.56.61_web_guidance-and-security-improvements.md) | 잘못된 안내 문구와 표시 오류를 바로잡고 보안을 강화했습니다. |
 | 2026-08-14 | [r1.56.60](releases/2026-08-14_r1.56.60_web_likes-bookmarks-fixes.md) | 좋아요와 즐겨찾기의 표시·동작 오류를 수정했습니다. |
 | 2026-08-14 | [r1.56.59](releases/2026-08-14_r1.56.59_web_project-collaboration-fixes.md) | 프로젝트 관리와 협업 화면의 동작 오류를 수정했습니다. |
