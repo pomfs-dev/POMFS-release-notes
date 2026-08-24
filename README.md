@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-16 15:16 KST</td>
+    <td>2026-08-24 09:23 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>714 sessions</td>
+    <td>759 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>10,046,098,709 tokens</strong></td>
+    <td><strong>10,150,171,474 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>10,004,661,936 tokens</td>
+    <td>10,108,076,000 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>9,546,758,144 tokens</td>
+    <td>9,645,772,416 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>41,436,773 tokens</td>
+    <td>42,095,474 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>14,094,024 tokens</td>
+    <td>14,513,564 tokens</td>
   </tr>
 </table>
 
@@ -64,9 +64,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>10,050,000,000 tokens</td>
+    <td>10,200,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.5%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-17 10:02 KST</td>
+    <td>2026-08-24 10:02 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>3,933 files</td>
+    <td>4,067 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>223,749 entries</td>
+    <td>229,397 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>53,227,777,062 tokens</strong></td>
+    <td><strong>53,863,149,448 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>246,503,479 tokens</td>
+    <td>246,524,964 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,816,946,902 tokens</td>
+    <td>2,846,953,149 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>49,854,404,872 tokens</td>
+    <td>50,455,921,352 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>309,921,809 tokens</td>
+    <td>313,749,983 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>269,174,647 tokens</td>
+    <td>635,173,129 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>9,012,785,722 tokens</td>
+    <td>7,451,336,979 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>422,442,675 tokens/day</td>
+    <td>382,008,152 tokens/day</td>
   </tr>
 </table>
 
@@ -132,9 +132,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>53,250,000,000 tokens</td>
+    <td>53,900,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-08-24 | [r1.56.73](releases/2026-08-24_r1.56.73_web_stability-security-a11y.md) | Web | 동시에 이용이 몰리는 상황에서 생기던 오류와 중복 알림을 바로잡고, 보안과 접근성을 강화했습니다. |
+| 2026-08-24 | [r1.56.72](releases/2026-08-24_r1.56.72_web_counts-profile-accuracy.md) | Web | 아티스트 구독자 수와 내 구독 목록, 선호 장르, 랭킹이 실제와 다르게 표시되던 문제를 수정했습니다. |
+| 2026-08-24 | [r1.56.71](releases/2026-08-24_r1.56.71_web_ui-display-fixes.md) | Web | 여러 화면에서 내용이 가려지거나 어긋나 보이던 표시 오류를 모아 수정했습니다. |
+| 2026-08-24 | [r1.56.70](releases/2026-08-24_r1.56.70_web_map-venue-accuracy.md) | Web | 공연장 지도 링크와 지도 화면, 공연장 상세 페이지의 표시 오류를 수정했습니다. |
+| 2026-08-24 | [r1.56.69](releases/2026-08-24_r1.56.69_web_action-failure-feedback.md) | Web | 여러 기능에서 처리가 실패해도 아무 안내가 없던 문제를 수정해, 실패 시 바로 알 수 있도록 했습니다. |
+| 2026-08-24 | [r1.56.68](releases/2026-08-24_r1.56.68_web_discussions-actions-fix.md) | Web | 토론에서 글 작성과 추천, 좋아요가 실제로 반영되지 않던 문제를 수정했습니다. |
 | 2026-08-17 | [r1.56.67](releases/2026-08-17_r1.56.67_web_security-stability-hardening.md) | Web | 서비스 전반의 보안을 강화하고, 일부 기능이 멈춘 채 진행되지 않던 문제를 수정했습니다. |
 | 2026-08-17 | [r1.56.66](releases/2026-08-17_r1.56.66_web_ui-usability-improvements.md) | Web | 글 작성 추천 속도를 높이고, 좋아요 목록·공유 링크·검색 화면 등의 표시 오류를 수정했습니다. |
 | 2026-08-17 | [r1.56.65](releases/2026-08-17_r1.56.65_web_collaboration-recruitment-fixes.md) | Web | 프로젝트 협업 모집에서 모집 상태 표시와 지원자 수락·거절 과정의 오류를 수정했습니다. |
@@ -383,6 +389,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-08-24 | [r1.56.73](releases/2026-08-24_r1.56.73_web_stability-security-a11y.md) | 동시에 이용이 몰리는 상황에서 생기던 오류와 중복 알림을 바로잡고, 보안과 접근성을 강화했습니다. |
+| 2026-08-24 | [r1.56.72](releases/2026-08-24_r1.56.72_web_counts-profile-accuracy.md) | 아티스트 구독자 수와 내 구독 목록, 선호 장르, 랭킹이 실제와 다르게 표시되던 문제를 수정했습니다. |
+| 2026-08-24 | [r1.56.71](releases/2026-08-24_r1.56.71_web_ui-display-fixes.md) | 여러 화면에서 내용이 가려지거나 어긋나 보이던 표시 오류를 모아 수정했습니다. |
+| 2026-08-24 | [r1.56.70](releases/2026-08-24_r1.56.70_web_map-venue-accuracy.md) | 공연장 지도 링크와 지도 화면, 공연장 상세 페이지의 표시 오류를 수정했습니다. |
+| 2026-08-24 | [r1.56.69](releases/2026-08-24_r1.56.69_web_action-failure-feedback.md) | 여러 기능에서 처리가 실패해도 아무 안내가 없던 문제를 수정해, 실패 시 바로 알 수 있도록 했습니다. |
+| 2026-08-24 | [r1.56.68](releases/2026-08-24_r1.56.68_web_discussions-actions-fix.md) | 토론에서 글 작성과 추천, 좋아요가 실제로 반영되지 않던 문제를 수정했습니다. |
 | 2026-08-17 | [r1.56.67](releases/2026-08-17_r1.56.67_web_security-stability-hardening.md) | 서비스 전반의 보안을 강화하고, 일부 기능이 멈춘 채 진행되지 않던 문제를 수정했습니다. |
 | 2026-08-17 | [r1.56.66](releases/2026-08-17_r1.56.66_web_ui-usability-improvements.md) | 글 작성 추천 속도를 높이고, 좋아요 목록·공유 링크·검색 화면 등의 표시 오류를 수정했습니다. |
 | 2026-08-17 | [r1.56.65](releases/2026-08-17_r1.56.65_web_collaboration-recruitment-fixes.md) | 프로젝트 협업 모집에서 모집 상태 표시와 지원자 수락·거절 과정의 오류를 수정했습니다. |
