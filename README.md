@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-24 09:23 KST</td>
+    <td>2026-08-30 16:03 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>759 sessions</td>
+    <td>1,099 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>10,150,171,474 tokens</strong></td>
+    <td><strong>11,147,834,805 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>10,108,076,000 tokens</td>
+    <td>11,099,970,949 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>9,645,772,416 tokens</td>
+    <td>10,597,230,208 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>42,095,474 tokens</td>
+    <td>47,863,856 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>14,513,564 tokens</td>
+    <td>17,554,851 tokens</td>
   </tr>
 </table>
 
@@ -64,9 +64,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>10,200,000,000 tokens</td>
+    <td>11,150,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.5%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-24 10:02 KST</td>
+    <td>2026-08-31 10:01 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>4,067 files</td>
+    <td>4,546 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>229,397 entries</td>
+    <td>248,380 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>53,863,149,448 tokens</strong></td>
+    <td><strong>56,836,133,583 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>246,524,964 tokens</td>
+    <td>247,322,253 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,846,953,149 tokens</td>
+    <td>2,971,946,261 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>50,455,921,352 tokens</td>
+    <td>53,294,756,934 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>313,749,983 tokens</td>
+    <td>322,108,135 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>635,173,129 tokens</td>
+    <td>2,968,077,365 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>7,451,336,979 tokens</td>
+    <td>8,561,799,145 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>382,008,152 tokens/day</td>
+    <td>237,808,090 tokens/day</td>
   </tr>
 </table>
 
@@ -132,9 +132,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>53,900,000,000 tokens</td>
+    <td>56,850,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.9%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-08-31 | [r1.56.79](releases/2026-08-31_r1.56.79_web_venue-registration-and-management.md) | Web | 공연장 사진 등록에 구도 조정을 추가하고, 신청·관리 과정에서 발생하던 입력 문제를 수정했습니다. |
+| 2026-08-31 | [r1.56.78](releases/2026-08-31_r1.56.78_web_artist-profile-improvements.md) | Web | 아티스트 탐색에 정렬·필터를 더하고, 프로필과 활동 지표가 실제 데이터를 보여주도록 개선했습니다. |
+| 2026-08-31 | [r1.56.77](releases/2026-08-31_r1.56.77_web_home-service-store.md) | Web | 홈 화면에서 바로 서비스 스토어를 둘러볼 수 있도록 하고, 서비스 화면의 표시 문제를 함께 수정했습니다. |
+| 2026-08-31 | [r1.56.76](releases/2026-08-31_r1.56.76_web_ticket-and-settlement-clarity.md) | Web | 티켓과 정산 화면의 날짜·수수료·지급 안내를 실제 기준에 맞게 정정했습니다. |
+| 2026-08-31 | [r1.56.75](releases/2026-08-31_r1.56.75_web_notifications-and-community-access.md) | Web | 알림과 커뮤니티 글을 지난 항목까지 모두 확인할 수 있게 하고, 참여 과정에서 발생하던 문제들을 수정했습니다. |
+| 2026-08-31 | [r1.56.74](releases/2026-08-31_r1.56.74_web_event-discovery-and-map-fixes.md) | Web | 지도와 목록에서 원하는 기간의 공연을 빠짐없이 찾을 수 있도록 개선하고, 공연 정보 표시 오류를 바로잡았습니다. |
 | 2026-08-24 | [r1.56.73](releases/2026-08-24_r1.56.73_web_stability-security-a11y.md) | Web | 동시에 이용이 몰리는 상황에서 생기던 오류와 중복 알림을 바로잡고, 보안과 접근성을 강화했습니다. |
 | 2026-08-24 | [r1.56.72](releases/2026-08-24_r1.56.72_web_counts-profile-accuracy.md) | Web | 아티스트 구독자 수와 내 구독 목록, 선호 장르, 랭킹이 실제와 다르게 표시되던 문제를 수정했습니다. |
 | 2026-08-24 | [r1.56.71](releases/2026-08-24_r1.56.71_web_ui-display-fixes.md) | Web | 여러 화면에서 내용이 가려지거나 어긋나 보이던 표시 오류를 모아 수정했습니다. |
@@ -389,6 +395,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-08-31 | [r1.56.79](releases/2026-08-31_r1.56.79_web_venue-registration-and-management.md) | 공연장 사진 등록에 구도 조정을 추가하고, 신청·관리 과정에서 발생하던 입력 문제를 수정했습니다. |
+| 2026-08-31 | [r1.56.78](releases/2026-08-31_r1.56.78_web_artist-profile-improvements.md) | 아티스트 탐색에 정렬·필터를 더하고, 프로필과 활동 지표가 실제 데이터를 보여주도록 개선했습니다. |
+| 2026-08-31 | [r1.56.77](releases/2026-08-31_r1.56.77_web_home-service-store.md) | 홈 화면에서 바로 서비스 스토어를 둘러볼 수 있도록 하고, 서비스 화면의 표시 문제를 함께 수정했습니다. |
+| 2026-08-31 | [r1.56.76](releases/2026-08-31_r1.56.76_web_ticket-and-settlement-clarity.md) | 티켓과 정산 화면의 날짜·수수료·지급 안내를 실제 기준에 맞게 정정했습니다. |
+| 2026-08-31 | [r1.56.75](releases/2026-08-31_r1.56.75_web_notifications-and-community-access.md) | 알림과 커뮤니티 글을 지난 항목까지 모두 확인할 수 있게 하고, 참여 과정에서 발생하던 문제들을 수정했습니다. |
+| 2026-08-31 | [r1.56.74](releases/2026-08-31_r1.56.74_web_event-discovery-and-map-fixes.md) | 지도와 목록에서 원하는 기간의 공연을 빠짐없이 찾을 수 있도록 개선하고, 공연 정보 표시 오류를 바로잡았습니다. |
 | 2026-08-24 | [r1.56.73](releases/2026-08-24_r1.56.73_web_stability-security-a11y.md) | 동시에 이용이 몰리는 상황에서 생기던 오류와 중복 알림을 바로잡고, 보안과 접근성을 강화했습니다. |
 | 2026-08-24 | [r1.56.72](releases/2026-08-24_r1.56.72_web_counts-profile-accuracy.md) | 아티스트 구독자 수와 내 구독 목록, 선호 장르, 랭킹이 실제와 다르게 표시되던 문제를 수정했습니다. |
 | 2026-08-24 | [r1.56.71](releases/2026-08-24_r1.56.71_web_ui-display-fixes.md) | 여러 화면에서 내용이 가려지거나 어긋나 보이던 표시 오류를 모아 수정했습니다. |
