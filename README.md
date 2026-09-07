@@ -25,7 +25,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-30 16:03 KST</td>
+    <td>2026-09-04 16:23 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -33,27 +33,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>1,099 sessions</td>
+    <td>1,667 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>11,147,834,805 tokens</strong></td>
+    <td><strong>12,934,864,490 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>11,099,970,949 tokens</td>
+    <td>12,878,442,586 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>10,597,230,208 tokens</td>
+    <td>12,296,388,736 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>47,863,856 tokens</td>
+    <td>56,421,904 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>17,554,851 tokens</td>
+    <td>22,157,117 tokens</td>
   </tr>
 </table>
 
@@ -64,9 +64,9 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>11,150,000,000 tokens</td>
+    <td>12,950,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-08-31 10:01 KST</td>
+    <td>2026-09-07 10:02 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>4,546 files</td>
+    <td>5,200 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>248,380 entries</td>
+    <td>265,553 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>56,836,133,583 tokens</strong></td>
+    <td><strong>58,658,943,906 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>247,322,253 tokens</td>
+    <td>249,536,712 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>2,971,946,261 tokens</td>
+    <td>3,092,638,903 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>53,294,756,934 tokens</td>
+    <td>54,986,744,439 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>322,108,135 tokens</td>
+    <td>330,023,852 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>2,968,077,365 tokens</td>
+    <td>1,791,638,805 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>8,561,799,145 tokens</td>
+    <td>6,663,722,963 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>237,808,090 tokens/day</td>
+    <td>142,376,077 tokens/day</td>
   </tr>
 </table>
 
@@ -132,9 +132,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>56,850,000,000 tokens</td>
+    <td>58,700,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-07 | [r1.56.85](releases/2026-09-07_r1.56.85_web_ui-copy-and-theme-polish.md) | Web | 여러 화면의 문구, 아이콘, 배지 위치와 다크 테마 표시를 일관되게 다듬었습니다. |
+| 2026-09-07 | [r1.56.84](releases/2026-09-07_r1.56.84_web_screen-state-accuracy-fixes.md) | Web | 실제 상태와 다르게 보이던 화면과 돌아갈 방법이 없던 화면들을 바로잡았습니다. |
+| 2026-09-07 | [r1.56.83](releases/2026-09-07_r1.56.83_web_home-today-banner-redesign.md) | Web | 홈 화면 Today 배너와 채널 선택 디자인을 새로 정리하고 로딩 중 빈 화면을 없앴습니다. |
+| 2026-09-07 | [r1.56.82](releases/2026-09-07_r1.56.82_web_personalized-feed-recommendations.md) | Web | 피드가 선호 장르로 시작하고 '당신을 위한 추천' 영역에서 취향에 맞는 글을 보여드립니다. |
+| 2026-09-07 | [r1.56.81](releases/2026-09-07_r1.56.81_web_service-store-payment.md) | Web | 서비스 스토어에서 수락된 신청을 앱 안에서 바로 결제하고 결제 상태를 확인할 수 있습니다. |
+| 2026-09-07 | [r1.56.80](releases/2026-09-07_r1.56.80_web_artist-ranking-misfy-score.md) | Web | 가입 아티스트 랭킹을 MiSFY Score 하나로 통일하고, 점수 기준 안내와 성장 진단을 새로 제공합니다. |
 | 2026-08-31 | [r1.56.79](releases/2026-08-31_r1.56.79_web_venue-registration-and-management.md) | Web | 공연장 사진 등록에 구도 조정을 추가하고, 신청·관리 과정에서 발생하던 입력 문제를 수정했습니다. |
 | 2026-08-31 | [r1.56.78](releases/2026-08-31_r1.56.78_web_artist-profile-improvements.md) | Web | 아티스트 탐색에 정렬·필터를 더하고, 프로필과 활동 지표가 실제 데이터를 보여주도록 개선했습니다. |
 | 2026-08-31 | [r1.56.77](releases/2026-08-31_r1.56.77_web_home-service-store.md) | Web | 홈 화면에서 바로 서비스 스토어를 둘러볼 수 있도록 하고, 서비스 화면의 표시 문제를 함께 수정했습니다. |
@@ -395,6 +401,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-07 | [r1.56.85](releases/2026-09-07_r1.56.85_web_ui-copy-and-theme-polish.md) | 여러 화면의 문구, 아이콘, 배지 위치와 다크 테마 표시를 일관되게 다듬었습니다. |
+| 2026-09-07 | [r1.56.84](releases/2026-09-07_r1.56.84_web_screen-state-accuracy-fixes.md) | 실제 상태와 다르게 보이던 화면과 돌아갈 방법이 없던 화면들을 바로잡았습니다. |
+| 2026-09-07 | [r1.56.83](releases/2026-09-07_r1.56.83_web_home-today-banner-redesign.md) | 홈 화면 Today 배너와 채널 선택 디자인을 새로 정리하고 로딩 중 빈 화면을 없앴습니다. |
+| 2026-09-07 | [r1.56.82](releases/2026-09-07_r1.56.82_web_personalized-feed-recommendations.md) | 피드가 선호 장르로 시작하고 '당신을 위한 추천' 영역에서 취향에 맞는 글을 보여드립니다. |
+| 2026-09-07 | [r1.56.81](releases/2026-09-07_r1.56.81_web_service-store-payment.md) | 서비스 스토어에서 수락된 신청을 앱 안에서 바로 결제하고 결제 상태를 확인할 수 있습니다. |
+| 2026-09-07 | [r1.56.80](releases/2026-09-07_r1.56.80_web_artist-ranking-misfy-score.md) | 가입 아티스트 랭킹을 MiSFY Score 하나로 통일하고, 점수 기준 안내와 성장 진단을 새로 제공합니다. |
 | 2026-08-31 | [r1.56.79](releases/2026-08-31_r1.56.79_web_venue-registration-and-management.md) | 공연장 사진 등록에 구도 조정을 추가하고, 신청·관리 과정에서 발생하던 입력 문제를 수정했습니다. |
 | 2026-08-31 | [r1.56.78](releases/2026-08-31_r1.56.78_web_artist-profile-improvements.md) | 아티스트 탐색에 정렬·필터를 더하고, 프로필과 활동 지표가 실제 데이터를 보여주도록 개선했습니다. |
 | 2026-08-31 | [r1.56.77](releases/2026-08-31_r1.56.77_web_home-service-store.md) | 홈 화면에서 바로 서비스 스토어를 둘러볼 수 있도록 하고, 서비스 화면의 표시 문제를 함께 수정했습니다. |
