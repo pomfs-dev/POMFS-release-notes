@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-07 10:02 KST</td>
+    <td>2026-09-15 02:05 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>5,200 files</td>
+    <td>6,043 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>265,553 entries</td>
+    <td>310,767 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>58,658,943,906 tokens</strong></td>
+    <td><strong>69,841,131,939 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>249,536,712 tokens</td>
+    <td>249,627,162 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>3,092,638,903 tokens</td>
+    <td>3,339,990,042 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>54,986,744,439 tokens</td>
+    <td>65,881,339,050 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>330,023,852 tokens</td>
+    <td>370,175,685 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,791,638,805 tokens</td>
+    <td>10,310,193,425 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>6,663,722,963 tokens</td>
+    <td>16,534,034,260 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>142,376,077 tokens/day</td>
+    <td>117,974,885 tokens/day</td>
   </tr>
 </table>
 
@@ -132,9 +132,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>58,700,000,000 tokens</td>
+    <td>69,850,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.9%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-15 | [r1.56.91](releases/2026-09-15_r1.56.91_web_settlement-notification-accuracy.md) | Web | 주최자·판매자를 위한 정산 정보와 알림 설정 반영을 정확하게 개선했습니다. |
+| 2026-09-15 | [r1.56.90](releases/2026-09-15_r1.56.90_web_event-info-display-fixes.md) | Web | 공연 목록과 상세 정보 표시의 여러 오류를 수정했습니다. |
+| 2026-09-15 | [r1.56.89](releases/2026-09-15_r1.56.89_web_ranking-directory-improvements.md) | Web | 아티스트·공연장 랭킹 디렉터리의 정렬과 필터 기능을 새롭게 개선했습니다. |
+| 2026-09-15 | [r1.56.88](releases/2026-09-15_r1.56.88_web_ticket-purchase-reliability.md) | Web | 티켓 구매 과정의 안정성과 공정성을 강화했습니다. |
+| 2026-09-15 | [r1.56.87](releases/2026-09-15_r1.56.87_web_security-hardening.md) | Web | 서비스를 더 안전하게 이용할 수 있도록 보안을 강화했습니다. |
+| 2026-09-15 | [r1.56.86](releases/2026-09-15_r1.56.86_web_feed-home-improvements.md) | Web | 게시글과 홈 화면 표시 관련 여러 문제를 개선했습니다. |
 | 2026-09-07 | [r1.56.85](releases/2026-09-07_r1.56.85_web_ui-copy-and-theme-polish.md) | Web | 여러 화면의 문구, 아이콘, 배지 위치와 다크 테마 표시를 일관되게 다듬었습니다. |
 | 2026-09-07 | [r1.56.84](releases/2026-09-07_r1.56.84_web_screen-state-accuracy-fixes.md) | Web | 실제 상태와 다르게 보이던 화면과 돌아갈 방법이 없던 화면들을 바로잡았습니다. |
 | 2026-09-07 | [r1.56.83](releases/2026-09-07_r1.56.83_web_home-today-banner-redesign.md) | Web | 홈 화면 Today 배너와 채널 선택 디자인을 새로 정리하고 로딩 중 빈 화면을 없앴습니다. |
@@ -280,7 +286,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 | 2026-06-24 | [r1.54.13](releases/2026-06-24_r1.54.13_web_android-app-links-verification.md) | Web | 외부에서 공유한 공연 링크를 Android 앱에서 열면 브라우저를 거치지 않고 앱이 바로 열리도록 앱 링크 검증을 추가했습니다. |
 | 2026-06-24 | [r1.54.6](releases/2026-06-24_r1.54.6_operations_admin-member-profile-edit.md) | Operations | 관리 도구에 회원 통합 프로필 편집 기능을 추가하고, 아티스트 소개와 SNS 정보 저장이 제대로 반영되도록 관리 기능을 개선했습니다. 운영자 전용 기능입니다. |
 | 2026-06-23 | [r1.54.7](releases/2026-06-23_r1.54.7_data-pipeline_ai-model-update.md) | Data Pipeline | 공연 정보 분석과 검색에 사용되는 AI 모델을 업데이트해 안정성을 높였습니다. |
-| 2026-06-22 | [r1.54.5](releases/2026-06-22_r1.54.5_backend_rank-promotion-authz-hardening.md) | Backend | 등급 승격 권한 검증을 강화해 잘못된 자가 승격을 방지했습니다. |
+| 2026-06-22 | [r1.54.5](releases/2026-06-22_r1.54.5_backend_rank-promotion-authz-hardening.md) | Backend | 등급 승격 처리의 보안을 강화했습니다. |
 | 2026-06-22 | [r1.54.4](releases/2026-06-22_r1.54.4_backend_curation-feed-publish-date-sort.md) | Backend | 큐레이션 피드를 발행일 기준으로 정렬해 최신 콘텐츠가 먼저 보이도록 개선했습니다. |
 | 2026-06-22 | [r1.54.3](releases/2026-06-22_r1.54.3_web_map-blank-cache-recovery.md) | Web | 일부 기기에서 공연 지도가 빈 화면으로 표시되던 문제를 지도 데이터 캐시 자동 복구로 해소했습니다. |
 | 2026-06-22 | [r1.54.2](releases/2026-06-22_r1.54.2_web_event-like-guest-artist.md) | Web | 이벤트 상세에서 좋아요 상태가 유지되도록 수정하고 게스트 아티스트 표시 동작을 개선했습니다. |
@@ -401,6 +407,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-15 | [r1.56.91](releases/2026-09-15_r1.56.91_web_settlement-notification-accuracy.md) | 주최자·판매자를 위한 정산 정보와 알림 설정 반영을 정확하게 개선했습니다. |
+| 2026-09-15 | [r1.56.90](releases/2026-09-15_r1.56.90_web_event-info-display-fixes.md) | 공연 목록과 상세 정보 표시의 여러 오류를 수정했습니다. |
+| 2026-09-15 | [r1.56.89](releases/2026-09-15_r1.56.89_web_ranking-directory-improvements.md) | 아티스트·공연장 랭킹 디렉터리의 정렬과 필터 기능을 새롭게 개선했습니다. |
+| 2026-09-15 | [r1.56.88](releases/2026-09-15_r1.56.88_web_ticket-purchase-reliability.md) | 티켓 구매 과정의 안정성과 공정성을 강화했습니다. |
+| 2026-09-15 | [r1.56.87](releases/2026-09-15_r1.56.87_web_security-hardening.md) | 서비스를 더 안전하게 이용할 수 있도록 보안을 강화했습니다. |
+| 2026-09-15 | [r1.56.86](releases/2026-09-15_r1.56.86_web_feed-home-improvements.md) | 게시글과 홈 화면 표시 관련 여러 문제를 개선했습니다. |
 | 2026-09-07 | [r1.56.85](releases/2026-09-07_r1.56.85_web_ui-copy-and-theme-polish.md) | 여러 화면의 문구, 아이콘, 배지 위치와 다크 테마 표시를 일관되게 다듬었습니다. |
 | 2026-09-07 | [r1.56.84](releases/2026-09-07_r1.56.84_web_screen-state-accuracy-fixes.md) | 실제 상태와 다르게 보이던 화면과 돌아갈 방법이 없던 화면들을 바로잡았습니다. |
 | 2026-09-07 | [r1.56.83](releases/2026-09-07_r1.56.83_web_home-today-banner-redesign.md) | 홈 화면 Today 배너와 채널 선택 디자인을 새로 정리하고 로딩 중 빈 화면을 없앴습니다. |
@@ -586,7 +598,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
-| 2026-06-22 | [r1.54.5](releases/2026-06-22_r1.54.5_backend_rank-promotion-authz-hardening.md) | 등급 승격 권한 검증을 강화해 잘못된 자가 승격을 방지했습니다. |
+| 2026-06-22 | [r1.54.5](releases/2026-06-22_r1.54.5_backend_rank-promotion-authz-hardening.md) | 등급 승격 처리의 보안을 강화했습니다. |
 | 2026-06-22 | [r1.54.4](releases/2026-06-22_r1.54.4_backend_curation-feed-publish-date-sort.md) | 큐레이션 피드를 발행일 기준으로 정렬해 최신 콘텐츠가 먼저 보이도록 개선했습니다. |
 | 2026-06-16 | [r1.53.9](releases/2026-06-16_r1.53.9_backend_artist-rank-profile-fields.md) | 아티스트 등업이 승인된 뒤에도 프로필에 장르가 "기타"로 보이거나 자기소개가 비어 있던 문제를 해결해, 등업 신청 시 입력한 정보가 프로필에 그대로 반영되도록 했습니다. |
 | 2026-06-15 | [r1.53.6](releases/2026-06-15_r1.53.6_backend_admin-member-delete-fix.md) | 관리자 회원 관리에서 일부 회원을 삭제할 때 오류가 나던 문제를 해결해, 회원 삭제가 정상적으로 완료되도록 했습니다. |
