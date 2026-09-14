@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-15 02:24 KST</td>
+    <td>2026-09-15 02:25 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>6,053 files</td>
+    <td>6,055 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>310,788 entries</td>
+    <td>310,791 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>69,843,101,106 tokens</strong></td>
+    <td><strong>69,843,353,477 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>249,627,204 tokens</td>
+    <td>249,627,210 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>3,340,770,399 tokens</td>
+    <td>3,340,877,463 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>65,882,293,274 tokens</td>
+    <td>65,882,418,465 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>370,410,229 tokens</td>
+    <td>370,430,339 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>10,311,673,659 tokens</td>
+    <td>10,311,826,163 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>16,535,514,494 tokens</td>
+    <td>16,535,666,998 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>116,990,119 tokens/day</td>
+    <td>116,794,905 tokens/day</td>
   </tr>
 </table>
 
@@ -142,6 +142,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-15 | [r1.56.122](releases/2026-09-15_r1.56.122_web_artist-drop-track-duration.md) | Web | 아티스트 드롭 카드에서 대표곡의 재생 시간과 대표 계정 여부를 확인할 수 있습니다. |
 | 2026-09-15 | [r1.56.121](releases/2026-09-15_r1.56.121_web_stability-and-security-hardening.md) | Web | 여러 화면의 안정성을 높이고 보안을 강화했습니다. |
 | 2026-09-15 | [r1.56.120](releases/2026-09-15_r1.56.120_web_payment-and-settlement-stability.md) | Web | 결제와 정산 과정에서 발생하던 여러 문제를 해결했습니다. |
 | 2026-09-15 | [r1.56.119](releases/2026-09-15_r1.56.119_web_show-listing-management-improvements.md) | Web | 공연 등록과 관리 기능을 더 정교하게 다듬었습니다. |
@@ -437,6 +438,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-15 | [r1.56.122](releases/2026-09-15_r1.56.122_web_artist-drop-track-duration.md) | 아티스트 드롭 카드에서 대표곡의 재생 시간과 대표 계정 여부를 확인할 수 있습니다. |
 | 2026-09-15 | [r1.56.121](releases/2026-09-15_r1.56.121_web_stability-and-security-hardening.md) | 여러 화면의 안정성을 높이고 보안을 강화했습니다. |
 | 2026-09-15 | [r1.56.120](releases/2026-09-15_r1.56.120_web_payment-and-settlement-stability.md) | 결제와 정산 과정에서 발생하던 여러 문제를 해결했습니다. |
 | 2026-09-15 | [r1.56.119](releases/2026-09-15_r1.56.119_web_show-listing-management-improvements.md) | 공연 등록과 관리 기능을 더 정교하게 다듬었습니다. |
