@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-15 02:13 KST</td>
+    <td>2026-09-15 02:16 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>6,047 files</td>
+    <td>6,049 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>310,777 entries</td>
+    <td>310,780 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>69,842,078,551 tokens</strong></td>
+    <td><strong>69,842,363,879 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>249,627,182 tokens</td>
+    <td>249,627,188 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>3,340,273,751 tokens</td>
+    <td>3,340,435,792 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>65,881,923,422 tokens</td>
+    <td>65,881,995,104 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>370,254,196 tokens</td>
+    <td>370,305,795 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>10,310,937,923 tokens</td>
+    <td>10,311,125,969 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>16,534,778,758 tokens</td>
+    <td>16,534,966,804 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>117,579,256 tokens/day</td>
+    <td>117,382,124 tokens/day</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-15 | [r1.56.109](releases/2026-09-15_r1.56.109_web_map-search-list-improvements.md) | Web | 지도와 공연 목록, 검색 결과 표시 방식을 개선했습니다. |
+| 2026-09-15 | [r1.56.108](releases/2026-09-15_r1.56.108_web_lineup-invite-notifications.md) | Web | 공연 라인업과 공동 주최 초대를 알림으로 받아볼 수 있는 기능이 추가되었습니다. |
+| 2026-09-15 | [r1.56.107](releases/2026-09-15_r1.56.107_web_ticket-scanner-camera-fix.md) | Web | 티켓 스캐너에서 카메라를 사용할 수 없던 문제를 해결했습니다. |
+| 2026-09-15 | [r1.56.106](releases/2026-09-15_r1.56.106_web_settlement-amount-fixes.md) | Web | 일부 판매자의 정산 금액이 잘못 표시되거나 조회되지 않던 문제를 수정했습니다. |
+| 2026-09-15 | [r1.56.105](releases/2026-09-15_r1.56.105_web_global-payouts-and-settlement-status.md) | Web | 해외 아티스트를 위한 정산 수단과 정산 신청 진행 상황 확인 기능이 추가되었습니다. |
+| 2026-09-15 | [r1.56.104](releases/2026-09-15_r1.56.104_web_listener-profile-card.md) | Web | 나만의 음악 취향과 공연 관람 기록을 담은 리스너 프로필 카드가 새로 생겼습니다. |
 | 2026-09-15 | [r1.56.103](releases/2026-09-15_r1.56.103_web_profile-feed-improvements.md) | Web | 프로필과 피드 등 여러 화면을 다듬었습니다. |
 | 2026-09-15 | [r1.56.102](releases/2026-09-15_r1.56.102_web_ticket-sale-cancel-safety.md) | Web | 티켓 판매와 취소·환불 과정의 안전장치를 강화했습니다. |
 | 2026-09-15 | [r1.56.101](releases/2026-09-15_r1.56.101_web_event-chat-overhaul.md) | Web | 공연 채팅을 더 쉽게 찾고 참여할 수 있도록 개편했습니다. |
@@ -419,6 +425,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-15 | [r1.56.109](releases/2026-09-15_r1.56.109_web_map-search-list-improvements.md) | 지도와 공연 목록, 검색 결과 표시 방식을 개선했습니다. |
+| 2026-09-15 | [r1.56.108](releases/2026-09-15_r1.56.108_web_lineup-invite-notifications.md) | 공연 라인업과 공동 주최 초대를 알림으로 받아볼 수 있는 기능이 추가되었습니다. |
+| 2026-09-15 | [r1.56.107](releases/2026-09-15_r1.56.107_web_ticket-scanner-camera-fix.md) | 티켓 스캐너에서 카메라를 사용할 수 없던 문제를 해결했습니다. |
+| 2026-09-15 | [r1.56.106](releases/2026-09-15_r1.56.106_web_settlement-amount-fixes.md) | 일부 판매자의 정산 금액이 잘못 표시되거나 조회되지 않던 문제를 수정했습니다. |
+| 2026-09-15 | [r1.56.105](releases/2026-09-15_r1.56.105_web_global-payouts-and-settlement-status.md) | 해외 아티스트를 위한 정산 수단과 정산 신청 진행 상황 확인 기능이 추가되었습니다. |
+| 2026-09-15 | [r1.56.104](releases/2026-09-15_r1.56.104_web_listener-profile-card.md) | 나만의 음악 취향과 공연 관람 기록을 담은 리스너 프로필 카드가 새로 생겼습니다. |
 | 2026-09-15 | [r1.56.103](releases/2026-09-15_r1.56.103_web_profile-feed-improvements.md) | 프로필과 피드 등 여러 화면을 다듬었습니다. |
 | 2026-09-15 | [r1.56.102](releases/2026-09-15_r1.56.102_web_ticket-sale-cancel-safety.md) | 티켓 판매와 취소·환불 과정의 안전장치를 강화했습니다. |
 | 2026-09-15 | [r1.56.101](releases/2026-09-15_r1.56.101_web_event-chat-overhaul.md) | 공연 채팅을 더 쉽게 찾고 참여할 수 있도록 개편했습니다. |
