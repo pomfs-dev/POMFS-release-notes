@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-15 02:05 KST</td>
+    <td>2026-09-15 02:09 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>6,043 files</td>
+    <td>6,045 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>310,767 entries</td>
+    <td>310,774 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>69,841,131,939 tokens</strong></td>
+    <td><strong>69,841,784,035 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>249,627,162 tokens</td>
+    <td>249,627,176 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>3,339,990,042 tokens</td>
+    <td>3,340,152,374 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>65,881,339,050 tokens</td>
+    <td>65,881,792,077 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>370,175,685 tokens</td>
+    <td>370,212,408 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>10,310,193,425 tokens</td>
+    <td>10,310,743,359 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>16,534,034,260 tokens</td>
+    <td>16,534,584,194 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>117,974,885 tokens/day</td>
+    <td>117,777,038 tokens/day</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-15 | [r1.56.97](releases/2026-09-15_r1.56.97_web_notification-security-fixes.md) | Web | 알림 전달 문제를 고치고 보안을 강화했습니다. |
+| 2026-09-15 | [r1.56.96](releases/2026-09-15_r1.56.96_web_ticket-payment-settlement-fixes.md) | Web | 티켓 구매와 정산 관련 표시 오류를 수정했습니다. |
+| 2026-09-15 | [r1.56.95](releases/2026-09-15_r1.56.95_web_creator-venue-tools.md) | Web | 아티스트와 공연장 운영자를 위한 기능을 추가·정비했습니다. |
+| 2026-09-15 | [r1.56.94](releases/2026-09-15_r1.56.94_web_home-explore-redesign.md) | Web | 홈 화면 상단과 탐색 화면을 새롭게 단장했습니다. |
+| 2026-09-15 | [r1.56.93](releases/2026-09-15_r1.56.93_web_artist-ranking-score-redesign.md) | Web | 아티스트 랭킹과 MiSFY Score 화면을 더 보기 쉽게 다듬었습니다. |
+| 2026-09-15 | [r1.56.92](releases/2026-09-15_r1.56.92_web_promoter-label-tier.md) | Web | 공연 기획사와 음반 레이블을 위한 새로운 계정 등급을 도입했습니다. |
 | 2026-09-15 | [r1.56.91](releases/2026-09-15_r1.56.91_web_settlement-notification-accuracy.md) | Web | 주최자·판매자를 위한 정산 정보와 알림 설정 반영을 정확하게 개선했습니다. |
 | 2026-09-15 | [r1.56.90](releases/2026-09-15_r1.56.90_web_event-info-display-fixes.md) | Web | 공연 목록과 상세 정보 표시의 여러 오류를 수정했습니다. |
 | 2026-09-15 | [r1.56.89](releases/2026-09-15_r1.56.89_web_ranking-directory-improvements.md) | Web | 아티스트·공연장 랭킹 디렉터리의 정렬과 필터 기능을 새롭게 개선했습니다. |
@@ -407,6 +413,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-15 | [r1.56.97](releases/2026-09-15_r1.56.97_web_notification-security-fixes.md) | 알림 전달 문제를 고치고 보안을 강화했습니다. |
+| 2026-09-15 | [r1.56.96](releases/2026-09-15_r1.56.96_web_ticket-payment-settlement-fixes.md) | 티켓 구매와 정산 관련 표시 오류를 수정했습니다. |
+| 2026-09-15 | [r1.56.95](releases/2026-09-15_r1.56.95_web_creator-venue-tools.md) | 아티스트와 공연장 운영자를 위한 기능을 추가·정비했습니다. |
+| 2026-09-15 | [r1.56.94](releases/2026-09-15_r1.56.94_web_home-explore-redesign.md) | 홈 화면 상단과 탐색 화면을 새롭게 단장했습니다. |
+| 2026-09-15 | [r1.56.93](releases/2026-09-15_r1.56.93_web_artist-ranking-score-redesign.md) | 아티스트 랭킹과 MiSFY Score 화면을 더 보기 쉽게 다듬었습니다. |
+| 2026-09-15 | [r1.56.92](releases/2026-09-15_r1.56.92_web_promoter-label-tier.md) | 공연 기획사와 음반 레이블을 위한 새로운 계정 등급을 도입했습니다. |
 | 2026-09-15 | [r1.56.91](releases/2026-09-15_r1.56.91_web_settlement-notification-accuracy.md) | 주최자·판매자를 위한 정산 정보와 알림 설정 반영을 정확하게 개선했습니다. |
 | 2026-09-15 | [r1.56.90](releases/2026-09-15_r1.56.90_web_event-info-display-fixes.md) | 공연 목록과 상세 정보 표시의 여러 오류를 수정했습니다. |
 | 2026-09-15 | [r1.56.89](releases/2026-09-15_r1.56.89_web_ranking-directory-improvements.md) | 아티스트·공연장 랭킹 디렉터리의 정렬과 필터 기능을 새롭게 개선했습니다. |
