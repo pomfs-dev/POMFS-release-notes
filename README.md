@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-15 02:09 KST</td>
+    <td>2026-09-15 02:13 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>6,045 files</td>
+    <td>6,047 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>310,774 entries</td>
+    <td>310,777 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>69,841,784,035 tokens</strong></td>
+    <td><strong>69,842,078,551 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>249,627,176 tokens</td>
+    <td>249,627,182 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>3,340,152,374 tokens</td>
+    <td>3,340,273,751 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>65,881,792,077 tokens</td>
+    <td>65,881,923,422 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>370,212,408 tokens</td>
+    <td>370,254,196 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>10,310,743,359 tokens</td>
+    <td>10,310,937,923 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>16,534,584,194 tokens</td>
+    <td>16,534,778,758 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>117,777,038 tokens/day</td>
+    <td>117,579,256 tokens/day</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-15 | [r1.56.103](releases/2026-09-15_r1.56.103_web_profile-feed-improvements.md) | Web | 프로필과 피드 등 여러 화면을 다듬었습니다. |
+| 2026-09-15 | [r1.56.102](releases/2026-09-15_r1.56.102_web_ticket-sale-cancel-safety.md) | Web | 티켓 판매와 취소·환불 과정의 안전장치를 강화했습니다. |
+| 2026-09-15 | [r1.56.101](releases/2026-09-15_r1.56.101_web_event-chat-overhaul.md) | Web | 공연 채팅을 더 쉽게 찾고 참여할 수 있도록 개편했습니다. |
+| 2026-09-15 | [r1.56.100](releases/2026-09-15_r1.56.100_web_growth-diagnosis-radar-chart.md) | Web | 내 성장 진단에 한눈에 보는 레이더 차트를 추가했습니다. |
+| 2026-09-15 | [r1.56.99](releases/2026-09-15_r1.56.99_web_artist-ranking-redesign.md) | Web | 아티스트 랭킹 화면의 정렬과 표시 방식을 다듬었습니다. |
+| 2026-09-15 | [r1.56.98](releases/2026-09-15_r1.56.98_web_event-info-display-fixes.md) | Web | 여러 화면에서 정보가 잘못 표시되거나 비어 보이던 오류를 정리했습니다. |
 | 2026-09-15 | [r1.56.97](releases/2026-09-15_r1.56.97_web_notification-security-fixes.md) | Web | 알림 전달 문제를 고치고 보안을 강화했습니다. |
 | 2026-09-15 | [r1.56.96](releases/2026-09-15_r1.56.96_web_ticket-payment-settlement-fixes.md) | Web | 티켓 구매와 정산 관련 표시 오류를 수정했습니다. |
 | 2026-09-15 | [r1.56.95](releases/2026-09-15_r1.56.95_web_creator-venue-tools.md) | Web | 아티스트와 공연장 운영자를 위한 기능을 추가·정비했습니다. |
@@ -413,6 +419,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-15 | [r1.56.103](releases/2026-09-15_r1.56.103_web_profile-feed-improvements.md) | 프로필과 피드 등 여러 화면을 다듬었습니다. |
+| 2026-09-15 | [r1.56.102](releases/2026-09-15_r1.56.102_web_ticket-sale-cancel-safety.md) | 티켓 판매와 취소·환불 과정의 안전장치를 강화했습니다. |
+| 2026-09-15 | [r1.56.101](releases/2026-09-15_r1.56.101_web_event-chat-overhaul.md) | 공연 채팅을 더 쉽게 찾고 참여할 수 있도록 개편했습니다. |
+| 2026-09-15 | [r1.56.100](releases/2026-09-15_r1.56.100_web_growth-diagnosis-radar-chart.md) | 내 성장 진단에 한눈에 보는 레이더 차트를 추가했습니다. |
+| 2026-09-15 | [r1.56.99](releases/2026-09-15_r1.56.99_web_artist-ranking-redesign.md) | 아티스트 랭킹 화면의 정렬과 표시 방식을 다듬었습니다. |
+| 2026-09-15 | [r1.56.98](releases/2026-09-15_r1.56.98_web_event-info-display-fixes.md) | 여러 화면에서 정보가 잘못 표시되거나 비어 보이던 오류를 정리했습니다. |
 | 2026-09-15 | [r1.56.97](releases/2026-09-15_r1.56.97_web_notification-security-fixes.md) | 알림 전달 문제를 고치고 보안을 강화했습니다. |
 | 2026-09-15 | [r1.56.96](releases/2026-09-15_r1.56.96_web_ticket-payment-settlement-fixes.md) | 티켓 구매와 정산 관련 표시 오류를 수정했습니다. |
 | 2026-09-15 | [r1.56.95](releases/2026-09-15_r1.56.95_web_creator-venue-tools.md) | 아티스트와 공연장 운영자를 위한 기능을 추가·정비했습니다. |
