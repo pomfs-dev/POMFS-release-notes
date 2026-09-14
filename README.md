@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-15 06:48 KST</td>
+    <td>2026-09-15 07:17 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -85,11 +85,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-15 06:48 KST</td>
+    <td>2026-09-15 07:17 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-09-15 06:38 KST</td>
+    <td>2026-09-15 06:53 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -97,43 +97,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,840 files</td>
+    <td>7,841 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>206,251 messages</td>
+    <td>206,310 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>45,596,763,524 tokens</strong></td>
+    <td><strong>45,604,591,252 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>79,262,385 tokens</td>
+    <td>79,262,743 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,434,734,510 tokens</td>
+    <td>1,434,909,163 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>43,829,669,284 tokens</td>
+    <td>43,837,256,754 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>253,097,345 tokens</td>
+    <td>253,162,592 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>5,664,241,336 tokens</td>
+    <td>5,650,080,047 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>18,909,587,746 tokens</td>
+    <td>18,914,134,636 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>247,808,497 tokens/day</td>
+    <td>383,231,859 tokens/day</td>
   </tr>
 </table>
 
@@ -144,9 +144,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>45,600,000,000 tokens</td>
+    <td>45,650,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
