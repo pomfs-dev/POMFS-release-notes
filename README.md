@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-15 02:20 KST</td>
+    <td>2026-09-15 02:24 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>6,051 files</td>
+    <td>6,053 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>310,783 entries</td>
+    <td>310,788 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>69,842,648,930 tokens</strong></td>
+    <td><strong>69,843,101,106 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>249,627,194 tokens</td>
+    <td>249,627,204 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>3,340,596,821 tokens</td>
+    <td>3,340,770,399 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>65,882,066,786 tokens</td>
+    <td>65,882,293,274 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>370,358,129 tokens</td>
+    <td>370,410,229 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>10,311,316,997 tokens</td>
+    <td>10,311,673,659 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>16,535,157,832 tokens</td>
+    <td>16,535,514,494 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>117,185,652 tokens/day</td>
+    <td>116,990,119 tokens/day</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-15 | [r1.56.121](releases/2026-09-15_r1.56.121_web_stability-and-security-hardening.md) | Web | 여러 화면의 안정성을 높이고 보안을 강화했습니다. |
+| 2026-09-15 | [r1.56.120](releases/2026-09-15_r1.56.120_web_payment-and-settlement-stability.md) | Web | 결제와 정산 과정에서 발생하던 여러 문제를 해결했습니다. |
+| 2026-09-15 | [r1.56.119](releases/2026-09-15_r1.56.119_web_show-listing-management-improvements.md) | Web | 공연 등록과 관리 기능을 더 정교하게 다듬었습니다. |
+| 2026-09-15 | [r1.56.118](releases/2026-09-15_r1.56.118_web_dj-practice-room-booking.md) | Web | DJ 연습실을 30분 단위로 예약하고 바로 결제할 수 있는 기능을 새롭게 선보입니다. |
+| 2026-09-15 | [r1.56.117](releases/2026-09-15_r1.56.117_web_artist-listener-profile-cards-revamp.md) | Web | 아티스트와 리스너 프로필 카드를 새롭게 디자인하고 기능을 확장했습니다. |
+| 2026-09-15 | [r1.56.116](releases/2026-09-15_r1.56.116_web_public-handle-profile-url.md) | Web | 나만의 고유 주소로 프로필 페이지를 공유할 수 있게 되었습니다. |
 | 2026-09-15 | [r1.56.115](releases/2026-09-15_r1.56.115_web_saved-invites-space-rental.md) | Web | 저장(북마크), 초대 수락/거절, 공간 대관 신청 기능을 새로 추가했습니다. |
 | 2026-09-15 | [r1.56.114](releases/2026-09-15_r1.56.114_web_ticket-payment-and-settlement-improvements.md) | Web | 티켓 결제 화면을 개편하고 해외 카드 결제를 지원했으며, 정산 절차의 여러 오류를 수정했습니다. |
 | 2026-09-15 | [r1.56.113](releases/2026-09-15_r1.56.113_web_login-reliability-fix.md) | Web | 구글·페이스북 계정 로그인이 실패하던 문제를 수정했습니다. |
@@ -431,6 +437,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-15 | [r1.56.121](releases/2026-09-15_r1.56.121_web_stability-and-security-hardening.md) | 여러 화면의 안정성을 높이고 보안을 강화했습니다. |
+| 2026-09-15 | [r1.56.120](releases/2026-09-15_r1.56.120_web_payment-and-settlement-stability.md) | 결제와 정산 과정에서 발생하던 여러 문제를 해결했습니다. |
+| 2026-09-15 | [r1.56.119](releases/2026-09-15_r1.56.119_web_show-listing-management-improvements.md) | 공연 등록과 관리 기능을 더 정교하게 다듬었습니다. |
+| 2026-09-15 | [r1.56.118](releases/2026-09-15_r1.56.118_web_dj-practice-room-booking.md) | DJ 연습실을 30분 단위로 예약하고 바로 결제할 수 있는 기능을 새롭게 선보입니다. |
+| 2026-09-15 | [r1.56.117](releases/2026-09-15_r1.56.117_web_artist-listener-profile-cards-revamp.md) | 아티스트와 리스너 프로필 카드를 새롭게 디자인하고 기능을 확장했습니다. |
+| 2026-09-15 | [r1.56.116](releases/2026-09-15_r1.56.116_web_public-handle-profile-url.md) | 나만의 고유 주소로 프로필 페이지를 공유할 수 있게 되었습니다. |
 | 2026-09-15 | [r1.56.115](releases/2026-09-15_r1.56.115_web_saved-invites-space-rental.md) | 저장(북마크), 초대 수락/거절, 공간 대관 신청 기능을 새로 추가했습니다. |
 | 2026-09-15 | [r1.56.114](releases/2026-09-15_r1.56.114_web_ticket-payment-and-settlement-improvements.md) | 티켓 결제 화면을 개편하고 해외 카드 결제를 지원했으며, 정산 절차의 여러 오류를 수정했습니다. |
 | 2026-09-15 | [r1.56.113](releases/2026-09-15_r1.56.113_web_login-reliability-fix.md) | 구글·페이스북 계정 로그인이 실패하던 문제를 수정했습니다. |
