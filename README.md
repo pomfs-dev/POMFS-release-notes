@@ -77,7 +77,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-15 02:16 KST</td>
+    <td>2026-09-15 02:20 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -85,43 +85,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>6,049 files</td>
+    <td>6,051 files</td>
   </tr>
   <tr>
     <th align="left">Assistant entries</th>
-    <td>310,780 entries</td>
+    <td>310,783 entries</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>69,842,363,879 tokens</strong></td>
+    <td><strong>69,842,648,930 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>249,627,188 tokens</td>
+    <td>249,627,194 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>3,340,435,792 tokens</td>
+    <td>3,340,596,821 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>65,881,995,104 tokens</td>
+    <td>65,882,066,786 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>370,305,795 tokens</td>
+    <td>370,358,129 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>10,311,125,969 tokens</td>
+    <td>10,311,316,997 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>16,534,966,804 tokens</td>
+    <td>16,535,157,832 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>117,382,124 tokens/day</td>
+    <td>117,185,652 tokens/day</td>
   </tr>
 </table>
 
@@ -142,6 +142,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-15 | [r1.56.115](releases/2026-09-15_r1.56.115_web_saved-invites-space-rental.md) | Web | 저장(북마크), 초대 수락/거절, 공간 대관 신청 기능을 새로 추가했습니다. |
+| 2026-09-15 | [r1.56.114](releases/2026-09-15_r1.56.114_web_ticket-payment-and-settlement-improvements.md) | Web | 티켓 결제 화면을 개편하고 해외 카드 결제를 지원했으며, 정산 절차의 여러 오류를 수정했습니다. |
+| 2026-09-15 | [r1.56.113](releases/2026-09-15_r1.56.113_web_login-reliability-fix.md) | Web | 구글·페이스북 계정 로그인이 실패하던 문제를 수정했습니다. |
+| 2026-09-15 | [r1.56.112](releases/2026-09-15_r1.56.112_web_search-results-accuracy-fix.md) | Web | 검색 결과에서 공연 정보가 잘못 표시되던 문제를 수정했습니다. |
+| 2026-09-15 | [r1.56.111](releases/2026-09-15_r1.56.111_web_profile-card-revamp.md) | Web | 아티스트 프로필 화면에 갤러리, 링크, 공연 이력, 고유 주소 기능을 추가했습니다. |
+| 2026-09-15 | [r1.56.110](releases/2026-09-15_r1.56.110_web_event-video-playback.md) | Web | 아티스트와 공연장 페이지에서 공연 영상을 바로 재생할 수 있게 되었습니다. |
 | 2026-09-15 | [r1.56.109](releases/2026-09-15_r1.56.109_web_map-search-list-improvements.md) | Web | 지도와 공연 목록, 검색 결과 표시 방식을 개선했습니다. |
 | 2026-09-15 | [r1.56.108](releases/2026-09-15_r1.56.108_web_lineup-invite-notifications.md) | Web | 공연 라인업과 공동 주최 초대를 알림으로 받아볼 수 있는 기능이 추가되었습니다. |
 | 2026-09-15 | [r1.56.107](releases/2026-09-15_r1.56.107_web_ticket-scanner-camera-fix.md) | Web | 티켓 스캐너에서 카메라를 사용할 수 없던 문제를 해결했습니다. |
@@ -425,6 +431,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 tui-monitor 집계기�
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-15 | [r1.56.115](releases/2026-09-15_r1.56.115_web_saved-invites-space-rental.md) | 저장(북마크), 초대 수락/거절, 공간 대관 신청 기능을 새로 추가했습니다. |
+| 2026-09-15 | [r1.56.114](releases/2026-09-15_r1.56.114_web_ticket-payment-and-settlement-improvements.md) | 티켓 결제 화면을 개편하고 해외 카드 결제를 지원했으며, 정산 절차의 여러 오류를 수정했습니다. |
+| 2026-09-15 | [r1.56.113](releases/2026-09-15_r1.56.113_web_login-reliability-fix.md) | 구글·페이스북 계정 로그인이 실패하던 문제를 수정했습니다. |
+| 2026-09-15 | [r1.56.112](releases/2026-09-15_r1.56.112_web_search-results-accuracy-fix.md) | 검색 결과에서 공연 정보가 잘못 표시되던 문제를 수정했습니다. |
+| 2026-09-15 | [r1.56.111](releases/2026-09-15_r1.56.111_web_profile-card-revamp.md) | 아티스트 프로필 화면에 갤러리, 링크, 공연 이력, 고유 주소 기능을 추가했습니다. |
+| 2026-09-15 | [r1.56.110](releases/2026-09-15_r1.56.110_web_event-video-playback.md) | 아티스트와 공연장 페이지에서 공연 영상을 바로 재생할 수 있게 되었습니다. |
 | 2026-09-15 | [r1.56.109](releases/2026-09-15_r1.56.109_web_map-search-list-improvements.md) | 지도와 공연 목록, 검색 결과 표시 방식을 개선했습니다. |
 | 2026-09-15 | [r1.56.108](releases/2026-09-15_r1.56.108_web_lineup-invite-notifications.md) | 공연 라인업과 공동 주최 초대를 알림으로 받아볼 수 있는 기능이 추가되었습니다. |
 | 2026-09-15 | [r1.56.107](releases/2026-09-15_r1.56.107_web_ticket-scanner-camera-fix.md) | 티켓 스캐너에서 카메라를 사용할 수 없던 문제를 해결했습니다. |
