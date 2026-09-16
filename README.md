@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-15 10:00 KST</td>
+    <td>2026-09-16 10:01 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -85,11 +85,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-15 10:00 KST</td>
+    <td>2026-09-16 10:01 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-09-15 09:48 KST</td>
+    <td>2026-09-16 06:48 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -97,43 +97,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,842 files</td>
+    <td>7,848 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>206,478 messages</td>
+    <td>207,205 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>45,636,890,482 tokens</strong></td>
+    <td><strong>45,901,956,975 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>79,265,863 tokens</td>
+    <td>79,278,189 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,435,202,600 tokens</td>
+    <td>1,440,028,071 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>43,869,093,506 tokens</td>
+    <td>44,128,277,212 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>253,328,513 tokens</td>
+    <td>254,373,503 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>5,482,324,655 tokens</td>
+    <td>5,185,803,881 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>18,945,176,171 tokens</td>
+    <td>19,188,384,144 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>383,503,281 tokens/day</td>
+    <td>382,516,308 tokens/day</td>
   </tr>
 </table>
 
@@ -144,9 +144,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>45,650,000,000 tokens</td>
+    <td>45,950,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -154,6 +154,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-16 | [r1.56.126](releases/2026-09-16_r1.56.126_web_ios-date-input-overflow-fix.md) | Web | iOS 기기에서 날짜·시간 입력칸이 화면 밖으로 벗어나던 문제를 고쳤습니다. |
+| 2026-09-16 | [r1.56.125](releases/2026-09-16_r1.56.125_web_artist-card-layout-polish.md) | Web | 아티스트 카드 화면의 여백과 버튼 배치를 다듬었습니다. |
+| 2026-09-16 | [r1.56.124](releases/2026-09-16_r1.56.124_web_epk-download.md) | Web | 아티스트 드롭 페이지에서 소개 자료를 파일로 내려받을 수 있게 되었습니다. |
 | 2026-09-15 | [r1.56.123](releases/2026-09-15_r1.56.123_web_artist-page-improvements.md) | Web | 아티스트 소개 화면의 디자인과 사용성을 개선했습니다. |
 | 2026-09-15 | [r1.56.122](releases/2026-09-15_r1.56.122_web_artist-drop-track-duration.md) | Web | 아티스트 드롭 카드에서 대표곡의 재생 시간과 대표 계정 여부를 확인할 수 있습니다. |
 | 2026-09-15 | [r1.56.121](releases/2026-09-15_r1.56.121_web_stability-and-security-hardening.md) | Web | 여러 화면의 안정성을 높이고 보안을 강화했습니다. |
@@ -451,6 +454,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-16 | [r1.56.126](releases/2026-09-16_r1.56.126_web_ios-date-input-overflow-fix.md) | iOS 기기에서 날짜·시간 입력칸이 화면 밖으로 벗어나던 문제를 고쳤습니다. |
+| 2026-09-16 | [r1.56.125](releases/2026-09-16_r1.56.125_web_artist-card-layout-polish.md) | 아티스트 카드 화면의 여백과 버튼 배치를 다듬었습니다. |
+| 2026-09-16 | [r1.56.124](releases/2026-09-16_r1.56.124_web_epk-download.md) | 아티스트 드롭 페이지에서 소개 자료를 파일로 내려받을 수 있게 되었습니다. |
 | 2026-09-15 | [r1.56.123](releases/2026-09-15_r1.56.123_web_artist-page-improvements.md) | 아티스트 소개 화면의 디자인과 사용성을 개선했습니다. |
 | 2026-09-15 | [r1.56.122](releases/2026-09-15_r1.56.122_web_artist-drop-track-duration.md) | 아티스트 드롭 카드에서 대표곡의 재생 시간과 대표 계정 여부를 확인할 수 있습니다. |
 | 2026-09-15 | [r1.56.121](releases/2026-09-15_r1.56.121_web_stability-and-security-hardening.md) | 여러 화면의 안정성을 높이고 보안을 강화했습니다. |
