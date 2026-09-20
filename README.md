@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-19 10:00 KST</td>
+    <td>2026-09-20 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -85,11 +85,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-19 10:00 KST</td>
+    <td>2026-09-20 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-09-16 10:01 KST</td>
+    <td>2026-09-20 08:11 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -97,43 +97,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,849 files</td>
+    <td>7,850 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>207,206 messages</td>
+    <td>207,240 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>45,902,037,761 tokens</strong></td>
+    <td><strong>45,909,371,744 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>79,278,191 tokens</td>
+    <td>79,278,259 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,440,084,061 tokens</td>
+    <td>1,440,656,395 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>44,128,295,743 tokens</td>
+    <td>44,134,860,600 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>254,379,766 tokens</td>
+    <td>254,576,490 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>2,517,046,959 tokens</td>
+    <td>1,611,166,807 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>19,124,662,517 tokens</td>
+    <td>18,706,055,818 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>382,516,981 tokens/day</td>
+    <td>379,416,295 tokens/day</td>
   </tr>
 </table>
 
