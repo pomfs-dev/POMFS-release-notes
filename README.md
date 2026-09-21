@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-20 10:00 KST</td>
+    <td>2026-09-21 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -85,7 +85,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-20 10:00 KST</td>
+    <td>2026-09-21 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -125,11 +125,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,611,166,807 tokens</td>
+    <td>940,610,318 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>18,706,055,818 tokens</td>
+    <td>18,301,220,379 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
