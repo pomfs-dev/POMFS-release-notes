@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-26 10:00 KST</td>
+    <td>2026-09-27 19:37 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -85,11 +85,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-26 10:00 KST</td>
+    <td>2026-09-27 19:37 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-09-25 17:43 KST</td>
+    <td>2026-09-27 19:22 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -97,43 +97,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,852 files</td>
+    <td>7,855 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>207,306 messages</td>
+    <td>207,632 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>45,917,629,732 tokens</strong></td>
+    <td><strong>46,033,243,706 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>79,278,391 tokens</td>
+    <td>79,285,097 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,440,936,862 tokens</td>
+    <td>1,443,211,644 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>44,142,780,082 tokens</td>
+    <td>44,255,681,057 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>254,634,397 tokens</td>
+    <td>255,065,908 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>15,591,971 tokens</td>
+    <td>128,083,137 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>15,874,996,056 tokens</td>
+    <td>14,693,276,194 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>376,374,014 tokens/day</td>
+    <td>374,254,013 tokens/day</td>
   </tr>
 </table>
 
@@ -144,9 +144,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>45,950,000,000 tokens</td>
+    <td>46,050,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.9%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -154,6 +154,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-27 | [r1.56.128](releases/2026-09-27_r1.56.128_web_map-filter-collapse.md) | Web | 공연 지도의 필터 영역을 접을 수 있게 되어 지도를 더 넓게 볼 수 있습니다. |
+| 2026-09-27 | [r1.56.127](releases/2026-09-27_r1.56.127_web_project-recruit-edit-improvements.md) | Web | 프로젝트 모집 공고를 수정하고 저장할 때 내용이 제대로 반영되도록 개선했습니다. |
 | 2026-09-16 | [r1.56.126](releases/2026-09-16_r1.56.126_web_ios-date-input-overflow-fix.md) | Web | iOS 기기에서 날짜·시간 입력칸이 화면 밖으로 벗어나던 문제를 고쳤습니다. |
 | 2026-09-16 | [r1.56.125](releases/2026-09-16_r1.56.125_web_artist-card-layout-polish.md) | Web | 아티스트 카드 화면의 여백과 버튼 배치를 다듬었습니다. |
 | 2026-09-16 | [r1.56.124](releases/2026-09-16_r1.56.124_web_epk-download.md) | Web | 아티스트 드롭 페이지에서 소개 자료를 파일로 내려받을 수 있게 되었습니다. |
@@ -454,6 +456,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-27 | [r1.56.128](releases/2026-09-27_r1.56.128_web_map-filter-collapse.md) | 공연 지도의 필터 영역을 접을 수 있게 되어 지도를 더 넓게 볼 수 있습니다. |
+| 2026-09-27 | [r1.56.127](releases/2026-09-27_r1.56.127_web_project-recruit-edit-improvements.md) | 프로젝트 모집 공고를 수정하고 저장할 때 내용이 제대로 반영되도록 개선했습니다. |
 | 2026-09-16 | [r1.56.126](releases/2026-09-16_r1.56.126_web_ios-date-input-overflow-fix.md) | iOS 기기에서 날짜·시간 입력칸이 화면 밖으로 벗어나던 문제를 고쳤습니다. |
 | 2026-09-16 | [r1.56.125](releases/2026-09-16_r1.56.125_web_artist-card-layout-polish.md) | 아티스트 카드 화면의 여백과 버튼 배치를 다듬었습니다. |
 | 2026-09-16 | [r1.56.124](releases/2026-09-16_r1.56.124_web_epk-download.md) | 아티스트 드롭 페이지에서 소개 자료를 파일로 내려받을 수 있게 되었습니다. |
