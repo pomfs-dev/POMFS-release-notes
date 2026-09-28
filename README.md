@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-27 19:37 KST</td>
+    <td>2026-09-28 19:27 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -85,11 +85,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-09-27 19:37 KST</td>
+    <td>2026-09-28 19:27 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-09-27 19:22 KST</td>
+    <td>2026-09-28 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -97,43 +97,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,855 files</td>
+    <td>7,857 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>207,632 messages</td>
+    <td>207,648 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>46,033,243,706 tokens</strong></td>
+    <td><strong>46,038,622,893 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>79,285,097 tokens</td>
+    <td>79,285,487 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,443,211,644 tokens</td>
+    <td>1,443,267,815 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>44,255,681,057 tokens</td>
+    <td>44,260,990,379 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>255,065,908 tokens</td>
+    <td>255,079,212 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>128,083,137 tokens</td>
+    <td>129,251,149 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>14,693,276,194 tokens</td>
+    <td>14,219,659,674 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>374,254,013 tokens/day</td>
+    <td>371,279,216 tokens/day</td>
   </tr>
 </table>
 
@@ -154,6 +154,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-09-27 | [3.0.5 (21)](releases/2026-09-27_3.0.5-21_android_android-google-login-fix.md) | Android | 일부 안드로이드 기기에서 Google 로그인 시 계정을 선택한 뒤 로그인이 완료되지 않던 문제를 수정했습니다. |
 | 2026-09-27 | [r1.56.128](releases/2026-09-27_r1.56.128_web_map-filter-collapse.md) | Web | 공연 지도의 필터 영역을 접을 수 있게 되어 지도를 더 넓게 볼 수 있습니다. |
 | 2026-09-27 | [r1.56.127](releases/2026-09-27_r1.56.127_web_project-recruit-edit-improvements.md) | Web | 프로젝트 모집 공고를 수정하고 저장할 때 내용이 제대로 반영되도록 개선했습니다. |
 | 2026-09-16 | [r1.56.126](releases/2026-09-16_r1.56.126_web_ios-date-input-overflow-fix.md) | Web | iOS 기기에서 날짜·시간 입력칸이 화면 밖으로 벗어나던 문제를 고쳤습니다. |
@@ -449,6 +450,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-09-27 | [3.0.5 (21)](releases/2026-09-27_3.0.5-21_android_android-google-login-fix.md) | 일부 안드로이드 기기에서 Google 로그인 시 계정을 선택한 뒤 로그인이 완료되지 않던 문제를 수정했습니다. |
 | 2026-07-22 | [3.0.2](releases/2026-07-22_3.0.2_android_google-login-fix.md) | 안드로이드 앱 첫 화면에서 구글 로그인이 실패하던 문제를 근본적으로 해결했습니다. |
 | 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다. |
 
