@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-02 14:30 KST</td>
+    <td>2026-10-03 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -85,11 +85,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-02 14:30 KST</td>
+    <td>2026-10-03 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-02 10:00 KST</td>
+    <td>2026-10-02 14:54 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -97,43 +97,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,865 files</td>
+    <td>7,868 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>207,709 messages</td>
+    <td>207,774 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>46,061,601,626 tokens</strong></td>
+    <td><strong>46,069,995,512 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>79,286,919 tokens</td>
+    <td>79,287,049 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,443,760,292 tokens</td>
+    <td>1,443,991,926 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>44,283,422,080 tokens</td>
+    <td>44,291,520,242 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>255,132,335 tokens</td>
+    <td>255,196,295 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>152,330,629 tokens</td>
+    <td>152,415,012 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>11,583,178,640 tokens</td>
+    <td>11,132,710,841 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>359,856,262 tokens/day</td>
+    <td>359,921,839 tokens/day</td>
   </tr>
 </table>
 
@@ -154,6 +154,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-03 | [r1.56.132](releases/2026-10-03_r1.56.132_web_venue-and-service-display-fixes.md) | Web | 공연장 화면의 진입 속도를 개선하고 이름과 소개 문구가 잘못 표시되던 문제를 바로잡았습니다. |
+| 2026-10-03 | [r1.56.131](releases/2026-10-03_r1.56.131_web_ops-event-management-upgrade.md) | Web | 운영자용 공연 관리 화면에서 공연을 더 쉽게 찾고 상세 정보를 확인하며 포스터를 수정할 수 있게 되었습니다. |
 | 2026-10-02 | [r1.56.130](releases/2026-10-02_r1.56.130_web_screen-display-and-security.md) | Web | 노치가 있는 기기의 상단바 표시와 홈 화면 상단 지표 표시를 바로잡고 보안을 강화했습니다. |
 | 2026-10-02 | [r1.56.129](releases/2026-10-02_r1.56.129_web_project-recruitment-polish.md) | Web | 프로젝트 모집 화면의 입력 창과 목록 표시, 모집 상태 관리를 안정적으로 개선했습니다. |
 | 2026-09-27 | [3.0.5 (21)](releases/2026-09-27_3.0.5-21_android_android-google-login-fix.md) | Android | 일부 안드로이드 기기에서 Google 로그인 시 계정을 선택한 뒤 로그인이 완료되지 않던 문제를 수정했습니다. |
@@ -460,6 +462,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-03 | [r1.56.132](releases/2026-10-03_r1.56.132_web_venue-and-service-display-fixes.md) | 공연장 화면의 진입 속도를 개선하고 이름과 소개 문구가 잘못 표시되던 문제를 바로잡았습니다. |
+| 2026-10-03 | [r1.56.131](releases/2026-10-03_r1.56.131_web_ops-event-management-upgrade.md) | 운영자용 공연 관리 화면에서 공연을 더 쉽게 찾고 상세 정보를 확인하며 포스터를 수정할 수 있게 되었습니다. |
 | 2026-10-02 | [r1.56.130](releases/2026-10-02_r1.56.130_web_screen-display-and-security.md) | 노치가 있는 기기의 상단바 표시와 홈 화면 상단 지표 표시를 바로잡고 보안을 강화했습니다. |
 | 2026-10-02 | [r1.56.129](releases/2026-10-02_r1.56.129_web_project-recruitment-polish.md) | 프로젝트 모집 화면의 입력 창과 목록 표시, 모집 상태 관리를 안정적으로 개선했습니다. |
 | 2026-09-27 | [r1.56.128](releases/2026-09-27_r1.56.128_web_map-filter-collapse.md) | 공연 지도의 필터 영역을 접을 수 있게 되어 지도를 더 넓게 볼 수 있습니다. |
