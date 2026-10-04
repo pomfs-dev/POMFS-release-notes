@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-03 10:00 KST</td>
+    <td>2026-10-04 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -85,11 +85,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-03 10:00 KST</td>
+    <td>2026-10-04 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-02 14:54 KST</td>
+    <td>2026-10-03 23:19 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -97,43 +97,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,868 files</td>
+    <td>7,870 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>207,774 messages</td>
+    <td>207,790 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>46,069,995,512 tokens</strong></td>
+    <td><strong>46,070,900,434 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>79,287,049 tokens</td>
+    <td>79,287,079 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,443,991,926 tokens</td>
+    <td>1,444,122,898 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>44,291,520,242 tokens</td>
+    <td>44,292,274,006 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>255,196,295 tokens</td>
+    <td>255,216,451 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>152,415,012 tokens</td>
+    <td>87,590,669 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>11,132,710,841 tokens</td>
+    <td>10,281,659,920 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>359,921,839 tokens/day</td>
+    <td>357,138,763 tokens/day</td>
   </tr>
 </table>
 
@@ -154,6 +154,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-04 | [r1.56.135](releases/2026-10-04_r1.56.135_web_notification-settings-and-search-exposure.md) | Web | 알림 수신 설정이 모든 메일에 정확히 적용되고, 공개 공연이 검색에 더 잘 노출됩니다. |
+| 2026-10-04 | [r1.56.134](releases/2026-10-04_r1.56.134_web_screen-layout-and-loading-fixes.md) | Web | 공유 명함 카드, 공연장 신청 지도, 공연장 관련 화면, 공유 이미지 표시를 개선했습니다. |
+| 2026-10-04 | [r1.56.133](releases/2026-10-04_r1.56.133_web_listener-page-and-venue-hosted-events.md) | Web | 리스너 공개 주소 페이지가 앱 디자인과 일관되게 정리되고, 공연장 프로필에 주최한 이벤트가 표시됩니다. |
 | 2026-10-03 | [r1.56.132](releases/2026-10-03_r1.56.132_web_venue-and-service-display-fixes.md) | Web | 공연장 화면의 진입 속도를 개선하고 이름과 소개 문구가 잘못 표시되던 문제를 바로잡았습니다. |
 | 2026-10-03 | [r1.56.131](releases/2026-10-03_r1.56.131_web_ops-event-management-upgrade.md) | Web | 운영자용 공연 관리 화면에서 공연을 더 쉽게 찾고 상세 정보를 확인하며 포스터를 수정할 수 있게 되었습니다. |
 | 2026-10-02 | [r1.56.130](releases/2026-10-02_r1.56.130_web_screen-display-and-security.md) | Web | 노치가 있는 기기의 상단바 표시와 홈 화면 상단 지표 표시를 바로잡고 보안을 강화했습니다. |
@@ -462,6 +465,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-04 | [r1.56.135](releases/2026-10-04_r1.56.135_web_notification-settings-and-search-exposure.md) | 알림 수신 설정이 모든 메일에 정확히 적용되고, 공개 공연이 검색에 더 잘 노출됩니다. |
+| 2026-10-04 | [r1.56.134](releases/2026-10-04_r1.56.134_web_screen-layout-and-loading-fixes.md) | 공유 명함 카드, 공연장 신청 지도, 공연장 관련 화면, 공유 이미지 표시를 개선했습니다. |
+| 2026-10-04 | [r1.56.133](releases/2026-10-04_r1.56.133_web_listener-page-and-venue-hosted-events.md) | 리스너 공개 주소 페이지가 앱 디자인과 일관되게 정리되고, 공연장 프로필에 주최한 이벤트가 표시됩니다. |
 | 2026-10-03 | [r1.56.132](releases/2026-10-03_r1.56.132_web_venue-and-service-display-fixes.md) | 공연장 화면의 진입 속도를 개선하고 이름과 소개 문구가 잘못 표시되던 문제를 바로잡았습니다. |
 | 2026-10-03 | [r1.56.131](releases/2026-10-03_r1.56.131_web_ops-event-management-upgrade.md) | 운영자용 공연 관리 화면에서 공연을 더 쉽게 찾고 상세 정보를 확인하며 포스터를 수정할 수 있게 되었습니다. |
 | 2026-10-02 | [r1.56.130](releases/2026-10-02_r1.56.130_web_screen-display-and-security.md) | 노치가 있는 기기의 상단바 표시와 홈 화면 상단 지표 표시를 바로잡고 보안을 강화했습니다. |
