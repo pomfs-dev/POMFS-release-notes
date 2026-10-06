@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-05 10:00 KST</td>
+    <td>2026-10-06 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -78,64 +78,101 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 
 ### Claude Code
 
-Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session logs를 응답 메시지 단위로 중복 제거해 집계한 정적 스냅샷입니다.
+Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session logs를 응답 메시지 단위로 중복 제거해 집계한 정적 스냅샷입니다. 대화 세션과 자동화 레인(비대화형 실행)을 나누어 표기하며, Weekly·Monthly·Daily avg는 같은 집계 대상·같은 기준으로 계산합니다.
 
 > 집계 방식 보정(2026-09-15): 응답 1건이 로그에 여러 줄로 기록되어 중복 합산되던 문제를 응답 메시지 단위 중복 제거로 바로잡고, 집계에서 빠져 있던 세션 로그를 포함했습니다. 로그가 남아 있지 않은 2026-08-06 이전 기간은 남아 있는 로그에서 측정한 중복 비율을 적용한 추정치입니다. 보정 전 공개값은 69,843,429,729 tokens였습니다.
+
+> 집계 범위 보정: 자동화 레인(사람이 대화하지 않고 자동으로 도는 실행)은 세션 로그가 남지 않아 이전 집계에서 빠져 있었습니다. 2026-08-25부터의 레인 실행분을 실행 결과 기록에서 복원해 포함했고, 그 이전 레인 사용량은 복구할 수 없습니다. 이전에 집계되지 않던 대화 계정 한 곳의 2026-09-08~2026-10-01 구간은 보존본으로 소급 반영했으며, 2026-10-01 이후 그 계정의 대화는 기록이 남지 않아 포함되지 않았습니다.
+
+> 집계 범위 보정(콘솔 사용량): 로그가 남아 있지 않은 2026-03-07~2026-04-21 구간의 Claude Code 전용 API 키 사용분은 Anthropic 콘솔 사용량 내보내기에서 반영했습니다. 2026-04-22 이후 같은 키 사용분은 세션 로그에 이미 집계되어 있어 중복을 피하려고 더하지 않았습니다. Claude Code 외 API 키 사용분 391,416,608 tokens(2026-03-11~2026-10-04, 콘솔 사용량 기준)는 위 누적에 포함하지 않고 별도로 표기합니다.
 
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-05 10:00 KST</td>
+    <td>2026-10-06 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-05 03:33 KST</td>
+    <td>2026-10-06 09:28 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
-    <td>Claude Code session logs (deduplicated per message)</td>
+    <td>Claude Code session logs (deduplicated per message) + automation lane runs (one per session)</td>
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,873 files</td>
+    <td>7,875 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>207,814 messages</td>
+    <td>210,227 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>46,072,794,943 tokens</strong></td>
+    <td><strong>49,135,823,762 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>79,287,127 tokens</td>
+    <td>85,491,264 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,444,289,080 tokens</td>
+    <td>1,590,887,036 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>44,293,985,599 tokens</td>
+    <td>47,162,082,082 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>255,233,137 tokens</td>
+    <td>297,363,380 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>34,223,874 tokens</td>
+    <td>1,233,876,414 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>9,215,403,431 tokens</td>
+    <td>11,062,851,681 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>351,700,724 tokens/day</td>
+    <td>368,761,722 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
+
+<table>
+  <tr>
+    <th align="left">Source</th>
+    <th align="right">Cumulative</th>
+    <th align="right">Weekly 7d</th>
+    <th align="right">Monthly 30d</th>
+    <th align="right">Daily avg (30d÷30)</th>
+  </tr>
+  <tr>
+    <td>대화 세션</td>
+    <td align="right">47,116,735,386</td>
+    <td align="right">15,369,853</td>
+    <td align="right">9,568,363,523</td>
+    <td align="right">318,945,450</td>
+  </tr>
+  <tr>
+    <td>자동화 레인</td>
+    <td align="right">1,946,714,003</td>
+    <td align="right">1,218,506,561</td>
+    <td align="right">1,494,488,158</td>
+    <td align="right">49,816,271</td>
+  </tr>
+  <tr>
+    <td>콘솔 API(Claude Code 키)</td>
+    <td align="right">72,374,373</td>
+    <td align="right">0</td>
+    <td align="right">0</td>
+    <td align="right">0</td>
+  </tr>
+</table>
+
+별도 집계 — Claude API(Claude Code 외): **391,416,608 tokens** (위 Claude Code 누적에 포함되지 않음)
 
 <table>
   <tr>
@@ -144,9 +181,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>46,100,000,000 tokens</td>
+    <td>49,150,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.9%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -154,6 +191,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-06 | [r1.56.138](releases/2026-10-06_r1.56.138_web_account-withdrawal-record-protection.md) | Web | 결제·정산·지급 기록이 있는 계정은 탈퇴할 때 기록을 지우지 않고 개인 식별 정보만 익명 처리하도록 개선했습니다. |
 | 2026-10-05 | [r1.56.137](releases/2026-10-05_r1.56.137_web_home-speed-and-app-link-fix.md) | Web | 홈 화면의 주요 숫자가 더 빠르게 표시되고, 앱 링크가 올바른 앱으로 연결되도록 바로잡았습니다. |
 | 2026-10-05 | [r1.56.136](releases/2026-10-05_r1.56.136_web_live-concert-push-notifications.md) | Web | 공연이 진행되는 저녁 시간에 관심 장르별 라이브 소식을 알림으로 받아보실 수 있습니다. |
 | 2026-10-04 | [r1.56.135](releases/2026-10-04_r1.56.135_web_notification-settings-and-search-exposure.md) | Web | 알림 수신 설정이 모든 메일에 정확히 적용되고, 공개 공연이 검색에 더 잘 노출됩니다. |
@@ -467,6 +505,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-06 | [r1.56.138](releases/2026-10-06_r1.56.138_web_account-withdrawal-record-protection.md) | 결제·정산·지급 기록이 있는 계정은 탈퇴할 때 기록을 지우지 않고 개인 식별 정보만 익명 처리하도록 개선했습니다. |
 | 2026-10-05 | [r1.56.137](releases/2026-10-05_r1.56.137_web_home-speed-and-app-link-fix.md) | 홈 화면의 주요 숫자가 더 빠르게 표시되고, 앱 링크가 올바른 앱으로 연결되도록 바로잡았습니다. |
 | 2026-10-05 | [r1.56.136](releases/2026-10-05_r1.56.136_web_live-concert-push-notifications.md) | 공연이 진행되는 저녁 시간에 관심 장르별 라이브 소식을 알림으로 받아보실 수 있습니다. |
 | 2026-10-04 | [r1.56.135](releases/2026-10-04_r1.56.135_web_notification-settings-and-search-exposure.md) | 알림 수신 설정이 모든 메일에 정확히 적용되고, 공개 공연이 검색에 더 잘 노출됩니다. |
