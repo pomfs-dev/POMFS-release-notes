@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-06 10:00 KST</td>
+    <td>2026-10-07 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -89,11 +89,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-06 10:00 KST</td>
+    <td>2026-10-07 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-06 09:28 KST</td>
+    <td>2026-10-07 09:26 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,875 files</td>
+    <td>7,878 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>210,227 messages</td>
+    <td>210,254 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>49,135,823,762 tokens</strong></td>
+    <td><strong>49,230,898,399 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,491,264 tokens</td>
+    <td>85,493,650 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,590,887,036 tokens</td>
+    <td>1,596,483,571 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>47,162,082,082 tokens</td>
+    <td>47,250,682,700 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>297,363,380 tokens</td>
+    <td>298,238,478 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,233,876,414 tokens</td>
+    <td>1,328,358,049 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>11,062,851,681 tokens</td>
+    <td>10,422,187,987 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>368,761,722 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>347,406,266 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">47,116,735,386</td>
-    <td align="right">15,369,853</td>
-    <td align="right">9,568,363,523</td>
-    <td align="right">318,945,450</td>
+    <td align="right">47,119,098,230</td>
+    <td align="right">17,734,525</td>
+    <td align="right">8,883,331,438</td>
+    <td align="right">296,111,047</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">1,946,714,003</td>
-    <td align="right">1,218,506,561</td>
-    <td align="right">1,494,488,158</td>
-    <td align="right">49,816,271</td>
+    <td align="right">2,039,425,796</td>
+    <td align="right">1,310,623,524</td>
+    <td align="right">1,538,856,549</td>
+    <td align="right">51,295,218</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -181,7 +181,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>49,150,000,000 tokens</td>
+    <td>49,250,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">100.0%</td>
   </tr>
@@ -191,6 +191,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-07 | [r1.56.140](releases/2026-10-07_r1.56.140_web_settlement-test-order-exclusion.md) | Web | 운영자가 확인을 마친 테스트 주문이 결제 정산 현황에서 제외됩니다. |
+| 2026-10-07 | [r1.56.139](releases/2026-10-07_r1.56.139_web_logout-and-app-install-stability.md) | Web | 로그아웃 시 로그인 정보가 더 확실하게 정리되고, 홈 화면에 설치한 앱의 정체성이 고정되었습니다. |
 | 2026-10-06 | [r1.56.138](releases/2026-10-06_r1.56.138_web_account-withdrawal-record-protection.md) | Web | 결제·정산·지급 기록이 있는 계정은 탈퇴할 때 기록을 지우지 않고 개인 식별 정보만 익명 처리하도록 개선했습니다. |
 | 2026-10-05 | [r1.56.137](releases/2026-10-05_r1.56.137_web_home-speed-and-app-link-fix.md) | Web | 홈 화면의 주요 숫자가 더 빠르게 표시되고, 앱 링크가 올바른 앱으로 연결되도록 바로잡았습니다. |
 | 2026-10-05 | [r1.56.136](releases/2026-10-05_r1.56.136_web_live-concert-push-notifications.md) | Web | 공연이 진행되는 저녁 시간에 관심 장르별 라이브 소식을 알림으로 받아보실 수 있습니다. |
@@ -505,6 +507,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-07 | [r1.56.140](releases/2026-10-07_r1.56.140_web_settlement-test-order-exclusion.md) | 운영자가 확인을 마친 테스트 주문이 결제 정산 현황에서 제외됩니다. |
+| 2026-10-07 | [r1.56.139](releases/2026-10-07_r1.56.139_web_logout-and-app-install-stability.md) | 로그아웃 시 로그인 정보가 더 확실하게 정리되고, 홈 화면에 설치한 앱의 정체성이 고정되었습니다. |
 | 2026-10-06 | [r1.56.138](releases/2026-10-06_r1.56.138_web_account-withdrawal-record-protection.md) | 결제·정산·지급 기록이 있는 계정은 탈퇴할 때 기록을 지우지 않고 개인 식별 정보만 익명 처리하도록 개선했습니다. |
 | 2026-10-05 | [r1.56.137](releases/2026-10-05_r1.56.137_web_home-speed-and-app-link-fix.md) | 홈 화면의 주요 숫자가 더 빠르게 표시되고, 앱 링크가 올바른 앱으로 연결되도록 바로잡았습니다. |
 | 2026-10-05 | [r1.56.136](releases/2026-10-05_r1.56.136_web_live-concert-push-notifications.md) | 공연이 진행되는 저녁 시간에 관심 장르별 라이브 소식을 알림으로 받아보실 수 있습니다. |
