@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-07 10:00 KST</td>
+    <td>2026-10-08 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -89,11 +89,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-07 10:00 KST</td>
+    <td>2026-10-08 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-07 09:26 KST</td>
+    <td>2026-10-08 09:59 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,878 files</td>
+    <td>7,882 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>210,254 messages</td>
+    <td>210,288 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>49,230,898,399 tokens</strong></td>
+    <td><strong>49,623,515,769 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,493,650 tokens</td>
+    <td>85,500,134 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,596,483,571 tokens</td>
+    <td>1,611,135,738 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>47,250,682,700 tokens</td>
+    <td>47,625,384,421 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>298,238,478 tokens</td>
+    <td>301,495,476 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,328,358,049 tokens</td>
+    <td>1,720,477,395 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>10,422,187,987 tokens</td>
+    <td>8,864,391,903 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>347,406,266 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>295,479,730 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">47,119,098,230</td>
-    <td align="right">17,734,525</td>
-    <td align="right">8,883,331,438</td>
-    <td align="right">296,111,047</td>
+    <td align="right">47,122,000,116</td>
+    <td align="right">20,635,025</td>
+    <td align="right">6,963,414,187</td>
+    <td align="right">232,113,806</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">2,039,425,796</td>
-    <td align="right">1,310,623,524</td>
-    <td align="right">1,538,856,549</td>
-    <td align="right">51,295,218</td>
+    <td align="right">2,429,141,280</td>
+    <td align="right">1,699,842,370</td>
+    <td align="right">1,900,977,716</td>
+    <td align="right">63,365,923</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -181,9 +181,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>49,250,000,000 tokens</td>
+    <td>49,650,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -191,6 +191,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-08 | [3.0.5 (22)](releases/2026-10-08_3.0.5-22_android_android-app-links-misfy.md) | Android | app.misfy.ai 주소의 링크를 안드로이드 앱에서 바로 열 수 있게 되었습니다. |
+| 2026-10-08 | [r1.56.144](releases/2026-10-08_r1.56.144_web_artist-avatar-privacy.md) | Web | 아티스트 연결 화면의 대체 프로필 이미지를 외부 서비스 없이 표시하도록 개선했습니다. |
+| 2026-10-08 | [r1.56.143](releases/2026-10-08_r1.56.143_web_maintenance-screen.md) | Web | 서비스 업데이트나 일시적 장애 시 오류 화면 대신 점검 안내 화면이 표시됩니다. |
+| 2026-10-08 | [r1.56.142](releases/2026-10-08_r1.56.142_web_public-share-address.md) | Web | 공유 링크와 미리보기의 대표 주소를 app.misfy.ai로 통일했습니다. |
+| 2026-10-08 | [r1.56.141](releases/2026-10-08_r1.56.141_web_service-booking-refund.md) | Web | 예약형 서비스 주문을 관리자가 결제 취소(환불)할 수 있게 되었고, 예약 정보 표시도 보완했습니다. |
 | 2026-10-07 | [r1.56.140](releases/2026-10-07_r1.56.140_web_settlement-test-order-exclusion.md) | Web | 운영자가 확인을 마친 테스트 주문이 결제 정산 현황에서 제외됩니다. |
 | 2026-10-07 | [r1.56.139](releases/2026-10-07_r1.56.139_web_logout-and-app-install-stability.md) | Web | 로그아웃 시 로그인 정보가 더 확실하게 정리되고, 홈 화면에 설치한 앱의 정체성이 고정되었습니다. |
 | 2026-10-06 | [r1.56.138](releases/2026-10-06_r1.56.138_web_account-withdrawal-record-protection.md) | Web | 결제·정산·지급 기록이 있는 계정은 탈퇴할 때 기록을 지우지 않고 개인 식별 정보만 익명 처리하도록 개선했습니다. |
@@ -499,6 +504,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-08 | [3.0.5 (22)](releases/2026-10-08_3.0.5-22_android_android-app-links-misfy.md) | app.misfy.ai 주소의 링크를 안드로이드 앱에서 바로 열 수 있게 되었습니다. |
 | 2026-09-27 | [3.0.5 (21)](releases/2026-09-27_3.0.5-21_android_android-google-login-fix.md) | 일부 안드로이드 기기에서 Google 로그인 시 계정을 선택한 뒤 로그인이 완료되지 않던 문제를 수정했습니다. |
 | 2026-07-22 | [3.0.2](releases/2026-07-22_3.0.2_android_google-login-fix.md) | 안드로이드 앱 첫 화면에서 구글 로그인이 실패하던 문제를 근본적으로 해결했습니다. |
 | 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다. |
@@ -507,6 +513,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-08 | [r1.56.144](releases/2026-10-08_r1.56.144_web_artist-avatar-privacy.md) | 아티스트 연결 화면의 대체 프로필 이미지를 외부 서비스 없이 표시하도록 개선했습니다. |
+| 2026-10-08 | [r1.56.143](releases/2026-10-08_r1.56.143_web_maintenance-screen.md) | 서비스 업데이트나 일시적 장애 시 오류 화면 대신 점검 안내 화면이 표시됩니다. |
+| 2026-10-08 | [r1.56.142](releases/2026-10-08_r1.56.142_web_public-share-address.md) | 공유 링크와 미리보기의 대표 주소를 app.misfy.ai로 통일했습니다. |
+| 2026-10-08 | [r1.56.141](releases/2026-10-08_r1.56.141_web_service-booking-refund.md) | 예약형 서비스 주문을 관리자가 결제 취소(환불)할 수 있게 되었고, 예약 정보 표시도 보완했습니다. |
 | 2026-10-07 | [r1.56.140](releases/2026-10-07_r1.56.140_web_settlement-test-order-exclusion.md) | 운영자가 확인을 마친 테스트 주문이 결제 정산 현황에서 제외됩니다. |
 | 2026-10-07 | [r1.56.139](releases/2026-10-07_r1.56.139_web_logout-and-app-install-stability.md) | 로그아웃 시 로그인 정보가 더 확실하게 정리되고, 홈 화면에 설치한 앱의 정체성이 고정되었습니다. |
 | 2026-10-06 | [r1.56.138](releases/2026-10-06_r1.56.138_web_account-withdrawal-record-protection.md) | 결제·정산·지급 기록이 있는 계정은 탈퇴할 때 기록을 지우지 않고 개인 식별 정보만 익명 처리하도록 개선했습니다. |
