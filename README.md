@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-08 10:00 KST</td>
+    <td>2026-10-09 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -84,16 +84,16 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 > 집계 범위 보정: 자동화 레인(사람이 대화하지 않고 자동으로 도는 실행)은 세션 로그가 남지 않아 이전 집계에서 빠져 있었습니다. 2026-08-25부터의 레인 실행분을 실행 결과 기록에서 복원해 포함했고, 그 이전 레인 사용량은 복구할 수 없습니다. 이전에 집계되지 않던 대화 계정 한 곳의 2026-09-08~2026-10-01 구간은 보존본으로 소급 반영했으며, 2026-10-01 이후 그 계정의 대화는 기록이 남지 않아 포함되지 않았습니다.
 
-> 집계 범위 보정(콘솔 사용량): 로그가 남아 있지 않은 2026-03-07~2026-04-21 구간의 Claude Code 전용 API 키 사용분은 Anthropic 콘솔 사용량 내보내기에서 반영했습니다. 2026-04-22 이후 같은 키 사용분은 세션 로그에 이미 집계되어 있어 중복을 피하려고 더하지 않았습니다. Claude Code 외 API 키 사용분 391,416,608 tokens(2026-03-11~2026-10-04, 콘솔 사용량 기준)는 위 누적에 포함하지 않고 별도로 표기합니다.
+> 집계 범위 보정(콘솔 사용량): 로그가 남아 있지 않은 2026-03-07~2026-04-21 구간의 Claude Code 전용 API 키 사용분은 Anthropic 콘솔 사용량 내보내기에서 반영했습니다. 2026-04-22 이후 같은 키 사용분은 세션 로그에 이미 집계되어 있어 중복을 피하려고 더하지 않았습니다. Claude Code 외 API 키 사용분 391,417,316 tokens(2026-03-11~2026-10-08, 콘솔 사용량 기준)는 위 누적에 포함하지 않고 별도로 표기합니다.
 
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-08 10:00 KST</td>
+    <td>2026-10-09 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-08 09:59 KST</td>
+    <td>2026-10-09 09:59 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,882 files</td>
+    <td>7,884 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>210,288 messages</td>
+    <td>210,301 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>49,623,515,769 tokens</strong></td>
+    <td><strong>49,815,755,060 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,500,134 tokens</td>
+    <td>85,503,904 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,611,135,738 tokens</td>
+    <td>1,621,079,816 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>47,625,384,421 tokens</td>
+    <td>47,806,185,615 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>301,495,476 tokens</td>
+    <td>302,985,725 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,720,477,395 tokens</td>
+    <td>1,828,744,659 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>8,864,391,903 tokens</td>
+    <td>8,036,751,888 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>295,479,730 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>267,891,729 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">47,122,000,116</td>
-    <td align="right">20,635,025</td>
-    <td align="right">6,963,414,187</td>
-    <td align="right">232,113,806</td>
+    <td align="right">47,123,068,739</td>
+    <td align="right">18,403,518</td>
+    <td align="right">5,994,962,313</td>
+    <td align="right">199,832,077</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">2,429,141,280</td>
-    <td align="right">1,699,842,370</td>
-    <td align="right">1,900,977,716</td>
-    <td align="right">63,365,923</td>
+    <td align="right">2,620,311,948</td>
+    <td align="right">1,810,341,141</td>
+    <td align="right">2,041,789,575</td>
+    <td align="right">68,059,652</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -172,7 +172,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
 </table>
 
-별도 집계 — Claude API(Claude Code 외): **391,416,608 tokens** (위 Claude Code 누적에 포함되지 않음)
+별도 집계 — Claude API(Claude Code 외): **391,417,316 tokens** (위 Claude Code 누적에 포함되지 않음)
 
 <table>
   <tr>
@@ -181,7 +181,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>49,650,000,000 tokens</td>
+    <td>49,850,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">99.9%</td>
   </tr>
@@ -191,6 +191,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-09 | [r1.56.146](releases/2026-10-09_r1.56.146_web_apple-login-stability.md) | Web | Apple 계정으로 로그인하는 과정이 정상적으로 완료되도록 개선했습니다. |
+| 2026-10-09 | [r1.56.145](releases/2026-10-09_r1.56.145_web_refunded-status-and-relisting.md) | Web | '내 신청' 목록에서 환불된 신청 건을 바로 확인할 수 있고, 판매 재개한 상품의 표시 오류가 고쳐졌습니다. |
 | 2026-10-08 | [3.0.5 (22)](releases/2026-10-08_3.0.5-22_android_android-app-links-misfy.md) | Android | app.misfy.ai 주소의 링크를 안드로이드 앱에서 바로 열 수 있게 되었습니다. |
 | 2026-10-08 | [r1.56.144](releases/2026-10-08_r1.56.144_web_artist-avatar-privacy.md) | Web | 아티스트 연결 화면의 대체 프로필 이미지를 외부 서비스 없이 표시하도록 개선했습니다. |
 | 2026-10-08 | [r1.56.143](releases/2026-10-08_r1.56.143_web_maintenance-screen.md) | Web | 서비스 업데이트나 일시적 장애 시 오류 화면 대신 점검 안내 화면이 표시됩니다. |
@@ -513,6 +515,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-09 | [r1.56.146](releases/2026-10-09_r1.56.146_web_apple-login-stability.md) | Apple 계정으로 로그인하는 과정이 정상적으로 완료되도록 개선했습니다. |
+| 2026-10-09 | [r1.56.145](releases/2026-10-09_r1.56.145_web_refunded-status-and-relisting.md) | '내 신청' 목록에서 환불된 신청 건을 바로 확인할 수 있고, 판매 재개한 상품의 표시 오류가 고쳐졌습니다. |
 | 2026-10-08 | [r1.56.144](releases/2026-10-08_r1.56.144_web_artist-avatar-privacy.md) | 아티스트 연결 화면의 대체 프로필 이미지를 외부 서비스 없이 표시하도록 개선했습니다. |
 | 2026-10-08 | [r1.56.143](releases/2026-10-08_r1.56.143_web_maintenance-screen.md) | 서비스 업데이트나 일시적 장애 시 오류 화면 대신 점검 안내 화면이 표시됩니다. |
 | 2026-10-08 | [r1.56.142](releases/2026-10-08_r1.56.142_web_public-share-address.md) | 공유 링크와 미리보기의 대표 주소를 app.misfy.ai로 통일했습니다. |
