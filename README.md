@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-09 10:00 KST</td>
+    <td>2026-10-10 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -89,11 +89,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-09 10:00 KST</td>
+    <td>2026-10-10 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-09 09:59 KST</td>
+    <td>2026-10-10 09:44 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,884 files</td>
+    <td>7,886 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>210,301 messages</td>
+    <td>210,303 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>49,815,755,060 tokens</strong></td>
+    <td><strong>50,052,958,022 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,503,904 tokens</td>
+    <td>85,507,956 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,621,079,816 tokens</td>
+    <td>1,630,172,050 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>47,806,185,615 tokens</td>
+    <td>48,032,504,372 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>302,985,725 tokens</td>
+    <td>304,773,644 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,828,744,659 tokens</td>
+    <td>1,955,632,404 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>8,036,751,888 tokens</td>
+    <td>7,698,621,542 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>267,891,729 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>256,620,718 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">47,123,068,739</td>
-    <td align="right">18,403,518</td>
-    <td align="right">5,994,962,313</td>
-    <td align="right">199,832,077</td>
+    <td align="right">47,123,146,986</td>
+    <td align="right">10,038,696</td>
+    <td align="right">5,464,043,811</td>
+    <td align="right">182,134,793</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">2,620,311,948</td>
-    <td align="right">1,810,341,141</td>
-    <td align="right">2,041,789,575</td>
-    <td align="right">68,059,652</td>
+    <td align="right">2,857,436,663</td>
+    <td align="right">1,945,593,708</td>
+    <td align="right">2,234,577,731</td>
+    <td align="right">74,485,924</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -181,7 +181,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>49,850,000,000 tokens</td>
+    <td>50,100,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">99.9%</td>
   </tr>
@@ -191,6 +191,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-10 | [r1.56.147](releases/2026-10-10_r1.56.147_web_faster-loading-and-security.md) | Web | 앱 화면에 들어갈 때 데이터를 더 빠르게 불러오도록 개선하고, 로그인 보안을 강화했습니다. |
 | 2026-10-09 | [r1.56.146](releases/2026-10-09_r1.56.146_web_apple-login-stability.md) | Web | Apple 계정으로 로그인하는 과정이 정상적으로 완료되도록 개선했습니다. |
 | 2026-10-09 | [r1.56.145](releases/2026-10-09_r1.56.145_web_refunded-status-and-relisting.md) | Web | '내 신청' 목록에서 환불된 신청 건을 바로 확인할 수 있고, 판매 재개한 상품의 표시 오류가 고쳐졌습니다. |
 | 2026-10-08 | [3.0.5 (22)](releases/2026-10-08_3.0.5-22_android_android-app-links-misfy.md) | Android | app.misfy.ai 주소의 링크를 안드로이드 앱에서 바로 열 수 있게 되었습니다. |
@@ -515,6 +516,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-10 | [r1.56.147](releases/2026-10-10_r1.56.147_web_faster-loading-and-security.md) | 앱 화면에 들어갈 때 데이터를 더 빠르게 불러오도록 개선하고, 로그인 보안을 강화했습니다. |
 | 2026-10-09 | [r1.56.146](releases/2026-10-09_r1.56.146_web_apple-login-stability.md) | Apple 계정으로 로그인하는 과정이 정상적으로 완료되도록 개선했습니다. |
 | 2026-10-09 | [r1.56.145](releases/2026-10-09_r1.56.145_web_refunded-status-and-relisting.md) | '내 신청' 목록에서 환불된 신청 건을 바로 확인할 수 있고, 판매 재개한 상품의 표시 오류가 고쳐졌습니다. |
 | 2026-10-08 | [r1.56.144](releases/2026-10-08_r1.56.144_web_artist-avatar-privacy.md) | 아티스트 연결 화면의 대체 프로필 이미지를 외부 서비스 없이 표시하도록 개선했습니다. |
