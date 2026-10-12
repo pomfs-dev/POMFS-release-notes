@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-11 10:00 KST</td>
+    <td>2026-10-12 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -84,16 +84,16 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 > 집계 범위 보정: 자동화 레인(사람이 대화하지 않고 자동으로 도는 실행)은 세션 로그가 남지 않아 이전 집계에서 빠져 있었습니다. 2026-08-25부터의 레인 실행분을 실행 결과 기록에서 복원해 포함했고, 그 이전 레인 사용량은 복구할 수 없습니다. 이전에 집계되지 않던 대화 계정 한 곳의 2026-09-08~2026-10-01 구간은 보존본으로 소급 반영했으며, 2026-10-01 이후 그 계정의 대화는 기록이 남지 않아 포함되지 않았습니다.
 
-> 집계 범위 보정(콘솔 사용량): 로그가 남아 있지 않은 2026-03-07~2026-04-21 구간의 Claude Code 전용 API 키 사용분은 Anthropic 콘솔 사용량 내보내기에서 반영했습니다. 2026-04-22 이후 같은 키 사용분은 세션 로그에 이미 집계되어 있어 중복을 피하려고 더하지 않았습니다. Claude Code 외 API 키 사용분 391,417,316 tokens(2026-03-11~2026-10-08, 콘솔 사용량 기준)는 위 누적에 포함하지 않고 별도로 표기합니다.
+> 집계 범위 보정(콘솔 사용량): 로그가 남아 있지 않은 2026-03-07~2026-04-21 구간의 Claude Code 전용 API 키 사용분은 Anthropic 콘솔 사용량 내보내기에서 반영했습니다. 2026-04-22 이후 같은 키 사용분은 세션 로그에 이미 집계되어 있어 중복을 피하려고 더하지 않았습니다. Claude Code 외 API 키 사용분 391,421,673 tokens(2026-03-11~2026-10-11, 콘솔 사용량 기준)는 위 누적에 포함하지 않고 별도로 표기합니다.
 
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-11 10:00 KST</td>
+    <td>2026-10-12 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-11 09:53 KST</td>
+    <td>2026-10-12 09:51 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,888 files</td>
+    <td>7,891 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>210,312 messages</td>
+    <td>210,324 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>50,180,706,733 tokens</strong></td>
+    <td><strong>50,341,421,360 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,510,692 tokens</td>
+    <td>85,513,730 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,637,482,829 tokens</td>
+    <td>1,645,354,346 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>48,151,904,024 tokens</td>
+    <td>48,303,452,946 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>305,809,188 tokens</td>
+    <td>307,100,338 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,586,158,538 tokens</td>
+    <td>1,354,969,661 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>7,054,427,592 tokens</td>
+    <td>5,124,357,574 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>235,147,586 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>170,811,919 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">47,123,809,701</td>
-    <td align="right">9,844,852</td>
-    <td align="right">4,741,850,247</td>
-    <td align="right">158,061,674</td>
+    <td align="right">47,124,745,698</td>
+    <td align="right">8,835,112</td>
+    <td align="right">2,697,996,650</td>
+    <td align="right">89,933,221</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">2,984,522,659</td>
-    <td align="right">1,576,313,686</td>
-    <td align="right">2,312,577,345</td>
-    <td align="right">77,085,911</td>
+    <td align="right">3,144,301,289</td>
+    <td align="right">1,346,134,549</td>
+    <td align="right">2,426,360,924</td>
+    <td align="right">80,878,697</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -172,7 +172,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
 </table>
 
-별도 집계 — Claude API(Claude Code 외): **391,417,316 tokens** (위 Claude Code 누적에 포함되지 않음)
+별도 집계 — Claude API(Claude Code 외): **391,421,673 tokens** (위 Claude Code 누적에 포함되지 않음)
 
 <table>
   <tr>
@@ -181,7 +181,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>50,200,000,000 tokens</td>
+    <td>50,350,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">100.0%</td>
   </tr>
@@ -191,6 +191,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-12 | [r1.56.151](releases/2026-10-12_r1.56.151_web_security-hardening.md) | Web | 웹 접속 보안을 강화했습니다. |
+| 2026-10-12 | [r1.56.150](releases/2026-10-12_r1.56.150_web_refund-accessibility.md) | Web | 환불 버튼과 환불 안내 창이 화면 낭독 프로그램에서 더 정확하게 읽히도록 개선했습니다. |
+| 2026-10-12 | [r1.56.149](releases/2026-10-12_r1.56.149_web_payout-onboarding-and-guidance.md) | Web | 정산 계정 등록 링크를 발급받아 중단된 등록을 이어서 진행할 수 있게 했습니다. |
+| 2026-10-12 | [r1.56.148](releases/2026-10-12_r1.56.148_web_service-request-refund-status.md) | Web | 서비스 주문이 환불되면 연결된 신청도 환불 상태로 정확히 표시되도록 개선했습니다. |
 | 2026-10-10 | [r1.56.147](releases/2026-10-10_r1.56.147_web_faster-loading-and-security.md) | Web | 앱 화면에 들어갈 때 데이터를 더 빠르게 불러오도록 개선하고, 로그인 보안을 강화했습니다. |
 | 2026-10-09 | [r1.56.146](releases/2026-10-09_r1.56.146_web_apple-login-stability.md) | Web | Apple 계정으로 로그인하는 과정이 정상적으로 완료되도록 개선했습니다. |
 | 2026-10-09 | [r1.56.145](releases/2026-10-09_r1.56.145_web_refunded-status-and-relisting.md) | Web | '내 신청' 목록에서 환불된 신청 건을 바로 확인할 수 있고, 판매 재개한 상품의 표시 오류가 고쳐졌습니다. |
@@ -516,6 +520,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-12 | [r1.56.151](releases/2026-10-12_r1.56.151_web_security-hardening.md) | 웹 접속 보안을 강화했습니다. |
+| 2026-10-12 | [r1.56.150](releases/2026-10-12_r1.56.150_web_refund-accessibility.md) | 환불 버튼과 환불 안내 창이 화면 낭독 프로그램에서 더 정확하게 읽히도록 개선했습니다. |
+| 2026-10-12 | [r1.56.149](releases/2026-10-12_r1.56.149_web_payout-onboarding-and-guidance.md) | 정산 계정 등록 링크를 발급받아 중단된 등록을 이어서 진행할 수 있게 했습니다. |
+| 2026-10-12 | [r1.56.148](releases/2026-10-12_r1.56.148_web_service-request-refund-status.md) | 서비스 주문이 환불되면 연결된 신청도 환불 상태로 정확히 표시되도록 개선했습니다. |
 | 2026-10-10 | [r1.56.147](releases/2026-10-10_r1.56.147_web_faster-loading-and-security.md) | 앱 화면에 들어갈 때 데이터를 더 빠르게 불러오도록 개선하고, 로그인 보안을 강화했습니다. |
 | 2026-10-09 | [r1.56.146](releases/2026-10-09_r1.56.146_web_apple-login-stability.md) | Apple 계정으로 로그인하는 과정이 정상적으로 완료되도록 개선했습니다. |
 | 2026-10-09 | [r1.56.145](releases/2026-10-09_r1.56.145_web_refunded-status-and-relisting.md) | '내 신청' 목록에서 환불된 신청 건을 바로 확인할 수 있고, 판매 재개한 상품의 표시 오류가 고쳐졌습니다. |
