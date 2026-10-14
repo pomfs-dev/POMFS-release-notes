@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-13 10:00 KST</td>
+    <td>2026-10-14 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -89,11 +89,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-13 10:00 KST</td>
+    <td>2026-10-14 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-13 09:20 KST</td>
+    <td>2026-10-14 09:41 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,892 files</td>
+    <td>7,893 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>210,325 messages</td>
+    <td>210,326 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>50,515,004,966 tokens</strong></td>
+    <td><strong>50,686,855,952 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,516,506 tokens</td>
+    <td>85,519,844 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,652,368,920 tokens</td>
+    <td>1,660,181,562 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>48,468,682,203 tokens</td>
+    <td>48,631,435,598 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>308,437,337 tokens</td>
+    <td>309,718,948 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>1,379,181,422 tokens</td>
+    <td>1,455,960,967 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>4,383,314,252 tokens</td>
+    <td>3,883,102,196 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>146,110,475 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>129,436,739 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">47,124,798,679</td>
-    <td align="right">8,063,511</td>
-    <td align="right">1,786,780,151</td>
-    <td align="right">59,559,338</td>
+    <td align="right">47,124,848,692</td>
+    <td align="right">5,753,876</td>
+    <td align="right">1,116,200,756</td>
+    <td align="right">37,206,691</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">3,317,831,914</td>
-    <td align="right">1,371,117,911</td>
-    <td align="right">2,596,534,101</td>
-    <td align="right">86,551,136</td>
+    <td align="right">3,489,632,887</td>
+    <td align="right">1,450,207,091</td>
+    <td align="right">2,766,901,440</td>
+    <td align="right">92,230,048</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -181,9 +181,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>50,550,000,000 tokens</td>
+    <td>50,700,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.9%</td>
+    <td align="right">100.0%</td>
   </tr>
 </table>
 
@@ -191,6 +191,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-14 | [r1.56.155](releases/2026-10-14_r1.56.155_web_settlement-status-display.md) | Web | 티켓 판매가 불가능한 판매자의 국내 정산 수단이 '활성'으로 표시되던 문제를 바로잡았습니다. |
+| 2026-10-14 | [r1.56.154](releases/2026-10-14_r1.56.154_web_directory-loading-speed.md) | Web | 여러 조건을 함께 선택했을 때 디렉터리가 느려지거나 불러오지 못하던 문제를 개선했습니다. |
+| 2026-10-14 | [r1.56.153](releases/2026-10-14_r1.56.153_web_share-preview-auto-subscribe.md) | Web | 공개 프로필 주소 공유 화면과 아티스트 구독 흐름을 개선했습니다. |
+| 2026-10-14 | [r1.56.152](releases/2026-10-14_r1.56.152_web_artist-drop-profile-editing.md) | Web | 아티스트 드롭과 프로필에서 직접 수정할 수 있는 항목이 늘어났습니다. |
 | 2026-10-12 | [r1.56.151](releases/2026-10-12_r1.56.151_web_security-hardening.md) | Web | 웹 접속 보안을 강화했습니다. |
 | 2026-10-12 | [r1.56.150](releases/2026-10-12_r1.56.150_web_refund-accessibility.md) | Web | 환불 버튼과 환불 안내 창이 화면 낭독 프로그램에서 더 정확하게 읽히도록 개선했습니다. |
 | 2026-10-12 | [r1.56.149](releases/2026-10-12_r1.56.149_web_payout-onboarding-and-guidance.md) | Web | 정산 계정 등록 링크를 발급받아 중단된 등록을 이어서 진행할 수 있게 했습니다. |
@@ -520,6 +524,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-14 | [r1.56.155](releases/2026-10-14_r1.56.155_web_settlement-status-display.md) | 티켓 판매가 불가능한 판매자의 국내 정산 수단이 '활성'으로 표시되던 문제를 바로잡았습니다. |
+| 2026-10-14 | [r1.56.154](releases/2026-10-14_r1.56.154_web_directory-loading-speed.md) | 여러 조건을 함께 선택했을 때 디렉터리가 느려지거나 불러오지 못하던 문제를 개선했습니다. |
+| 2026-10-14 | [r1.56.153](releases/2026-10-14_r1.56.153_web_share-preview-auto-subscribe.md) | 공개 프로필 주소 공유 화면과 아티스트 구독 흐름을 개선했습니다. |
+| 2026-10-14 | [r1.56.152](releases/2026-10-14_r1.56.152_web_artist-drop-profile-editing.md) | 아티스트 드롭과 프로필에서 직접 수정할 수 있는 항목이 늘어났습니다. |
 | 2026-10-12 | [r1.56.151](releases/2026-10-12_r1.56.151_web_security-hardening.md) | 웹 접속 보안을 강화했습니다. |
 | 2026-10-12 | [r1.56.150](releases/2026-10-12_r1.56.150_web_refund-accessibility.md) | 환불 버튼과 환불 안내 창이 화면 낭독 프로그램에서 더 정확하게 읽히도록 개선했습니다. |
 | 2026-10-12 | [r1.56.149](releases/2026-10-12_r1.56.149_web_payout-onboarding-and-guidance.md) | 정산 계정 등록 링크를 발급받아 중단된 등록을 이어서 진행할 수 있게 했습니다. |
