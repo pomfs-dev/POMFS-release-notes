@@ -27,11 +27,11 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-18 10:00 KST</td>
+    <td>2026-10-19 10:03 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-18 04:10 KST</td>
+    <td>2026-10-19 10:03 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -39,27 +39,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>1,674 sessions</td>
+    <td>1,685 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>13,073,127,697 tokens</strong></td>
+    <td><strong>13,077,066,007 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>13,016,261,035 tokens</td>
+    <td>13,020,167,310 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>12,425,502,720 tokens</td>
+    <td>12,428,556,672 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>56,866,662 tokens</td>
+    <td>56,898,697 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>22,307,552 tokens</td>
+    <td>22,322,585 tokens</td>
   </tr>
 </table>
 
@@ -89,11 +89,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-18 10:00 KST</td>
+    <td>2026-10-19 10:03 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-18 09:35 KST</td>
+    <td>2026-10-19 10:04 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,905 files</td>
+    <td>7,906 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>213,369 messages</td>
+    <td>214,181 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>53,091,537,529 tokens</strong></td>
+    <td><strong>53,721,104,590 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,539,988 tokens</td>
+    <td>85,544,400 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,700,388,886 tokens</td>
+    <td>1,707,758,039 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>50,987,347,933 tokens</td>
+    <td>51,607,566,198 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>318,260,722 tokens</td>
+    <td>320,235,953 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>2,912,600,359 tokens</td>
+    <td>3,381,295,565 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>5,352,077,095 tokens</td>
+    <td>5,981,487,524 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>178,402,569 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>199,382,917 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">48,778,662,931</td>
-    <td align="right">1,656,622,793</td>
-    <td align="right">1,838,583,514</td>
-    <td align="right">61,286,117</td>
+    <td align="right">49,245,539,625</td>
+    <td align="right">2,122,406,262</td>
+    <td align="right">2,305,303,576</td>
+    <td align="right">76,843,452</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">4,240,500,225</td>
-    <td align="right">1,255,977,566</td>
-    <td align="right">3,513,493,581</td>
-    <td align="right">117,116,452</td>
+    <td align="right">4,403,190,592</td>
+    <td align="right">1,258,889,303</td>
+    <td align="right">3,676,183,948</td>
+    <td align="right">122,539,464</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -181,9 +181,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>53,100,000,000 tokens</td>
+    <td>53,750,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">100.0%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
