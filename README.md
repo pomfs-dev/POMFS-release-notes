@@ -27,11 +27,11 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-19 10:03 KST</td>
+    <td>2026-10-20 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-19 10:03 KST</td>
+    <td>2026-10-20 09:08 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -39,27 +39,27 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   </tr>
   <tr>
     <th align="left">Sessions</th>
-    <td>1,685 sessions</td>
+    <td>1,698 sessions</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>13,077,066,007 tokens</strong></td>
+    <td><strong>13,080,960,096 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>13,020,167,310 tokens</td>
+    <td>13,024,026,424 tokens</td>
   </tr>
   <tr>
     <th align="left">Cached input</th>
-    <td>12,428,556,672 tokens</td>
+    <td>12,431,757,568 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>56,898,697 tokens</td>
+    <td>56,933,672 tokens</td>
   </tr>
   <tr>
     <th align="left">Reasoning output</th>
-    <td>22,322,585 tokens</td>
+    <td>22,338,764 tokens</td>
   </tr>
 </table>
 
@@ -72,7 +72,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
   <tr>
     <td>13,100,000,000 tokens</td>
     <td><code>████████████████████</code></td>
-    <td align="right">99.8%</td>
+    <td align="right">99.9%</td>
   </tr>
 </table>
 
@@ -84,16 +84,16 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 > 집계 범위 보정: 자동화 레인(사람이 대화하지 않고 자동으로 도는 실행)은 세션 로그가 남지 않아 이전 집계에서 빠져 있었습니다. 2026-08-25부터의 레인 실행분을 실행 결과 기록에서 복원해 포함했고, 그 이전 레인 사용량은 복구할 수 없습니다. 이전에 집계되지 않던 대화 계정 한 곳의 2026-09-08~2026-10-01 구간은 보존본으로 소급 반영했으며, 2026-10-01 이후 그 계정의 대화는 기록이 남지 않아 포함되지 않았습니다.
 
-> 집계 범위 보정(콘솔 사용량): 로그가 남아 있지 않은 2026-03-07~2026-04-21 구간의 Claude Code 전용 API 키 사용분은 Anthropic 콘솔 사용량 내보내기에서 반영했습니다. 2026-04-22 이후 같은 키 사용분은 세션 로그에 이미 집계되어 있어 중복을 피하려고 더하지 않았습니다. Claude Code 외 API 키 사용분 391,421,673 tokens(2026-03-11~2026-10-11, 콘솔 사용량 기준)는 위 누적에 포함하지 않고 별도로 표기합니다.
+> 집계 범위 보정(콘솔 사용량): 로그가 남아 있지 않은 2026-03-07~2026-04-21 구간의 Claude Code 전용 API 키 사용분은 Anthropic 콘솔 사용량 내보내기에서 반영했습니다. 2026-04-22 이후 같은 키 사용분은 세션 로그에 이미 집계되어 있어 중복을 피하려고 더하지 않았습니다. Claude Code 외 API 키 사용분 391,466,684 tokens(2026-03-11~2026-10-19, 콘솔 사용량 기준)는 위 누적에 포함하지 않고 별도로 표기합니다.
 
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-19 10:03 KST</td>
+    <td>2026-10-20 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-19 10:04 KST</td>
+    <td>2026-10-20 09:44 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,906 files</td>
+    <td>7,914 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>214,181 messages</td>
+    <td>215,794 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>53,721,104,590 tokens</strong></td>
+    <td><strong>54,759,115,081 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,544,400 tokens</td>
+    <td>85,552,220 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,707,758,039 tokens</td>
+    <td>1,720,916,980 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>51,607,566,198 tokens</td>
+    <td>52,629,585,176 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>320,235,953 tokens</td>
+    <td>323,060,705 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>3,381,295,565 tokens</td>
+    <td>4,246,944,142 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>5,981,487,524 tokens</td>
+    <td>7,013,382,756 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>199,382,917 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>233,779,425 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">49,245,539,625</td>
-    <td align="right">2,122,406,262</td>
-    <td align="right">2,305,303,576</td>
-    <td align="right">76,843,452</td>
+    <td align="right">50,065,661,880</td>
+    <td align="right">2,943,697,228</td>
+    <td align="right">3,119,310,572</td>
+    <td align="right">103,977,019</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">4,403,190,592</td>
-    <td align="right">1,258,889,303</td>
-    <td align="right">3,676,183,948</td>
-    <td align="right">122,539,464</td>
+    <td align="right">4,621,078,828</td>
+    <td align="right">1,303,246,914</td>
+    <td align="right">3,894,072,184</td>
+    <td align="right">129,802,406</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -172,7 +172,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
 </table>
 
-별도 집계 — Claude API(Claude Code 외): **391,421,673 tokens** (위 Claude Code 누적에 포함되지 않음)
+별도 집계 — Claude API(Claude Code 외): **391,466,684 tokens** (위 Claude Code 누적에 포함되지 않음)
 
 <table>
   <tr>
@@ -181,7 +181,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>53,750,000,000 tokens</td>
+    <td>54,800,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">99.9%</td>
   </tr>
@@ -191,6 +191,10 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-20 | [3.0.5 (25)](releases/2026-10-20_3.0.5-25_android_android-new-address-rollout.md) | Android | 안드로이드 앱이 새 서비스 주소로 접속하도록 업데이트되었습니다. |
+| 2026-10-20 | [r1.56.166](releases/2026-10-20_r1.56.166_web_promoter-label-dashboard.md) | Web | 프로모터와 레이블 계정의 대시보드 이동과 공개 카드 표시를 개선했습니다. |
+| 2026-10-20 | [r1.56.165](releases/2026-10-20_r1.56.165_web_venue-pages-privacy-and-permissions.md) | Web | 공연장 화면의 정보 노출과 권한 확인을 정비하고 보안을 강화했습니다. |
+| 2026-10-20 | [r1.56.164](releases/2026-10-20_r1.56.164_web_poster-full-display.md) | Web | 공연 포스터가 잘리지 않고 원본 모습 그대로 보이도록 개선했습니다. |
 | 2026-10-18 | [r1.56.163](releases/2026-10-18_r1.56.163_web_app-login-and-official-address.md) | Web | 앱에서의 로그인 과정과 공식 주소 안내를 개선했습니다. |
 | 2026-10-18 | [r1.56.162](releases/2026-10-18_r1.56.162_web_security-hardening.md) | Web | 서비스를 더 안전하게 이용할 수 있도록 보안을 강화했습니다. |
 | 2026-10-18 | [r1.56.161](releases/2026-10-18_r1.56.161_web_unified-genre-choices.md) | Web | 가입과 공연장 신청 화면의 장르 선택지를 하나의 기준으로 통일했습니다. |
@@ -523,6 +527,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-20 | [3.0.5 (25)](releases/2026-10-20_3.0.5-25_android_android-new-address-rollout.md) | 안드로이드 앱이 새 서비스 주소로 접속하도록 업데이트되었습니다. |
 | 2026-10-08 | [3.0.5 (22)](releases/2026-10-08_3.0.5-22_android_android-app-links-misfy.md) | app.misfy.ai 주소의 링크를 안드로이드 앱에서 바로 열 수 있게 되었습니다. |
 | 2026-09-27 | [3.0.5 (21)](releases/2026-09-27_3.0.5-21_android_android-google-login-fix.md) | 일부 안드로이드 기기에서 Google 로그인 시 계정을 선택한 뒤 로그인이 완료되지 않던 문제를 수정했습니다. |
 | 2026-07-22 | [3.0.2](releases/2026-07-22_3.0.2_android_google-login-fix.md) | 안드로이드 앱 첫 화면에서 구글 로그인이 실패하던 문제를 근본적으로 해결했습니다. |
@@ -532,6 +537,9 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-20 | [r1.56.166](releases/2026-10-20_r1.56.166_web_promoter-label-dashboard.md) | 프로모터와 레이블 계정의 대시보드 이동과 공개 카드 표시를 개선했습니다. |
+| 2026-10-20 | [r1.56.165](releases/2026-10-20_r1.56.165_web_venue-pages-privacy-and-permissions.md) | 공연장 화면의 정보 노출과 권한 확인을 정비하고 보안을 강화했습니다. |
+| 2026-10-20 | [r1.56.164](releases/2026-10-20_r1.56.164_web_poster-full-display.md) | 공연 포스터가 잘리지 않고 원본 모습 그대로 보이도록 개선했습니다. |
 | 2026-10-18 | [r1.56.163](releases/2026-10-18_r1.56.163_web_app-login-and-official-address.md) | 앱에서의 로그인 과정과 공식 주소 안내를 개선했습니다. |
 | 2026-10-18 | [r1.56.162](releases/2026-10-18_r1.56.162_web_security-hardening.md) | 서비스를 더 안전하게 이용할 수 있도록 보안을 강화했습니다. |
 | 2026-10-18 | [r1.56.161](releases/2026-10-18_r1.56.161_web_unified-genre-choices.md) | 가입과 공연장 신청 화면의 장르 선택지를 하나의 기준으로 통일했습니다. |
