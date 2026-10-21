@@ -191,7 +191,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
-| 2026-10-20 | [3.0.5 (25)](releases/2026-10-20_3.0.5-25_android_android-new-address-rollout.md) | Android | 안드로이드 앱이 새 서비스 주소로 접속하도록 업데이트되었습니다. |
+| 2026-10-20 | [3.0.7 (25)](releases/2026-10-20_3.0.7-25_android_android-new-address-rollout.md) | Android | 안드로이드 앱이 새 서비스 주소로 접속하도록 업데이트되었습니다. |
 | 2026-10-20 | [r1.56.166](releases/2026-10-20_r1.56.166_web_promoter-label-dashboard.md) | Web | 프로모터와 레이블 계정의 대시보드 이동과 공개 카드 표시를 개선했습니다. |
 | 2026-10-20 | [r1.56.165](releases/2026-10-20_r1.56.165_web_venue-pages-privacy-and-permissions.md) | Web | 공연장 화면의 정보 노출과 권한 확인을 정비하고 보안을 강화했습니다. |
 | 2026-10-20 | [r1.56.164](releases/2026-10-20_r1.56.164_web_poster-full-display.md) | Web | 공연 포스터가 잘리지 않고 원본 모습 그대로 보이도록 개선했습니다. |
@@ -214,7 +214,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 | 2026-10-10 | [r1.56.147](releases/2026-10-10_r1.56.147_web_faster-loading-and-security.md) | Web | 앱 화면에 들어갈 때 데이터를 더 빠르게 불러오도록 개선하고, 로그인 보안을 강화했습니다. |
 | 2026-10-09 | [r1.56.146](releases/2026-10-09_r1.56.146_web_apple-login-stability.md) | Web | Apple 계정으로 로그인하는 과정이 정상적으로 완료되도록 개선했습니다. |
 | 2026-10-09 | [r1.56.145](releases/2026-10-09_r1.56.145_web_refunded-status-and-relisting.md) | Web | '내 신청' 목록에서 환불된 신청 건을 바로 확인할 수 있고, 판매 재개한 상품의 표시 오류가 고쳐졌습니다. |
-| 2026-10-08 | [3.0.5 (22)](releases/2026-10-08_3.0.5-22_android_android-app-links-misfy.md) | Android | app.misfy.ai 주소의 링크를 안드로이드 앱에서 바로 열 수 있게 되었습니다. |
+| 2026-10-08 | [3.0.6 (22)](releases/2026-10-08_3.0.6-22_android_android-app-links-misfy.md) | Android | app.misfy.ai 주소의 링크를 안드로이드 앱에서 바로 열 수 있게 되었습니다. |
 | 2026-10-08 | [r1.56.144](releases/2026-10-08_r1.56.144_web_artist-avatar-privacy.md) | Web | 아티스트 연결 화면의 대체 프로필 이미지를 외부 서비스 없이 표시하도록 개선했습니다. |
 | 2026-10-08 | [r1.56.143](releases/2026-10-08_r1.56.143_web_maintenance-screen.md) | Web | 서비스 업데이트나 일시적 장애 시 오류 화면 대신 점검 안내 화면이 표시됩니다. |
 | 2026-10-08 | [r1.56.142](releases/2026-10-08_r1.56.142_web_public-share-address.md) | Web | 공유 링크와 미리보기의 대표 주소를 app.misfy.ai로 통일했습니다. |
@@ -527,8 +527,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
-| 2026-10-20 | [3.0.5 (25)](releases/2026-10-20_3.0.5-25_android_android-new-address-rollout.md) | 안드로이드 앱이 새 서비스 주소로 접속하도록 업데이트되었습니다. |
-| 2026-10-08 | [3.0.5 (22)](releases/2026-10-08_3.0.5-22_android_android-app-links-misfy.md) | app.misfy.ai 주소의 링크를 안드로이드 앱에서 바로 열 수 있게 되었습니다. |
+| 2026-10-20 | [3.0.7 (25)](releases/2026-10-20_3.0.7-25_android_android-new-address-rollout.md) | 안드로이드 앱이 새 서비스 주소로 접속하도록 업데이트되었습니다. |
+| 2026-10-08 | [3.0.6 (22)](releases/2026-10-08_3.0.6-22_android_android-app-links-misfy.md) | app.misfy.ai 주소의 링크를 안드로이드 앱에서 바로 열 수 있게 되었습니다. |
 | 2026-09-27 | [3.0.5 (21)](releases/2026-09-27_3.0.5-21_android_android-google-login-fix.md) | 일부 안드로이드 기기에서 Google 로그인 시 계정을 선택한 뒤 로그인이 완료되지 않던 문제를 수정했습니다. |
 | 2026-07-22 | [3.0.2](releases/2026-07-22_3.0.2_android_google-login-fix.md) | 안드로이드 앱 첫 화면에서 구글 로그인이 실패하던 문제를 근본적으로 해결했습니다. |
 | 2026-06-18 | [3.0.2](releases/2026-06-18_3.0.2_android_play-closed-testing-prep.md) | MiSFY 안드로이드 앱(3.0.2)을 Google Play 비공개 테스트에 올리기 위한 준비를 진행했습니다. |
