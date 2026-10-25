@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-24 10:00 KST</td>
+    <td>2026-10-25 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -89,11 +89,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-10-24 10:00 KST</td>
+    <td>2026-10-25 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-10-24 09:35 KST</td>
+    <td>2026-10-25 09:43 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,940 files</td>
+    <td>7,942 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>220,891 messages</td>
+    <td>221,254 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>57,667,518,243 tokens</strong></td>
+    <td><strong>57,768,997,003 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,576,576 tokens</td>
+    <td>85,577,858 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,769,190,917 tokens</td>
+    <td>1,770,852,491 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>55,481,763,132 tokens</td>
+    <td>55,581,332,226 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>330,987,618 tokens</td>
+    <td>331,234,428 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>5,589,313,930 tokens</td>
+    <td>4,675,698,563 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>9,918,961,686 tokens</td>
+    <td>10,020,441,675 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>330,632,056 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>334,014,722 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">52,286,508,114</td>
-    <td align="right">4,083,356,855</td>
-    <td align="right">5,337,332,574</td>
-    <td align="right">177,911,085</td>
+    <td align="right">52,371,550,346</td>
+    <td align="right">3,591,126,504</td>
+    <td align="right">5,422,376,035</td>
+    <td align="right">180,745,867</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">5,308,635,756</td>
-    <td align="right">1,505,957,075</td>
-    <td align="right">4,581,629,112</td>
-    <td align="right">152,720,970</td>
+    <td align="right">5,325,072,284</td>
+    <td align="right">1,084,572,059</td>
+    <td align="right">4,598,065,640</td>
+    <td align="right">153,268,854</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -181,7 +181,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>57,700,000,000 tokens</td>
+    <td>57,800,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">99.9%</td>
   </tr>
@@ -191,6 +191,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-10-25 | [r1.56.183](releases/2026-10-25_r1.56.183_web_speed-and-security.md) | Web | 화면 로딩 속도를 개선하고 보안을 강화했습니다. |
+| 2026-10-25 | [r1.56.182](releases/2026-10-25_r1.56.182_web_settlement-and-refund-clarity.md) | Web | 정산 시작 안내와 환불 상태 표시를 더 정확하게 다듬었습니다. |
+| 2026-10-25 | [r1.56.181](releases/2026-10-25_r1.56.181_web_genre-and-visitor-view.md) | Web | 가입·공연장 신청의 장르 선택지를 통일하고 방문자 화면을 정돈했습니다. |
+| 2026-10-25 | [r1.56.180](releases/2026-10-25_r1.56.180_web_sharing-and-address-fixes.md) | Web | 프로필 공유 미리보기와 옛 주소 이동, 로그인 복귀 동작을 바로잡았습니다. |
+| 2026-10-25 | [r1.56.179](releases/2026-10-25_r1.56.179_web_artist-drop-profile-editing.md) | Web | 아티스트 드롭과 프로필에서 직접 수정할 수 있는 항목이 크게 늘었습니다. |
+| 2026-10-25 | [r1.56.178](releases/2026-10-25_r1.56.178_web_audio-player.md) | Web | 음악을 앱 어디에서든 이어서 들을 수 있는 공용 오디오 플레이어와 미니 플레이어가 추가되었습니다. |
 | 2026-10-24 | [3.0.7 (25)](releases/2026-10-24_3.0.7-25_android_android-app-misfy-links.md) | Android | app.misfy.ai 주소의 링크를 안드로이드 앱에서 바로 열 수 있습니다. |
 | 2026-10-24 | [r1.56.177](releases/2026-10-24_r1.56.177_web_security-hardening.md) | Web | 서비스를 더 안전하게 이용할 수 있도록 보안을 강화했습니다. |
 | 2026-10-24 | [r1.56.176](releases/2026-10-24_r1.56.176_web_new-share-link-address.md) | Web | 공유 링크와 미리보기의 대표 주소가 app.misfy.ai로 바뀌었습니다. |
@@ -550,6 +556,12 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-10-25 | [r1.56.183](releases/2026-10-25_r1.56.183_web_speed-and-security.md) | 화면 로딩 속도를 개선하고 보안을 강화했습니다. |
+| 2026-10-25 | [r1.56.182](releases/2026-10-25_r1.56.182_web_settlement-and-refund-clarity.md) | 정산 시작 안내와 환불 상태 표시를 더 정확하게 다듬었습니다. |
+| 2026-10-25 | [r1.56.181](releases/2026-10-25_r1.56.181_web_genre-and-visitor-view.md) | 가입·공연장 신청의 장르 선택지를 통일하고 방문자 화면을 정돈했습니다. |
+| 2026-10-25 | [r1.56.180](releases/2026-10-25_r1.56.180_web_sharing-and-address-fixes.md) | 프로필 공유 미리보기와 옛 주소 이동, 로그인 복귀 동작을 바로잡았습니다. |
+| 2026-10-25 | [r1.56.179](releases/2026-10-25_r1.56.179_web_artist-drop-profile-editing.md) | 아티스트 드롭과 프로필에서 직접 수정할 수 있는 항목이 크게 늘었습니다. |
+| 2026-10-25 | [r1.56.178](releases/2026-10-25_r1.56.178_web_audio-player.md) | 음악을 앱 어디에서든 이어서 들을 수 있는 공용 오디오 플레이어와 미니 플레이어가 추가되었습니다. |
 | 2026-10-24 | [r1.56.177](releases/2026-10-24_r1.56.177_web_security-hardening.md) | 서비스를 더 안전하게 이용할 수 있도록 보안을 강화했습니다. |
 | 2026-10-24 | [r1.56.176](releases/2026-10-24_r1.56.176_web_new-share-link-address.md) | 공유 링크와 미리보기의 대표 주소가 app.misfy.ai로 바뀌었습니다. |
 | 2026-10-24 | [r1.56.175](releases/2026-10-24_r1.56.175_web_maintenance-notice-screen.md) | 서비스 업데이트나 일시적인 장애 시 오류 화면 대신 점검 안내 화면이 표시됩니다. |
