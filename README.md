@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-11-06 10:00 KST</td>
+    <td>2026-11-07 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -89,11 +89,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-11-06 10:00 KST</td>
+    <td>2026-11-07 10:00 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-11-06 09:40 KST</td>
+    <td>2026-11-07 09:01 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,977 files</td>
+    <td>7,978 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>228,517 messages</td>
+    <td>229,324 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>60,824,851,245 tokens</strong></td>
+    <td><strong>61,230,506,212 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,596,844 tokens</td>
+    <td>85,599,188 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,797,601,961 tokens</td>
+    <td>1,801,550,918 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>58,606,219,262 tokens</td>
+    <td>59,007,133,459 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>335,433,178 tokens</td>
+    <td>336,222,647 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>2,184,104,940 tokens</td>
+    <td>2,473,494,681 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>11,593,952,846 tokens</td>
+    <td>11,606,990,443 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>386,465,094 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>386,899,681 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">55,360,855,216</td>
-    <td align="right">2,159,769,805</td>
-    <td align="right">8,241,756,986</td>
-    <td align="right">274,725,232</td>
+    <td align="right">55,747,289,196</td>
+    <td align="right">2,430,180,422</td>
+    <td align="right">8,625,289,080</td>
+    <td align="right">287,509,636</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">5,391,621,656</td>
-    <td align="right">24,335,135</td>
-    <td align="right">3,352,195,860</td>
-    <td align="right">111,739,862</td>
+    <td align="right">5,410,842,643</td>
+    <td align="right">43,314,259</td>
+    <td align="right">2,981,701,363</td>
+    <td align="right">99,390,045</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -181,7 +181,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>60,850,000,000 tokens</td>
+    <td>61,250,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">100.0%</td>
   </tr>
