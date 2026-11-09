@@ -27,7 +27,7 @@ Codex 전체 누적 토큰량입니다. 이 값은 실시간 대시보드가 아
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-11-07 10:00 KST</td>
+    <td>2026-11-09 10:01 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
@@ -89,11 +89,11 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 <table>
   <tr>
     <th align="left">Snapshot</th>
-    <td>2026-11-07 10:00 KST</td>
+    <td>2026-11-09 10:01 KST</td>
   </tr>
   <tr>
     <th align="left">Last activity</th>
-    <td>2026-11-07 09:01 KST</td>
+    <td>2026-11-09 09:46 KST</td>
   </tr>
   <tr>
     <th align="left">Scope</th>
@@ -101,43 +101,43 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <th align="left">Session files</th>
-    <td>7,978 files</td>
+    <td>7,984 files</td>
   </tr>
   <tr>
     <th align="left">Assistant messages</th>
-    <td>229,324 messages</td>
+    <td>231,566 messages</td>
   </tr>
   <tr>
     <th align="left">Cumulative total</th>
-    <td><strong>61,230,506,212 tokens</strong></td>
+    <td><strong>62,395,960,989 tokens</strong></td>
   </tr>
   <tr>
     <th align="left">Input</th>
-    <td>85,599,188 tokens</td>
+    <td>85,608,092 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache creation</th>
-    <td>1,801,550,918 tokens</td>
+    <td>1,817,151,002 tokens</td>
   </tr>
   <tr>
     <th align="left">Cache read</th>
-    <td>59,007,133,459 tokens</td>
+    <td>60,152,414,205 tokens</td>
   </tr>
   <tr>
     <th align="left">Output</th>
-    <td>336,222,647 tokens</td>
+    <td>340,787,690 tokens</td>
   </tr>
   <tr>
     <th align="left">Weekly 7d</th>
-    <td>2,473,494,681 tokens</td>
+    <td>3,128,264,622 tokens</td>
   </tr>
   <tr>
     <th align="left">Monthly 30d</th>
-    <td>11,606,990,443 tokens</td>
+    <td>12,344,009,377 tokens</td>
   </tr>
   <tr>
     <th align="left">Daily avg</th>
-    <td>386,899,681 tokens/day (Monthly 30d ÷ 30)</td>
+    <td>411,466,979 tokens/day (Monthly 30d ÷ 30)</td>
   </tr>
 </table>
 
@@ -151,17 +151,17 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
   </tr>
   <tr>
     <td>대화 세션</td>
-    <td align="right">55,747,289,196</td>
-    <td align="right">2,430,180,422</td>
-    <td align="right">8,625,289,080</td>
-    <td align="right">287,509,636</td>
+    <td align="right">56,699,582,402</td>
+    <td align="right">2,878,851,151</td>
+    <td align="right">9,577,441,826</td>
+    <td align="right">319,248,060</td>
   </tr>
   <tr>
     <td>자동화 레인</td>
-    <td align="right">5,410,842,643</td>
-    <td align="right">43,314,259</td>
-    <td align="right">2,981,701,363</td>
-    <td align="right">99,390,045</td>
+    <td align="right">5,624,004,214</td>
+    <td align="right">249,413,471</td>
+    <td align="right">2,766,567,551</td>
+    <td align="right">92,218,918</td>
   </tr>
   <tr>
     <td>콘솔 API(Claude Code 키)</td>
@@ -181,7 +181,7 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
     <th align="right">Percent</th>
   </tr>
   <tr>
-    <td>61,250,000,000 tokens</td>
+    <td>62,400,000,000 tokens</td>
     <td><code>████████████████████</code></td>
     <td align="right">100.0%</td>
   </tr>
@@ -191,6 +191,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Component | Summary |
 |---|---|---|---|
+| 2026-11-09 | [r1.56.190](releases/2026-11-09_r1.56.190_web_ranking-stability.md) | Web | 이용자가 몰리는 시간대에도 랭킹이 안정적으로 표시되도록 개선했습니다. |
+| 2026-11-09 | [r1.56.189](releases/2026-11-09_r1.56.189_web_security-hardening.md) | Web | 로그인과 협업 정보 보호를 위해 보안을 강화했습니다. |
 | 2026-10-28 | [r1.56.188](releases/2026-10-28_r1.56.188_web_super-admin-recognition.md) | Web | 관리 화면에서 슈퍼관리자 권한이 항상 정확하게 표시되도록 개선했습니다. |
 | 2026-10-28 | [r1.56.187](releases/2026-10-28_r1.56.187_web_new-member-push-default-off.md) | Web | '새로운 회원' 알림의 기본 설정을 꺼짐으로 바꿨습니다. |
 | 2026-10-26 | [3.0.7 (25)](releases/2026-10-26_3.0.7-25_android_android-3-0-7-new-address.md) | Android | 안드로이드 앱이 새 접속 환경으로 연결되도록 업데이트했습니다. |
@@ -563,6 +565,8 @@ Claude Code 전체 누적 토큰량입니다. 이 값은 Claude Code session log
 
 | Date | Version | Summary |
 |---|---|---|
+| 2026-11-09 | [r1.56.190](releases/2026-11-09_r1.56.190_web_ranking-stability.md) | 이용자가 몰리는 시간대에도 랭킹이 안정적으로 표시되도록 개선했습니다. |
+| 2026-11-09 | [r1.56.189](releases/2026-11-09_r1.56.189_web_security-hardening.md) | 로그인과 협업 정보 보호를 위해 보안을 강화했습니다. |
 | 2026-10-28 | [r1.56.188](releases/2026-10-28_r1.56.188_web_super-admin-recognition.md) | 관리 화면에서 슈퍼관리자 권한이 항상 정확하게 표시되도록 개선했습니다. |
 | 2026-10-28 | [r1.56.187](releases/2026-10-28_r1.56.187_web_new-member-push-default-off.md) | '새로운 회원' 알림의 기본 설정을 꺼짐으로 바꿨습니다. |
 | 2026-10-26 | [r1.56.186](releases/2026-10-26_r1.56.186_web_security-hardening.md) | 로그인, 명단 조회, 기록 관리 전반의 보안과 개인정보 보호를 강화했습니다. |
